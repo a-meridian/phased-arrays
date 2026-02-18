@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://a-meridian.github.io/phased-arrays/sitemap.xml

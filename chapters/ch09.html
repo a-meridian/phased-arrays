@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 9: Injection Locking and Perception Management — Phased Arrays</title>
+  <meta name="description" content="Chapter 9: Injection Locking and Perception Management. Part of Phased Arrays, a technical framework using RF engineering analogies for consciousness and collective dynamics.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://a-meridian.github.io/phased-arrays/chapters/ch09.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Phased Arrays">
+  <meta property="og:title" content="Chapter 9: Injection Locking and Perception Management — Phased Arrays">
+  <meta property="og:description" content="Chapter 9: Injection Locking and Perception Management. Part of Phased Arrays, a technical framework using RF engineering analogies for consciousness and collective dynamics.">
+  <meta property="og:url" content="https://a-meridian.github.io/phased-arrays/chapters/ch09.html">
+  <meta property="og:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_es_1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Chapter 9: Injection Locking and Perception Management — Phased Arrays">
+  <meta name="twitter:description" content="Chapter 9: Injection Locking and Perception Management. Part of Phased Arrays, a technical framework using RF engineering analogies for consciousness and collective dynamics.">
+  <meta name="twitter:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_es_1.png">
+
+  <link rel="preload" href="../assets/fonts/Geist-Regular.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="../assets/fonts/Geist-Bold.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="../assets/fonts/SourceSerifPro-Regular.otf" as="font" type="font/otf">
+  <link rel="preload" href="../assets/fonts/SourceSerifPro-Semibold.otf" as="font" type="font/otf">
+  <link rel="preload" href="../assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body data-chapter="9">
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+    <a href="../index.html" class="top-bar-title">Phased Arrays</a>
+    <a href="../assets/PhasedArrayHumanCondition.pdf" class="top-bar-pdf">Download PDF</a>
+  </header>
+
+  <!-- Reading Progress -->
+  <div class="reading-progress" data-progress="chapter" aria-hidden="true">
+    <span class="reading-progress__bar"></span>
+  </div>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <a href="../index.html">Phased Arrays</a>
+    </div>
+
+    <div class="sidebar-section part-foundations">
+      <h3>Part I: Foundations</h3>
+      <ul>
+        <li><a href="ch00.html" data-ch="0">Ch 0: Torsion Wave Foundation</a></li>
+        <li><a href="ch01.html" data-ch="1">Ch 1: Pure Consciousness as Infinite Bandwidth Source</a></li>
+        <li><a href="ch02.html" data-ch="2">Ch 2: Densities as Impedance Tiers</a></li>
+        <li><a href="ch03.html" data-ch="3">Ch 3: Demodulation Into Structure</a></li>
+        <li><a href="ch04.html" data-ch="4">Ch 4: Resonant Growth and Human Optimality</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section part-individual">
+      <h3>Part II: Individual Dynamics</h3>
+      <ul>
+        <li><a href="ch05.html" data-ch="5">Ch 5: Consciousness as an RLC Circuit</a></li>
+        <li><a href="ch06.html" data-ch="6">Ch 6: Biofield and DNA Antenna System</a></li>
+        <li><a href="ch07.html" data-ch="7">Ch 7: Eros and Creation</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section part-collective">
+      <h3>Part III: Collective Dynamics and Spin Coherence</h3>
+      <ul>
+        <li><a href="ch08.html" data-ch="8">Ch 8: Phased Array Humanity</a></li>
+        <li><a href="ch09.html" data-ch="9">Ch 9: Injection Locking and Perception Management</a></li>
+        <li><a href="ch10.html" data-ch="10">Ch 10: Spin Coherence Fundamentals</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section part-civilization">
+      <h3>Part IV: Civilizational Applications</h3>
+      <ul>
+        <li><a href="ch11.html" data-ch="11">Ch 11: Seeder Intervention and Megalithic Infrastructure</a></li>
+        <li><a href="ch12.html" data-ch="12">Ch 12: The Fall and Parasitic Coupling</a></li>
+        <li><a href="ch13.html" data-ch="13">Ch 13: Paradigm Shielding and Disclosure Architecture</a></li>
+      </ul>
+    </div>
+
+    <div class="sidebar-section part-transition">
+      <h3>Part V: Phase Transition and Practice</h3>
+      <ul>
+        <li><a href="ch14.html" data-ch="14">Ch 14: Counter-Jamming Operations and Link Budget</a></li>
+        <li><a href="ch15.html" data-ch="15">Ch 15: Spiritual Traditions as Tuning Protocols</a></li>
+        <li><a href="ch16.html" data-ch="16">Ch 16: The Great Thaw</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="content">
+    <article>
+<h3 class='sectionHead' id='chapter-injection-locking-and-perception-management'><a id='x1-1000'></a>Chapter 9: Injection Locking and Perception Management</h3>
+<p><a id='x1-1000doc'></a>
+</p><!-- l. 209 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead' id='control-mechanisms-and-individual-sovereignty'><a id='x1-2000'></a>Control Mechanisms and Individual Sovereignty</h4>
+<p><a id='x1-2000doc'></a>
+</p><!-- l. 212 --><p class='noindent key-findings'><span class='ec-lmbx-10'>KEY FINDINGS — Chapter 9: Injection Locking and Perception
+Management</span>
+</p><!-- l. 216 --><p class='noindent evidence-legend'><span class='ec-lmri-10'>Evidence-tier key: <span class='evidence-pill evidence-pill--l1'>[L1]</span> established/replicated evidence; <span class='evidence-pill evidence-pill--l2'>[L2]</span> grounded extension with
+moderate uncertainty; <span class='evidence-pill evidence-pill--l3'>[L3]</span> speculative hypothesis; <span class='evidence-pill evidence-pill--range'>[L4]</span> conceptual/anecdotal.</span>
+</p> <ul class='itemize1'> <li class='itemize'>The Adler equation governs belief capture: lock bandwidth \(\propto 1/Q\), so higher
+     quality  factor  (sovereignty)  directly  narrows  vulnerability  to  narrative
+     capture <span class='evidence-pill evidence-pill--l1'>[L1]</span>
+     </li> <li class='itemize'>Competing  injection  model  reveals  a  fundamental  asymmetry:  truth
+     signals closer to natural frequency gain resonant amplification, requiring
+     control signals to compensate with raw power <span class='evidence-pill evidence-pill--l1'>[L1]</span>
+     </li> <li class='itemize'>Critical mass for narrative escape is \(f_c \approx \omega _{L,C}/(\omega _{L,C} + K_{mean}) \approx 37.5\%\), consistent with historical cascade
+     evidence  (30-40%)  from  Soviet  dissolution,  Berlin  Wall,  and  social
+     movements <span class='evidence-pill evidence-pill--range'>[L1-L2]</span>
+     </li> <li class='itemize'>Adaptive  beamforming  (MVDR/LMS)  maps  precisely  to  algorithmic
+     content suppression, with documented platform behavior matching model
+     predictions for adaptation rate and null steering <span class='evidence-pill evidence-pill--l1'>[L1]</span>
+     </li> <li class='itemize'>Current population assessment: 30-40% firmly locked, 25-35% questioning,
+     15-25% unlocked, 5-10% never locked – with lock weakening due to trust
+                                                                  
+
+                                                                  
+     collapse and rising network connectivity <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></li></ul>
+<div class='center'>
+<!-- l. 244 --><p class='noindent'>
+</p><!-- l. 244 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 246 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 247 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic  note  <span class='evidence-pill evidence-pill--range'>[L1-L3]</span></span>:  This  chapter  separates  established
+     RF  dynamics  (L1),  model-dependent  social  mappings  (L2),  and
+     speculative extension claims (L3). Use L1-L2 content for doctrine
+     decisions;   treat   L3   content   as   hypothesis   overlays   requiring
+     independent corroboration and explicit falsification checks.</p></blockquote>
+<!-- l. 254 --><p class='noindent'>
+</p>
+<h4 class='subsectionHead' id='-rf-analogy-overview'><a id='x1-3000'></a>9.1 RF Analogy Overview</h4>
+<p><a id='x1-3000doc'></a>
+</p><!-- l. 257 --><p class='noindent'>
+</p>
+<h5 class='subsubsectionHead' id='-what-is-injection-locking'><a id='x1-4000'></a>9.1.1 What is Injection Locking?</h5>
+<p><a id='x1-4000doc'></a>
+</p><!-- l. 259 --><p class='noindent'>In RF engineering, <span class='ec-lmbx-10'>injection locking </span>occurs when an oscillator is exposed to an
+external signal and synchronizes (locks) its frequency to that signal. The oscillator
+gives up its natural frequency and adopts the injected frequency. The torsion field
+substrate established in Chapter 0 provides the physical mechanism through which
+injection locking operates on consciousness.
+</p><!-- l. 266 --><p class='noindent'>This is not gradual tuning—it’s a <span class='ec-lmbx-10'>phase transition</span>. Below a certain injection
+power, the oscillator maintains its independence. Above that threshold, it suddenly
+locks to the external signal.
+</p><!-- l. 270 --><p class='noindent'><span class='ec-lmbx-10'>Key RF principle</span>: A weak oscillator near a strong transmitter will be captured by
+the transmitter’s frequency. The oscillator doesn’t “choose” to synchronize—it’s
+compelled by the physics of coupling.
+                                                                  
+
+                                                                  
+</p><!-- l. 274 --><p class='noindent'>
+</p>
+<h5 class='subsubsectionHead' id='-the-adler-equation'><a id='x1-5000'></a>9.1.2 The Adler Equation</h5>
+<p><a id='x1-5000doc'></a>
+</p><!-- l. 276 --><p class='noindent'>The foundational equation describing injection locking is the <span class='ec-lmbx-10'>Adler equation</span>
+(1946): \[ \frac {d\phi }{dt} = \Delta \omega - \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0} \cdot \sin (\phi ) \] Where:
+</p><!-- l. 282 --><p class='noindent'>
+</p><!-- l. 282 --><p class='noindent'>
+<a id='x1-5001r1'></a></p>
+<!-- l. 285 --><div class='longtable'> <table class='longtable' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /></colgroup>
+<tr id='TBL-1-4-'><td class='td01' id='TBL-1-4-1'>
+<div class='minipage'><!-- l. 287 --><p class='noindent'>Variable </p></div> </td><td class='td10' id='TBL-1-4-2'> <div class='minipage'><!-- l. 289 --><p class='noindent'>Description </p></div></td>
+</tr>
+<tr id='TBL-1-15-'><td class='td01' id='TBL-1-15-1'>
+<!-- l. 295 --><p class='noindent'>\(\phi \)                              </p></td><td class='td10' id='TBL-1-15-2'> <!-- l. 295 --><p class='noindent'>Phase
+  difference
+  between
+  oscillator
+  and
+  injected
+  signal                                                   </p></td>
+</tr><tr id='TBL-1-16-'><td class='td01' id='TBL-1-16-1'>
+<!-- l. 296 --><p class='noindent'>\(\Delta \omega = \omega _{inj} - \omega _0\)                              </p></td><td class='td10' id='TBL-1-16-2'> <!-- l. 296 --><p class='noindent'>Frequency
+  difference
+  (detuning)                                             </p></td>
+</tr><tr id='TBL-1-17-'><td class='td01' id='TBL-1-17-1'>
+<!-- l. 298 --><p class='noindent'>\(\omega _0\)                              </p></td><td class='td10' id='TBL-1-17-2'> <!-- l. 298 --><p class='noindent'>Natural
+  frequency
+  of
+  oscillator                                               </p></td> </tr><tr id='TBL-1-18-'><td class='td01' id='TBL-1-18-1'>
+<!-- l. 299 --><p class='noindent'>\(Q\)                              </p></td><td class='td10' id='TBL-1-18-2'> <!-- l. 299 --><p class='noindent'>Quality
+  factor
+  of
+  oscillator                                               </p></td>
+</tr><tr id='TBL-1-19-'><td class='td01' id='TBL-1-19-1'>
+<!-- l. 300 --><p class='noindent'>\(V_{inj}\)                              </p></td><td class='td10' id='TBL-1-19-2'> <!-- l. 300 --><p class='noindent'>Injection
+  signal
+  amplitude                                             </p></td>
+</tr><tr id='TBL-1-20-'><td class='td01' id='TBL-1-20-1'>
+<!-- l. 301 --><p class='noindent'>\(V_0\)                              </p></td><td class='td10' id='TBL-1-20-2'> <!-- l. 301 --><p class='noindent'>Oscillator’s
+  own
+  amplitude                                             </p></td>
+</tr> </table></div>
+<!-- l. 306 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-why-this-maps-to-belief-dynamics'><a id='x1-6000'></a>9.1.3 Why This Maps to Belief Dynamics</h5>
+<p><a id='x1-6000doc'></a>
+</p><!-- l. 308 --><p class='nopar'>Human beliefs are not static—they oscillate. Every person has:
+</p> <ul class='itemize1'> <li class='itemize'>A <span class='ec-lmbx-10'>natural frequency </span>(intrinsic worldview, values, predispositions)
+                                                                  
+
+                                                                  
+     </li> <li class='itemize'>An <span class='ec-lmbx-10'>amplitude </span>(how strongly they broadcast their beliefs)
+     </li> <li class='itemize'>A <span class='ec-lmbx-10'>characteristic impedance </span>\(Z_0\) (depth of processing, visible impedance
+     range)
+     </li> <li class='itemize'>A <span class='ec-lmbx-10'>quality factor Q = </span>\(Z_0\)<span class='ec-lmbx-10'>/R </span>(sovereignty — resistance to capture)</li></ul>
+<!-- l. 325 --><p class='noindent'>External signals (media, institutions, social pressure) attempt to lock individuals to
+specific belief states. This is not persuasion through argument—it’s <span class='ec-lmbx-10'>capture
+through injection locking</span>, with lock bandwidth: \[ \Delta \omega _{lock} \propto \frac {R}{Z_0} = \frac {1}{Q} \] <span class='ec-lmbx-10'>Higher Q = narrower lock
+bandwidth = harder to capture. </span>Both increasing \(Z_0\) (depth of processing) and
+decreasing R (dissipation) contribute to raising Q.
+</p><!-- l. 334 --><p class='noindent'>The model explains:
+</p> <ul class='itemize1'> <li class='itemize'>Why  high-powered  narratives  capture  populations  (they  widen  lock
+     bandwidth)
+     </li> <li class='itemize'>Why some individuals resist while others succumb (Q differences, driven
+     by both \(Z_0\) and R)
+     </li> <li class='itemize'>How escape from narrative lock occurs (Q increase — via \(Z_0\)\(\uparrow \) or R\(\downarrow \) — shrinks
+     lock bandwidth)
+     </li> <li class='itemize'>The  role  of  “awakened  seeds”  in  triggering  cascade  unlocking  (high-Q
+     individuals escape first)</li></ul>
+<!-- l. 353 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-adaptive-beamforming-overview'><a id='x1-7000'></a>9.1.4 Adaptive Beamforming Overview</h5>
+<p><a id='x1-7000doc'></a>
+</p><!-- l. 355 --><p class='nopar'>While injection locking describes how individual oscillators are captured,
+<span class='ec-lmbx-10'>adaptive beamforming </span>describes how control systems dynamically manage the
+                                                                  
+
+                                                                  
+collective:
+</p><!-- l. 359 --><p class='noindent'><span class='ec-lmbx-10'>Adaptive beamforming </span>dynamically adjusts antenna array weights to maximize
+signal in desired directions while placing nulls (zeros) toward interference. The array
+continuously adapts—tracking desired signals, suppressing jammers, responding in
+real-time.
+</p><!-- l. 365 --><p class='noindent'><span class='ec-lmbx-10'>Perception management is adaptive beamforming of collective consciousness.</span>
+The control system continuously adjusts weights—amplifying narratives that serve
+power, nulling information that threatens it.
+</p><!-- l. 369 --><p class='noindent'>This section extends the individual injection locking model to the system-level
+control architecture, showing how both mechanisms work together: injection locking
+captures individual oscillators, while adaptive beamforming steers the collective
+array.
+</p>
+<div class='center'>
+<!-- l. 374 --><p class='noindent'>
+</p><!-- l. 374 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 376 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='-mathematical-model'><a id='x1-8000'></a>9.2 Mathematical Model</h4>
+<p><a id='x1-8000doc'></a>
+</p><figure class='figure' id='-figure-injection-locking-competing-signals-in-frequency-domain-with-lock-range-determined-by-q-factor'> <a id='x1-80011'></a> <!-- l. 380 --><p class='noindent'><img alt='Figure 9.1: Injection locking — competing signals in frequency domain with
+lock range determined by Q factor.' height='276' src='../assets/figures/fig_9_1.png' width='276' />
+</p>
+<figcaption class='caption'><span class='id'>Figure&nbsp;9.1: </span><span class='content'>Injection locking — competing signals in frequency domain
+with lock range determined by Q factor.</span></figcaption><!-- tex4ht:label?: x1-80011  --> </figure>
+<h5 class='subsubsectionHead' id='-core-dynamics-single-oscillator'><a id='x1-9000'></a>9.2.1 Core Dynamics: Single Oscillator</h5>
+<p><a id='x1-9000doc'></a>
+</p><!-- l. 388 --><p class='nopar'>The Adler equation in normalized form: \[ \frac {d\phi }{dt} = \Delta \omega - \omega _L \sin (\phi ) \] Where the <span class='ec-lmbx-10'>locking bandwidth </span>is: \[ \omega _L = \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0} \] ###
+9.2.2 Locking Condition
+</p><!-- l. 394 --><p class='noindent'>For stable lock (constant \(\phi \)): \[ \frac {d\phi }{dt} = 0 \implies \sin (\phi ) = \frac {\Delta \omega }{\omega _L} \] This has a solution only when: \[ \left |\Delta \omega \right | \leq \omega _L \] Therefore, the <span class='ec-lmbx-10'>locking
+range </span>is: \[ \boxed {\Delta \omega _{lock} = \pm \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0}} \] <span class='ec-lmbx-10'>Physical interpretation</span>:
+</p> <ul class='itemize1'> <li class='itemize'>Locking range \(\propto \) injection power (\(V_{inj}\))
+     </li> <li class='itemize'>Locking range \(\propto \) 1/Q = R/\(Z_0\) (low-Q oscillators are easier to capture)
+     </li> <li class='itemize'>Locking range \(\propto \) \(\omega _0\) (faster oscillators have wider locking bands)</li></ul>
+<!-- l. 414 --><p class='noindent'><span class='ec-lmbx-10'>Key insight</span>: Since Q = \(Z_0\)/R, capture vulnerability decreases when either \(Z_0\)
+increases (deeper processing via L\(\uparrow \) or C\(\downarrow \)) or R decreases (less dissipation via
+meditation, attention discipline). Both paths raise Q and narrow the locking
+range.
+</p><!-- l. 420 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-social-mapping-of-parameters'><a id='x1-10000'></a>9.2.3 Social Mapping of Parameters</h5>
+<p><a id='x1-10000doc'></a>
+</p><!-- l. 423 --><p class='nopar'>
+</p><!-- l. 423 --><p class='noindent'>
+<a id='x1-10001r2'></a></p>
+<!-- l. 428 --><div class='longtable'> <table class='longtable' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /><col id='TBL-2-2' /><col id='TBL-2-3' /><col id='TBL-2-4' /></colgroup> <tr id='TBL-2-1-'><td class='td01' colspan='3' id='TBL-2-1-1'></td>
+</tr><tr id='TBL-2-4-'><td class='td01' id='TBL-2-4-1'>
+<div class='minipage'><!-- l. 430 --><p class='noindent'>RF Term </p></div> </td><td class='td11' id='TBL-2-4-2'> <div class='minipage'><!-- l. 432 --><p class='noindent'>Symbol </p></div> </td><td class='td11' id='TBL-2-4-3'> <div class='minipage'><!-- l. 434 --><p class='noindent'>Social Mapping </p></div> </td><td class='td10' id='TBL-2-4-4'> <div class='minipage'><!-- l. 436 --><p class='noindent'>Interpretation </p></div></td>
+</tr><tr id='TBL-2-5-'><td class='td01' colspan='3' id='TBL-2-5-1'></td>
+</tr>
+<tr id='TBL-2-15-'><td class='td01' id='TBL-2-15-1'>
+<!-- l. 442 --><p class='noindent'>Natural
+frequency        </p></td><td class='td11' id='TBL-2-15-2'> <!-- l. 442 --><p class='noindent'>\(\omega _0\)            </p></td><td class='td11' id='TBL-2-15-3'> <!-- l. 442 --><p class='noindent'>Intrinsic
+  belief
+  tuning                           </p></td><td class='td10' id='TBL-2-15-4'> <!-- l. 442 --><p class='noindent'>Your
+  “native”
+  channel
+  before
+  external
+  influence                      </p></td>
+</tr><tr id='TBL-2-16-'><td class='td01' id='TBL-2-16-1'>
+<!-- l. 444 --><p class='noindent'>Characteristic
+impedance       </p></td><td class='td11' id='TBL-2-16-2'> <!-- l. 444 --><p class='noindent'>\(Z_0 = \sqrt {L/C}\)            </p></td><td class='td11' id='TBL-2-16-3'> <!-- l. 445 --><p class='noindent'><span class='ec-lmbx-10'>Depth
+  of
+  processing</span> </p></td><td class='td10' id='TBL-2-16-4'> <!-- l. 445 --><p class='noindent'>Visible
+  impedance
+  range—determines
+  perceptible
+  density
+  tiers                            </p></td>
+</tr><tr id='TBL-2-17-'><td class='td01' id='TBL-2-17-1'>
+<!-- l. 447 --><p class='noindent'>Quality
+factor             </p></td><td class='td11' id='TBL-2-17-2'> <!-- l. 447 --><p class='noindent'>\(Q = Z_0/R\)            </p></td><td class='td11' id='TBL-2-17-3'> <!-- l. 447 --><p class='noindent'><span class='ec-lmbx-10'>Sovereignty
+  /
+  lock
+  resistance</span> </p></td><td class='td10' id='TBL-2-17-4'> <!-- l. 448 --><p class='noindent'>Primary
+  development
+  measure—harder
+  to
+  capture;
+  Q
+  \(\propto \)
+  \(Z_0\)/R                              </p></td>
+</tr><tr id='TBL-2-18-'><td class='td01' id='TBL-2-18-1'>
+<!-- l. 449 --><p class='noindent'>Injected
+frequency        </p></td><td class='td11' id='TBL-2-18-2'> <!-- l. 449 --><p class='noindent'>\(\omega _{inj}\)            </p></td><td class='td11' id='TBL-2-18-3'> <!-- l. 449 --><p class='noindent'>Narrative
+  frequency                       </p></td><td class='td10' id='TBL-2-18-4'> <!-- l. 449 --><p class='noindent'>The
+  belief
+  state
+  the
+  external
+  signal
+  tries
+  to
+  impose                         </p></td> </tr><tr id='TBL-2-19-'><td class='td01' id='TBL-2-19-1'>
+<!-- l. 451 --><p class='noindent'>Frequency
+offset              </p></td><td class='td11' id='TBL-2-19-2'> <!-- l. 451 --><p class='noindent'>\(\Delta \omega \)            </p></td><td class='td11' id='TBL-2-19-3'> <!-- l. 451 --><p class='noindent'>Belief
+  distance                         </p></td><td class='td10' id='TBL-2-19-4'> <!-- l. 451 --><p class='noindent'>How
+  far
+  the
+  narrative
+  is
+  from
+  your
+  natural
+  position                       </p></td>
+</tr><tr id='TBL-2-20-'><td class='td01' id='TBL-2-20-1'>
+<!-- l. 453 --><p class='noindent'>Injection
+amplitude        </p></td><td class='td11' id='TBL-2-20-2'> <!-- l. 453 --><p class='noindent'>\(V_{inj}\)            </p></td><td class='td11' id='TBL-2-20-3'> <!-- l. 453 --><p class='noindent'>Media/institutional
+  power                            </p></td><td class='td10' id='TBL-2-20-4'> <!-- l. 454 --><p class='noindent'>Broadcast
+  strength
+  of
+  narrative
+  source                          </p></td>
+</tr><tr id='TBL-2-21-'><td class='td01' id='TBL-2-21-1'>
+<!-- l. 455 --><p class='noindent'>Oscillator
+amplitude        </p></td><td class='td11' id='TBL-2-21-2'> <!-- l. 455 --><p class='noindent'>\(V_0\)            </p></td><td class='td11' id='TBL-2-21-3'> <!-- l. 455 --><p class='noindent'>Individual
+  signal
+  strength                         </p></td><td class='td10' id='TBL-2-21-4'> <!-- l. 455 --><p class='noindent'>Personal
+  influence,
+  platform,
+  inner
+  conviction                    </p></td>
+</tr><tr id='TBL-2-22-'><td class='td01' id='TBL-2-22-1'>
+<!-- l. 457 --><p class='noindent'>Phase             </p></td><td class='td11' id='TBL-2-22-2'> <!-- l. 457 --><p class='noindent'>\(\phi \)            </p></td><td class='td11' id='TBL-2-22-3'> <!-- l. 457 --><p class='noindent'>Current
+  belief
+  state                             </p></td><td class='td10' id='TBL-2-22-4'> <!-- l. 457 --><p class='noindent'>Where
+  you
+  are
+  in
+  the
+  belief
+  cycle                           </p></td>
+</tr><tr id='TBL-2-23-'><td class='td01' id='TBL-2-23-1'>
+<!-- l. 459 --><p class='noindent'>Locking
+range              </p></td><td class='td11' id='TBL-2-23-2'> <!-- l. 459 --><p class='noindent'>\(\Delta \omega _L \propto R/Z_0\)            </p></td><td class='td11' id='TBL-2-23-3'> <!-- l. 459 --><p class='noindent'>Capture
+  bandwidth                      </p></td><td class='td10' id='TBL-2-23-4'> <!-- l. 460 --><p class='noindent'>Range
+  of
+  beliefs
+  you’re
+  susceptible
+  to—<span class='ec-lmbx-10'>inversely
+  proportional
+  to
+  Q</span> </p></td>
+</tr>
+<tr id='TBL-2-10-'><td class='td01' colspan='3' id='TBL-2-10-1'></td>
+</tr>
+</table></div>
+<!-- l. 465 --><p class='nopar'><span class='ec-lmbx-10'>Critical insight</span>: Lock bandwidth \(\propto \) R/\(Z_0\) = 1/Q. Raising Q narrows your capture
+range. Three pathways: increase \(Z_0\) through wisdom (L\(\uparrow \)) or shadow work (C\(\downarrow \)), or reduce
+R through meditation and attention discipline. See Ch 5 Section 2 for R definition
+and its role in Q.
+</p><!-- l. 472 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-dynamics-in-different-regimes'><a id='x1-11000'></a>9.2.4 Dynamics in Different Regimes</h5>
+<p><a id='x1-11000doc'></a>
+</p><!-- l. 475 --><p class='nopar'><span class='paragraphHead' id='-locked-state-l'><a id='x1-12000'></a><span class='ec-lmbx-10'>9.2.4.1 Locked State (</span>\(|\Delta \omega | &lt; \omega _L\)<span class='ec-lmbx-10'>)</span></span>
+<a id='x1-12000doc'></a>
+The oscillator phase-locks to the injection. Phase stabilizes at: \[ \phi _{locked} = \arcsin \left (\frac {\Delta \omega }{\omega _L}\right ) \] In social terms:
+Individual’s beliefs synchronize with the external narrative. They may feel this is
+their “own” belief, but it’s entrained.
+</p>
+<!-- l. 484 --><p class='nopar'><span class='paragraphHead' id='-unlocked-state-l'><a id='x1-13000'></a><span class='ec-lmbx-10'>9.2.4.2 Unlocked State (</span>\(|\Delta \omega | &gt; \omega _L\)<span class='ec-lmbx-10'>)</span></span>
+<a id='x1-13000doc'></a>
+The oscillator beats against the injection. Phase continuously slips: \[ \phi (t) \approx \sqrt {\Delta \omega ^2 - \omega _L^2} \cdot t + \phi _0 \] Average beat
+frequency: \[ \omega _{beat} = \sqrt {\Delta \omega ^2 - \omega _L^2} \] In social terms: Individual maintains independent oscillation but is
+perturbed. Experiences cognitive dissonance as their beliefs cycle relative to
+dominant narrative.
+                                                                  
+
+                                                                  
+</p>
+<!-- l. 495 --><p class='nopar'><span class='paragraphHead' id='-capture-and-release-transitions'><a id='x1-14000'></a><span class='ec-lmbx-10'>9.2.4.3 Capture and Release Transitions</span></span>
+<a id='x1-14000doc'></a>
+<span class='ec-lmbx-10'>Capture </span>occurs when:
+</p><!-- l. 500 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'>Injection power \(V_{inj}\) increases (media saturation)
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'>Oscillator power \(V_0\) decreases (isolation, demoralization)
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'>\(Z_0\) decreases / Q decreases (trauma increases C, stress increases R)
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'>\(\Delta \omega \) decreases (narrative shifts toward you)</dd></dl>
+<!-- l. 513 --><p class='noindent'><span class='ec-lmbx-10'>Release </span>(escape from lock) occurs when:
+</p><!-- l. 516 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'>Injection power decreases (narrative loses credibility)
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'>Oscillator power increases (community support, inner work)
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'>\(Z_0\) <span class='ec-lmbx-10'>increases </span>(wisdom L\(\uparrow \), shadow work C\(\downarrow \)) \(\rightarrow \) Q = \(Z_0\)/R increases
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>R decreases </span>(meditation, attention discipline) \(\rightarrow \) Q increases directly
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'>Exposure to stronger counter-narrative (\(V_{truth} &gt; V_{control}\))</dd></dl>
+<!-- l. 532 --><p class='noindent'><span class='ec-lmbx-10'>The primary path to capture resistance is raising Q </span>through three pathways:
+wisdom accumulation (L\(\uparrow \)), shadow integration (C\(\downarrow \)), and attention discipline (R\(\downarrow \)). All
+three narrow lock bandwidth via Q = \(Z_0\)/R.
+</p><!-- l. 538 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-sovereignty-as-lock-resistance-the-central-insight'><a id='x1-15000'></a>9.2.5 Sovereignty as Lock Resistance: The Central Insight</h5>
+<p><a id='x1-15000doc'></a>
+</p><!-- l. 540 --><p class='nopar'><span class='ec-lmbx-10'>The key equation for personal sovereignty: </span>\[ \Delta \omega _{lock} = \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0} = \frac {\omega _0 R}{2Z_0} \cdot \frac {V_{inj}}{V_0} \] <span class='ec-lmbx-10'>Low locking bandwidth =
+personal sovereignty. </span>This equation quantifies what wisdom traditions describe
+qualitatively.
+</p><!-- l. 546 --><p class='noindent'>
+</p><!-- l. 546 --><p class='noindent'> <a id='x1-15001r3'></a></p>
+<!-- l. 551 --><div class='longtable'> <table class='longtable' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /><col id='TBL-3-4' /></colgroup>
+<tr id='TBL-3-1-'><td class='td01' colspan='3' id='TBL-3-1-1'></td>
+</tr><tr id='TBL-3-4-'><td class='td01' id='TBL-3-4-1'>
+<div class='minipage'><!-- l. 553 --><p class='noindent'>Q Level </p></div> </td><td class='td11' id='TBL-3-4-2'> <div class='minipage'><!-- l. 555 --><p class='noindent'>Components (\(Z_0\), R) </p></div> </td><td class='td11' id='TBL-3-4-3'> <div class='minipage'><!-- l. 557 --><p class='noindent'>Lock Bandwidth </p></div> </td><td class='td10' id='TBL-3-4-4'> <div class='minipage'><!-- l. 559 --><p class='noindent'>Meaning </p></div></td>
+</tr><tr id='TBL-3-5-'><td class='td01' colspan='3' id='TBL-3-5-1'></td>
+</tr>
+<tr id='TBL-3-15-'><td class='td01' id='TBL-3-15-1'>
+<!-- l. 565 --><p class='noindent'>Low             </p></td><td class='td11' id='TBL-3-15-2'> <!-- l. 565 --><p class='noindent'>Low
+  \(Z_0\)
+  and/or
+  high
+  R                                        </p></td><td class='td11' id='TBL-3-15-3'> <!-- l. 565 --><p class='noindent'><span class='ec-lmbx-10'>Wide</span> </p></td><td class='td10' id='TBL-3-15-4'> <!-- l. 565 --><p class='noindent'>Easily
+  captured
+  by
+  any
+  narrative
+  within
+  large
+  range         </p></td>
+</tr><tr id='TBL-3-16-'><td class='td01' id='TBL-3-16-1'>
+<!-- l. 567 --><p class='noindent'>Medium        </p></td><td class='td11' id='TBL-3-16-2'> <!-- l. 567 --><p class='noindent'>Moderate
+  \(Z_0\),
+  moderate
+  R                                        </p></td><td class='td11' id='TBL-3-16-3'> <!-- l. 567 --><p class='noindent'>Moderate                   </p></td><td class='td10' id='TBL-3-16-4'> <!-- l. 567 --><p class='noindent'>Vulnerable
+  to
+  strong
+  narratives    </p></td>
+</tr><tr id='TBL-3-17-'><td class='td01' id='TBL-3-17-1'>
+<!-- l. 569 --><p class='noindent'>High            </p></td><td class='td11' id='TBL-3-17-2'> <!-- l. 569 --><p class='noindent'>High
+  \(Z_0\)
+  and/or
+  low
+  R                                        </p></td><td class='td11' id='TBL-3-17-3'> <!-- l. 569 --><p class='noindent'><span class='ec-lmbx-10'>Narrow</span> </p></td><td class='td10' id='TBL-3-17-4'> <!-- l. 569 --><p class='noindent'>Only
+  very
+  powerful,
+  very
+  close
+  signals
+  can
+  capture       </p></td>
+</tr><tr id='TBL-3-18-'><td class='td01' id='TBL-3-18-1'>
+<!-- l. 571 --><p class='noindent'>Very
+High            </p></td><td class='td11' id='TBL-3-18-2'> <!-- l. 571 --><p class='noindent'>High
+  \(Z_0\)
+  and
+  low
+  R                                        </p></td><td class='td11' id='TBL-3-18-3'> <!-- l. 571 --><p class='noindent'>Nearly
+  zero                          </p></td><td class='td10' id='TBL-3-18-4'> <!-- l. 571 --><p class='noindent'>Effectively
+  sovereign—immune
+  to
+  typical
+  broadcast    </p></td> </tr>
+<tr id='TBL-3-10-'><td class='td01' colspan='3' id='TBL-3-10-1'></td>
+</tr>
+</table></div>
+<!-- l. 576 --><p class='noindent'><span class='ec-lmbx-10'>Why this matters for personal development:</span>
+</p><!-- l. 579 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>High-Q  individuals  can’t  be  captured  by  typical  narratives.</span>
+     The  locking  bandwidth  is  too  narrow—most  broadcast  signals  miss
+     entirely. Both high \(Z_0\) (depth of processing) and low R (attention discipline)
+     contribute to high Q.
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>This                   is                   WHY                   spiritual
+     development protects against manipulation. </span>It’s not mystical—it’s
+     the mathematics of narrowing lock bandwidth.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>“Red-pilling” vs “raising Q”:</span> <ul class='itemize1'> <li class='itemize'>Red-pilling  =  temporary  escape  from  one  lock  (may  just  lock  to
+         different narrative)
+         </li> <li class='itemize'>Raising Q = permanent immunity via narrower lock bandwidth (\(Z_0\)\(\uparrow \)
+         and/or R\(\downarrow \))</li></ul> </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Sovereignty IS the inverse of lock bandwidth: </span>\[ \text {Sovereignty} \propto \frac {1}{\Delta \omega _{lock}} \propto Q \propto \frac {Z_0}{R} \] <span class='ec-lmbx-10'>Connection to Phased
+     Array (Ch 8):</span></dd></dl>
+<!-- l. 607 --><p class='noindent'>Control systems need to lock array elements to steer the collective beam. If
+individuals have high Q:
+</p> <ul class='itemize1'> <li class='itemize'>Their lock bandwidth is too narrow for broadcast capture
+     </li> <li class='itemize'>They maintain independent oscillation
+     </li> <li class='itemize'>They can seed counter-coherence in neighbors
+     </li> <li class='itemize'>The collective beam cannot be steered by injection</li></ul>
+<!-- l. 623 --><p class='noindent'><span class='ec-lmbx-10'>This explains why sovereignty suppression is priority #1 for control
+systems. </span>Lower the population’s Q (by suppressing \(Z_0\) or increasing R) \(\rightarrow \) widen lock
+bandwidth \(\rightarrow \) easier capture \(\rightarrow \) steerable array.
+</p><!-- l. 626 --><p class='noindent'><span class='ec-lmbx-10'>How Q gets suppressed:</span>
+</p> <ul class='itemize1'> <li class='itemize'>Trauma increases C \(\rightarrow \) lowers \(Z_0\) \(\rightarrow \) lowers Q
+     </li> <li class='itemize'>Distraction increases R \(\rightarrow \) lowers Q directly
+     </li> <li class='itemize'>Fragmented wisdom prevents L accumulation \(\rightarrow \) lowers \(Z_0\) \(\rightarrow \) lowers Q
+     </li> <li class='itemize'>Fear states increase both R and C \(\rightarrow \) lowers Q through both pathways</li></ul>
+<!-- l. 640 --><p class='noindent'><span class='ec-lmbx-10'>How to raise Q:</span>
+</p> <ul class='itemize1'> <li class='itemize'>Wisdom   accumulation   (L\(\uparrow \))   through   study,   experience   integration,
+     contemplation \(\rightarrow \) raises \(Z_0\) \(\rightarrow \) raises Q
+     </li> <li class='itemize'>Shadow work (C\(\downarrow \)) through trauma processing, emotional integration \(\rightarrow \) raises
+     \(Z_0\) \(\rightarrow \) raises Q
+     </li> <li class='itemize'>Reduced distraction (R\(\downarrow \)) through meditation, attention discipline \(\rightarrow \) raises
+     Q directly
+     </li> <li class='itemize'>Community  (coupling)  with  other  high-Q  individuals  provides  mutual
+     support</li></ul>
+<!-- l. 659 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-network-of-coupled-oscillators'><a id='x1-16000'></a>9.2.6 Network of Coupled Oscillators</h5>
+<p><a id='x1-16000doc'></a>
+</p><!-- l. 661 --><p class='nopar'>For a population of N coupled oscillators, each with injection: \[ \frac {d\phi _n}{dt} = \omega _n + \sum _{m \neq n} K_{nm} \sin (\phi _m - \phi _n) + \omega _{L,n} \sin (\phi _{inj} - \phi _n) + \xi _n \] Where:
+</p><!-- l. 666 --><p class='noindent'>
+</p><!-- l. 666 --><p class='noindent'>
+<a id='x1-16001r4'></a></p>
+<!-- l. 667 --><div class='longtable'> <table class='longtable' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /></colgroup>
+<tr id='TBL-4-4-'><td class='td01' id='TBL-4-4-1'>Variable  </td><td class='td10' id='TBL-4-4-2'> Description</td>
+</tr>
+<tr id='TBL-4-15-'><td class='td01' id='TBL-4-15-1'>\(K_{nm}\) </td><td class='td10' id='TBL-4-15-2'> Coupling strength between oscillators n and m</td>
+</tr><tr id='TBL-4-16-'><td class='td01' id='TBL-4-16-1'>\(\omega _{L,n}\) </td><td class='td10' id='TBL-4-16-2'> Individual locking bandwidth                       </td>
+</tr><tr id='TBL-4-17-'><td class='td01' id='TBL-4-17-1'>\(\phi _{inj}\) </td><td class='td10' id='TBL-4-17-2'> Phase of injected narrative                          </td>
+</tr><tr id='TBL-4-18-'><td class='td01' id='TBL-4-18-1'>\(\xi _n\) </td><td class='td10' id='TBL-4-18-2'> Noise term                                               </td>
+</tr> </table></div>
+<!-- l. 680 --><p class='noindent'>This combines:
+</p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Kuramoto dynamics </span>(mutual synchronization)
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Injection locking </span>(external narrative capture)
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Stochastic perturbation </span>(random events)</li></ul>
+<!-- l. 692 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-competing-injections'><a id='x1-17000'></a>9.2.7 Competing Injections</h5>
+<p><a id='x1-17000doc'></a>
+</p><!-- l. 694 --><p class='nopar'>When two signals compete (truth vs. control): \[ \frac {d\phi }{dt} = \Delta \omega - \omega _{L,C} \sin (\phi - \phi _C) - \omega _{L,T} \sin (\phi - \phi _T) \] The oscillator locks to whichever
+signal has:
+</p><!-- l. 699 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Higher effective locking bandwidth </span>(\(\omega _L\))
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Closer natural frequency </span>(smaller \(|\Delta \omega |\))</dd></dl>
+<!-- l. 707 --><p class='noindent'><span class='ec-lmbx-10'>Critical insight</span>: A weaker but more resonant signal can win.
+</p><!-- l. 709 --><p class='noindent'>If \(V_{truth} &lt; V_{control}\) but \(|\omega _0 - \omega _{truth}| \ll |\omega _0 - \omega _{control}|\): \[ \omega _{L,T} \cdot \cos (\phi - \phi _T) &gt; \omega _{L,C} \cdot \cos (\phi - \phi _C) \] The truth signal captures despite lower power because it’s closer to natural
+frequency.
+</p>
+<!-- l. 716 --><p class='nopar'><span class='paragraphHead' id='-how-q-affects-signal-competition'><a id='x1-18000'></a><span class='ec-lmbx-10'>9.2.7.1 How Q Affects Signal Competition</span></span>
+<a id='x1-18000doc'></a>
+When multiple signals compete for an oscillator’s lock, Q determines not just
+resistance but <span class='ec-lmbx-10'>discrimination quality</span>:
+</p><!-- l. 722 --><p class='noindent'>
+</p><!-- l. 722 --><p class='noindent'> <a id='x1-18001r5'></a></p>
+<!-- l. 725 --><div class='longtable'> <table class='longtable' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /></colgroup>
+<tr id='TBL-5-4-'><td class='td01' id='TBL-5-4-1'>
+<div class='minipage'><!-- l. 727 --><p class='noindent'>Q Level </p></div> </td><td class='td10' id='TBL-5-4-2'> <div class='minipage'><!-- l. 729 --><p class='noindent'>Behavior Under Competing Signals </p></div></td>
+</tr>
+<tr id='TBL-5-15-'><td class='td01' id='TBL-5-15-1'>
+<!-- l. 735 --><p class='noindent'>Very
+Low                  </p></td><td class='td10' id='TBL-5-15-2'> <!-- l. 735 --><p class='noindent'>Locks
+  to
+  loudest
+  signal
+  regardless
+  of
+  resonance;
+  no
+  discrimination                                                               </p></td>
+</tr><tr id='TBL-5-16-'><td class='td01' id='TBL-5-16-1'>
+<!-- l. 737 --><p class='noindent'>Low                  </p></td><td class='td10' id='TBL-5-16-2'> <!-- l. 737 --><p class='noindent'>Locks
+  to
+  strongest
+  signal;
+  slight
+  preference
+  for
+  closer
+  frequency                                                                     </p></td> </tr><tr id='TBL-5-17-'><td class='td01' id='TBL-5-17-1'>
+<!-- l. 739 --><p class='noindent'>Medium             </p></td><td class='td10' id='TBL-5-17-2'> <!-- l. 739 --><p class='noindent'>Begins
+  discriminating;
+  resonance
+  and
+  power
+  both
+  matter
+  significantly                                                                  </p></td>
+</tr><tr id='TBL-5-18-'><td class='td01' id='TBL-5-18-1'>
+<!-- l. 741 --><p class='noindent'>High                 </p></td><td class='td10' id='TBL-5-18-2'> <!-- l. 741 --><p class='noindent'>Strong
+  frequency
+  discrimination;
+  locks
+  only
+  to
+  highly
+  resonant
+  signals                                                                         </p></td>
+</tr><tr id='TBL-5-19-'><td class='td01' id='TBL-5-19-1'>
+<!-- l. 743 --><p class='noindent'>Very
+High                 </p></td><td class='td10' id='TBL-5-19-2'> <!-- l. 743 --><p class='noindent'>Effectively
+  filters
+  all
+  but
+  near-exact
+  frequency
+  matches;
+  immune
+  to
+  brute-force
+  power                                                                          </p></td>
+</tr> </table></div>
+<!-- l. 748 --><p class='noindent'><span class='ec-lmbx-10'>Key insight</span>: High-Q individuals don’t just resist capture — they <span class='ec-lmri-10'>discriminate</span>
+better between signals. This is qualitatively different from mere stubbornness. A
+high-Q oscillator can distinguish a coherent, resonant signal from a powerful but
+off-frequency one, making it both harder to capture <span class='ec-lmri-10'>and </span>more responsive to
+truth.
+</p>
+<!-- l. 755 --><p class='nopar'><span class='paragraphHead' id='-depth-of-processing-and-signal-discrimination'><a id='x1-19000'></a><span class='ec-lmbx-10'>9.2.7.2 Depth of Processing and Signal Discrimination</span></span>
+<a id='x1-19000doc'></a>
+\(Z_0\) specifically affects <span class='ec-lmbx-10'>depth of processing </span>— the ability to detect structure,
+coherence, and impedance mismatches in incoming signals. Even within the lock
+bandwidth (where capture is mathematically possible), high-\(Z_0\) oscillators exhibit what
+might be called “signal intelligence”:
+</p> <ul class='itemize1'> <li class='itemize'>They detect <span class='ec-lmbx-10'>internal incoherence </span>in narratives (impedance mismatch
+     between signal components)
+     </li> <li class='itemize'>They perceive <span class='ec-lmbx-10'>deeper harmonic structure </span>— whether a signal carries
+     genuine information or is merely powerful
+     </li> <li class='itemize'>They register <span class='ec-lmbx-10'>subtle frequency differences </span>that low-\(Z_0\) oscillators cannot
+     resolve</li></ul>
+<!-- l. 776 --><p class='noindent'>This means \(Z_0\) and R contribute to sovereignty through different mechanisms: \(Z_0\) provides
+perceptual depth (seeing through signals), while low R provides stability (not being
+swept along). Both feed into Q, but they protect through complementary
+pathways.
+                                                                  
+
+                                                                  
+</p>
+<!-- l. 782 --><p class='nopar'><span class='paragraphHead' id='-natural-frequency-and-truth-resonance'><a id='x1-20000'></a><span class='ec-lmbx-10'>9.2.7.3 Natural Frequency and Truth Resonance</span></span>
+<a id='x1-20000doc'></a>
+A fundamental asymmetry in the competing injection model: <span class='ec-lmbx-10'>truth tends to be
+closer to natural frequency than control signals</span>.
+</p><!-- l. 787 --><p class='noindent'>This asymmetry is an assumption of the model: we define “truth” as the signal closer
+to the oscillator’s natural frequency, and “control” as the signal pushing away from it.
+The mathematical framework does not inherently distinguish truth from control – the
+asymmetry is imposed by the physical assumption that unperturbed oscillators tend
+toward their natural frequency.
+</p><!-- l. 794 --><p class='noindent'>Control narratives, by definition, push oscillators <span class='ec-lmri-10'>away from </span>their natural state
+toward an imposed frequency. This means: \[ \left |\omega _0 - \omega _{truth}\right | &lt; \left |\omega _0 - \omega _{control}\right | \] The mathematical consequence is that
+truth signals gain an effective power boost through resonance proximity, while control
+signals must overcome a larger detuning gap. For the control signal to maintain lock,
+it must satisfy: \[ \omega _{L,C} &gt; \omega _{L,T} + |\omega _{control} - \omega _{truth}| \cdot Q / \omega _0 \] This is the <span class='ec-lmbx-10'>mathematical basis for “truth resonates”</span>: it’s not a
+metaphor but a consequence of the injection locking equations. The advantage is
+amplified in high-Q individuals, who are sensitive to small frequency differences and
+thus experience even stronger preferential coupling to resonant (truthful)
+signals.
+</p>
+<!-- l. 809 --><p class='nopar'><span class='paragraphHead' id='-competing-injections-in-the-modern-information-environment'><a id='x1-21000'></a><span class='ec-lmbx-10'>9.2.7.4 Competing Injections in the Modern Information Environment</span></span>
+<a id='x1-21000doc'></a>
+The modern environment differs from historical eras by presenting <span class='ec-lmbx-10'>multiple
+simultaneous injection sources </span>— institutional media, social platforms,
+grassroots movements, algorithmic feeds — each attempting lock at different
+frequencies and powers.
+</p><!-- l. 816 --><p class='noindent'>The generalized multi-signal equation: \[ \frac {d\phi }{dt} = \Delta \omega - \sum _k \omega _{L,k} \sin (\phi - \phi _k) \] In this multi-signal chaos, Q becomes even
+more critical:
+</p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Low-Q  oscillators </span>lock  to  the  <span class='ec-lmbx-10'>loudest </span>signal  (highest  \(\omega _{L,k}\)),  regardless
+     of  resonance.  They  are  swept  by  whichever  source  dominates  their
+     information environment.
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Medium-Q  oscillators  </span>experience  confusion  and  rapid  switching
+     between partial locks — the “information overwhelm” phenomenon.
+     </li> <li class='itemize'><span class='ec-lmbx-10'>High-Q oscillators </span>filter the noise and lock preferentially to the <span class='ec-lmbx-10'>most
+     resonant </span>signal (smallest \(|\omega _0 - \omega _k|\)), effectively extracting signal from chaos.</li></ul>
+<!-- l. 835 --><p class='noindent'>This explains why increasing information volume without raising population Q leads
+to confusion rather than enlightenment — and why Q-building is the prerequisite for
+an informed populace, not merely access to information.
+</p><!-- l. 841 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-beamforming-equations-for-perception-management'><a id='x1-22000'></a>9.2.8 Beamforming Equations for Perception Management</h5>
+<p><a id='x1-22000doc'></a>
+</p><!-- l. 843 --><p class='nopar'>While Sections 2.1-2.7 model individual capture, this section models system-level
+control using adaptive beamforming mathematics.
+</p>
+<!-- l. 846 --><p class='nopar'><span class='paragraphHead' id='-beamforming-output'><a id='x1-23000'></a><span class='ec-lmbx-10'>9.2.8.1 Beamforming Output</span></span>
+<a id='x1-23000doc'></a>
+Output of adaptive array: \[ y(t) = \mathbf {w}^H \mathbf {x}(t) \] Where:
+</p><!-- l. 853 --><p class='noindent'>
+</p><!-- l. 853 --><p class='noindent'>
+<a id='x1-23001r6'></a></p>
+<!-- l. 854 --><div class='longtable'> <table class='longtable' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /><col id='TBL-6-2' /></colgroup>
+<tr id='TBL-6-4-'><td class='td01' id='TBL-6-4-1'>Variable  </td><td class='td10' id='TBL-6-4-2'> Description</td>
+</tr>
+<tr id='TBL-6-15-'><td class='td01' id='TBL-6-15-1'>\(\mathbf {x}(t)\) </td><td class='td10' id='TBL-6-15-2'> input signals from all elements</td>
+</tr><tr id='TBL-6-16-'><td class='td01' id='TBL-6-16-1'>\(\mathbf {w}\) </td><td class='td10' id='TBL-6-16-2'> weight vector (complex gains) </td>
+</tr><tr id='TBL-6-17-'><td class='td01' id='TBL-6-17-1'>\(^H\) </td><td class='td10' id='TBL-6-17-2'> Hermitian transpose              </td>
+</tr> </table></div>
+<!-- l. 867 --><p class='nopar'><span class='paragraphHead' id='-minimum-variance-distortionless-response-mvdr'><a id='x1-24000'></a><span class='ec-lmbx-10'>9.2.8.2 Minimum Variance Distortionless Response (MVDR)</span></span>
+<a id='x1-24000doc'></a>
+Optimal weights that minimize interference while preserving desired signal: \[ \mathbf {w}_{MVDR} = \frac {\mathbf {R}^{-1}\mathbf {a}(\theta _0)}{\mathbf {a}^H(\theta _0)\mathbf {R}^{-1}\mathbf {a}(\theta _0)} \] Where \(\mathbf {R}\)
+= covariance matrix, \(\mathbf {a}(\theta _0)\) = steering vector to desired direction.
+</p><!-- l. 875 --><p class='noindent'><span class='ec-lmbx-10'>In perception management</span>: \(\theta _0\) = official narrative direction.
+</p>
+<!-- l. 879 --><p class='nopar'><span class='paragraphHead' id='-direction-of-arrival-doa-estimation'><a id='x1-25000'></a><span class='ec-lmbx-10'>9.2.8.3 Direction of Arrival (DOA) Estimation</span></span>
+<a id='x1-25000doc'></a>
+Before nulling, the system must locate threats: \[ P(\theta ) = \frac {1}{\mathbf {a}^H(\theta )\mathbf {R}^{-1}\mathbf {a}(\theta )} \] Peaks indicate signal sources. This is
+surveillance—identifying which voices, platforms, and communities pose
+threats.
+</p>
+<!-- l. 886 --><p class='nopar'><span class='paragraphHead' id='-null-steering'><a id='x1-26000'></a><span class='ec-lmbx-10'>9.2.8.4 Null Steering</span></span>
+<a id='x1-26000doc'></a>
+Once located, nulls are steered toward threats: \[ \mathbf {w}^H \mathbf {a}(\theta _{null}) = 0 \] Implementation: deplatforming,
+algorithmic suppression, financial debanking, coordinated debunking.
+</p>
+<!-- l. 893 --><p class='nopar'><span class='paragraphHead' id='-adaptation-rate'><a id='x1-27000'></a><span class='ec-lmbx-10'>9.2.8.5 Adaptation Rate</span></span>
+<a id='x1-27000doc'></a>
+The system must adapt faster than threats evolve: \[ \tau _{adapt} &lt; \tau _{threat} \] If threats evolve faster than
+countermeasures, nulls miss and signals propagate.
+</p><!-- l. 900 --><p class='noindent'><span class='ec-lmbx-10'>Current environment</span>: Viral spread (\(\tau _{threat} \sim \) hours) challenges adaptation (\(\tau _{adapt} \sim \) days-weeks).
+                                                                  
+
+                                                                  
+</p>
+<!-- l. 904 --><p class='nopar'><span class='paragraphHead' id='-weight-update-algorithm-lms'><a id='x1-28000'></a><span class='ec-lmbx-10'>9.2.8.6 Weight Update Algorithm (LMS)</span></span>
+<a id='x1-28000doc'></a>
+Least Mean Squares adaptation: \[ \mathbf {w}(n+1) = \mathbf {w}(n) + \mu \cdot e^*(n) \cdot \mathbf {x}(n) \] Where \(e(n)\) = error (difference from desired output), \(\mu \) =
+learning rate.
+</p><!-- l. 911 --><p class='noindent'>The system learns which signals to suppress based on deviation from narrative.
+</p>
+<div class='center'>
+<!-- l. 914 --><p class='noindent'>
+</p><!-- l. 914 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 917 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='-assumptions-limitations'><a id='x1-29000'></a>9.3 Assumptions &amp; Limitations</h4>
+<p><a id='x1-29000doc'></a>
+</p><!-- l. 919 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-model-assumptions'><a id='x1-30000'></a>9.3.1 Model Assumptions</h5>
+<p><a id='x1-30000doc'></a>
+</p><!-- l. 922 --><p class='nopar'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Beliefs  are  oscillatory</span>:  Individual  worldviews  can  be  modeled  as
+     periodic functions. This assumes beliefs have cycles, not fixed points.
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Coupling  is  sinusoidal</span>:  The  sin(\(\phi \))  dependence  assumes  smooth,
+     continuous belief influence. Sharp thresholds are not captured.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Single dominant frequency</span>: Each individual has one primary “natural
+     frequency.” In reality, people have multiple belief dimensions.
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Additive   injection</span>:   Multiple   narratives   add   linearly.   Non-linear
+     interactions (reinforcement, interference) are simplified.
+                                                                  
+
+                                                                  
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Time-invariant parameters</span>: Q, \(V_0\), \(\omega _0\) are constant during simulation. Real
+     people change these through experience.</dd></dl>
+<!-- l. 945 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-injection-locking-limitations'><a id='x1-31000'></a>9.3.2 Injection Locking Limitations</h5>
+<p><a id='x1-31000doc'></a>
+</p><!-- l. 948 --><p class='nopar'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Multi-dimensional belief space</span>: Real beliefs span many dimensions;
+     this 1D model captures one axis at a time.
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Discrete events not modeled</span>: Sudden revelations, trauma, “red pill
+     moments” are not captured by continuous dynamics.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Memory   effects   absent</span>:   Real   humans   have   history-dependent
+     responses; the model is memoryless. See Chapter 5 (Capacitance) for the
+     memory mechanism via stored charge.
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Network effects simplified</span>: Full network topology effects (cascades,
+     phase transitions) require more complex analysis. See Chapter 8 (Phased
+     Array) for complete network-level analysis.
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>No  cognitive  processing</span>:  The  model  doesn’t  distinguish  between
+     conscious processing and unconscious entrainment.</dd></dl>
+<!-- l. 969 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-beamforming-model-assumptions'><a id='x1-32000'></a>9.3.3 Beamforming Model Assumptions</h5>
+<p><a id='x1-32000doc'></a>
+</p><!-- l. 972 --><p class='nopar'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Beamforming  analogy  applies</span>:  Perception  management  operates
+     through  mechanisms  analogous  to  adaptive  beamforming—main  beam
+     steering,  null  placement,  and  sidelobe  control.  This  assumes  that
+     information control systems optimize a directional objective function, not
+                                                                  
+
+                                                                  
+     merely suppress content.
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Collective  SNR  is  the  relevant  metric</span>:  The  model  assumes  that
+     collective perception depends on the signal-to-noise ratio at the population
+     level, integrating individual Q factors (Chapter 5) and array gain (Chapter
+     8). Individual awareness matters only insofar as it contributes to collective
+     SNR.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Adaptive algorithms converge</span>: The LMS/MVDR models assume that
+     control systems converge to effective suppression strategies. In practice,
+     convergence  may  be  disrupted  by  rapid  information  spread  or  high-Q
+     nodes that resist null placement.
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Linear  superposition  of  narratives</span>:  Multiple  narrative  sources
+     combine  linearly  at  the  population  level.  Non-linear  effects  (narrative
+     synergy, cognitive dissonance cascades) are not captured.</dd></dl>
+<!-- l. 997 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-beamforming-limitations'><a id='x1-33000'></a>9.3.4 Beamforming Limitations</h5>
+<p><a id='x1-33000doc'></a>
+</p><!-- l. 1000 --><p class='nopar'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Static threat model</span>: The model treats narrative threats as fixed signal
+     sources.  In  practice,  counter-narrative  strategies  evolve,  with  sources
+     adapting to avoid null placement (frequency hopping, platform migration).
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>No   cognitive   modeling</span>:   The   beamforming   analogy   captures
+     information-space  dynamics  but  does  not  model  individual  cognitive
+     processing, emotional responses, or meaning-making that mediate between
+     information exposure and belief formation.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Homogeneous  population  response</span>:  The  model  assumes  uniform
+     susceptibility across the population. Real populations have heterogeneous
+     Q  distributions,  information  diets,  and  cognitive  profiles  that  produce
+     varied responses to the same narrative environment.
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Binary  signal  classification</span>:  The  model  classifies  signals  as  “main
+     beam”   (approved   narrative)   or   “interference”   (suppressed).   Real
+                                                                  
+
+                                                                  
+     information environments contain gradients of acceptability and complex
+     interactions between partially-approved narratives.</dd></dl>
+<!-- l. 1025 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-falsification-conditions'><a id='x1-34000'></a>9.3.5 Falsification Conditions</h5>
+<p><a id='x1-34000doc'></a>
+</p><!-- l. 1027 --><p class='nopar'>The model would be falsified by:
+</p><!-- l. 1030 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Populations  that  never  lock  despite  saturation</span>:  If  extremely
+     high-powered narratives consistently fail to capture populations.
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>High-Q individuals easily captured</span>: If discerning, aware individuals
+     lock as easily as distracted ones.
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>No threshold effects</span>: If belief capture is purely proportional to exposure
+     rather than showing phase-transition behavior.
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Counter-narratives never succeed</span>: If lower-power truth signals cannot
+     compete regardless of resonance.</dd></dl>
+<div class='center'>
+<!-- l. 1046 --><p class='noindent'>
+</p><!-- l. 1046 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1048 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='-predictions-thresholds'><a id='x1-35000'></a>9.4 Predictions &amp; Thresholds</h4>
+<p><a id='x1-35000doc'></a> </p><!-- l. 1051 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-individual-locking-predictions'><a id='x1-36000'></a>9.4.1 Individual Locking Predictions</h5>
+<p><a id='x1-36000doc'></a>
+</p><!-- l. 1053 --><p class='nopar'><span class='ec-lmbx-10'>Prediction 1: Locking range scales with power differential </span>\[ \Delta \omega _{lock} \propto \frac {V_{inj}}{V_0} \] Test: Measure
+belief change vs. media exposure intensity. Should show widening capture range with
+intensity.
+</p><!-- l. 1058 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 2: High-Q individuals have narrow locking ranges</span>
+</p><!-- l. 1060 --><p class='noindent'>Trained contemplatives, critical thinkers, and the “naturally immune” should
+show:
+</p> <ul class='itemize1'> <li class='itemize'>Resistance to narrative capture
+     </li> <li class='itemize'>Quick escape from lock when alternative signals available
+     </li> <li class='itemize'>Stable independent oscillation</li></ul>
+<!-- l. 1073 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 3: Lock is binary, not gradual</span>
+</p><!-- l. 1075 --><p class='noindent'>Individuals either lock completely or maintain independent oscillation. Partial lock is
+unstable (beat frequency regime).
+</p><!-- l. 1079 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-network-cascade-predictions'><a id='x1-37000'></a>9.4.2 Network Cascade Predictions</h5>
+<p><a id='x1-37000doc'></a>
+</p><!-- l. 1081 --><p class='nopar'><span class='ec-lmbx-10'>Prediction 4: Critical mass for narrative escape</span>
+</p><!-- l. 1083 --><p class='noindent'>When fraction \(f_c\) of population escapes lock, cascade release begins: \[ f_c \approx \frac {\omega _{L,C}}{\omega _{L,C} + K_{mean}} \] Where \(K_{mean}\) is mean
+coupling strength.
+</p><!-- l. 1088 --><p class='noindent'><span class='ec-lmbx-10'>Justification for </span>\(\omega _{L,C} = 0.3\)<span class='ec-lmbx-10'>:</span>
+</p> <ul class='itemize1'> <li class='itemize'>Propaganda studies consistently show ~30-40% of a population is movable
+     on any given issue through sustained media campaigns
+     </li> <li class='itemize'>The Overton window on most policy dimensions spans roughly 30% of the
+     full ideological spectrum
+     </li> <li class='itemize'>Normalizing to a belief-space range of 1.0,  this gives \(\omega _{L,C} \approx 0.3\) as the effective
+     institutional locking bandwidth</li></ul>
+<!-- l. 1105 --><p class='noindent'><span class='ec-lmbx-10'>Justification for </span>\(K_{mean} = 0.5\)<span class='ec-lmbx-10'>:</span>
+</p> <ul class='itemize1'> <li class='itemize'>The two-step flow model (Katz &amp; Lazarsfeld, 1955) demonstrated that
+     personal influence is roughly comparable to or stronger than institutional
+     media in shaping opinion
+     </li> <li class='itemize'>\(K_{mean} = 0.5\) vs \(\omega _{L,C} = 0.3\) reflects peer influence being somewhat stronger than institutional
+     injection, consistent with this finding
+     </li> <li class='itemize'>The critical ratio \(\omega _{L,C} / (\omega _{L,C} + K_{mean})\) is robust to proportional scaling of both parameters</li></ul>
+<!-- l. 1122 --><p class='noindent'><span class='ec-lmbx-10'>Sensitivity note: </span>\(f_c\) ranges from 50% (no coupling, \(K = 0\)) to 0% (infinite coupling). The
+value of 37.5% is consistent with historical observations of ~30-40% critical mass
+preceding narrative collapses (see Section 9.5.4 cascade evidence).
+</p><!-- l. 1127 --><p class='noindent'>For typical parameters (\(\omega _{L,C} = 0.3\), \(K_{mean} = 0.5\)): \[ f_c \approx \frac {0.3}{0.8} = 37.5\% \] <span class='ec-lmbx-10'>Test</span>: Historical narrative collapses should show ~30-40%
+critical mass before sudden shift.
+</p><!-- l. 1132 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 5: High-Q seeds trigger cascades</span>
+</p><!-- l. 1134 --><p class='noindent'>Individuals with high Q (narrow locking range) can:
+</p><!-- l. 1137 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'>Escape lock first
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'>Inject counter-signal to neighbors
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'>Help others escape through coupling</dd></dl>
+<!-- l. 1147 --><p class='noindent'><span class='ec-lmbx-10'>The “awakened seeds” effect</span>: A small population of high-Q individuals
+can trigger population-wide escape if: \[ N_{seeds} \cdot V_{seeds} &gt; N_{locked} \cdot \omega _{L,C} / K \] ### 9.4.3 Competing Narrative
+                                                                  
+
+                                                                  
+Predictions
+</p><!-- l. 1152 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 6: Coherence beats power</span>
+</p><!-- l. 1154 --><p class='noindent'>A coherent (phase-aligned) truth signal can overcome a more powerful but incoherent
+control signal if: \[ V_{truth} \cdot r_{truth} &gt; V_{control} \cdot r_{control} \] Where \(r\) is the coherence (order parameter) of each signal
+source.
+</p><!-- l. 1159 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 7: Resonance amplifies weak signals</span>
+</p><!-- l. 1161 --><p class='noindent'>A truth signal close to population’s natural frequency gains effective power boost: \[ V_{eff} = V_{truth} \cdot \left (1 + Q_{pop} \cdot \frac {\Delta \omega _{control}}{\Delta \omega _{truth}}\right ) \]
+This is a linearized approximation valid near resonance; the exact gain follows the
+standard resonance curve \(V_{eff} = V_{truth} / \sqrt {1 + Q^2(\omega /\omega _0 - \omega _0/\omega )^2}\).
+</p><!-- l. 1168 --><p class='noindent'>When \(\Delta \omega _{truth} \ll \Delta \omega _{control}\), even weak truth signals dominate.
+</p><!-- l. 1172 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-control-system-predictions'><a id='x1-38000'></a>9.4.4 Control System Predictions</h5>
+<p><a id='x1-38000doc'></a>
+</p><!-- l. 1174 --><p class='nopar'><span class='ec-lmbx-10'>Prediction 8</span>: Mainstream narrative should be consistent (main beam aimed at one
+direction).
+</p><!-- l. 1177 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 9</span>: Threatening sources should experience coordinated suppression (null
+steering).
+</p><!-- l. 1180 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 10</span>: New threat sources should face delay before suppression (DOA
+estimation time).
+</p><!-- l. 1183 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 11</span>: Suppression should be proportional to threat level.
+</p><!-- l. 1186 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 12</span>: The system should show learning—repeated patterns get faster
+response.
+</p><!-- l. 1190 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-collective-coherence-predictions'><a id='x1-39000'></a>9.4.5 Collective Coherence Predictions</h5>
+<p><a id='x1-39000doc'></a>
+</p><!-- l. 1192 --><p class='nopar'><span class='ec-lmbx-10'>Prediction 13</span>: Groups composed of meditators in measured coherent states should
+produce stronger collective effects (measured via environmental random
+number generator deviation, shared physiological entrainment, etc.) than
+equally-sized groups of non-meditators, by a factor approximating the average Q
+ratio.
+                                                                  
+
+                                                                  
+</p><!-- l. 1198 --><p class='noindent'><span class='ec-lmbx-10'>Prediction 14</span>: The critical mass threshold for collective effects (from Chapter 8)
+should be lower when participants have higher individual Q — fewer high-Q
+people are needed than low-Q people to achieve the same collective beam
+strength.
+</p><!-- l. 1204 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-threshold-summary-table'><a id='x1-40000'></a>9.4.6 Threshold Summary Table</h5>
+<p><a id='x1-40000doc'></a>
+</p><!-- l. 1207 --><p class='nopar'>
+</p><!-- l. 1207 --><p class='noindent'>
+<a id='x1-40001r7'></a></p>
+<!-- l. 1211 --><div class='longtable'> <table class='longtable' id='TBL-7'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /><col id='TBL-7-2' /><col id='TBL-7-3' /></colgroup>
+<tr id='TBL-7-4-'><td class='td01' id='TBL-7-4-1'>
+<div class='minipage'><!-- l. 1213 --><p class='noindent'>Threshold </p></div> </td><td class='td11' id='TBL-7-4-2'> <div class='minipage'><!-- l. 1215 --><p class='noindent'>Condition </p></div> </td><td class='td10' id='TBL-7-4-3'> <div class='minipage'><!-- l. 1217 --><p class='noindent'>Population Effect </p></div></td>
+</tr>
+<tr id='TBL-7-15-'><td class='td01' id='TBL-7-15-1'>
+<!-- l. 1223 --><p class='noindent'>Individual
+lock                        </p></td><td class='td11' id='TBL-7-15-2'> <!-- l. 1223 --><p class='noindent'>\(\|\Delta \omega \| &lt; \omega _L\)                   </p></td><td class='td10' id='TBL-7-15-3'> <!-- l. 1223 --><p class='noindent'>Person
+  captured
+  by
+  narrative                                    </p></td>
+</tr><tr id='TBL-7-16-'><td class='td01' id='TBL-7-16-1'>
+<!-- l. 1225 --><p class='noindent'>Individual
+escape                     </p></td><td class='td11' id='TBL-7-16-2'> <!-- l. 1225 --><p class='noindent'>\(V_{counter} &gt; V_{current}\)                   </p></td><td class='td10' id='TBL-7-16-3'> <!-- l. 1225 --><p class='noindent'>Person
+  releases
+  from
+  lock                                           </p></td>
+</tr><tr id='TBL-7-17-'><td class='td01' id='TBL-7-17-1'>
+<!-- l. 1227 --><p class='noindent'>Cascade
+initiation                  </p></td><td class='td11' id='TBL-7-17-2'> <!-- l. 1227 --><p class='noindent'>\(f_{unlocked} &gt; f_c\)                   </p></td><td class='td10' id='TBL-7-17-3'> <!-- l. 1227 --><p class='noindent'>Narrative
+  begins
+  collapsing                                   </p></td> </tr><tr id='TBL-7-18-'><td class='td01' id='TBL-7-18-1'>
+<!-- l. 1229 --><p class='noindent'>Complete
+release                     </p></td><td class='td11' id='TBL-7-18-2'> <!-- l. 1229 --><p class='noindent'>\(K_{mean} &gt; \omega _L\)                   </p></td><td class='td10' id='TBL-7-18-3'> <!-- l. 1229 --><p class='noindent'>Coupling
+  overwhelms
+  injection                                     </p></td>
+</tr><tr id='TBL-7-19-'><td class='td01' id='TBL-7-19-1'>
+<!-- l. 1231 --><p class='noindent'>Permanent
+capture                    </p></td><td class='td11' id='TBL-7-19-2'> <!-- l. 1231 --><p class='noindent'>\(Q_{pop} \to 0\)                   </p></td><td class='td10' id='TBL-7-19-3'> <!-- l. 1231 --><p class='noindent'>Population
+  cannot
+  escape                                        </p></td>
+</tr> </table></div>
+<div class='center'>
+<!-- l. 1235 --><p class='noindent'>
+</p><!-- l. 1235 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1237 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='-evidence-synthesis'><a id='x1-41000'></a>9.5 Evidence Synthesis</h4>
+<p><a id='x1-41000doc'></a>
+</p><!-- l. 1240 --><p class='nopar'>
+</p> <h5 class='subsubsectionHead' id='-injection-power-evidence'><a id='x1-42000'></a>9.5.1 Injection Power Evidence</h5>
+<p><a id='x1-42000doc'></a>
+</p><!-- l. 1243 --><p class='nopar'><span class='paragraphHead' id='media-concentration-studies'><a id='x1-43000'></a><span class='ec-lmbx-10'>Media Concentration Studies</span></span>
+<a id='x1-43000doc'></a>
+<span class='ec-lmbx-10'>Media Ownership Consolidation (1983-2023)</span>
+</p> <ul class='itemize1'> <li class='itemize'>1983: 50 companies controlled 90% of US media
+     </li> <li class='itemize'>2023:  6  companies  control  90%  of  US  traditional  broadcast/print
+     media (Comcast, Disney, ViacomCBS, Warner, Fox, News Corp). The
+     digital/social  media  landscape  has  different  concentration  patterns,
+     though platform companies (Google, Meta, Apple) represent comparable
+     or greater concentration in information distribution.
+     </li> <li class='itemize'>Fewer sources = higher per-source power (\(V_{inj}\)\(\uparrow \)) = wider locking range</li></ul>
+<!-- l. 1263 --><p class='nopar'><span class='paragraphHead' id='propaganda-saturation-research'><a id='x1-44000'></a><span class='ec-lmbx-10'>Propaganda Saturation Research</span></span>
+<a id='x1-44000doc'></a>
+</p><!-- l. 1266 --><p class='noindent'>
+<a id='x1-44001r8'></a></p>
+<!-- l. 1271 --><div class='longtable'> <table class='longtable' id='TBL-8'><colgroup id='TBL-8-1g'><col id='TBL-8-1' /><col id='TBL-8-2' /><col id='TBL-8-3' /><col id='TBL-8-4' /></colgroup> <tr id='TBL-8-1-'><td class='td01' colspan='3' id='TBL-8-1-1'></td>
+</tr><tr id='TBL-8-4-'><td class='td01' id='TBL-8-4-1'>
+<div class='minipage'><!-- l. 1273 --><p class='noindent'>Metric </p></div> </td><td class='td11' id='TBL-8-4-2'> <div class='minipage'><!-- l. 1275 --><p class='noindent'>Historical </p></div> </td><td class='td11' id='TBL-8-4-3'> <div class='minipage'><!-- l. 1277 --><p class='noindent'>Current </p></div> </td><td class='td10' id='TBL-8-4-4'> <div class='minipage'><!-- l. 1279 --><p class='noindent'>Change </p></div></td>
+</tr><tr id='TBL-8-5-'><td class='td01' colspan='3' id='TBL-8-5-1'></td>
+</tr>
+<tr id='TBL-8-15-'><td class='td01' id='TBL-8-15-1'>
+<!-- l. 1285 --><p class='noindent'>Daily
+media
+exposure             </p></td><td class='td11' id='TBL-8-15-2'> <!-- l. 1285 --><p class='noindent'>5
+  hours
+  (1970)                         </p></td><td class='td11' id='TBL-8-15-3'> <!-- l. 1285 --><p class='noindent'>12+
+  hours
+  (2023)                   </p></td><td class='td10' id='TBL-8-15-4'> <!-- l. 1285 --><p class='noindent'>+140%              </p></td>
+</tr><tr id='TBL-8-16-'><td class='td01' id='TBL-8-16-1'>
+<!-- l. 1286 --><p class='noindent'>Information
+sources
+used                   </p></td><td class='td11' id='TBL-8-16-2'> <!-- l. 1286 --><p class='noindent'>3-5                             </p></td><td class='td11' id='TBL-8-16-3'> <!-- l. 1286 --><p class='noindent'>1-2
+  (algorithmically
+  curated)                 </p></td><td class='td10' id='TBL-8-16-4'> <!-- l. 1287 --><p class='noindent'>-60%                </p></td>
+</tr><tr id='TBL-8-17-'><td class='td01' id='TBL-8-17-1'>
+<!-- l. 1288 --><p class='noindent'>Ad
+exposure/day       </p></td><td class='td11' id='TBL-8-17-2'> <!-- l. 1288 --><p class='noindent'>500
+  (1970)                         </p></td><td class='td11' id='TBL-8-17-3'> <!-- l. 1288 --><p class='noindent'>5,000+
+  (2023)                   </p></td><td class='td10' id='TBL-8-17-4'> <!-- l. 1288 --><p class='noindent'>+900%              </p></td>
+</tr>
+<tr id='TBL-8-10-'><td class='td01' colspan='3' id='TBL-8-10-1'></td>
+</tr>
+</table></div> <!-- l. 1293 --><p class='nopar'><span class='paragraphHead' id='information-environment-measurements'><a id='x1-45000'></a><span class='ec-lmbx-10'>Information Environment Measurements</span></span>
+<a id='x1-45000doc'></a>
+<span class='ec-lmbx-10'>Echo chamber studies (Bakshy, 2015)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Social media users predominantly see agreeing viewpoints</li></ul>
+<!-- l. 1303 --><p class='noindent'><span class='ec-lmbx-10'>Agenda-setting research</span>
+</p> <ul class='itemize1'> <li class='itemize'>Media doesn’t tell people <span class='ec-lmri-10'>what </span>to think but <span class='ec-lmri-10'>what to think about</span></li></ul>
+<!-- l. 1312 --><p class='noindent'><span class='ec-lmbx-10'>Overton window manipulation</span>
+</p> <ul class='itemize1'> <li class='itemize'>Constant exposure shifts perception of acceptable discourse</li></ul>
+<!-- l. 1320 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>Media consolidation directly increases \(V_{inj}\) in the Adler equation: \(\omega _L = \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0}\) — fewer,
+     more powerful sources widen the locking range for entire populations
+     </li> <li class='itemize'>The 10\(\times \) increase in daily media exposure (5\(\rightarrow \)12+ hours) combined with
+     algorithmic curation represents a dramatic increase in effective injection
+     duty cycle — sustained injection maintains lock more reliably
+     </li> <li class='itemize'>Echo chambers reduce effective \(\Delta \omega \) (belief distance) by filtering out competing
+     signals, making the locking condition \(|\Delta \omega | &lt; \omega _L\) easier to satisfy even with moderate
+     injection power</li></ul> <!-- l. 1342 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-locking-range-evidence'><a id='x1-46000'></a>9.5.2 Locking Range Evidence</h5>
+<p><a id='x1-46000doc'></a>
+</p><!-- l. 1344 --><p class='nopar'><span class='paragraphHead' id='attitude-change-research'><a id='x1-47000'></a><span class='ec-lmbx-10'>Attitude Change Research</span></span>
+<a id='x1-47000doc'></a>
+<span class='ec-lmbx-10'>Elaboration Likelihood Model (Petty &amp; Cacioppo)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Low-involvement  audiences  susceptible  to  peripheral  cues  (repetition,
+     authority)</li></ul>
+<!-- l. 1355 --><p class='noindent'><span class='ec-lmbx-10'>Mere exposure effect (Zajonc)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Familiarity increases liking—explains repetition strategy</li></ul>
+<!-- l. 1363 --><p class='noindent'><span class='ec-lmbx-10'>Inoculation theory (McGuire)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Pre-exposure to weak counterarguments increases resistance</li></ul>
+<!-- l. 1371 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>The Elaboration Likelihood Model maps directly to Q: low-involvement
+     (low-Q)  audiences  are  captured  through  peripheral  cues  (high  \(\omega _L\)  from
+     repetition/authority), while high-involvement (high-Q) audiences require
+     central-route processing (signal must be close to \(\omega _0\) to achieve lock)
+     </li> <li class='itemize'>Mere  exposure  increasing  liking  is  the  injection  locking  mechanism  in
+     its simplest form: sustained \(V_{inj}\) at constant frequency gradually captures
+     oscillators within the locking range
+     </li> <li class='itemize'>Inoculation   theory   corresponds   to   temporarily   raising   Q   through
+     pre-exposure:  weak  counterarguments  activate  critical  processing  (R\(\downarrow \),
+     effective Q\(\uparrow \)), narrowing lock bandwidth before the main injection arrives</li></ul>
+<!-- l. 1393 --><p class='nopar'><span class='paragraphHead' id='persuasion-resistance-studies'><a id='x1-48000'></a><span class='ec-lmbx-10'>Persuasion Resistance Studies</span></span>
+<a id='x1-48000doc'></a>
+</p><!-- l. 1396 --><p class='noindent'>
+<a id='x1-48001r9'></a></p>
+<!-- l. 1400 --><div class='longtable'> <table class='longtable' id='TBL-9'><colgroup id='TBL-9-1g'><col id='TBL-9-1' /><col id='TBL-9-2' /><col id='TBL-9-3' /></colgroup>
+<tr id='TBL-9-4-'><td class='td01' id='TBL-9-4-1'>
+<div class='minipage'><!-- l. 1402 --><p class='noindent'>Population </p></div> </td><td class='td11' id='TBL-9-4-2'> <div class='minipage'><!-- l. 1404 --><p class='noindent'>Locking Resistance </p></div> </td><td class='td10' id='TBL-9-4-3'> <div class='minipage'><!-- l. 1406 --><p class='noindent'>Factors </p></div></td>
+</tr>
+<tr id='TBL-9-15-'><td class='td01' id='TBL-9-15-1'>
+<!-- l. 1412 --><p class='noindent'>High
+education                    </p></td><td class='td11' id='TBL-9-15-2'> <!-- l. 1412 --><p class='noindent'>Higher                                          </p></td><td class='td10' id='TBL-9-15-3'> <!-- l. 1412 --><p class='noindent'>Better
+  critical
+  evaluation          </p></td>
+</tr><tr id='TBL-9-16-'><td class='td01' id='TBL-9-16-1'>
+<!-- l. 1413 --><p class='noindent'>High
+need
+for
+cognition                     </p></td><td class='td11' id='TBL-9-16-2'> <!-- l. 1413 --><p class='noindent'>Higher                                          </p></td><td class='td10' id='TBL-9-16-3'> <!-- l. 1413 --><p class='noindent'>Evaluates
+  arguments
+  not
+  cues                  </p></td>
+</tr><tr id='TBL-9-17-'><td class='td01' id='TBL-9-17-1'>
+<!-- l. 1414 --><p class='noindent'>Strong
+prior
+attitudes                     </p></td><td class='td11' id='TBL-9-17-2'> <!-- l. 1414 --><p class='noindent'>Higher                                          </p></td><td class='td10' id='TBL-9-17-3'> <!-- l. 1414 --><p class='noindent'>Larger
+  \(\Delta \)\(\omega \)
+  from
+  narrative           </p></td> </tr><tr id='TBL-9-18-'><td class='td01' id='TBL-9-18-1'>
+<!-- l. 1416 --><p class='noindent'>High
+anxiety                       </p></td><td class='td11' id='TBL-9-18-2'> <!-- l. 1416 --><p class='noindent'>Lower                                           </p></td><td class='td10' id='TBL-9-18-3'> <!-- l. 1416 --><p class='noindent'>Q
+  drops
+  under
+  stress                </p></td>
+</tr> </table></div>
+<!-- l. 1421 --><p class='nopar'><span class='paragraphHead' id='classic-social-psychology-experiments'><a id='x1-49000'></a><span class='ec-lmbx-10'>Classic Social Psychology Experiments</span></span>
+<a id='x1-49000doc'></a>
+<span class='ec-lmbx-10'>Milgram obedience experiments (1963)</span>
+</p> <ul class='itemize1'> <li class='itemize'>~65%  of  participants  administered  maximum  “shock”  under  authority
+     instruction — a data point for locking bandwidth under authority injection
+     (\(V_{inj}\) from perceived legitimate authority)</li></ul>
+<!-- l. 1434 --><p class='noindent'><span class='ec-lmbx-10'>Asch conformity experiments (1951)</span>
+</p> <ul class='itemize1'> <li class='itemize'>75% of participants conformed at least once to an obviously wrong group
+     answer — demonstrates peer coupling (\(K\)) contribution to effective locking
+     range</li></ul>
+<!-- l. 1444 --><p class='noindent'><span class='ec-lmbx-10'>Festinger’s cognitive dissonance (1957)</span>
+</p> <ul class='itemize1'> <li class='itemize'>The discomfort of holding contradictory beliefs maps directly to the beat
+     frequency regime: an unlocked state where the oscillator beats against the
+     injected signal, producing psychological distress until the individual either
+     locks or moves further away</li></ul>
+<!-- l. 1456 --><p class='nopar'><span class='paragraphHead' id='cult-deprogramming-literature'><a id='x1-50000'></a><span class='ec-lmbx-10'>Cult Deprogramming Literature</span></span>
+<a id='x1-50000doc'></a>
+<span class='ec-lmbx-10'>Hassan’s BITE Model</span>
+</p> <ul class='itemize1'> <li class='itemize'>Behavior, Information, Thought, Emotional control</li></ul>
+<!-- l. 1466 --><p class='noindent'><span class='ec-lmbx-10'>Exit patterns</span>
+</p> <ul class='itemize1'> <li class='itemize'>Sudden vs. gradual awakening (phase transition signature)</li></ul>
+<!-- l. 1474 --><p class='noindent'><span class='ec-lmbx-10'>Key factors in escape</span>
+</p> <ul class='itemize1'> <li class='itemize'>Exposure  to  counter-information,  supportive  community,  emotional
+     exhaustion of cult</li></ul> <!-- l. 1483 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-q-factor-evidence'><a id='x1-51000'></a>9.5.3 Q Factor Evidence</h5>
+<p><a id='x1-51000doc'></a>
+</p><!-- l. 1486 --><p class='nopar'><span class='paragraphHead' id='mindfulness-and-resistance-to-manipulation'><a id='x1-52000'></a><span class='ec-lmbx-10'>Mindfulness and Resistance to Manipulation</span></span>
+<a id='x1-52000doc'></a>
+<span class='ec-lmbx-10'>Farias (2016)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Meditators show reduced susceptibility to anchoring bias</li></ul>
+<!-- l. 1496 --><p class='noindent'><span class='ec-lmbx-10'>Kiken &amp; Shook (2011)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Brief mindfulness reduces automatic biases</li></ul>
+<!-- l. 1504 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>Mindfulness raises Q by increasing awareness of manipulation attempts</li></ul>
+<!-- l. 1513 --><p class='nopar'><span class='paragraphHead' id='education-and-critical-thinking-effects'><a id='x1-53000'></a><span class='ec-lmbx-10'>Education and Critical Thinking Effects</span></span>
+<a id='x1-53000doc'></a>
+</p><!-- l. 1516 --><p class='noindent'>
+<a id='x1-53001r10'></a></p>
+<!-- l. 1517 --><div class='longtable'> <table class='longtable' id='TBL-10'><colgroup id='TBL-10-1g'><col id='TBL-10-1' /><col id='TBL-10-2' /><col id='TBL-10-3' /></colgroup> <tr id='TBL-10-4-'><td class='td01' id='TBL-10-4-1'>Education Level  </td><td class='td11' id='TBL-10-4-2'> Narrative Resistance  </td><td class='td10' id='TBL-10-4-3'> Notes</td>
+</tr>
+<tr id='TBL-10-15-'><td class='td01' id='TBL-10-15-1'>Less than high school  </td><td class='td11' id='TBL-10-15-2'> Baseline             </td><td class='td10' id='TBL-10-15-3'> High susceptibility </td>
+</tr><tr id='TBL-10-16-'><td class='td01' id='TBL-10-16-1'>High school               </td><td class='td11' id='TBL-10-16-2'> +10% resistance  </td><td class='td10' id='TBL-10-16-3'> Some critical skills </td>
+</tr><tr id='TBL-10-17-'><td class='td01' id='TBL-10-17-1'>College                     </td><td class='td11' id='TBL-10-17-2'> +25% resistance  </td><td class='td10' id='TBL-10-17-3'> Exposure to debate</td>
+</tr><tr id='TBL-10-18-'><td class='td01' id='TBL-10-18-1'>Graduate                  </td><td class='td11' id='TBL-10-18-2'> +35% resistance  </td><td class='td10' id='TBL-10-18-3'> Research training   </td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Note: </span>Elite education may lock to elite narratives (different \(\omega \), still locked).
+</p><!-- l. 1534 --><p class='nopar'><span class='paragraphHead' id='contemplative-practice-outcomes'><a id='x1-54000'></a><span class='ec-lmbx-10'>Contemplative Practice Outcomes</span></span>
+<a id='x1-54000doc'></a>
+<span class='ec-lmbx-10'>Davidson (2003)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Long-term meditators show altered default mode activity</li></ul>
+<!-- l. 1544 --><p class='noindent'><span class='ec-lmbx-10'>Killingsworth &amp; Gilbert (2010)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Mind-wandering   associated   with   unhappiness;   meditation   reduces
+     wandering</li></ul>
+<!-- l. 1553 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>Practice literally changes Q factor—higher Q = narrower locking, harder
+     to capture</li></ul>
+<!-- l. 1562 --><p class='nopar'><span class='paragraphHead' id='dualprocess-cognition'><a id='x1-55000'></a><span class='ec-lmbx-10'>Dual-Process Cognition</span></span>
+<a id='x1-55000doc'></a>
+<span class='ec-lmbx-10'>Kahneman, System 1 vs System 2 (2011)</span>
+</p> <ul class='itemize1'> <li class='itemize'>System 1 (fast, heuristic, automatic) maps to low-Q processing: easily
+     captured by peripheral cues, repetition, and authority signals
+     </li> <li class='itemize'>System  2  (deliberate,  effortful,  analytical)  maps  to  high-Q  processing:
+     resistant to capture, evaluates signal coherence before locking
+     </li> <li class='itemize'>The “cognitive miser” tendency (defaulting to System 1) explains why
+     baseline Q is low for most people in most contexts</li></ul>
+<!-- l. 1580 --><p class='nopar'><span class='paragraphHead' id='physiological-q-proxies'><a id='x1-56000'></a><span class='ec-lmbx-10'>Physiological Q Proxies</span></span>
+<a id='x1-56000doc'></a>
+<span class='ec-lmbx-10'>Heart Rate Variability (HRV) research</span>
+</p> <ul class='itemize1'> <li class='itemize'>Higher HRV correlates with greater emotional regulation, stress resistance,
+     and cognitive flexibility
+     </li> <li class='itemize'>HRV may serve as a physiological proxy for Q: individuals with high HRV
+     show greater resistance to impulsive entrainment and better discrimination
+     between genuine and spurious signals
+     </li> <li class='itemize'>Meditation and contemplative practices increase HRV, consistent with the
+     Q-raising mechanism</li></ul> <!-- l. 1599 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-cascade-escape-evidence'><a id='x1-57000'></a>9.5.4 Cascade Escape Evidence</h5>
+<p><a id='x1-57000doc'></a>
+</p><!-- l. 1602 --><p class='nopar'><span class='paragraphHead' id='historical-narrative-collapses'><a id='x1-58000'></a><span class='ec-lmbx-10'>Historical Narrative Collapses</span></span>
+<a id='x1-58000doc'></a>
+</p><!-- l. 1605 --><p class='noindent'>
+<a id='x1-58001r11'></a></p>
+<!-- l. 1609 --><div class='longtable'> <table class='longtable' id='TBL-11'><colgroup id='TBL-11-1g'><col id='TBL-11-1' /><col id='TBL-11-2' /><col id='TBL-11-3' /></colgroup>
+<tr id='TBL-11-4-'><td class='td01' id='TBL-11-4-1'>
+<div class='minipage'><!-- l. 1611 --><p class='noindent'>Event </p></div> </td><td class='td11' id='TBL-11-4-2'> <div class='minipage'><!-- l. 1613 --><p class='noindent'>Years to Collapse </p></div> </td><td class='td10' id='TBL-11-4-3'> <div class='minipage'><!-- l. 1615 --><p class='noindent'>Tipping Point </p></div></td>
+</tr>
+<tr id='TBL-11-15-'><td class='td01' id='TBL-11-15-1'>
+<!-- l. 1621 --><p class='noindent'>Soviet
+dissolution      </p></td><td class='td11' id='TBL-11-15-2'> <!-- l. 1621 --><p class='noindent'>74
+  years
+  \(\rightarrow \)
+  2
+  years                                          </p></td><td class='td10' id='TBL-11-15-3'> <!-- l. 1621 --><p class='noindent'>~30%
+  openly
+  dissenting                          </p></td>
+</tr><tr id='TBL-11-16-'><td class='td01' id='TBL-11-16-1'>
+<!-- l. 1623 --><p class='noindent'>Berlin
+Wall
+fall                </p></td><td class='td11' id='TBL-11-16-2'> <!-- l. 1623 --><p class='noindent'>40
+  years
+  \(\rightarrow \)
+  months                                       </p></td><td class='td10' id='TBL-11-16-3'> <!-- l. 1623 --><p class='noindent'>Mass
+  protests                            </p></td> </tr><tr id='TBL-11-17-'><td class='td01' id='TBL-11-17-1'>
+<!-- l. 1624 --><p class='noindent'>#MeToo
+cascade          </p></td><td class='td11' id='TBL-11-17-2'> <!-- l. 1624 --><p class='noindent'>Decades
+  \(\rightarrow \)
+  weeks                                         </p></td><td class='td10' id='TBL-11-17-3'> <!-- l. 1624 --><p class='noindent'>Critical
+  mass
+  of
+  stories                              </p></td>
+</tr><tr id='TBL-11-18-'><td class='td01' id='TBL-11-18-1'>
+<!-- l. 1625 --><p class='noindent'>COVID
+narrative
+shifts
+(e.g.,
+lab
+leak
+hypothesis:
+dismissed
+2020,
+accepted
+as
+plausible
+by
+2023;
+mask
+efficacy:
+reversed
+multiple
+times)            </p></td><td class='td11' id='TBL-11-18-2'> <!-- l. 1627 --><p class='noindent'>Months                                       </p></td><td class='td10' id='TBL-11-18-3'> <!-- l. 1627 --><p class='noindent'>Accumulating
+  contradictions                    </p></td>
+</tr> </table></div> <!-- l. 1632 --><p class='nopar'><span class='paragraphHead' id='phase-transition-signatures'><a id='x1-59000'></a><span class='ec-lmbx-10'>Phase Transition Signatures</span></span>
+<a id='x1-59000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'>Long apparent stability
+     </li> <li class='itemize'>Accelerating cracks
+     </li> <li class='itemize'>Sudden collapse
+     </li> <li class='itemize'>New equilibrium forms rapidly
+     </li> <li class='itemize'>This pattern is a classic phase transition, not linear change</li></ul>
+<!-- l. 1649 --><p class='nopar'><span class='paragraphHead' id='paradigm-shift-case-studies'><a id='x1-60000'></a><span class='ec-lmbx-10'>Paradigm Shift Case Studies</span></span>
+<a id='x1-60000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Kuhn (1962) </span>Normal science \(\rightarrow \) crisis \(\rightarrow \) revolution \(\rightarrow \) new normal
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Planck’s principle </span>“Science advances one funeral at a time”
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Model prediction </span>Paradigm lock maintained by locked population; when
+     unlock threshold crossed, rapid cascade</li></ul>
+<!-- l. 1662 --><p class='nopar'><span class='paragraphHead' id='threshold-and-contagion-models'><a id='x1-61000'></a><span class='ec-lmbx-10'>Threshold and Contagion Models</span></span> <a id='x1-61000doc'></a>
+<span class='ec-lmbx-10'>Granovetter’s threshold models (1978)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Mathematical  models  of  collective  behavior  where  individuals  have
+     different thresholds for joining an action — directly parallel to the \(f_c\) critical
+     mass prediction
+     </li> <li class='itemize'>The  distribution  of  individual  thresholds  determines  whether  cascades
+     occur, matching the Q-distribution dependence of the injection locking
+     model</li></ul>
+<!-- l. 1678 --><p class='noindent'><span class='ec-lmbx-10'>Centola &amp; Macy (2007)</span>
+</p> <ul class='itemize1'> <li class='itemize'>Complex  contagion  requires  multiple  exposures  (reinforcement)  before
+     adoption, unlike simple contagion
+     </li> <li class='itemize'>Maps  directly  to  the  coupling  threshold  \(K\):  escape  from  narrative  lock
+     requires sufficient coupling from multiple unlocked neighbors, not just a
+     single counter-signal</li></ul>
+<!-- l. 1691 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>Historical  narrative  collapses  consistently  show  ~30-40%  critical  mass
+     before sudden shift, matching the predicted \(f_c \approx \omega _{L,C}/(\omega _{L,C} + K_{mean}) \approx 37.5\%\) (Section 9.4.2)
+     </li> <li class='itemize'>The “long stability \(\rightarrow \) accelerating cracks \(\rightarrow \) sudden collapse” pattern is the
+     signature of a phase transition, not linear change — precisely what the
+     Kuramoto-Adler coupled oscillator model predicts when unlock fraction
+     crosses \(f_c\)
+     </li> <li class='itemize'>Granovetter’s threshold distribution maps to the Q distribution in the
+     population: high-Q individuals escape lock first (lowest threshold), seeding
+     the cascade for progressively lower-Q neighbors</li></ul>
+<!-- l. 1713 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-competing-narrative-evidence'><a id='x1-62000'></a>9.5.5 Competing Narrative Evidence</h5>
+<p><a id='x1-62000doc'></a>
+</p><!-- l. 1716 --><p class='nopar'><span class='paragraphHead' id='information-warfare-outcomes'><a id='x1-63000'></a><span class='ec-lmbx-10'>Information Warfare Outcomes</span></span>
+<a id='x1-63000doc'></a>
+</p><!-- l. 1719 --><p class='noindent'>
+<a id='x1-63001r12'></a></p>
+<!-- l. 1724 --><div class='longtable'> <table class='longtable' id='TBL-12'><colgroup id='TBL-12-1g'><col id='TBL-12-1' /><col id='TBL-12-2' /><col id='TBL-12-3' /><col id='TBL-12-4' /></colgroup>
+<tr id='TBL-12-1-'><td class='td01' colspan='3' id='TBL-12-1-1'></td>
+</tr><tr id='TBL-12-4-'><td class='td01' id='TBL-12-4-1'>
+<div class='minipage'><!-- l. 1726 --><p class='noindent'>Conflict </p></div> </td><td class='td11' id='TBL-12-4-2'> <div class='minipage'><!-- l. 1728 --><p class='noindent'>Institutional Power </p></div> </td><td class='td11' id='TBL-12-4-3'> <div class='minipage'><!-- l. 1730 --><p class='noindent'>Grassroots Power </p></div> </td><td class='td10' id='TBL-12-4-4'> <div class='minipage'><!-- l. 1732 --><p class='noindent'>Outcome </p></div></td>
+</tr><tr id='TBL-12-5-'><td class='td01' colspan='3' id='TBL-12-5-1'></td>
+</tr>
+<tr id='TBL-12-15-'><td class='td01' id='TBL-12-15-1'>
+<!-- l. 1738 --><p class='noindent'>Iraq
+WMD
+narrative       </p></td><td class='td11' id='TBL-12-15-2'> <!-- l. 1738 --><p class='noindent'>Very
+  high                               </p></td><td class='td11' id='TBL-12-15-3'> <!-- l. 1738 --><p class='noindent'>Low                               </p></td><td class='td10' id='TBL-12-15-4'> <!-- l. 1738 --><p class='noindent'>Institutional
+  won
+  (temporarily) </p> </td>
+</tr><tr id='TBL-12-16-'><td class='td01' id='TBL-12-16-1'>
+<!-- l. 1740 --><p class='noindent'>Vaccine
+safety
+debates         </p></td><td class='td11' id='TBL-12-16-2'> <!-- l. 1740 --><p class='noindent'>Very
+  high                               </p></td><td class='td11' id='TBL-12-16-3'> <!-- l. 1740 --><p class='noindent'>Moderate                        </p></td><td class='td10' id='TBL-12-16-4'> <!-- l. 1740 --><p class='noindent'>Ongoing
+  contestation </p> </td>
+</tr><tr id='TBL-12-17-'><td class='td01' id='TBL-12-17-1'>
+<!-- l. 1741 --><p class='noindent'>Election
+integrity
+2020             </p></td><td class='td11' id='TBL-12-17-2'> <!-- l. 1741 --><p class='noindent'>Very
+  high                               </p></td><td class='td11' id='TBL-12-17-3'> <!-- l. 1741 --><p class='noindent'>Moderate-high                  </p></td><td class='td10' id='TBL-12-17-4'> <!-- l. 1741 --><p class='noindent'>Unresolved
+  polarization</p></td> </tr><tr id='TBL-12-18-'><td class='td01' id='TBL-12-18-1'>
+<!-- l. 1743 --><p class='noindent'>UAP
+reality           </p></td><td class='td11' id='TBL-12-18-2'> <!-- l. 1743 --><p class='noindent'>Moderate                        </p></td><td class='td11' id='TBL-12-18-3'> <!-- l. 1743 --><p class='noindent'>Growing                          </p></td><td class='td10' id='TBL-12-18-4'> <!-- l. 1743 --><p class='noindent'>Shifting
+  toward
+  disclosure   </p></td>
+</tr>
+<tr id='TBL-12-10-'><td class='td01' colspan='3' id='TBL-12-10-1'></td>
+</tr>
+</table></div>
+<!-- l. 1748 --><p class='nopar'><span class='paragraphHead' id='grassroots-vs-institutional-messaging'><a id='x1-64000'></a><span class='ec-lmbx-10'>Grassroots vs. Institutional Messaging</span></span>
+<a id='x1-64000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Arab  Spring </span>Social  media  enabled  coordination  despite  state  media
+     control
+     </li> <li class='itemize'><span class='ec-lmbx-10'>GME short squeeze </span>Reddit coordinated against institutional finance
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Limitations </span>Platforms can be captured, algorithms adjusted</li></ul> <!-- l. 1761 --><p class='nopar'><span class='paragraphHead' id='viral-truth-propagation'><a id='x1-65000'></a><span class='ec-lmbx-10'>Viral Truth Propagation</span></span>
+<a id='x1-65000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Rumor  accuracy  (Allport  &amp;  Postman)  </span>Surprisingly  accurate
+     transmission under some conditions
+     </li> <li class='itemize'> <!-- l. 1768 --><p class='noindent'><span class='ec-lmbx-10'>Cascades require</span>:
+     </p><!-- l. 1771 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+       1. </dt><dd class='enumerate-enumitem'>Credible initial source
+         </dd><dt class='enumerate-enumitem'>
+       2. </dt><dd class='enumerate-enumitem'>Resonance with audience beliefs (small \(\Delta \)\(\omega \))
+         </dd><dt class='enumerate-enumitem'>
+       3. </dt><dd class='enumerate-enumitem'>Network connectivity for coupling K
+         </dd><dt class='enumerate-enumitem'>
+       4. </dt><dd class='enumerate-enumitem'>Low noise environment</dd></dl> </li></ul>
+<!-- l. 1785 --><p class='nopar'><span class='paragraphHead' id='historical-case-studies-of-resonance-overcoming-power'><a id='x1-66000'></a><span class='ec-lmbx-10'>Historical Case Studies of Resonance Overcoming Power</span></span>
+<a id='x1-66000doc'></a>
+<span class='ec-lmbx-10'>Soviet samizdat literature</span>
+</p> <ul class='itemize1'> <li class='itemize'>Underground truth publications (\(V_{truth}\) far below state propaganda \(V_{control}\)) competed
+     against massive institutional injection
+     </li> <li class='itemize'>Resonance with lived experience (\(|\omega _0 - \omega _{truth}| \ll |\omega _0 - \omega _{control}|\)) gave samizdat effective power beyond
+     its broadcast strength
+     </li> <li class='itemize'>Eventually won through accumulated resonance as the gap between official
+     narrative and reality widened</li></ul>
+<!-- l. 1804 --><p class='noindent'><span class='ec-lmbx-10'>Galileo and heliocentrism</span>
+</p> <ul class='itemize1'> <li class='itemize'>Truth  signal  initially  locked  out  by  overwhelming  institutional  power
+     (Church authority)
+     </li> <li class='itemize'>Won  through  resonance  with  observational  reality  —  the  heliocentric
+     model’s  predictions  matched  telescope  observations  (small  \(\Delta \omega _{truth}\)),  while
+     geocentric epicycles grew increasingly strained (large \(\Delta \omega _{control}\))
+     </li> <li class='itemize'>Demonstrates that truth signals can survive indefinite power disadvantage
+     when resonance is strong enough</li></ul>
+<!-- l. 1821 --><p class='noindent'><span class='ec-lmbx-10'>Interpretation</span>
+</p> <ul class='itemize1'> <li class='itemize'>The competing injections equation \(\frac {d\phi }{dt} = \Delta \omega - \omega _{L,C} \sin (\phi - \phi _C) - \omega _{L,T} \sin (\phi - \phi _T)\) (Section 9.2.7) predicts that a weaker
+     but more resonant signal can win — samizdat and Galileo cases confirm
+     this: \(V_{truth} &lt; V_{control}\) but \(|\omega _0 - \omega _{truth}| \ll |\omega _0 - \omega _{control}|\)
+     </li> <li class='itemize'>Information warfare outcomes show that institutional power (\(V_{inj}\)) is necessary
+     but not sufficient for maintaining lock — resonance with lived experience
+     (\(\Delta \omega \)) determines long-term outcomes
+     </li> <li class='itemize'>The  modern  multi-signal  environment  (Section  9.2.7.4)  explains  why
+     information  volume  without  Q  increase  produces  confusion:  low-Q
+     oscillators  lock  to  the  loudest  signal,  medium-Q  oscillators  experience
+     rapid switching, and only high-Q oscillators extract signal from chaos</li></ul>
+<!-- l. 1846 --><p class='nopar'>
+</p> <h5 class='subsubsectionHead' id='-control-system-evidence'><a id='x1-67000'></a>9.5.6 Control System Evidence</h5>
+<p><a id='x1-67000doc'></a>
+</p><!-- l. 1849 --><p class='nopar'><span class='paragraphHead' id='-algorithmic-manipulation'><a id='x1-68000'></a><span class='ec-lmbx-10'>9.5.6.1 Algorithmic Manipulation</span></span>
+<a id='x1-68000doc'></a>
+</p><!-- l. 1852 --><p class='noindent'>
+<a id='x1-68001r13'></a></p>
+<!-- l. 1856 --><div class='longtable'> <table class='longtable' id='TBL-13'><colgroup id='TBL-13-1g'><col id='TBL-13-1' /><col id='TBL-13-2' /><col id='TBL-13-3' /></colgroup>
+<tr id='TBL-13-4-'><td class='td01' id='TBL-13-4-1'>
+<div class='minipage'><!-- l. 1858 --><p class='noindent'>Study </p></div> </td><td class='td11' id='TBL-13-4-2'> <div class='minipage'><!-- l. 1860 --><p class='noindent'>Key Finding </p></div> </td><td class='td10' id='TBL-13-4-3'> <div class='minipage'><!-- l. 1862 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr>
+<tr id='TBL-13-15-'><td class='td01' id='TBL-13-15-1'>
+<!-- l. 1868 --><p class='noindent'>Epstein
+&amp;
+Robertson
+(2015)           </p></td><td class='td11' id='TBL-13-15-2'> <!-- l. 1868 --><p class='noindent'>SEME
+  can
+  shift
+  voting
+  preferences
+  20%+                           </p></td><td class='td10' id='TBL-13-15-3'> <!-- l. 1869 --><p class='noindent'>DOA
+  estimation
+  +
+  null
+  steering
+  in
+  code                                               </p></td> </tr><tr id='TBL-13-16-'><td class='td01' id='TBL-13-16-1'>
+<!-- l. 1870 --><p class='noindent'>Vorhies
+(2019)           </p></td><td class='td11' id='TBL-13-16-2'> <!-- l. 1870 --><p class='noindent'>Google
+  internal
+  “algorithmic
+  unfairness”
+  docs
+  (Vorhies’s
+  claims
+  are
+  based
+  on
+  documents
+  he
+  states
+  he
+  obtained
+  internally;
+  independent
+  verification
+  has
+  been
+  limited)                        </p></td><td class='td10' id='TBL-13-16-3'> <!-- l. 1872 --><p class='noindent'>Manual
+  intervention
+  =
+  weight
+  adjustment                                      </p></td>
+</tr><tr id='TBL-13-17-'><td class='td01' id='TBL-13-17-1'>
+<!-- l. 1874 --><p class='noindent'>Haugen
+(2021)           </p></td><td class='td11' id='TBL-13-17-2'> <!-- l. 1874 --><p class='noindent'>Facebook
+  algorithm
+  amplifies
+  engagement/outrage        </p></td><td class='td10' id='TBL-13-17-3'> <!-- l. 1874 --><p class='noindent'>LMS
+  optimization
+  for
+  engagement
+  signal                                             </p></td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: Algorithmic bias implements the DOA estimation (Section
+9.2.8.3) and null steering (Section 9.2.8.4) functions — surveillance identifies threat
+sources, then ranking/visibility adjustments place nulls.
+</p><!-- l. 1885 --><p class='nopar'><span class='paragraphHead' id='-coordinated-suppression'><a id='x1-69000'></a><span class='ec-lmbx-10'>9.5.6.2 Coordinated Suppression</span></span>
+<a id='x1-69000doc'></a>
+</p><!-- l. 1888 --><p class='noindent'>
+<a id='x1-69001r14'></a></p>
+<!-- l. 1893 --><div class='longtable'> <table class='longtable' id='TBL-14'><colgroup id='TBL-14-1g'><col id='TBL-14-1' /><col id='TBL-14-2' /><col id='TBL-14-3' /><col id='TBL-14-4' /></colgroup>
+<tr id='TBL-14-1-'><td class='td01' colspan='3' id='TBL-14-1-1'></td>
+</tr><tr id='TBL-14-4-'><td class='td01' id='TBL-14-4-1'>
+<div class='minipage'><!-- l. 1895 --><p class='noindent'>Target </p></div> </td><td class='td11' id='TBL-14-4-2'> <div class='minipage'><!-- l. 1897 --><p class='noindent'>Timing </p></div> </td><td class='td11' id='TBL-14-4-3'> <div class='minipage'><!-- l. 1899 --><p class='noindent'>Platforms </p></div> </td><td class='td10' id='TBL-14-4-4'> <div class='minipage'><!-- l. 1901 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr><tr id='TBL-14-5-'><td class='td01' colspan='3' id='TBL-14-5-1'></td>
+</tr>
+<tr id='TBL-14-15-'><td class='td01' id='TBL-14-15-1'>
+<!-- l. 1907 --><p class='noindent'>Alex
+Jones
+(2018)           </p></td><td class='td11' id='TBL-14-15-2'> <!-- l. 1907 --><p class='noindent'>24
+  hours            </p></td><td class='td11' id='TBL-14-15-3'> <!-- l. 1907 --><p class='noindent'>Apple,
+  FB,
+  YT,
+  Spotify                </p></td><td class='td10' id='TBL-14-15-4'> <!-- l. 1907 --><p class='noindent'>\(\tau \)_adapt
+  &lt;
+  \(\tau \)_threat
+  achieved                                  </p></td>
+</tr><tr id='TBL-14-16-'><td class='td01' id='TBL-14-16-1'>
+<!-- l. 1909 --><p class='noindent'>David
+Icke
+(2020)           </p></td><td class='td11' id='TBL-14-16-2'> <!-- l. 1909 --><p class='noindent'>48
+  hours            </p></td><td class='td11' id='TBL-14-16-3'> <!-- l. 1909 --><p class='noindent'>YT,
+  FB,
+  Twitter                </p></td><td class='td10' id='TBL-14-16-4'> <!-- l. 1909 --><p class='noindent'>Cross-platform
+  coordination                             </p></td>
+</tr><tr id='TBL-14-17-'><td class='td01' id='TBL-14-17-1'>
+<!-- l. 1911 --><p class='noindent'>COVID
+skeptics
+(2020-21)       </p></td><td class='td11' id='TBL-14-17-2'> <!-- l. 1911 --><p class='noindent'>Rolling          </p></td><td class='td11' id='TBL-14-17-3'> <!-- l. 1911 --><p class='noindent'>All
+  major                  </p></td><td class='td10' id='TBL-14-17-4'> <!-- l. 1911 --><p class='noindent'>LMS
+  learning
+  from
+  prior
+  actions                                    </p></td> </tr><tr id='TBL-14-18-'><td class='td01' id='TBL-14-18-1'>
+<!-- l. 1913 --><p class='noindent'>Andrew
+Tate
+(2022)           </p></td><td class='td11' id='TBL-14-18-2'> <!-- l. 1913 --><p class='noindent'>72
+  hours            </p></td><td class='td11' id='TBL-14-18-3'> <!-- l. 1913 --><p class='noindent'>YT,
+  FB,
+  IG,
+  TikTok                </p></td><td class='td10' id='TBL-14-18-4'> <!-- l. 1913 --><p class='noindent'>Predictive
+  category
+  nulling                                    </p></td>
+</tr>
+<tr id='TBL-14-10-'><td class='td01' colspan='3' id='TBL-14-10-1'></td>
+</tr>
+</table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: Coordinated deplatforming within 24-72 hours
+demonstrates achieved adaptation rate (Section 9.2.8.5). Rolling enforcement
+shows LMS weight updates (Section 9.2.8.6) learning from prior actions.
+Whether cross-platform synchronization reflects centralized coordination,
+mimetic institutional behavior, or independent policy application is an open
+question. The model predicts the effect is functionally identical regardless of
+mechanism.
+</p><!-- l. 1926 --><p class='nopar'><span class='paragraphHead' id='-factchecker-networks'><a id='x1-70000'></a><span class='ec-lmbx-10'>9.5.6.3 Fact-Checker Networks</span></span>
+<a id='x1-70000doc'></a>
+</p><!-- l. 1929 --><p class='noindent'>
+<a id='x1-70001r15'></a></p>
+<!-- l. 1933 --><div class='longtable'> <table class='longtable' id='TBL-15'><colgroup id='TBL-15-1g'><col id='TBL-15-1' /><col id='TBL-15-2' /><col id='TBL-15-3' /></colgroup> <tr id='TBL-15-4-'><td class='td01' id='TBL-15-4-1'>
+<div class='minipage'><!-- l. 1935 --><p class='noindent'>Organization </p></div> </td><td class='td11' id='TBL-15-4-2'> <div class='minipage'><!-- l. 1937 --><p class='noindent'>Major Funders </p></div> </td><td class='td10' id='TBL-15-4-3'> <div class='minipage'><!-- l. 1939 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr>
+<tr id='TBL-15-15-'><td class='td01' id='TBL-15-15-1'>
+<!-- l. 1945 --><p class='noindent'>PolitiFact                  </p></td><td class='td11' id='TBL-15-15-2'> <!-- l. 1945 --><p class='noindent'>Poynter
+  (Koch,
+  Gates,
+  Google)                       </p></td><td class='td10' id='TBL-15-15-3'> <!-- l. 1945 --><p class='noindent'>Centralized
+  steering
+  vector                                   </p></td>
+</tr><tr id='TBL-15-16-'><td class='td01' id='TBL-15-16-1'>
+<!-- l. 1947 --><p class='noindent'>FactCheck.org            </p></td><td class='td11' id='TBL-15-16-2'> <!-- l. 1947 --><p class='noindent'>Annenberg
+  Foundation                  </p></td><td class='td10' id='TBL-15-16-3'> <!-- l. 1947 --><p class='noindent'>Shared
+  \(\theta \)_0
+  direction                                </p></td>
+</tr><tr id='TBL-15-17-'><td class='td01' id='TBL-15-17-1'>
+<!-- l. 1948 --><p class='noindent'>NewsGuard               </p></td><td class='td11' id='TBL-15-17-2'> <!-- l. 1948 --><p class='noindent'>Microsoft,
+  Publicis                      </p></td><td class='td10' id='TBL-15-17-3'> <!-- l. 1948 --><p class='noindent'>MVDR
+  weight
+  coordination                           </p></td>
+</tr><tr id='TBL-15-18-'><td class='td01' id='TBL-15-18-1'>
+<!-- l. 1949 --><p class='noindent'>AFP
+Fact
+Check                       </p></td><td class='td11' id='TBL-15-18-2'> <!-- l. 1949 --><p class='noindent'>Agence
+  France-Presse
+  (state-affiliated)            </p></td><td class='td10' id='TBL-15-18-3'> <!-- l. 1949 --><p class='noindent'>Government
+  steering
+  input                                    </p></td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: IFCN network implements MVDR beamformer — shared
+funding = centralized control of steering vector a(\(\theta \)_0). Circular cross-referencing
+creates self-reinforcing covariance matrix R.
+</p><!-- l. 1958 --><p class='nopar'><span class='paragraphHead' id='-search-manipulation'><a id='x1-71000'></a><span class='ec-lmbx-10'>9.5.6.4 Search Manipulation</span></span>
+<a id='x1-71000doc'></a>
+</p><!-- l. 1961 --><p class='noindent'>
+<a id='x1-71001r16'></a></p>
+<!-- l. 1965 --><div class='longtable'> <table class='longtable' id='TBL-16'><colgroup id='TBL-16-1g'><col id='TBL-16-1' /><col id='TBL-16-2' /><col id='TBL-16-3' /></colgroup>
+<tr id='TBL-16-4-'><td class='td01' id='TBL-16-4-1'>
+<div class='minipage'><!-- l. 1967 --><p class='noindent'>Update </p></div> </td><td class='td11' id='TBL-16-4-2'> <div class='minipage'><!-- l. 1969 --><p class='noindent'>Effect </p></div> </td><td class='td10' id='TBL-16-4-3'> <div class='minipage'><!-- l. 1971 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr>
+<tr id='TBL-16-15-'><td class='td01' id='TBL-16-15-1'>
+<!-- l. 1977 --><p class='noindent'>Medic
+(2018)                </p></td><td class='td11' id='TBL-16-15-2'> <!-- l. 1977 --><p class='noindent'>-80%
+  alt
+  health
+  traffic                 </p></td><td class='td10' id='TBL-16-15-3'> <!-- l. 1977 --><p class='noindent'>Null
+  placement
+  on
+  category                                                </p></td> </tr><tr id='TBL-16-16-'><td class='td01' id='TBL-16-16-1'>
+<!-- l. 1978 --><p class='noindent'>YMYL
+policy                </p></td><td class='td11' id='TBL-16-16-2'> <!-- l. 1978 --><p class='noindent'>Stricter
+  “authority”
+  standards           </p></td><td class='td10' id='TBL-16-16-3'> <!-- l. 1978 --><p class='noindent'>Domain-specific
+  learning
+  rate
+  \(\mu \)                                                           </p></td>
+</tr><tr id='TBL-16-17-'><td class='td01' id='TBL-16-17-1'>
+<!-- l. 1980 --><p class='noindent'>Natural
+News                 </p></td><td class='td11' id='TBL-16-17-2'> <!-- l. 1980 --><p class='noindent'>Near-zero
+  visibility             </p></td><td class='td10' id='TBL-16-17-3'> <!-- l. 1980 --><p class='noindent'>Complete
+  null:
+  w^H
+  a(\(\theta \))
+  \(\approx \)
+  0                                                         </p></td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: Algorithm updates implement LMS weight equation —
+each update adjusts weights based on error signal (deviation from desired narrative
+output).
+</p><!-- l. 1989 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-collective-coherence-evidence'><a id='x1-72000'></a>9.5.7 Collective Coherence Evidence</h5>
+<p><a id='x1-72000doc'></a>
+</p><!-- l. 1992 --><p class='nopar'><span class='paragraphHead' id='-group-coherence-research'><a id='x1-73000'></a><span class='ec-lmbx-10'>9.5.7.1 Group Coherence Research</span></span> <a id='x1-73000doc'></a>
+</p><!-- l. 1995 --><p class='noindent'>
+<a id='x1-73001r17'></a></p>
+<!-- l. 1999 --><div class='longtable'> <table class='longtable' id='TBL-17'><colgroup id='TBL-17-1g'><col id='TBL-17-1' /><col id='TBL-17-2' /><col id='TBL-17-3' /></colgroup>
+<tr id='TBL-17-4-'><td class='td01' id='TBL-17-4-1'>
+<div class='minipage'><!-- l. 2001 --><p class='noindent'>Study </p></div> </td><td class='td11' id='TBL-17-4-2'> <div class='minipage'><!-- l. 2003 --><p class='noindent'>Key Finding </p></div> </td><td class='td10' id='TBL-17-4-3'> <div class='minipage'><!-- l. 2005 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr>
+<tr id='TBL-17-15-'><td class='td01' id='TBL-17-15-1'>
+<!-- l. 2011 --><p class='noindent'>HeartMath
+group
+studies          </p></td><td class='td11' id='TBL-17-15-2'> <!-- l. 2011 --><p class='noindent'>Individual
+  HRV
+  coherence
+  predicts
+  group
+  quality                          </p></td><td class='td10' id='TBL-17-15-3'> <!-- l. 2012 --><p class='noindent'>G_gnosis
+  \(\propto \)
+  Q
+  confirmed                                        </p></td>
+</tr><tr id='TBL-17-16-'><td class='td01' id='TBL-17-16-1'>
+<!-- l. 2013 --><p class='noindent'>TM
+meditation
+research         </p></td><td class='td11' id='TBL-17-16-2'> <!-- l. 2013 --><p class='noindent'>Experienced
+  meditators
+  =
+  stronger
+  per-capita
+  effects                           </p></td><td class='td10' id='TBL-17-16-3'> <!-- l. 2014 --><p class='noindent'>Higher
+  Q
+  =
+  more
+  amplitude
+  contribution                                     </p></td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: HRV coherence serves as proxy for resonance state.
+Finding that individual coherence predicts group coherence confirms |AF|\(^2\) \(\propto \)
+(f\(\cdot \)N\(\cdot \)Q_avg)\(^2\) dependence.
+</p><!-- l. 2022 --><p class='nopar'><span class='paragraphHead' id='-neuroscience-support'><a id='x1-74000'></a><span class='ec-lmbx-10'>9.5.7.2 Neuroscience Support</span></span>
+<a id='x1-74000doc'></a>
+</p><!-- l. 2025 --><p class='noindent'>
+<a id='x1-74001r18'></a></p>
+<!-- l. 2029 --><div class='longtable'> <table class='longtable' id='TBL-18'><colgroup id='TBL-18-1g'><col id='TBL-18-1' /><col id='TBL-18-2' /><col id='TBL-18-3' /></colgroup>
+<tr id='TBL-18-4-'><td class='td01' id='TBL-18-4-1'>
+<div class='minipage'><!-- l. 2031 --><p class='noindent'>Study </p></div> </td><td class='td11' id='TBL-18-4-2'> <div class='minipage'><!-- l. 2033 --><p class='noindent'>Key Finding </p></div> </td><td class='td10' id='TBL-18-4-3'> <div class='minipage'><!-- l. 2035 --><p class='noindent'>Model Correspondence </p></div></td>
+</tr>
+<tr id='TBL-18-15-'><td class='td01' id='TBL-18-15-1'>
+<!-- l. 2041 --><p class='noindent'>McGilchrist
+(2009)           </p></td><td class='td11' id='TBL-18-15-2'> <!-- l. 2041 --><p class='noindent'>Right-hemisphere
+  =
+  holistic;
+  left
+  =
+  sequential                      </p></td><td class='td10' id='TBL-18-15-3'> <!-- l. 2042 --><p class='noindent'>R-hemi
+  =
+  gnosis;
+  L-hemi
+  =
+  ego
+  mode                                              </p></td> </tr><tr id='TBL-18-16-'><td class='td01' id='TBL-18-16-1'>
+<!-- l. 2043 --><p class='noindent'>Damasio
+(1994)           </p></td><td class='td11' id='TBL-18-16-2'> <!-- l. 2043 --><p class='noindent'>Somatic
+  markers
+  required
+  for
+  good
+  decisions                       </p></td><td class='td10' id='TBL-18-16-3'> <!-- l. 2044 --><p class='noindent'>Body-based
+  resonance
+  information
+  essential                                          </p></td>
+</tr> </table></div>
+<p><span class='ec-lmbx-10'>Model correspondence</span>: McGilchrist’s hemispheric distinction maps to resonance
+vs. off-resonance operation. Damasio confirms that purely analytical (ego) processing
+produces worse outcomes than integrated (gnosis) processing.
+</p><!-- l. 2054 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-system-architecture-synthesis'><a id='x1-75000'></a>9.5.8 System Architecture Synthesis</h5>
+<p><a id='x1-75000doc'></a>
+</p><!-- l. 2056 --><p class='nopar'>The perception management system operates as a five-stage adaptive beamformer:
+</p><!-- l. 2059 --><p class='noindent'><span class='ec-lmbx-10'>Stage 1 — Surveillance (DOA Estimation)</span>: Social media monitoring and search
+query analysis identify emerging information sources. This maps to the DOA
+estimation function P(\(\theta \)) = 1/[a<sup class='textsuperscript'><span class='ec-lmr-9'>H(</span>\(\theta \)<span class='ec-lmr-9'>)R</span></sup>{-1}a(\(\theta \))] — peaks indicate signal sources requiring
+classification.
+</p><!-- l. 2065 --><p class='noindent'><span class='ec-lmbx-10'>Stage 2 — Threat Classification</span>: AI systems and human review categorize
+sources by threat level (1-10 scale). Higher threat levels receive priority for null
+placement.
+                                                                  
+
+                                                                  
+</p><!-- l. 2069 --><p class='noindent'><span class='ec-lmbx-10'>Stage 3 — Weight Calculation</span>: Policy directives combined with algorithmic
+optimization determine response intensity. This implements the MVDR weight
+calculation w_MVDR = R^{-1}a(\(\theta \)_0) / [a<sup class='textsuperscript'><span class='ec-lmr-9'>H(</span>\(\theta \)<span class='ec-lmr-9'>_0)R</span></sup>{-1}a(\(\theta \)_0)].
+</p><!-- l. 2074 --><p class='noindent'><span class='ec-lmbx-10'>Stage 4 — Null Steering</span>: Suppression mechanisms execute — deplatforming,
+ranking demotion, fact-check labels, financial debanking. This implements the null
+constraint w^H a(\(\theta \)_null) = 0.
+</p><!-- l. 2078 --><p class='noindent'><span class='ec-lmbx-10'>Stage 5 — Output</span>: The filtered information environment reaches the population,
+with main beam pointed at approved narratives and nulls placed toward
+threats.
+</p><!-- l. 2082 --><p class='noindent'><span class='ec-lmbx-10'>Current adaptation gap</span>: System adaptation (\(\tau \)_adapt ~ days-weeks) struggles
+against viral spread (\(\tau \)_threat ~ hours). Response: predictive nulling of categories
+rather than individual items.
+</p><!-- l. 2087 --><p class='noindent'><span class='ec-lmbx-10'>Emerging failure modes</span>: (1) Whack-a-mole problem — too many sources; (2)
+Streisand effect — suppression draws attention; (3) Platform alternatives —
+Telegram, Rumble reduce null effectiveness; (4) Credibility loss — fact-checker trust
+declining.
+</p><!-- l. 2093 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-synthesis-current-locking-state-assessment'><a id='x1-76000'></a>9.5.9 Synthesis: Current Locking State Assessment</h5>
+<p><a id='x1-76000doc'></a>
+</p><!-- l. 2095 --><p class='nopar'><span class='paragraphHead' id='population-segments'><a id='x1-77000'></a><span class='ec-lmbx-10'>Population Segments</span></span>
+<a id='x1-77000doc'></a>
+The following estimates are the author’s assessment informed by media trust survey
+trends (Gallup media confidence, Edelman Trust Barometer) mapped to locking-state
+categories. They are not direct measurements of “locking state” and should be
+treated as order-of-magnitude indicators.
+</p><!-- l. 2104 --><p class='noindent'>
+</p><!-- l. 2104 --><p class='noindent'>
+<a id='x1-77001r19'></a></p>
+<!-- l. 2109 --><div class='longtable'> <table class='longtable' id='TBL-19'><colgroup id='TBL-19-1g'><col id='TBL-19-1' /><col id='TBL-19-2' /><col id='TBL-19-3' /><col id='TBL-19-4' /></colgroup> <tr id='TBL-19-1-'><td class='td01' colspan='3' id='TBL-19-1-1'></td>
+</tr><tr id='TBL-19-4-'><td class='td01' id='TBL-19-4-1'>
+<div class='minipage'><!-- l. 2111 --><p class='noindent'>Segment </p></div> </td><td class='td11' id='TBL-19-4-2'> <div class='minipage'><!-- l. 2113 --><p class='noindent'>Estimated % </p></div> </td><td class='td11' id='TBL-19-4-3'> <div class='minipage'><!-- l. 2115 --><p class='noindent'>Locking State </p></div> </td><td class='td10' id='TBL-19-4-4'> <div class='minipage'><!-- l. 2117 --><p class='noindent'>Primary Lock </p></div></td>
+</tr><tr id='TBL-19-5-'><td class='td01' colspan='3' id='TBL-19-5-1'></td>
+</tr>
+<tr id='TBL-19-15-'><td class='td01' id='TBL-19-15-1'>
+<!-- l. 2123 --><p class='noindent'>Firmly
+locked
+to
+mainstream     </p></td><td class='td11' id='TBL-19-15-2'> <!-- l. 2123 --><p class='noindent'>30-40%                   </p></td><td class='td11' id='TBL-19-15-3'> <!-- l. 2123 --><p class='noindent'>Stable
+  lock                           </p></td><td class='td10' id='TBL-19-15-4'> <!-- l. 2123 --><p class='noindent'>V_inj
+  dominates               </p></td>
+</tr><tr id='TBL-19-16-'><td class='td01' id='TBL-19-16-1'>
+<!-- l. 2125 --><p class='noindent'>Questioning
+but
+locked            </p></td><td class='td11' id='TBL-19-16-2'> <!-- l. 2125 --><p class='noindent'>25-35%                   </p></td><td class='td11' id='TBL-19-16-3'> <!-- l. 2125 --><p class='noindent'>Unstable
+  lock                           </p></td><td class='td10' id='TBL-19-16-4'> <!-- l. 2125 --><p class='noindent'>Near
+  transition                </p></td>
+</tr><tr id='TBL-19-17-'><td class='td01' id='TBL-19-17-1'>
+<!-- l. 2126 --><p class='noindent'>Actively
+unlocked         </p></td><td class='td11' id='TBL-19-17-2'> <!-- l. 2126 --><p class='noindent'>15-25%                   </p></td><td class='td11' id='TBL-19-17-3'> <!-- l. 2126 --><p class='noindent'>Independent
+  oscillation                   </p></td><td class='td10' id='TBL-19-17-4'> <!-- l. 2127 --><p class='noindent'>Counter-narrative     </p></td>
+</tr><tr id='TBL-19-18-'><td class='td01' id='TBL-19-18-1'>
+<!-- l. 2128 --><p class='noindent'>Never
+locked            </p></td><td class='td11' id='TBL-19-18-2'> <!-- l. 2128 --><p class='noindent'>5-10%                    </p></td><td class='td11' id='TBL-19-18-3'> <!-- l. 2128 --><p class='noindent'>Always
+  independent                </p></td><td class='td10' id='TBL-19-18-4'> <!-- l. 2128 --><p class='noindent'>High
+  Q
+  outliers                   </p></td>
+</tr>
+<tr id='TBL-19-10-'><td class='td01' colspan='3' id='TBL-19-10-1'></td>
+</tr> </table></div>
+<!-- l. 2133 --><p class='nopar'><span class='paragraphHead' id='injection-locking-evolution'><a id='x1-78000'></a><span class='ec-lmbx-10'>Injection Locking Evolution</span></span>
+<a id='x1-78000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'>Historical: Near-universal lock (pre-internet)
+     </li> <li class='itemize'>Current: Fragmenting, contested
+     </li> <li class='itemize'> <!-- l. 2142 --><p class='noindent'>Trend: Lock weakening due to:
+</p> <ul class='itemize2'> <li class='itemize'>Declining V_inj effectiveness (trust collapse)
+         </li> <li class='itemize'>Rising V_counter (alternative media)
+         </li> <li class='itemize'>Increasing K (network connectivity)
+         </li> <li class='itemize'>Rising average Q (meditation, awareness trends)</li></ul> </li></ul>
+<!-- l. 2157 --><p class='nopar'><span class='paragraphHead' id='threshold-analysis'><a id='x1-79000'></a><span class='ec-lmbx-10'>Threshold Analysis</span></span>
+<a id='x1-79000doc'></a>
+</p> <ul class='itemize1'> <li class='itemize'>Current estimate: 20-30% unlocked
+     </li> <li class='itemize'>Cascade threshold: ~35-40%
+     </li> <li class='itemize'>Timeline: Years, not decades (at current trajectory)</li></ul>
+<div class='center'>
+<!-- l. 2169 --><p class='noindent'>
+</p><!-- l. 2169 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2173 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-source-mapping-and-uncertainty-bands-for-key-numeric-claims'><a id='x1-80000'></a>9.5.10 Source Mapping and Uncertainty Bands for Key Numeric Claims</h5>
+<p><a id='x1-80000doc'></a>
+</p><!-- l. 2175 --><p class='nopar'>The chapter’s aggregate percentages and thresholds are modeled assessments, not
+direct locking-state measurements. Treat them as scenario bands with explicit
+uncertainty:
+</p><!-- l. 2180 --><p class='noindent'>
+</p><!-- l. 2180 --><p class='noindent'>
+<a id='x1-80001r20'></a></p>
+<!-- l. 2185 --><div class='longtable'> <table class='longtable' id='TBL-20'><colgroup id='TBL-20-1g'><col id='TBL-20-1' /><col id='TBL-20-2' /><col id='TBL-20-3' /><col id='TBL-20-4' /></colgroup> <tr id='TBL-20-1-'><td class='td01' colspan='3' id='TBL-20-1-1'></td>
+</tr><tr id='TBL-20-4-'><td class='td01' id='TBL-20-4-1'>
+<div class='minipage'><!-- l. 2187 --><p class='noindent'>Quantity </p></div> </td><td class='td11' id='TBL-20-4-2'> <div class='minipage'><!-- l. 2189 --><p class='noindent'>Central Estimate</p></div> </td><td class='td11' id='TBL-20-4-3'> <div class='minipage'><!-- l. 2191 --><p class='noindent'>Uncertainty Band</p></div> </td><td class='td10' id='TBL-20-4-4'> <div class='minipage'><!-- l. 2193 --><p class='noindent'>Basis </p></div></td>
+</tr><tr id='TBL-20-5-'><td class='td01' colspan='3' id='TBL-20-5-1'></td>
+</tr>
+<tr id='TBL-20-15-'><td class='td01' id='TBL-20-15-1'>
+<!-- l. 2199 --><p class='noindent'>Firmly
+locked
+segment             </p></td><td class='td11' id='TBL-20-15-2'> <!-- l. 2199 --><p class='noindent'>35%  </p></td><td class='td11' id='TBL-20-15-3'> <!-- l. 2199 --><p class='noindent'>30-40%  </p></td><td class='td10' id='TBL-20-15-4'> <!-- l. 2199 --><p class='noindent'>Media
+  trust
+  and
+  narrative-alignment
+  survey
+  trends              </p></td>
+</tr><tr id='TBL-20-16-'><td class='td01' id='TBL-20-16-1'>
+<!-- l. 2201 --><p class='noindent'>Questioning
+but
+still
+locked                </p></td><td class='td11' id='TBL-20-16-2'> <!-- l. 2201 --><p class='noindent'>30%  </p></td><td class='td11' id='TBL-20-16-3'> <!-- l. 2201 --><p class='noindent'>25-35%  </p></td><td class='td10' id='TBL-20-16-4'> <!-- l. 2201 --><p class='noindent'>Mixed-attitude
+  cluster
+  in
+  longitudinal
+  polling             </p></td>
+</tr><tr id='TBL-20-17-'><td class='td01' id='TBL-20-17-1'>
+<!-- l. 2203 --><p class='noindent'>Actively
+unlocked            </p></td><td class='td11' id='TBL-20-17-2'> <!-- l. 2203 --><p class='noindent'>20%  </p></td><td class='td11' id='TBL-20-17-3'> <!-- l. 2203 --><p class='noindent'>15-25%  </p></td><td class='td10' id='TBL-20-17-4'> <!-- l. 2203 --><p class='noindent'>Alternative
+  media
+  adoption
+  and
+  self-report
+  autonomy
+  indicators         </p></td>
+</tr><tr id='TBL-20-18-'><td class='td01' id='TBL-20-18-1'>
+<!-- l. 2205 --><p class='noindent'>Never
+locked
+outliers              </p></td><td class='td11' id='TBL-20-18-2'> <!-- l. 2205 --><p class='noindent'>7%  </p></td><td class='td11' id='TBL-20-18-3'> <!-- l. 2205 --><p class='noindent'>5-10%  </p></td><td class='td10' id='TBL-20-18-4'> <!-- l. 2205 --><p class='noindent'>Persistent
+  low-conformity
+  subgroup
+  estimates          </p></td>
+</tr><tr id='TBL-20-19-'><td class='td01' id='TBL-20-19-1'>
+<!-- l. 2207 --><p class='noindent'>Cascade
+onset
+threshold            </p></td><td class='td11' id='TBL-20-19-2'> <!-- l. 2207 --><p class='noindent'>37.5%  </p></td><td class='td11' id='TBL-20-19-3'> <!-- l. 2207 --><p class='noindent'>35-40%  </p></td><td class='td10' id='TBL-20-19-4'> <!-- l. 2207 --><p class='noindent'>Coupled-oscillator
+  transition
+  heuristic           </p></td>
+</tr>
+<tr id='TBL-20-10-'><td class='td01' colspan='3' id='TBL-20-10-1'></td>
+</tr>
+</table></div>
+<!-- l. 2212 --><p class='noindent'>Confidence labeling:
+</p> <ul class='itemize1'> <li class='itemize'>High: directly measured variable with repeated instrumentation.
+     </li> <li class='itemize'>Medium: directly measured proxy mapped to model state.
+     </li> <li class='itemize'>Low: inferred state without direct lock-state instrumentation.</li></ul>
+<!-- l. 2224 --><p class='noindent'>Current chapter labels for these values: <span class='ec-lmbx-10'>Low-Medium confidence</span>. Use for planning
+ranges, not point forecasts.
+</p>
+<div class='center'>
+<!-- l. 2227 --><p class='noindent'>
+</p><!-- l. 2227 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2229 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='evidence-synthesis'><a id='x1-81000'></a>Evidence Synthesis</h4> <p><a id='x1-81000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Detailed source sections: 9.5, 9.5.1, 9.5.2, 9.5.3, 9.5.4, 9.5.5, 9.5.6, 9.5.7.</li></ul>
+<!-- l. 2238 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='assumptions'><a id='x1-82000'></a>Assumptions</h4>
+<p><a id='x1-82000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Detailed source sections: 9.3, 9.3.1, 9.3.3.</li></ul>
+<!-- l. 2246 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='limitations'><a id='x1-83000'></a>Limitations</h4>
+<p><a id='x1-83000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Detailed source sections: 9.3, 9.3.2, 9.3.4.</li></ul>
+<!-- l. 2254 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='falsification'><a id='x1-84000'></a>Falsification</h4>
+<p><a id='x1-84000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Detailed source sections: 9.3.5.</li></ul> <!-- l. 2262 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='predictions'><a id='x1-85000'></a>Predictions</h4>
+<p><a id='x1-85000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Detailed source sections: 9.4, 9.4.1, 9.4.2, 9.4.3, 9.4.4, 9.4.5.</li></ul>
+<!-- l. 2270 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='strategic-relevance'><a id='x1-86000'></a>Strategic Relevance</h4>
+<p><a id='x1-86000doc'></a>
+</p><!-- l. 2272 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='why-it-matters'><a id='x1-87000'></a>Why It Matters</h5>
+<p><a id='x1-87000doc'></a>
+</p><!-- l. 2274 --><p class='nopar'><span class='paragraphHead' id='-defense-against-capture'><a id='x1-88000'></a><span class='ec-lmbx-10'>9.6.1 Defense Against Capture</span></span>
+<a id='x1-88000doc'></a>
+<span class='ec-lmbx-10'>For individuals:</span>
+</p><!-- l. 2279 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Raise  </span>\(Z_0\)  <span class='ec-lmbx-10'>through  L</span>\(\uparrow \):  Wisdom  accumulation,  contemplative  practice,
+     integrated experience (\(\rightarrow \) raises Q)
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Raise </span>\(Z_0\) <span class='ec-lmbx-10'>through C</span>\(\downarrow \): Shadow work, trauma integration, releasing stored
+     charge (\(\rightarrow \) raises Q)
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Reduce R</span>: Meditation reduces resistance/dissipation \(\rightarrow \) Q = \(Z_0\)/R increases
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Increase V_0</span>: Build platform, strengthen voice
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Maintain awareness of natural state</span>: Know your true beliefs (your \(f_0\))
+                                                                  
+
+                                                                  
+     </dd><dt class='enumerate-enumitem'>
+  6. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Minimize  exposure  during  low-Q  states</span>:  Avoid  media  when
+     traumatized, stressed, or depleted</dd></dl>
+<!-- l. 2300 --><p class='noindent'><span class='ec-lmbx-10'>For communities:</span>
+</p><!-- l. 2303 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Create counter-injection</span>: Coherent alternative narrative
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Strengthen coupling K</span>: Tight community bonds
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Protect  high-Q  members</span>:  Shield  awakened  seeds  who  can  trigger
+     cascade
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Provide  escape  bridges</span>:  Help  locked  members  release  through
+     Q-building practices</dd></dl>
+<!-- l. 2318 --><p class='nopar'><span class='paragraphHead' id='-understanding-control-strategy'><a id='x1-89000'></a><span class='ec-lmbx-10'>9.6.2 Understanding Control Strategy</span></span>
+<a id='x1-89000doc'></a>
+The injection locking model reveals why control systems:
+</p><!-- l. 2323 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Maximize broadcast power</span>: Higher \(V_{inj}\) = wider locking range
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Repeat endlessly</span>: Lock requires sustained injection
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Attack  Q-building  practices</span>:  Discredit  meditation,  shadow  work,
+     wisdom traditions — suppressing these prevents Q from rising, keeping
+     capture bandwidth wide
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Increase trauma/shadow (C</span>\(\uparrow \)<span class='ec-lmbx-10'>)</span>: Unprocessed trauma lowers \(Z_0\), widens
+     capture range
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Isolate</span>: Reduce coupling K so lock depends only on injection
+     </dd><dt class='enumerate-enumitem'>
+  6. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Create fear/stress</span>: Temporarily increases R, dropping Q = \(Z_0\)/R, enabling
+     capture
+     </dd><dt class='enumerate-enumitem'>
+  7. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Co-opt natural frequencies</span>: Make narratives feel “natural”</dd></dl> <!-- l. 2346 --><p class='nopar'><span class='paragraphHead' id='-path-to-mass-unlocking'><a id='x1-90000'></a><span class='ec-lmbx-10'>9.6.3 Path to Mass Unlocking</span></span>
+<a id='x1-90000doc'></a>
+Based on model predictions:
+</p><!-- l. 2351 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+  1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Cultivate high-Q seeds </span>(100s to 1000s of awakened individuals)
+     </dd><dt class='enumerate-enumitem'>
+  2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Build coherent counter-signal </span>(truth with r &gt; 0.5)
+     </dd><dt class='enumerate-enumitem'>
+  3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Strengthen network coupling </span>(community bonds)
+     </dd><dt class='enumerate-enumitem'>
+  4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Wait for injection power drop </span>(narrative crisis)
+     </dd><dt class='enumerate-enumitem'>
+  5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Trigger cascade when threshold reached </span>(~30-40% unlocked)</dd></dl>
+<!-- l. 2368 --><p class='noindent'>The model predicts sudden, not gradual, collective escape from narrative
+lock.
+</p>
+<div class='center'>
+<!-- l. 2371 --><p class='noindent'>
+</p><!-- l. 2371 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2373 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='what-to-watch'><a id='x1-91000'></a>What To Watch</h5>
+<p><a id='x1-91000doc'></a> </p><ul class='itemize1'> <li class='itemize'> <!-- l. 2378 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+       3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Protect high-Q members</span>: Shield awakened seeds who can trigger
+         cascade</dd></dl> </li> <li class='itemize'> <!-- l. 2387 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+       2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Build coherent counter-signal </span>(truth with r &gt; 0.5)</dd></dl> </li> <li class='itemize'> <!-- l. 2396 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+       5. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Trigger cascade when threshold reached </span>(~30-40% unlocked)</dd></dl> </li></ul>
+<!-- l. 2406 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='boundaries-of-use'><a id='x1-92000'></a>Boundaries of Use</h5>
+<p><a id='x1-92000doc'></a> </p><ul class='itemize1'> <li class='itemize'>Apply  this  chapter  as  model-conditional  doctrine;  treat  speculative
+     elements as hypothesis overlays.</li></ul>
+<!-- l. 2416 --><p class='nopar'>
+</p>
+<h4 class='subsectionHead' id='-references-to-other-chapters'><a id='x1-93000'></a>9.6 References to Other Chapters</h4>
+<p><a id='x1-93000doc'></a> </p><ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Chapter 5 (RLC Circuit) </span>Q = \(Z_0\)/R derivation; Q as primary sovereignty
+     measure; \(Z_0\) as depth of processing
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Chapter 2 (Densities) </span>Higher \(Z_0\) enables higher density access (depth of
+     processing); Q = \(Z_0\)/R determines lock resistance and sovereignty
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Chapter   8   (Phased   Array)   </span>Coherence   effects   that   amplify
+     counter-injection;  Section  8.7  on  element  quality  and  collective  beam
+     strength
+                                                                  
+
+                                                                  
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Chapter 13 (Paradigm Shielding) </span>How injection power is maintained
+     at the system level
+     </li> <li class='itemize'><span class='ec-lmbx-10'>Chapter 14 (Link Budget) </span>Injection locking as component of total
+     gain/loss</li></ul>
+<div class='center'>
+<!-- l. 2438 --><p class='noindent'>
+</p><!-- l. 2438 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2440 --><p class='nopar'><span class='ec-lmri-10'>End of Chapter 9: Injection Locking and Perception Management</span>
+</p>
+    </article>
+
+    <!-- Prev/Next Navigation -->
+    <nav class="chapter-nav">
+      <a href="ch08.html" class="nav-prev">&larr; Ch 8: Phased Array Humanity</a>
+      <a href="ch10.html" class="nav-next">Ch 10: Spin Coherence Fundamentals &rarr;</a>
+    </nav>
+  </main>
+
+  <script src="../assets/nav.js"></script>
+  <script src="../assets/figure-lightbox.js"></script>
+  <script src="../assets/reveal.js"></script>
+</body>
+</html>

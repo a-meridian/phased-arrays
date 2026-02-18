@@ -1,0 +1,110 @@
+:root {
+  color-scheme: dark;
+
+  /* Color system */
+  --color-bg-0: #05080f;
+  --color-bg-1: #0b1422;
+  --color-bg-2: #161f30;
+  --surface-0: rgba(10, 17, 30, 0.8);
+  --surface-1: rgba(18, 27, 44, 0.9);
+  --surface-2: rgba(27, 39, 60, 0.94);
+  --surface-3: rgba(8, 13, 24, 0.97);
+  --surface-border: rgba(132, 165, 226, 0.28);
+  --surface-border-strong: rgba(173, 202, 255, 0.42);
+
+  --text-strong: #f3f6ff;
+  --text-main: #d5dff3;
+  --text-muted: #b5c0d7;
+  --text-subtle: #91a0bc;
+
+  --accent-1: #98bcff;
+  --accent-2: #7fd0e8;
+  --accent-3: #f0b56d;
+  --accent-4: #8eddbf;
+  --accent-archive: #ceb68a;
+  --accent-relay: #9ab9f3;
+  --accent-signal-alert: #e1a56d;
+
+  --link: #96c0ff;
+  --link-hover: #bfd8ff;
+  --focus-ring: #8edcf6;
+
+  --figure-surface: linear-gradient(155deg, rgba(19, 30, 48, 0.96), rgba(9, 14, 25, 0.98));
+  --figure-frame: rgba(144, 173, 225, 0.42);
+  --figure-image-frame: rgba(172, 194, 235, 0.3);
+  --figure-modal-bg: rgba(5, 9, 18, 0.92);
+  --figure-modal-border: rgba(162, 193, 246, 0.34);
+  --figure-modal-shadow: 0 28px 72px rgba(2, 7, 19, 0.72), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+  --part-foundations-accent: #7dc9f0;
+  --part-foundations-accent-rgb: 125 201 240;
+  --part-individual-accent: #89dfba;
+  --part-individual-accent-rgb: 137 223 186;
+  --part-collective-accent: #bda2ea;
+  --part-collective-accent-rgb: 189 162 234;
+  --part-civilization-accent: #e9ba7c;
+  --part-civilization-accent-rgb: 233 186 124;
+  --part-transition-accent: #dec676;
+  --part-transition-accent-rgb: 222 198 118;
+
+  --progress-track: rgba(80, 122, 190, 0.25);
+  --progress-fill: linear-gradient(90deg, #86c9ef, #9bb6ea 52%, #d3b57c);
+
+  /* Typography */
+  --font-display: "Geist", "Avenir Next", "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-body: "Source Serif Pro", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-code: "JetBrains Mono", "SF Mono", "Fira Code", Consolas, monospace;
+
+  --fs-0: clamp(0.88rem, 0.86rem + 0.12vw, 0.94rem);
+  --fs-1: clamp(1.02rem, 0.98rem + 0.35vw, 1.22rem);
+  --fs-2: clamp(1.16rem, 1.06rem + 0.55vw, 1.5rem);
+  --fs-3: clamp(1.46rem, 1.2rem + 0.88vw, 2.02rem);
+  --fs-hero-subtitle: clamp(0.84rem, 0.82rem + 0.2vw, 0.98rem);
+
+  /* Spacing */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 2.75rem;
+  --space-3xl: 3.5rem;
+
+  --content-max: 76rem;
+  --article-max: 52rem;
+  --reading-measure: clamp(58ch, 90vw, 142ch);
+  --sidebar-width: 18rem;
+  --topbar-height: 3.5rem;
+  --figure-max-width: 62rem;
+
+  --radius-sm: 0.45rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.1rem;
+  --radius-xl: 1.35rem;
+
+  --shadow-soft: 0 18px 38px rgba(3, 8, 20, 0.36);
+  --shadow-card: 0 12px 28px rgba(2, 8, 20, 0.42), inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  --shadow-glow: 0 0 0 1px rgba(117, 210, 255, 0.2), 0 0 18px rgba(70, 168, 255, 0.2);
+
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+  --duration-slow: 360ms;
+  --duration-slower: 520ms;
+  --reveal-duration: 460ms;
+  --reveal-duration-fast: 300ms;
+  --reveal-duration-slow: 540ms;
+  --reveal-stagger: 40ms;
+  --reveal-distance: 16px;
+  --easing-standard: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --heading-gap-major: 2.2em;
+  --heading-gap-minor: 1.55em;
+  --paragraph-gap: 1.12em;
+  --dense-block-gap: 1.38em;
+
+  --z-bg: -2;
+  --z-overlay: 980;
+  --z-sidebar: 1000;
+  --z-topbar: 1010;
+}

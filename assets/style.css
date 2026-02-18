@@ -1,0 +1,12 @@
+/*
+  Phased Arrays style suite entrypoint.
+  Layers order: base -> tokens -> layout -> components -> content -> utilities
+*/
+@layer base, tokens, layout, components, content, utilities;
+
+@import url("./styles/base.css") layer(base);
+@import url("./styles/tokens.css") layer(tokens);
+@import url("./styles/layout.css") layer(layout);
+@import url("./styles/components.css") layer(components);
+@import url("./styles/content-make4ht.css") layer(content);
+@import url("./styles/utilities.css") layer(utilities);
