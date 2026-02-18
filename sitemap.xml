@@ -2,116 +2,224 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/</loc>
-    <lastmod>2026-02-18T20:40:18Z</lastmod>
+    <lastmod>2026-02-18T21:19:47Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/assets/PhasedArrayHumanCondition.pdf</loc>
-    <lastmod>2026-02-18T20:40:18Z</lastmod>
+    <lastmod>2026-02-18T21:19:47Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch00.html</loc>
-    <lastmod>2026-02-18T20:37:33Z</lastmod>
+    <lastmod>2026-02-18T21:16:22Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch01.html</loc>
-    <lastmod>2026-02-18T20:37:40Z</lastmod>
+    <lastmod>2026-02-18T21:16:33Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch02.html</loc>
-    <lastmod>2026-02-18T20:37:50Z</lastmod>
+    <lastmod>2026-02-18T21:16:48Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch03.html</loc>
-    <lastmod>2026-02-18T20:38:02Z</lastmod>
+    <lastmod>2026-02-18T21:17:10Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch04.html</loc>
-    <lastmod>2026-02-18T20:38:13Z</lastmod>
+    <lastmod>2026-02-18T21:17:23Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch05.html</loc>
-    <lastmod>2026-02-18T20:38:27Z</lastmod>
+    <lastmod>2026-02-18T21:17:41Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch06.html</loc>
-    <lastmod>2026-02-18T20:38:34Z</lastmod>
+    <lastmod>2026-02-18T21:17:49Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch07.html</loc>
-    <lastmod>2026-02-18T20:38:44Z</lastmod>
+    <lastmod>2026-02-18T21:18:00Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch08.html</loc>
-    <lastmod>2026-02-18T20:38:53Z</lastmod>
+    <lastmod>2026-02-18T21:18:10Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch09.html</loc>
-    <lastmod>2026-02-18T20:39:05Z</lastmod>
+    <lastmod>2026-02-18T21:18:24Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch10.html</loc>
-    <lastmod>2026-02-18T20:39:17Z</lastmod>
+    <lastmod>2026-02-18T21:18:44Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch11.html</loc>
-    <lastmod>2026-02-18T20:39:30Z</lastmod>
+    <lastmod>2026-02-18T21:18:57Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch12.html</loc>
-    <lastmod>2026-02-18T20:39:44Z</lastmod>
+    <lastmod>2026-02-18T21:19:10Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch13.html</loc>
-    <lastmod>2026-02-18T20:39:52Z</lastmod>
+    <lastmod>2026-02-18T21:19:18Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch14.html</loc>
-    <lastmod>2026-02-18T20:40:04Z</lastmod>
+    <lastmod>2026-02-18T21:19:30Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch15.html</loc>
-    <lastmod>2026-02-18T20:40:11Z</lastmod>
+    <lastmod>2026-02-18T21:19:38Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://a-meridian.github.io/phased-arrays/chapters/ch16.html</loc>
-    <lastmod>2026-02-18T20:40:18Z</lastmod>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/advanced-transport-and-propulsion-claims.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/awakening-and-ascension-mechanics.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/control-systems-loosh-and-parasitic-coupling.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/disclosure-signal-dynamics.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/metaphysics-and-philosophy-of-consciousness.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/nonlocal-information-transfer.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/rf-consciousness-framework.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/guides/ufo-et-and-seeder-models.html</loc>
+    <lastmod>2026-02-18T21:19:45Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/annex-ch03-extended-evidence.html</loc>
+    <lastmod>2026-02-18T21:19:47Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/annex-ch11-speculative-catalog.html</loc>
+    <lastmod>2026-02-18T21:19:47Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/annex-ch12-control-architecture.html</loc>
+    <lastmod>2026-02-18T21:19:47Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-a-operational-implications.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-b-evidence-matrix.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-c-anomalies-survey.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-d-physics-evidence.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-e-problem-resolution.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-f-paper-mapping.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html</loc>
+    <lastmod>2026-02-18T21:19:46Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 </urlset>

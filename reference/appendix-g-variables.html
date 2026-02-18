@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appendix G Variables and Constants | Phased Arrays</title>
+  <meta name="description" content="Variables, symbols, and constants reference used across chapters and appendices.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Phased Arrays">
+  <meta property="og:title" content="Appendix G Variables and Constants | Phased Arrays">
+  <meta property="og:description" content="Variables, symbols, and constants reference used across chapters and appendices.">
+  <meta property="og:url" content="https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html">
+  <meta property="og:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_es_1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Appendix G Variables and Constants | Phased Arrays">
+  <meta name="twitter:description" content="Variables, symbols, and constants reference used across chapters and appendices.">
+  <meta name="twitter:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_es_1.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html",
+      "headline": "Appendix G Variables and Constants",
+      "description": "Variables, symbols, and constants reference used across chapters and appendices.",
+      "url": "https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html",
+      "image": "https://a-meridian.github.io/phased-arrays/assets/figures/fig_es_1.png",
+      "author": {
+        "@type": "Person",
+        "name": "A. Meridian",
+        "email": "mailto:ameridian@proton.me"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Phased Arrays",
+        "url": "https://a-meridian.github.io/phased-arrays/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://a-meridian.github.io/phased-arrays/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Reference Library",
+          "item": "https://a-meridian.github.io/phased-arrays/#reference-library"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Appendix G Variables and Constants",
+          "item": "https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+  <link rel="preload" href="../assets/fonts/Geist-Regular.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="../assets/fonts/Geist-Bold.woff2" as="font" type="font/woff2">
+  <link rel="preload" href="../assets/fonts/SourceSerifPro-Regular.otf" as="font" type="font/otf">
+  <link rel="preload" href="../assets/fonts/SourceSerifPro-Semibold.otf" as="font" type="font/otf">
+  <link rel="preload" href="../assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(','\\)']],
+        displayMath: [['\\[','\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body class="discovery-page" data-discovery-section="reference">
+  <header class="top-bar">
+    <a href="../index.html" class="top-bar-title">Phased Arrays</a>
+    <a href="../assets/PhasedArrayHumanCondition.pdf" class="top-bar-pdf">Download PDF</a>
+  </header>
+
+  <main class="discovery-shell">
+    <nav class="discovery-breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#reference-library">Reference Library</a></li>
+        <li aria-current="page">Appendix G Variables and Constants</li>
+      </ol>
+    </nav>
+
+    <article class="discovery-article">
+<h1 id="appendix-g-variables-and-constants-reference">Appendix G:
+Variables and Constants Reference</h1>
+<h2 id="g.1-core-framework-variables">G.1 Core Framework Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(Z_0\)</span></td>
+<td>Characteristic impedance</td>
+<td><span class="math inline">\(\sqrt{L/C}\)</span> — determines
+perception range and density access</td>
+<td><span class="math inline">\(\Omega\)</span> (model)</td>
+<td>Ch 2, 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(R\)</span></td>
+<td>Resistance (dissipation)</td>
+<td>Energy loss rate — maps to distraction, trauma, environmental
+noise</td>
+<td><span class="math inline">\(\Omega\)</span> (model)</td>
+<td>Ch 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(L\)</span></td>
+<td>Inductance (inertia)</td>
+<td>Accumulated wisdom/experience across incarnations</td>
+<td>H (model)</td>
+<td>Ch 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(C\)</span></td>
+<td>Capacitance (reactivity)</td>
+<td>Unprocessed shadow material; emotional charge storage</td>
+<td>F (model)</td>
+<td>Ch 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(Q\)</span></td>
+<td>Quality factor</td>
+<td><span class="math inline">\(Z_0/R\)</span> — sovereignty,
+discernment, resistance to injection locking</td>
+<td>dimensionless</td>
+<td>Ch 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_0\)</span></td>
+<td>Resonant frequency</td>
+<td><span class="math inline">\(1/(2\pi\sqrt{LC})\)</span> — natural
+operating frequency of consciousness</td>
+<td>Hz (model)</td>
+<td>Ch 5</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\sigma\)</span></td>
+<td>Spin coherence</td>
+<td>Individual-level phase alignment; ranges 0 (random) to 1
+(perfect)</td>
+<td>dimensionless</td>
+<td>Ch 10</td>
+</tr>
+<tr>
+<td><span class="math inline">\(r\)</span></td>
+<td>Kuramoto order parameter</td>
+<td>Population-level phase synchronization; ranges 0 to 1</td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.2-collective-dynamics-variables">G.2 Collective Dynamics
+Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(N\)</span></td>
+<td>Population size</td>
+<td>Total number of elements in the array</td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f\)</span></td>
+<td>Coherent fraction</td>
+<td>Fraction of population that is phase-coherent</td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_c\)</span></td>
+<td>Critical coherent fraction</td>
+<td><span class="math inline">\(\sqrt{T/N}\)</span> — minimum coherent
+fraction for collective effect</td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(T\)</span></td>
+<td>Detection threshold</td>
+<td>SNR threshold for coherent signal detection; <span
+class="math inline">\(T = 10\)</span></td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(AF\)</span></td>
+<td>Array factor</td>
+<td>Complex sum of individual element contributions</td>
+<td>dimensionless</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(K\)</span></td>
+<td>Coupling strength</td>
+<td>Kuramoto inter-oscillator coupling coefficient</td>
+<td>rad/s</td>
+<td>Ch 8, 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(K_c\)</span></td>
+<td>Critical coupling</td>
+<td><span class="math inline">\(2/(\pi g(0))\)</span> — minimum coupling
+for synchronization</td>
+<td>rad/s</td>
+<td>Ch 8</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.3-injection-locking-variables">G.3 Injection Locking
+Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(\omega_L\)</span></td>
+<td>Locking bandwidth</td>
+<td><span class="math inline">\(\omega_0/(2Q) \cdot V_{inj}/V_0\)</span>
+— range of frequencies over which lock holds</td>
+<td>rad/s</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(V_{inj}\)</span></td>
+<td>Injection signal amplitude</td>
+<td>Strength of the external locking signal</td>
+<td>V (model)</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(V_0\)</span></td>
+<td>Free-running amplitude</td>
+<td>Natural oscillation amplitude</td>
+<td>V (model)</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\Delta\omega\)</span></td>
+<td>Frequency detuning</td>
+<td><span class="math inline">\(\omega_{inj} - \omega_0\)</span> —
+distance between injection and natural frequency</td>
+<td>rad/s</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_{esc}\)</span></td>
+<td>Escape fraction</td>
+<td>Critical fraction for narrative escape; <span
+class="math inline">\(\omega_{L,C}/(\omega_{L,C} +
+K_{mean})\)</span></td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.4-link-budget-variables">G.4 Link Budget Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(P_S\)</span></td>
+<td>Source power</td>
+<td>Transmitted power from Source</td>
+<td>dB (model)</td>
+<td>Ch 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(G_S\)</span></td>
+<td>Source gain</td>
+<td>Directivity of Source transmission</td>
+<td>dB</td>
+<td>Ch 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(L_{path}\)</span></td>
+<td>Path loss</td>
+<td>Signal attenuation through density cascade</td>
+<td>dB</td>
+<td>Ch 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(L_{paradigm}\)</span></td>
+<td>Paradigm loss</td>
+<td>Attenuation from paradigm shielding (Faraday cage)</td>
+<td>dB</td>
+<td>Ch 13, 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(L_{parasitic}\)</span></td>
+<td>Parasitic loss</td>
+<td>Energy extracted by parasitic coupling</td>
+<td>dB</td>
+<td>Ch 12, 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(G_{practices}\)</span></td>
+<td>Practice gain</td>
+<td>Signal enhancement from spiritual/contemplative practices</td>
+<td>dB</td>
+<td>Ch 14, 15</td>
+</tr>
+<tr>
+<td><span class="math inline">\(G_{collective}\)</span></td>
+<td>Collective gain</td>
+<td><span class="math inline">\(10\log_{10}(N \cdot r^2)\)</span> —
+phased array gain from group coherence</td>
+<td>dB</td>
+<td>Ch 8, 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(M\)</span></td>
+<td>Link margin</td>
+<td><span class="math inline">\(P_{received} - P_{threshold}\)</span> —
+excess signal above minimum</td>
+<td>dB</td>
+<td>Ch 14</td>
+</tr>
+<tr>
+<td><span class="math inline">\(SE\)</span></td>
+<td>Shielding effectiveness</td>
+<td>Attenuation provided by paradigm cage layers</td>
+<td>dB</td>
+<td>Ch 13</td>
+</tr>
+<tr>
+<td><span class="math inline">\(NF\)</span></td>
+<td>Noise figure</td>
+<td>Degradation of SNR through processing chain</td>
+<td>dB</td>
+<td>Ch 13</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.5-density-and-field-variables">G.5 Density and Field
+Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(d\)</span></td>
+<td>Density level</td>
+<td>Integer 1–7 indicating density tier</td>
+<td>dimensionless</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(Z_d\)</span></td>
+<td>Density impedance</td>
+<td><span class="math inline">\(Z_1 \cdot
+\beta_{cascade}^{(d-1)}\)</span> — characteristic impedance of density
+<span class="math inline">\(d\)</span></td>
+<td><span class="math inline">\(\Omega\)</span> (model)</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\beta_{cascade}\)</span></td>
+<td>Cascade ratio</td>
+<td>Impedance ratio between adjacent densities; ~5 (illustrative)</td>
+<td>dimensionless</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\Gamma_d\)</span></td>
+<td>Reflection coefficient</td>
+<td><span class="math inline">\((Z_d - Z_0)/(Z_d + Z_0)\)</span> — power
+coupling efficiency at density boundary</td>
+<td>dimensionless</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\kappa\)</span></td>
+<td>Torsion coupling constant</td>
+<td>Spin-torsion coupling strength</td>
+<td>varies</td>
+<td>Ch 0, 10</td>
+</tr>
+<tr>
+<td><span class="math inline">\(D_s\)</span></td>
+<td>Spectral dimension</td>
+<td>Effective dimensionality at a given energy scale</td>
+<td>dimensionless</td>
+<td>Ch 2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.6-key-constants">G.6 Key Constants</h2>
+<table>
+<colgroup>
+<col style="width: 40%" />
+<col style="width: 28%" />
+<col style="width: 32%" />
+</colgroup>
+<thead>
+<tr>
+<th>Constant</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(f_c\)</span> (Earth)</td>
+<td><span class="math inline">\(\approx 0.0035\%\)</span> (~283,000
+people)</td>
+<td><span class="math inline">\(\sqrt{T/N}\)</span> with <span
+class="math inline">\(T=10\)</span>, <span
+class="math inline">\(N=8\times10^9\)</span></td>
+</tr>
+<tr>
+<td>Critical influencer count</td>
+<td>~283</td>
+<td><span class="math inline">\(f_c \times N / A\)</span> with <span
+class="math inline">\(A = 1000\)</span> amplification</td>
+</tr>
+<tr>
+<td><span class="math inline">\(g^*\)</span> (UV fixed point
+coupling)</td>
+<td><span class="math inline">\(0.71 \pm 0.02\)</span></td>
+<td>Asymptotic safety calculations (Ch 0, 2)</td>
+</tr>
+<tr>
+<td><span class="math inline">\(g_*\)</span> (running equation
+coefficient)</td>
+<td><span class="math inline">\(\approx 0.27\)</span></td>
+<td>Gravitational running (Ch 4) — distinct from <span
+class="math inline">\(g^*\)</span></td>
+</tr>
+<tr>
+<td><span class="math inline">\(a_0\)</span> (MOND acceleration)</td>
+<td><span class="math inline">\(\approx cH_0/6 \approx 1.2 \times
+10^{-10}\)</span> m/s<span class="math inline">\(^2\)</span></td>
+<td>Ch 4</td>
+</tr>
+</tbody>
+</table>
+<h2 id="g.7-notation-conventions">G.7 Notation Conventions</h2>
+<ul>
+<li><strong>Sigmoid function</strong>: <span
+class="math inline">\(S()\)</span> — used throughout instead of <span
+class="math inline">\(\sigma()\)</span> to avoid collision with
+coherence <span class="math inline">\(\sigma\)</span></li>
+<li><strong>Imaginary unit</strong>: <span
+class="math inline">\(j\)</span> (engineering convention)</li>
+<li><strong>Torsion field strength</strong>: <span
+class="math inline">\(\mathcal{T}\)</span> in equations (Chapter 10+);
+distinguished from temperature <span class="math inline">\(T\)</span>
+and torsion tensor <span class="math inline">\(T^{\lambda}_{\
+\mu\nu}\)</span></li>
+<li><strong>Coherence</strong>: <span
+class="math inline">\(\sigma\)</span> for individual spin coherence (Ch
+10+); <span class="math inline">\(r\)</span> for population phase
+alignment (Ch 8+)</li>
+<li><strong>Critical fraction</strong>: <span
+class="math inline">\(f_c\)</span> for coherent population threshold (Ch
+8); <span class="math inline">\(f_{esc}\)</span> for narrative escape
+threshold (Ch 9)</li>
+</ul>
+<p><em>End of Appendix G: Variables and Constants Reference</em></p>
+    </article>
+  </main>
+
+  <script src="../assets/reveal.js"></script>
+</body>
+</html>

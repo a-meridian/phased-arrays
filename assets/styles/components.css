@@ -293,6 +293,191 @@
   font-size: 0.86rem;
 }
 
+.landing-discovery,
+.landing-reference {
+  margin-top: var(--space-xl);
+  padding: 1.15rem var(--space-lg);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(148deg, rgba(148, 182, 234, 0.09), transparent 30%),
+    var(--surface-0);
+  box-shadow: var(--shadow-soft);
+}
+
+.landing-discovery h2,
+.landing-reference h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.landing-section-intro {
+  margin-top: 0;
+  margin-bottom: 0.95rem;
+  color: var(--text-muted);
+  font-size: 0.93rem;
+}
+
+.hub-grid {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.hub-card {
+  display: block;
+  border: 1px solid rgba(151, 183, 230, 0.4);
+  border-radius: var(--radius-md);
+  padding: 0.82rem 0.9rem;
+  background: linear-gradient(156deg, rgba(20, 33, 56, 0.72), rgba(12, 21, 36, 0.82));
+  transition: transform var(--duration-fast) var(--easing-standard),
+    border-color var(--duration-fast) var(--easing-standard),
+    background-color var(--duration-fast) var(--easing-standard);
+}
+
+.hub-card:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  border-color: rgba(183, 209, 246, 0.72);
+  background: linear-gradient(156deg, rgba(29, 44, 72, 0.78), rgba(16, 27, 46, 0.88));
+}
+
+.hub-card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.99rem;
+  color: var(--text-strong);
+}
+
+.hub-card p {
+  margin: 0;
+  color: var(--text-main);
+  font-size: 0.87rem;
+  line-height: 1.45;
+}
+
+.reference-columns {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.reference-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.reference-list li {
+  margin-bottom: 0.43rem;
+}
+
+.reference-list a {
+  color: var(--link);
+  font-size: 0.9rem;
+}
+
+.reference-list a:hover {
+  color: var(--link-hover);
+}
+
+@media (min-width: 980px) {
+  .hub-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .reference-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.discovery-shell {
+  width: min(72rem, 100% - 2rem);
+  margin: calc(var(--topbar-height) + var(--space-lg)) auto var(--space-3xl);
+}
+
+.discovery-breadcrumbs {
+  margin-bottom: 0.75rem;
+}
+
+.discovery-breadcrumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.48rem;
+  color: var(--text-subtle);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+}
+
+.discovery-breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.48rem;
+}
+
+.discovery-breadcrumbs li + li::before {
+  content: "/";
+  color: rgba(180, 199, 226, 0.7);
+}
+
+.discovery-breadcrumbs a {
+  color: var(--link);
+}
+
+.discovery-article {
+  border: 1px solid rgba(146, 176, 222, 0.34);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(150deg, rgba(152, 186, 236, 0.09), transparent 28%),
+    var(--surface-0);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(1rem, 2.8vw, 1.6rem);
+}
+
+.discovery-article h1 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: clamp(1.45rem, 2.2vw, 1.98rem);
+  line-height: 1.2;
+}
+
+.discovery-article h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.2rem;
+  color: var(--text-strong);
+}
+
+.discovery-article h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.36rem;
+  font-size: 1.03rem;
+}
+
+.discovery-article p,
+.discovery-article li {
+  max-width: var(--reading-measure);
+  color: var(--text-main);
+  font-size: 0.96rem;
+  line-height: 1.62;
+}
+
+.discovery-article a {
+  color: var(--link);
+}
+
+.discovery-article a:hover {
+  color: var(--link-hover);
+}
+
+.discovery-article ul,
+.discovery-article ol {
+  margin-top: 0.35rem;
+}
+
+.discovery-article blockquote {
+  max-width: var(--reading-measure);
+}
+
 .hash-display {
   border: 1px solid rgba(160, 186, 228, 0.4);
   border-radius: var(--radius-md);
@@ -697,6 +882,24 @@ figure.figure.is-ultra-wide img {
     gap: 0.32rem;
   }
 
+  .landing-discovery,
+  .landing-reference {
+    padding: 0.95rem 0.9rem;
+  }
+
+  .hub-card {
+    padding: 0.72rem 0.76rem;
+  }
+
+  .discovery-shell {
+    width: calc(100% - 1.2rem);
+    margin-top: calc(var(--topbar-height) + 0.85rem);
+  }
+
+  .discovery-article {
+    padding: 0.88rem 0.82rem;
+  }
+
   .figure-lightbox__surface {
     width: 100vw;
     max-height: 100vh;
@@ -736,6 +939,15 @@ figure.figure.is-ultra-wide img {
 
   .toc-part li {
     margin-bottom: 0.42em;
+  }
+
+  .hub-card h3 {
+    font-size: 0.93rem;
+  }
+
+  .hub-card p,
+  .reference-list a {
+    font-size: 0.84rem;
   }
 
   .chapter-nav a::before {

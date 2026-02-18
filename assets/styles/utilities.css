@@ -379,6 +379,82 @@ table.longtable tr:hover {
   color: #2d3e57;
 }
 
+.landing-discovery,
+.landing-reference {
+  background:
+    linear-gradient(145deg, rgba(217, 231, 251, 0.52), transparent 38%),
+    rgba(255, 255, 255, 0.9);
+  border-color: rgba(143, 164, 199, 0.4);
+}
+
+.landing-section-intro {
+  color: #50627f;
+}
+
+.hub-card {
+  background: linear-gradient(155deg, rgba(244, 249, 255, 0.98), rgba(231, 241, 254, 0.95));
+  border-color: rgba(138, 162, 199, 0.42);
+}
+
+.hub-card:hover {
+  background: linear-gradient(155deg, rgba(236, 245, 255, 0.99), rgba(224, 237, 253, 0.97));
+  border-color: rgba(104, 134, 181, 0.58);
+}
+
+.hub-card h3 {
+  color: #1f2e45;
+}
+
+.hub-card p {
+  color: #3b4f6d;
+}
+
+.reference-list a {
+  color: #335381;
+}
+
+.reference-list a:hover {
+  color: #223a5f;
+}
+
+.discovery-breadcrumbs ol {
+  color: #5a6e8b;
+}
+
+.discovery-breadcrumbs li + li::before {
+  color: rgba(112, 137, 173, 0.8);
+}
+
+.discovery-breadcrumbs a {
+  color: #365783;
+}
+
+.discovery-article {
+  border-color: rgba(143, 164, 199, 0.4);
+  background:
+    linear-gradient(152deg, rgba(220, 233, 252, 0.45), transparent 30%),
+    rgba(255, 255, 255, 0.9);
+}
+
+.discovery-article h1,
+.discovery-article h2,
+.discovery-article h3 {
+  color: #24354f;
+}
+
+.discovery-article p,
+.discovery-article li {
+  color: #2f425f;
+}
+
+.discovery-article a {
+  color: #2f4f7b;
+}
+
+.discovery-article a:hover {
+  color: #1f385c;
+}
+
 .integrity {
   border-color: rgba(143, 164, 199, 0.4);
   background:
