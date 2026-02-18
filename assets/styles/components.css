@@ -247,6 +247,42 @@
   margin-bottom: 0.7rem;
 }
 
+.contact-card {
+  margin-top: var(--space-xl);
+  padding: 1.1rem var(--space-lg);
+  border: 1px solid rgba(153, 180, 225, 0.34);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(140deg, rgba(138, 168, 220, 0.12), transparent 36%),
+    rgba(11, 20, 36, 0.8);
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.contact-card p {
+  margin-bottom: 0.55rem;
+}
+
+.contact-email {
+  font-family: var(--font-display);
+  font-size: 1.03rem;
+  letter-spacing: 0.02em;
+  color: #cfe6ff;
+}
+
+.contact-email:hover {
+  color: #e8f3ff;
+}
+
+.contact-note {
+  color: var(--text-subtle);
+  font-size: 0.86rem;
+}
+
 .hash-display {
   border: 1px solid rgba(160, 186, 228, 0.4);
   border-radius: var(--radius-md);
