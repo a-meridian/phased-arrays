@@ -250,11 +250,11 @@
 .contact-card {
   margin-top: var(--space-xl);
   padding: 1.1rem var(--space-lg);
-  border: 1px solid rgba(153, 180, 225, 0.34);
+  border: 1px solid var(--surface-border);
   border-radius: var(--radius-lg);
   background:
-    linear-gradient(140deg, rgba(138, 168, 220, 0.12), transparent 36%),
-    rgba(11, 20, 36, 0.8);
+    linear-gradient(140deg, rgb(var(--part-foundations-accent-rgb) / 0.12), transparent 36%),
+    var(--surface-0);
   box-shadow: var(--shadow-soft);
 }
 
@@ -268,14 +268,24 @@
 }
 
 .contact-email {
+  display: inline-block;
+  padding: 0.22rem 0.56rem;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border-strong);
+  background: color-mix(in srgb, var(--surface-1) 78%, transparent);
   font-family: var(--font-display);
-  font-size: 1.03rem;
+  font-size: 0.98rem;
+  font-weight: 600;
   letter-spacing: 0.02em;
-  color: #cfe6ff;
+  color: var(--link);
+  text-decoration: none;
 }
 
 .contact-email:hover {
-  color: #e8f3ff;
+  color: var(--link-hover);
+  border-color: var(--link);
+  background: color-mix(in srgb, var(--surface-2) 84%, transparent);
+  text-decoration: none;
 }
 
 .contact-note {
