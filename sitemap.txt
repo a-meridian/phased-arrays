@@ -1,5 +1,5 @@
 https://a-meridian.github.io/phased-arrays/
-https://a-meridian.github.io/phased-arrays/assets/PhasedArrayHumanCondition.pdf
+https://a-meridian.github.io/phased-arrays/assets/EngineeringTorsionBroadband.pdf
 https://a-meridian.github.io/phased-arrays/chapters/ch00.html
 https://a-meridian.github.io/phased-arrays/chapters/ch01.html
 https://a-meridian.github.io/phased-arrays/chapters/ch02.html
