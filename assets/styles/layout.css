@@ -271,6 +271,14 @@ body::after {
   font-size: 0.94em;
 }
 
+.hero .ai-collab-note {
+  color: var(--text-main);
+  max-width: 70ch;
+  margin: 0 0 1em;
+  line-height: 1.56;
+  font-size: 0.91em;
+}
+
 .hero .description {
   color: var(--text-main);
   max-width: 70ch;
@@ -349,6 +357,7 @@ body::after {
   }
 
   .hero .author-bio,
+  .hero .ai-collab-note,
   .hero .description {
     max-width: 100%;
   }

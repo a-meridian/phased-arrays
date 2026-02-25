@@ -37,3 +37,4 @@ https://a-meridian.github.io/phased-arrays/reference/appendix-e-problem-resoluti
 https://a-meridian.github.io/phased-arrays/reference/appendix-f-paper-mapping.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-h-transition-sequencing.html
+https://a-meridian.github.io/phased-arrays/reference/authorship-and-ai-collaboration.html

@@ -547,6 +547,43 @@
   font-size: 0.95rem;
 }
 
+.ai-disclosure {
+  margin-top: 1rem;
+  padding: 0.88rem 0.92rem;
+  border: 1px solid rgba(152, 177, 214, 0.34);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(150deg, rgb(var(--part-foundations-accent-rgb) / 0.12), transparent 34%),
+    var(--surface-1);
+}
+
+.ai-disclosure h3 {
+  margin-top: 0;
+  margin-bottom: 0.42rem;
+  font-size: 0.95rem;
+}
+
+.ai-disclosure p {
+  margin: 0.46rem 0 0;
+  color: var(--text-main);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.ai-disclosure .scope-boundary {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.ai-disclosure a {
+  color: var(--link);
+  font-weight: 600;
+}
+
+.ai-disclosure a:hover {
+  color: var(--link-hover);
+}
+
 .landing-footer {
   margin-top: var(--space-xl);
   padding-top: 1rem;
