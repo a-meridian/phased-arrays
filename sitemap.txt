@@ -36,3 +36,4 @@ https://a-meridian.github.io/phased-arrays/reference/appendix-d-physics-evidence
 https://a-meridian.github.io/phased-arrays/reference/appendix-e-problem-resolution.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-f-paper-mapping.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-g-variables.html
+https://a-meridian.github.io/phased-arrays/reference/appendix-h-transition-sequencing.html
