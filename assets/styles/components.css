@@ -106,22 +106,28 @@
   --part-accent-rgb: var(--part-individual-accent-rgb);
 }
 
-.sidebar-section.part-collective,
-.toc-part.part-collective {
-  --part-accent: var(--part-collective-accent);
-  --part-accent-rgb: var(--part-collective-accent-rgb);
+.sidebar-section.part-access,
+.toc-part.part-access {
+  --part-accent: var(--part-access-accent);
+  --part-accent-rgb: var(--part-access-accent-rgb);
 }
 
-.sidebar-section.part-civilization,
-.toc-part.part-civilization {
-  --part-accent: var(--part-civilization-accent);
-  --part-accent-rgb: var(--part-civilization-accent-rgb);
+.sidebar-section.part-engineering,
+.toc-part.part-engineering {
+  --part-accent: var(--part-engineering-accent);
+  --part-accent-rgb: var(--part-engineering-accent-rgb);
 }
 
-.sidebar-section.part-transition,
-.toc-part.part-transition {
-  --part-accent: var(--part-transition-accent);
-  --part-accent-rgb: var(--part-transition-accent-rgb);
+.sidebar-section.part-denial,
+.toc-part.part-denial {
+  --part-accent: var(--part-denial-accent);
+  --part-accent-rgb: var(--part-denial-accent-rgb);
+}
+
+.sidebar-section.part-superiority,
+.toc-part.part-superiority {
+  --part-accent: var(--part-superiority-accent);
+  --part-accent-rgb: var(--part-superiority-accent-rgb);
 }
 
 .toc {

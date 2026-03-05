@@ -40,12 +40,14 @@
   --part-foundations-accent-rgb: 125 201 240;
   --part-individual-accent: #89dfba;
   --part-individual-accent-rgb: 137 223 186;
-  --part-collective-accent: #bda2ea;
-  --part-collective-accent-rgb: 189 162 234;
-  --part-civilization-accent: #e9ba7c;
-  --part-civilization-accent-rgb: 233 186 124;
-  --part-transition-accent: #dec676;
-  --part-transition-accent-rgb: 222 198 118;
+  --part-access-accent: #bda2ea;
+  --part-access-accent-rgb: 189 162 234;
+  --part-engineering-accent: #8db0f5;
+  --part-engineering-accent-rgb: 141 176 245;
+  --part-denial-accent: #e9ba7c;
+  --part-denial-accent-rgb: 233 186 124;
+  --part-superiority-accent: #dec676;
+  --part-superiority-accent-rgb: 222 198 118;
 
   --progress-track: rgba(80, 122, 190, 0.25);
   --progress-fill: linear-gradient(90deg, #86c9ef, #9bb6ea 52%, #d3b57c);

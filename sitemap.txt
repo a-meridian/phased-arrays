@@ -28,8 +28,14 @@ https://a-meridian.github.io/phased-arrays/guides/nonlocal-information-transfer.
 https://a-meridian.github.io/phased-arrays/guides/rf-consciousness-framework.html
 https://a-meridian.github.io/phased-arrays/guides/ufo-et-and-seeder-models.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-a-evidence-matrix.html
-https://a-meridian.github.io/phased-arrays/reference/appendix-b-anomalies-survey.html
-https://a-meridian.github.io/phased-arrays/reference/appendix-c-physics-evidence.html
+https://a-meridian.github.io/phased-arrays/reference/appendix-b-science-synthesis.html
+https://a-meridian.github.io/phased-arrays/reference/appendix-c-anomalies-survey.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-d-variables.html
 https://a-meridian.github.io/phased-arrays/reference/authorship-and-ai-collaboration.html
 https://a-meridian.github.io/phased-arrays/reference/operational-doctrine.html
+https://a-meridian.github.io/phased-arrays/reference/part-i-spectrum-characterization-review.html
+https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html
+https://a-meridian.github.io/phased-arrays/reference/part-iii-spectrum-access-review.html
+https://a-meridian.github.io/phased-arrays/reference/part-iv-spectrum-engineering-review.html
+https://a-meridian.github.io/phased-arrays/reference/part-v-spectrum-denial-review.html
+https://a-meridian.github.io/phased-arrays/reference/part-vi-spectrum-superiority-review.html
