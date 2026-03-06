@@ -166,12 +166,12 @@
     <article>
 <h3 class='sectionHead' id='chapter-the-signal-environment'><a id='x1-1000'></a>Chapter 5: The Signal Environment</h3>
 <p><a id='x1-1000doc'></a>
-</p><!-- l. 194 --><p class='noindent'>
+</p><!-- l. 191 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead' id='broadcast-architecture-and-receiver-configurations'><a id='x1-2000'></a>Broadcast Architecture and Receiver Configurations</h4>
 <p><a id='x1-2000doc'></a>
-</p><!-- l. 196 --><p class='noindent key-findings'><span class='ec-lmbx-10'>KEY FINDINGS — Chapter 5: The Signal Environment</span>
-</p><!-- l. 199 --><p class='noindent evidence-legend'><span class='ec-lmri-10'>Evidence-tier key: see front matter for <span class='evidence-pill evidence-pill--l1'>[L1]</span>–<span class='evidence-pill evidence-pill--range'>[L4]</span> definitions.</span>
+</p><!-- l. 193 --><p class='noindent key-findings'><span class='ec-lmbx-10'>KEY FINDINGS — Chapter 5: The Signal Environment</span>
+</p><!-- l. 196 --><p class='noindent evidence-legend'><span class='ec-lmri-10'>Evidence-tier key: see front matter for <span class='evidence-pill evidence-pill--l1'>[L1]</span>–<span class='evidence-pill evidence-pill--range'>[L4]</span> definitions.</span>
 </p> <ul class='itemize1'> <li class='itemize'><span class='evidence-pill evidence-pill--l1'>[L1]</span>The    RF/wireless    engineering    framework    (Balanis,    2005;
      Rappaport, 2002) provides established, peer-reviewed foundations for the
      signal-processing vocabulary — bandwidth, modulation, demodulation,
@@ -213,35 +213,35 @@
      consistent with the model’s signal architecture but currently lacks any
      empirical pathway to verification.</li></ul>
 <div class='center'>
-<!-- l. 253 --><p class='noindent'>
-</p><!-- l. 253 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 255 --><p class='noindent'>Before engineering a receiver, the operator must characterize the signal environment.
+<!-- l. 250 --><p class='noindent'>
+</p><!-- l. 250 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 252 --><p class='noindent'>Before engineering a receiver, the operator must characterize the signal environment.
 This chapter establishes the three-layer subcarrier architecture of the torsion
 broadcast — carrier, density-modulation envelope, and consciousness information
 stream — defining what the individual receiver in subsequent chapters must be
 designed to capture.
-</p><!-- l. 262 --><p class='noindent'>
+</p><!-- l. 259 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead' id='-introduction-the-signal-environment'><a id='x1-3000'></a>5.1 Introduction: The Signal Environment</h4> <p><a id='x1-3000doc'></a>
-</p><!-- l. 264 --><p class='noindent'>Chapters 1 through 4 established the foundational architecture: a scale-invariant
+</p><!-- l. 261 --><p class='noindent'>Chapters 1 through 4 established the foundational architecture: a scale-invariant
 Source broadcasting at infinite bandwidth (Chapter 1), impedance tiers organizing
 reception into density bands (Chapter 2), standing-wave demodulation producing
 perceivable structure (Chapter 3), and resonant growth driving complexity toward
 human-scale optimality (Chapter 4).
-</p><!-- l. 271 --><p class='noindent'>Missing from the picture so far is the <span class='ec-lmbx-10'>signal environment as experienced by an
+</p><!-- l. 268 --><p class='noindent'>Missing from the picture so far is the <span class='ec-lmbx-10'>signal environment as experienced by an
 individual receiver</span>. Chapter 3 introduced the template equation:
-</p><!-- l. 277 --><p class='noindent'>\[ s_{template}(t) = A_s(t) \cos (2\pi f_s t + \phi _s(t)) \]
-</p><!-- l. 279 --><p class='noindent'>This is a single-subcarrier description. But the actual signal environment is richer:
+</p><!-- l. 274 --><p class='noindent'>\[ s_{template}(t) = A_s(t) \cos (2\pi f_s t + \phi _s(t)) \]
+</p><!-- l. 276 --><p class='noindent'>This is a single-subcarrier description. But the actual signal environment is richer:
 multiple information layers are multiplexed onto the same carrier, and the receiver’s
 configuration determines which layers are demodulated. A waking person and a
 dreaming person occupy the same signal environment; what differs is the receiver
 state.
-</p><!-- l. 285 --><p class='noindent'>This chapter formalizes the broadcast architecture—the layered structure of Source’s
+</p><!-- l. 282 --><p class='noindent'>This chapter formalizes the broadcast architecture—the layered structure of Source’s
 signal—and maps fifteen states of consciousness as distinct receiver configurations
 within that architecture. It bridges the cosmological framework (Chapters 1–4) to
 the individual receiver dynamics formalized in the RLC model (Chapter
 6).
-</p><!-- l. 291 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 292 --><p class='noindent'><span class='ec-lmbx-10'>Audio bridge. </span>The three-layer subcarrier model has a direct audio
+</p><!-- l. 288 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 289 --><p class='noindent'><span class='ec-lmbx-10'>Audio bridge. </span>The three-layer subcarrier model has a direct audio
      analogue:  the  AM  morphic  layer  corresponds  to  the  amplitude
      envelope of a sound, the PM timeline layer to phase relationships
      between tracks, and the CDMA soul-identity layer to the unique
@@ -251,71 +251,71 @@ the individual receiver dynamics formalized in the RLC model (Chapter
      summing,  stereo  imaging,  surround  decoding  —  each  revealing
      different aspects of the same source signal.</p></blockquote>
 <div class='center'>
-<!-- l. 302 --><p class='noindent'>
-</p><!-- l. 302 --><p class='noindent'>_________________________________</p></div> <!-- l. 305 --><p class='noindent'>
+<!-- l. 299 --><p class='noindent'>
+</p><!-- l. 299 --><p class='noindent'>_________________________________</p></div> <!-- l. 302 --><p class='noindent'>
 </p>
 <h4 class='subsectionHead' id='-the-unified-receiver-model'><a id='x1-4000'></a>5.2 The Unified Receiver Model</h4>
 <p><a id='x1-4000doc'></a>
-</p><!-- l. 308 --><p class='noindent'>
+</p><!-- l. 305 --><p class='noindent'>
 </p>
 <h5 class='subsubsectionHead' id='-receiveronly-ontology'><a id='x1-5000'></a>5.2.1 Receiver-Only Ontology</h5>
 <p><a id='x1-5000doc'></a>
-</p><!-- l. 310 --><p class='noindent'>Chapter 1 established that consciousness does not generate experience but receives it.
+</p><!-- l. 307 --><p class='noindent'>Chapter 1 established that consciousness does not generate experience but receives it.
 This chapter extends that principle to its operational conclusion: <span class='ec-lmbx-10'>every state of
 consciousness is the same receiver in a different configuration</span>. Waking,
 dreaming, imagining, meditating, and all other experiential modes are not
 fundamentally different operations. They are parameter variations on a single
 receiving system.
-</p><!-- l. 317 --><p class='noindent'>The full signal at density \(d\) can be written:
-</p><!-- l. 321 --><p class='noindent'>\[ s_d(t) = A_{morphic}(t) \cdot \cos \!\bigl (2\pi f_d \, t + \phi _{PM}(t)\bigr ) \cdot c_{soul}(t) \]
-</p><!-- l. 323 --><p class='noindent'>Where:
-</p><!-- l. 326 --><p class='noindent'>
-</p><!-- l. 326 --><p class='noindent'>
+</p><!-- l. 314 --><p class='noindent'>The full signal at density \(d\) can be written:
+</p><!-- l. 318 --><p class='noindent'>\[ s_d(t) = A_{morphic}(t) \cdot \cos \!\bigl (2\pi f_d \, t + \phi _{PM}(t)\bigr ) \cdot c_{soul}(t) \]
+</p><!-- l. 320 --><p class='noindent'>Where:
+</p><!-- l. 323 --><p class='noindent'>
+</p><!-- l. 323 --><p class='noindent'>
 <a id='x1-5001r1'></a></p>
-<!-- l. 330 --><div class='longtable'> <table class='longtable' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /></colgroup> <tr id='TBL-1-4-'><td class='td01' id='TBL-1-4-1'>
-<div class='minipage'><!-- l. 332 --><p class='noindent'>Component </p></div> </td><td class='td11' id='TBL-1-4-2'> <div class='minipage'><!-- l. 334 --><p class='noindent'>Function </p></div> </td><td class='td10' id='TBL-1-4-3'> <div class='minipage'><!-- l. 336 --><p class='noindent'>Information Layer </p></div></td>
+<!-- l. 327 --><div class='longtable'> <table class='longtable' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /></colgroup> <tr id='TBL-1-4-'><td class='td01' id='TBL-1-4-1'>
+<div class='minipage'><!-- l. 329 --><p class='noindent'>Component </p></div> </td><td class='td11' id='TBL-1-4-2'> <div class='minipage'><!-- l. 331 --><p class='noindent'>Function </p></div> </td><td class='td10' id='TBL-1-4-3'> <div class='minipage'><!-- l. 333 --><p class='noindent'>Information Layer </p></div></td>
 </tr>
 <tr id='TBL-1-15-'><td class='td01' id='TBL-1-15-1'>
-<!-- l. 342 --><p class='noindent'>\(A_{morphic}(t)\)                   </p></td><td class='td11' id='TBL-1-15-2'> <!-- l. 342 --><p class='noindent'>Amplitude
-  envelope                 </p></td><td class='td10' id='TBL-1-15-3'> <!-- l. 342 --><p class='noindent'>Morphic
+<!-- l. 339 --><p class='noindent'>\(A_{morphic}(t)\)                   </p></td><td class='td11' id='TBL-1-15-2'> <!-- l. 339 --><p class='noindent'>Amplitude
+  envelope                 </p></td><td class='td10' id='TBL-1-15-3'> <!-- l. 339 --><p class='noindent'>Morphic
   form
   templates
   (AM
   layer)                                          </p></td>
 </tr><tr id='TBL-1-16-'><td class='td01' id='TBL-1-16-1'>
-<!-- l. 344 --><p class='noindent'>\(f_d\)                   </p></td><td class='td11' id='TBL-1-16-2'> <!-- l. 344 --><p class='noindent'>Dimensional
+<!-- l. 341 --><p class='noindent'>\(f_d\)                   </p></td><td class='td11' id='TBL-1-16-2'> <!-- l. 341 --><p class='noindent'>Dimensional
   carrier
-  frequency               </p></td><td class='td10' id='TBL-1-16-3'> <!-- l. 344 --><p class='noindent'>Density
+  frequency               </p></td><td class='td10' id='TBL-1-16-3'> <!-- l. 341 --><p class='noindent'>Density
   band
   (established
   in
   Chapter
   2)                                              </p></td>
 </tr><tr id='TBL-1-17-'><td class='td01' id='TBL-1-17-1'>
-<!-- l. 346 --><p class='noindent'>\(\phi _{PM}(t)\)                   </p></td><td class='td11' id='TBL-1-17-2'> <!-- l. 346 --><p class='noindent'>Phase
-  modulation             </p></td><td class='td10' id='TBL-1-17-3'> <!-- l. 346 --><p class='noindent'>Timeline/probability
+<!-- l. 343 --><p class='noindent'>\(\phi _{PM}(t)\)                   </p></td><td class='td11' id='TBL-1-17-2'> <!-- l. 343 --><p class='noindent'>Phase
+  modulation             </p></td><td class='td10' id='TBL-1-17-3'> <!-- l. 343 --><p class='noindent'>Timeline/probability
   weighting
   (PM
   layer)                                          </p></td>
 </tr><tr id='TBL-1-18-'><td class='td01' id='TBL-1-18-1'>
-<!-- l. 348 --><p class='noindent'>\(c_{soul}(t)\)                   </p></td><td class='td11' id='TBL-1-18-2'> <!-- l. 348 --><p class='noindent'>Spreading
-  code                      </p></td><td class='td10' id='TBL-1-18-3'> <!-- l. 348 --><p class='noindent'>Soul
+<!-- l. 345 --><p class='noindent'>\(c_{soul}(t)\)                   </p></td><td class='td11' id='TBL-1-18-2'> <!-- l. 345 --><p class='noindent'>Spreading
+  code                      </p></td><td class='td10' id='TBL-1-18-3'> <!-- l. 345 --><p class='noindent'>Soul
   identity
   signature
   (CDMA
   layer)                                          </p></td>
 </tr> </table></div>
-<!-- l. 353 --><p class='noindent'>What a receiver extracts from \(s_d(t)\) depends entirely on which demodulation modes are
+<!-- l. 350 --><p class='noindent'>What a receiver extracts from \(s_d(t)\) depends entirely on which demodulation modes are
 active, which antenna systems are engaged, and how the receiver’s bandwidth and
 center frequency are configured.
-</p><!-- l. 358 --><p class='nopar'>
+</p><!-- l. 355 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-memoryimagination-equivalence'><a id='x1-6000'></a>5.2.2 Memory-Imagination Equivalence</h5>
 <p><a id='x1-6000doc'></a>
-</p><!-- l. 360 --><p class='nopar'>A key prediction of the receiver model is that memory and imagination should
+</p><!-- l. 357 --><p class='nopar'>A key prediction of the receiver model is that memory and imagination should
 be neurally indistinguishable at the level of mechanism, differing only in
 source.
-</p><!-- l. 364 --><p class='noindent'>This prediction is confirmed by the <span class='ec-lmbx-10'>constructive memory </span>framework in
+</p><!-- l. 361 --><p class='noindent'>This prediction is confirmed by the <span class='ec-lmbx-10'>constructive memory </span>framework in
 cognitive neuroscience (Schacter &amp; Addis, 2007; Hassabis et al., 2007). Key
 findings:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Shared neural substrates</span>: The hippocampal-cortical network activated
@@ -331,97 +331,97 @@ findings:
                                                                   
      events (Hassabis et al., 2007). If memory and imagination were distinct
      systems, selective loss of one without the other would be expected.</li></ul>
-<!-- l. 388 --><p class='noindent'><span class='ec-lmbx-10'>RF interpretation</span>: Memory is local cache retrieval—the receiver accesses
+<!-- l. 385 --><p class='noindent'><span class='ec-lmbx-10'>RF interpretation</span>: Memory is local cache retrieval—the receiver accesses
 previously demodulated and stored signal content. Imagination is live field reception
 on non-standard bands. The receiver operation (demodulation, pattern extraction,
 conscious presentation) is identical; the signal source differs. The hippocampus is the
 indexing system that routes retrieval, whether the target is cached content or live
 reception. <span class='evidence-pill evidence-pill--l2'>[L2]</span>
-</p><!-- l. 398 --><p class='nopar'>
+</p><!-- l. 395 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-implications-what-just-your-imagination-actually-means'><a id='x1-7000'></a>5.2.3 Implications: What “Just Your Imagination” Actually Means</h5>
 <p><a id='x1-7000doc'></a>
-</p><!-- l. 400 --><p class='nopar'>The cultural dismissal “it’s just your imagination” encodes a specific technical claim:
+</p><!-- l. 397 --><p class='nopar'>The cultural dismissal “it’s just your imagination” encodes a specific technical claim:
 that imagination accesses no external signal and is purely internally generated. Under
 the receiver model, this claim is equivalent to asserting that tuning a radio to
 a new frequency produces no signal—only static from the receiver’s own
 electronics.
-</p><!-- l. 406 --><p class='noindent'>The dismissal is trained bandwidth restriction. Individuals learn to treat non-cached
+</p><!-- l. 403 --><p class='noindent'>The dismissal is trained bandwidth restriction. Individuals learn to treat non-cached
 reception as noise, progressively narrowing their tunable range to the waking
 AM band. This is operant conditioning applied to receiver configuration:
 non-standard demodulation outputs are socially punished, standard outputs
 rewarded.
-</p><!-- l. 412 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 413 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic  Note</span>:  The  claim  that  imagination  involves  field
+</p><!-- l. 409 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 410 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic  Note</span>:  The  claim  that  imagination  involves  field
      reception rather than internal generation is a model prediction <span class='evidence-pill evidence-pill--l3'>[L3]</span>,
      not  an  established  finding.  The  neural  substrate  overlap  <span class='evidence-pill evidence-pill--l2'>[L2]</span>  is
      consistent with this interpretation but does not require it—purely
      internal constructive processes also explain the data.</p></blockquote>
 <div class='center'>
-<!-- l. 420 --><p class='noindent'>
-</p><!-- l. 420 --><p class='noindent'>_________________________________</p></div> <!-- l. 423 --><p class='nopar'>
+<!-- l. 417 --><p class='noindent'>
+</p><!-- l. 417 --><p class='noindent'>_________________________________</p></div> <!-- l. 420 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-the-frequencyaperturescale-connection'><a id='x1-8000'></a>5.3 The Frequency-Aperture-Scale Connection</h4>
 <p><a id='x1-8000doc'></a>
-</p><!-- l. 425 --><p class='nopar'>Chapter 6 formalizes the individual receiver as a series RLC circuit with
+</p><!-- l. 422 --><p class='nopar'>Chapter 6 formalizes the individual receiver as a series RLC circuit with
 resonant frequency \(f_0 = 1/(2\pi \sqrt {LC})\), quality factor \(Q = Z_0/R\), and characteristic impedance \(Z_0 = \sqrt {L/C}\). This section
 establishes how those parameters govern reception across the three signal
 layers.
-</p><!-- l. 432 --><p class='nopar'>
+</p><!-- l. 429 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-inductance-as-the-master-variable'><a id='x1-9000'></a>5.3.1 Inductance as the Master Variable</h5>
 <p><a id='x1-9000doc'></a>
-</p><!-- l. 434 --><p class='nopar'>Inductance \(L\) (mapped to accumulated wisdom in Chapter 6) drives both key reception
+</p><!-- l. 431 --><p class='nopar'>Inductance \(L\) (mapped to accumulated wisdom in Chapter 6) drives both key reception
 parameters simultaneously:
-</p><!-- l. 439 --><p class='noindent'>\[ f_0 = \frac {1}{2\pi \sqrt {LC}} \quad \Longrightarrow \quad f_0 \propto L^{-1/2} \]
-</p><!-- l. 443 --><p class='noindent'>\[ Z_0 = \sqrt {\frac {L}{C}} \quad \Longrightarrow \quad Z_0 \propto L^{+1/2} \]
-</p><!-- l. 445 --><p class='noindent'>As \(L\) increases:
+</p><!-- l. 436 --><p class='noindent'>\[ f_0 = \frac {1}{2\pi \sqrt {LC}} \quad \Longrightarrow \quad f_0 \propto L^{-1/2} \]
+</p><!-- l. 440 --><p class='noindent'>\[ Z_0 = \sqrt {\frac {L}{C}} \quad \Longrightarrow \quad Z_0 \propto L^{+1/2} \]
+</p><!-- l. 442 --><p class='noindent'>As \(L\) increases:
 </p> <ul class='itemize1'> <li class='itemize'>\(f_0\)  decreases  —  the  receiver’s  characteristic  scale  shifts  toward  longer
      wavelengths, coupling to larger-timescale patterns
      </li> <li class='itemize'>\(Z_0\) increases — the receiver’s aperture widens, granting access to additional
      signal layers</li></ul>
-<!-- l. 457 --><p class='noindent'>This is not coincidental. It is the same physics as antenna theory: larger antennas
+<!-- l. 454 --><p class='noindent'>This is not coincidental. It is the same physics as antenna theory: larger antennas
 receive longer wavelengths and have greater effective aperture.
-</p><!-- l. 462 --><p class='nopar'>
+</p><!-- l. 459 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-effective-aperture-and-the-lambdasquared-law'><a id='x1-10000'></a>5.3.2 Effective Aperture and the Lambda-Squared Law</h5>
 <p><a id='x1-10000doc'></a>
-</p><!-- l. 464 --><p class='nopar'>The effective aperture of a receiver scales with the square of the received
+</p><!-- l. 461 --><p class='nopar'>The effective aperture of a receiver scales with the square of the received
                                                                   
 
                                                                   
 wavelength:
-</p><!-- l. 469 --><p class='noindent'>\[ A_{eff} \propto \lambda ^2 = \left (\frac {c}{f_0}\right )^2 \]
-</p><!-- l. 471 --><p class='noindent'>In the consciousness model, \(A_{eff}\) determines how many signal layers the receiver can
+</p><!-- l. 466 --><p class='noindent'>\[ A_{eff} \propto \lambda ^2 = \left (\frac {c}{f_0}\right )^2 \]
+</p><!-- l. 468 --><p class='noindent'>In the consciousness model, \(A_{eff}\) determines how many signal layers the receiver can
 simultaneously demodulate. Low-\(L\) receivers (high \(f_0\), small \(\lambda \)) have small apertures
 and access only the AM (form) layer. High-\(L\) receivers (low \(f_0\), large \(\lambda \)) have
 large apertures and can simultaneously demodulate AM, PM, and CDMA
 layers.
-</p><!-- l. 479 --><p class='nopar'>
+</p><!-- l. 476 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-what-f-and-cdma-code-each-determine'><a id='x1-11000'></a>5.3.3 What \(f_0\) and CDMA Code Each Determine</h5>
 <p><a id='x1-11000doc'></a>
-</p><!-- l. 481 --><p class='nopar'>An important distinction:
-</p><!-- l. 484 --><p class='noindent'>
-</p><!-- l. 484 --><p class='noindent'>
+</p><!-- l. 478 --><p class='nopar'>An important distinction:
+</p><!-- l. 481 --><p class='noindent'>
+</p><!-- l. 481 --><p class='noindent'>
 <a id='x1-11001r2'></a></p>
-<!-- l. 488 --><div class='longtable'> <table class='longtable' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /><col id='TBL-2-2' /><col id='TBL-2-3' /></colgroup>
+<!-- l. 485 --><div class='longtable'> <table class='longtable' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /><col id='TBL-2-2' /><col id='TBL-2-3' /></colgroup>
 <tr id='TBL-2-4-'><td class='td01' id='TBL-2-4-1'>
-<div class='minipage'><!-- l. 490 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-2-4-2'> <div class='minipage'><!-- l. 492 --><p class='noindent'>What It Determines </p></div> </td><td class='td10' id='TBL-2-4-3'> <div class='minipage'><!-- l. 494 --><p class='noindent'>Analogy </p></div></td>
+<div class='minipage'><!-- l. 487 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-2-4-2'> <div class='minipage'><!-- l. 489 --><p class='noindent'>What It Determines </p></div> </td><td class='td10' id='TBL-2-4-3'> <div class='minipage'><!-- l. 491 --><p class='noindent'>Analogy </p></div></td>
 </tr>
 <tr id='TBL-2-15-'><td class='td01' id='TBL-2-15-1'>
-<!-- l. 500 --><p class='noindent'>\(f_0\)                    </p></td><td class='td11' id='TBL-2-15-2'> <!-- l. 500 --><p class='noindent'>Characteristic
+<!-- l. 497 --><p class='noindent'>\(f_0\)                    </p></td><td class='td11' id='TBL-2-15-2'> <!-- l. 497 --><p class='noindent'>Characteristic
   <span class='ec-lmbx-10'>scale</span>
   of
-  reception                                        </p></td><td class='td10' id='TBL-2-15-3'> <!-- l. 500 --><p class='noindent'>Which
+  reception                                        </p></td><td class='td10' id='TBL-2-15-3'> <!-- l. 497 --><p class='noindent'>Which
   radio
   band
   you
   tune
   to                     </p></td> </tr><tr id='TBL-2-16-'><td class='td01' id='TBL-2-16-1'>
-<!-- l. 502 --><p class='noindent'>CDMA
+<!-- l. 499 --><p class='noindent'>CDMA
 code
-\(c_{soul}(t)\)                               </p></td><td class='td11' id='TBL-2-16-2'> <!-- l. 502 --><p class='noindent'>Archetypal
-  <span class='ec-lmbx-10'>type</span> </p></td><td class='td10' id='TBL-2-16-3'> <!-- l. 502 --><p class='noindent'>Which
+\(c_{soul}(t)\)                               </p></td><td class='td11' id='TBL-2-16-2'> <!-- l. 499 --><p class='noindent'>Archetypal
+  <span class='ec-lmbx-10'>type</span> </p></td><td class='td10' id='TBL-2-16-3'> <!-- l. 499 --><p class='noindent'>Which
   conversation
   you
   decode
@@ -429,16 +429,16 @@ code
   that
   band                 </p></td>
 </tr> </table></div>
-<!-- l. 507 --><p class='noindent'>\(f_0\) sets whether you couple to episode-scale, lifetime-scale, or era-scale patterns within
+<!-- l. 504 --><p class='noindent'>\(f_0\) sets whether you couple to episode-scale, lifetime-scale, or era-scale patterns within
 the AM layer. The CDMA code determines your archetypal identity—healer, warrior,
 teacher, creator—independent of scale. A young-soul healer and an old-soul healer
 share CDMA affinity but differ in \(f_0\) (and therefore in temporal integration
 depth).
-</p><!-- l. 514 --><p class='nopar'>
+</p><!-- l. 511 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-integration-with-the-episodicmythic-spectrum'><a id='x1-12000'></a>5.3.4 Integration with the Episodic-Mythic Spectrum</h5>
 <p><a id='x1-12000doc'></a>
-</p><!-- l. 516 --><p class='nopar'>Chapter 6 (Section 6.2.8.2) establishes that Q determines position on the
+</p><!-- l. 513 --><p class='nopar'>Chapter 6 (Section 6.2.8.2) establishes that Q determines position on the
 episodic-mythic perception spectrum, with the mythic-to-episodic ratio scaling as \(\alpha _{mythic}/\alpha _{episodic} \propto Q^2\).
 The signal environment model explains <span class='ec-lmbx-10'>why </span>this is so:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Episodic  perception  </span>=  AM-only  demodulation.  The  receiver  reads
@@ -449,46 +449,46 @@ The signal environment model explains <span class='ec-lmbx-10'>why </span>this i
      continuity. Events appear as instances of archetypal patterns because the
      PM phase structure reveals cross-temporal correlations and the CDMA
      layer reveals identity threads connecting events across time.</li></ul>
-<!-- l. 537 --><p class='noindent'>\[ \text {Accessible demod modes} = \begin {cases} \text {AM only} &amp; Z_0 &lt; Z_{PM} \\ \text {AM + PM} &amp; Z_{PM} \leq Z_0 &lt; Z_{CDMA} \\ \text {AM + PM + CDMA} &amp; Z_0 \geq Z_{CDMA} \end {cases} \]
-</p><!-- l. 539 --><p class='noindent'>Where \(Z_{PM}\) and \(Z_{CDMA}\) are impedance thresholds for accessing the phase-modulation and code
+<!-- l. 534 --><p class='noindent'>\[ \text {Accessible demod modes} = \begin {cases} \text {AM only} &amp; Z_0 &lt; Z_{PM} \\ \text {AM + PM} &amp; Z_{PM} \leq Z_0 &lt; Z_{CDMA} \\ \text {AM + PM + CDMA} &amp; Z_0 \geq Z_{CDMA} \end {cases} \]
+</p><!-- l. 536 --><p class='noindent'>Where \(Z_{PM}\) and \(Z_{CDMA}\) are impedance thresholds for accessing the phase-modulation and code
 layers respectively. <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
 </p>
 <div class='center'>
-<!-- l. 543 --><p class='noindent'>
-</p><!-- l. 543 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 546 --><p class='nopar'>
+<!-- l. 540 --><p class='noindent'>
+</p><!-- l. 540 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 543 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-states-of-consciousness-as-receiver-configurations'><a id='x1-13000'></a>5.4 States of Consciousness as Receiver Configurations</h4>
 <p><a id='x1-13000doc'></a>
-</p><!-- l. 548 --><p class='nopar'>
+</p><!-- l. 545 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-configuration-space'><a id='x1-14000'></a>5.4.1 Configuration Space</h5>
 <p><a id='x1-14000doc'></a>
-</p><!-- l. 550 --><p class='nopar'>Each state of consciousness is defined by a five-parameter vector:
-</p><!-- l. 554 --><p class='noindent'>\[ \mathbf {S} = \bigl (\Delta f,\; f_0,\; \mathcal {D},\; \mathcal {A},\; Z_0 \bigr ) \]
-</p><!-- l. 557 --><p class='noindent'>
-</p><!-- l. 557 --><p class='noindent'> <a id='x1-14001r3'></a></p>
-<!-- l. 561 --><div class='longtable'> <table class='longtable' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /></colgroup>
+</p><!-- l. 547 --><p class='nopar'>Each state of consciousness is defined by a five-parameter vector:
+</p><!-- l. 551 --><p class='noindent'>\[ \mathbf {S} = \bigl (\Delta f,\; f_0,\; \mathcal {D},\; \mathcal {A},\; Z_0 \bigr ) \]
+</p><!-- l. 554 --><p class='noindent'>
+</p><!-- l. 554 --><p class='noindent'> <a id='x1-14001r3'></a></p>
+<!-- l. 558 --><div class='longtable'> <table class='longtable' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /></colgroup>
 <tr id='TBL-3-4-'><td class='td01' id='TBL-3-4-1'>
-<div class='minipage'><!-- l. 563 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-3-4-2'> <div class='minipage'><!-- l. 565 --><p class='noindent'>Symbol </p></div> </td><td class='td10' id='TBL-3-4-3'> <div class='minipage'><!-- l. 567 --><p class='noindent'>Description </p></div></td>
+<div class='minipage'><!-- l. 560 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-3-4-2'> <div class='minipage'><!-- l. 562 --><p class='noindent'>Symbol </p></div> </td><td class='td10' id='TBL-3-4-3'> <div class='minipage'><!-- l. 564 --><p class='noindent'>Description </p></div></td>
 </tr>
 <tr id='TBL-3-15-'><td class='td01' id='TBL-3-15-1'>
-<!-- l. 573 --><p class='noindent'>Bandwidth                       </p></td><td class='td11' id='TBL-3-15-2'> <!-- l. 573 --><p class='noindent'>\(\Delta f\)                  </p></td><td class='td10' id='TBL-3-15-3'> <!-- l. 573 --><p class='noindent'>Range
+<!-- l. 570 --><p class='noindent'>Bandwidth                       </p></td><td class='td11' id='TBL-3-15-2'> <!-- l. 570 --><p class='noindent'>\(\Delta f\)                  </p></td><td class='td10' id='TBL-3-15-3'> <!-- l. 570 --><p class='noindent'>Range
   of
   frequencies
   simultaneously
   received                                </p></td>
 </tr><tr id='TBL-3-16-'><td class='td01' id='TBL-3-16-1'>
-<!-- l. 575 --><p class='noindent'>Center
+<!-- l. 572 --><p class='noindent'>Center
 frequency
 /
-scale                               </p></td><td class='td11' id='TBL-3-16-2'> <!-- l. 575 --><p class='noindent'>\(f_0\)                  </p></td><td class='td10' id='TBL-3-16-3'> <!-- l. 575 --><p class='noindent'>Characteristic
+scale                               </p></td><td class='td11' id='TBL-3-16-2'> <!-- l. 572 --><p class='noindent'>\(f_0\)                  </p></td><td class='td10' id='TBL-3-16-3'> <!-- l. 572 --><p class='noindent'>Characteristic
   scale
   of
   reception                              </p></td>
 </tr><tr id='TBL-3-17-'><td class='td01' id='TBL-3-17-1'>
-<!-- l. 577 --><p class='noindent'>Demodulation
-mode                              </p></td><td class='td11' id='TBL-3-17-2'> <!-- l. 577 --><p class='noindent'>\(\mathcal {D}\)                  </p></td><td class='td10' id='TBL-3-17-3'> <!-- l. 577 --><p class='noindent'>Which
+<!-- l. 574 --><p class='noindent'>Demodulation
+mode                              </p></td><td class='td11' id='TBL-3-17-2'> <!-- l. 574 --><p class='noindent'>\(\mathcal {D}\)                  </p></td><td class='td10' id='TBL-3-17-3'> <!-- l. 574 --><p class='noindent'>Which
   signal
   layers
   are
@@ -498,8 +498,8 @@ mode                              </p></td><td class='td11' id='TBL-3-17-2'> <!-
   FM,
   CDMA)                               </p></td>
 </tr><tr id='TBL-3-18-'><td class='td01' id='TBL-3-18-1'>
-<!-- l. 579 --><p class='noindent'>Antenna
-system                            </p></td><td class='td11' id='TBL-3-18-2'> <!-- l. 579 --><p class='noindent'>\(\mathcal {A}\)                  </p></td><td class='td10' id='TBL-3-18-3'> <!-- l. 579 --><p class='noindent'>Which
+<!-- l. 576 --><p class='noindent'>Antenna
+system                            </p></td><td class='td11' id='TBL-3-18-2'> <!-- l. 576 --><p class='noindent'>\(\mathcal {A}\)                  </p></td><td class='td10' id='TBL-3-18-3'> <!-- l. 576 --><p class='noindent'>Which
   transduction
   pathway
   is
@@ -509,7 +509,7 @@ system                            </p></td><td class='td11' id='TBL-3-18-2'> <!-
   subtle
   body,
   etc.)                                    </p></td> </tr><tr id='TBL-3-19-'><td class='td01' id='TBL-3-19-1'>
-<!-- l. 581 --><p class='noindent'>Aperture                          </p></td><td class='td11' id='TBL-3-19-2'> <!-- l. 581 --><p class='noindent'>\(Z_0\)                  </p></td><td class='td10' id='TBL-3-19-3'> <!-- l. 581 --><p class='noindent'>How
+<!-- l. 578 --><p class='noindent'>Aperture                          </p></td><td class='td11' id='TBL-3-19-2'> <!-- l. 578 --><p class='noindent'>\(Z_0\)                  </p></td><td class='td10' id='TBL-3-19-3'> <!-- l. 578 --><p class='noindent'>How
   many
   subcarrier
   layers
@@ -517,16 +517,16 @@ system                            </p></td><td class='td11' id='TBL-3-18-2'> <!-
   simultaneously
   accessible                              </p></td>
 </tr> </table></div>
-<!-- l. 586 --><p class='noindent'>State transitions—falling asleep, entering meditation, beginning a remote viewing
+<!-- l. 583 --><p class='noindent'>State transitions—falling asleep, entering meditation, beginning a remote viewing
 session—are movements through this configuration space. The signal environment
 itself does not change; the receiver reconfigures.
-</p><!-- l. 591 --><p class='nopar'>
+</p><!-- l. 588 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-waking-consciousness'><a id='x1-15000'></a>5.4.2 Waking Consciousness</h5>
 <p><a id='x1-15000doc'></a>
-</p><!-- l. 593 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Narrowband, high noise floor, physical-band-locked.
-</p><!-- l. 598 --><p class='noindent'>\[ \mathbf {S}_{wake} = \bigl (\text {narrow},\; f_{physical},\; \text {AM},\; \text {physical body},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 600 --><p class='noindent'>Waking consciousness is the default configuration optimized for 3D physical
+</p><!-- l. 590 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Narrowband, high noise floor, physical-band-locked.
+</p><!-- l. 595 --><p class='noindent'>\[ \mathbf {S}_{wake} = \bigl (\text {narrow},\; f_{physical},\; \text {AM},\; \text {physical body},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 597 --><p class='noindent'>Waking consciousness is the default configuration optimized for 3D physical
 navigation. Beta-band brainwave activity (13–30 Hz) correlates with this state. The
 receiver is locked to the physical density band and demodulates primarily the AM
 (morphic form) layer, producing the experience of stable, persistent objects in
@@ -534,12 +534,12 @@ space.
                                                                   
 
                                                                   
-</p><!-- l. 606 --><p class='noindent'>The high noise floor of waking consciousness—sensory input, internal monologue,
+</p><!-- l. 603 --><p class='noindent'>The high noise floor of waking consciousness—sensory input, internal monologue,
 emotional reactivity—masks weaker signals from the PM and CDMA layers even
 when \(Z_0\) is sufficient to access them. This is a feature, not a deficiency: high noise floor
 provides robust physical-world operation at the cost of subtler perception.
 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
-</p><!-- l. 613 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The waking ODS (Operating Deflection
+</p><!-- l. 610 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The waking ODS (Operating Deflection
 Shape) is dominated by a few low-order modes, principally the cognitive mode whose
 antinode sits at the head/mind region of the receiver structure. Somatic and
 emotional modes are present but suppressed well below the cognitive mode’s
@@ -552,21 +552,21 @@ structurally simple: a low-resolution rendering of the receiver’s full modal
 capacity. Node lines fall at regions associated with intuitive, somatic, and
 transpersonal processing, which are the faculties that waking consciousness does not
 access.
-</p><!-- l. 629 --><p class='nopar'>
+</p><!-- l. 626 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-memory'><a id='x1-16000'></a>5.4.3 Memory</h5>
 <p><a id='x1-16000doc'></a>
-</p><!-- l. 631 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Local cache retrieval, same demodulation as imagination.
-</p><!-- l. 634 --><p class='noindent'>Memory does not access the live signal environment. The hippocampal indexing
+</p><!-- l. 628 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Local cache retrieval, same demodulation as imagination.
+</p><!-- l. 631 --><p class='noindent'>Memory does not access the live signal environment. The hippocampal indexing
 system retrieves previously demodulated and stored content from local neural cache.
 The receiver operation—pattern extraction, conscious presentation—is identical to
 live reception (Section 5.2.2), but the source is internal storage rather than the
 field.
-</p><!-- l. 640 --><p class='noindent'>Signal degrades with each retrieval because reconstruction introduces noise. This is
+</p><!-- l. 637 --><p class='noindent'>Signal degrades with each retrieval because reconstruction introduces noise. This is
 consistent with the well-established reconsolidation literature: each memory
 access opens the stored representation to modification (Nader et al., 2000).
 <span class='evidence-pill evidence-pill--l1'>[L1]</span>
-</p><!-- l. 645 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The mode shape reproduced during recall
+</p><!-- l. 642 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The mode shape reproduced during recall
 is the same spatial pattern that was active during the original experience, but at
 reduced amplitude and with accumulated phase drift — analogous to the
 reverberant tail that persists after the driving source stops. The eigenvalues \(\lambda _n\) are
@@ -581,24 +581,24 @@ across the mode set, degrading the fidelity of the reconstructed ODS. Highly
 emotional memories retain mode shape coherence longer because the emotional
 modes were driven to high amplitude, giving them a longer reverberant
 decay.
-</p><!-- l. 660 --><p class='nopar'>
+</p><!-- l. 657 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-imagination-and-fantasy'><a id='x1-17000'></a>5.4.4 Imagination and Fantasy</h5>
 <p><a id='x1-17000doc'></a>
-</p><!-- l. 662 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Same neural networks as memory, different source. PM
+</p><!-- l. 659 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Same neural networks as memory, different source. PM
 demodulation dominant.
-</p><!-- l. 667 --><p class='noindent'>\[ \mathbf {S}_{imagine} = \bigl (\text {moderate},\; f_{0}^{shifted},\; \text {PM primary},\; \text {physical body},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 669 --><p class='noindent'>The receiver scans non-standard bands. PM demodulation dominates because
+</p><!-- l. 664 --><p class='noindent'>\[ \mathbf {S}_{imagine} = \bigl (\text {moderate},\; f_{0}^{shifted},\; \text {PM primary},\; \text {physical body},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 666 --><p class='noindent'>The receiver scans non-standard bands. PM demodulation dominates because
 imagination preferentially reads the timeline/probability layer: “what could
 happen,” “what might be,” “what if.” The emotional charge accompanying vivid
 imaginative scenarios is the readout of phase amplitude—high-probability timelines
 produce strong emotional resonance; low-probability timelines feel abstract or
 flat.
-</p><!-- l. 676 --><p class='noindent'>Facilitator-guided visualization (therapeutic or spiritual) is an impedance matching
+</p><!-- l. 673 --><p class='noindent'>Facilitator-guided visualization (therapeutic or spiritual) is an impedance matching
 sequence: the facilitator’s instructions systematically shift the receiver’s center
 frequency and lower the noise floor, enabling coupling to bands the subject would not
 access unguided. <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 682 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>PM-demodulation mode excites
+</p><!-- l. 679 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>PM-demodulation mode excites
 higher-order modes that remain dormant during waking-state AM reception. Because
 imagination is not constrained by sensory driving forces, the mode shapes are free to
 explore configurations unavailable under forced vibration — the ODS extends
@@ -611,23 +611,23 @@ mode superposition is disrupted before it can stabilize. The vividness of
 an imagined scenario correlates with how many modes achieve coherent
 superposition — vivid imagination is a high-mode-count ODS held in stable
 phase.
-</p><!-- l. 697 --><p class='nopar'>
+</p><!-- l. 694 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-dreams'><a id='x1-18000'></a>5.4.5 Dreams</h5> <p><a id='x1-18000doc'></a>
-</p><!-- l. 699 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband, no conscious operator, all antenna systems active,
+</p><!-- l. 696 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband, no conscious operator, all antenna systems active,
 mixed signal.
-</p><!-- l. 704 --><p class='noindent'>\[ \mathbf {S}_{dream} = \bigl (\text {broad},\; \text {variable},\; \text {all modes},\; \text {all antennas},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 706 --><p class='noindent'>During sleep, the waking narrowband filter disengages. All demodulation modes
+</p><!-- l. 701 --><p class='noindent'>\[ \mathbf {S}_{dream} = \bigl (\text {broad},\; \text {variable},\; \text {all modes},\; \text {all antennas},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 703 --><p class='noindent'>During sleep, the waking narrowband filter disengages. All demodulation modes
 operate simultaneously and all antenna systems are active. Without conscious
 operator selection, the result is mixed multi-band reception—the subjective
 experience of which is surreal, nonlinear, and symbolically dense.
-</p><!-- l. 712 --><p class='noindent'>The “bizarre” quality of dreams is not noise. It is the phenomenology of overlapping
+</p><!-- l. 709 --><p class='noindent'>The “bizarre” quality of dreams is not noise. It is the phenomenology of overlapping
 multi-band reception without filtering: AM forms from one density intermixed with
 PM probability structures from another, threaded with CDMA identity information
 from the soul layer. The dreaming brain attempts to render this multi-dimensional
 signal into a linear narrative, producing the characteristic dream distortions.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 720 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>All modes ring simultaneously in free
+</p><!-- l. 717 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>All modes ring simultaneously in free
 vibration after waking-state forcing is removed. With no dominant driving frequency,
 the ODS becomes a chaotic superposition — each eigenmode vibrates at its own
 natural frequency with whatever amplitude it retained from the day’s excitation. The
@@ -639,17 +639,17 @@ composite ODS surface as dream images and dissolve as the phase relationships
 drift. The total mode count active during dreaming far exceeds the waking
 count, but without coherent superposition, the resolution is paradoxically
 lower.
-</p><!-- l. 734 --><p class='nopar'>
+</p><!-- l. 731 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-lucid-dreaming'><a id='x1-19000'></a>5.4.6 Lucid Dreaming</h5>
 <p><a id='x1-19000doc'></a>
-</p><!-- l. 736 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband with conscious operator online.
-</p><!-- l. 738 --><p class='noindent'>Lucid dreaming adds operator control to the broadband dream configuration. The
+</p><!-- l. 733 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband with conscious operator online.
+</p><!-- l. 735 --><p class='noindent'>Lucid dreaming adds operator control to the broadband dream configuration. The
 receiver maintains wide bandwidth and multi-mode demodulation but gains the
 ability to consciously select which band to attend, which demodulation mode to
 prioritize, and which antenna to direct. In RF terms, this is a software-defined radio
 with manual override. <span class='evidence-pill evidence-pill--range'>[L4-CONCEPTUAL]</span>
-</p><!-- l. 745 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The same broad modal activation as
+</p><!-- l. 742 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The same broad modal activation as
 dreaming is present — all modes ring in free vibration — but the cognitive
                                                                   
 
@@ -664,19 +664,19 @@ The skill ceiling of lucid dreaming maps directly to the sophistication of
 mode-selective control the dreamer can sustain before the cognitive mode either
 dominates (triggering waking) or loses coherence (falling back into ordinary
 dreaming).
-</p><!-- l. 759 --><p class='nopar'>
+</p><!-- l. 756 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-meditation'><a id='x1-20000'></a>5.4.7 Meditation</h5>
 <p><a id='x1-20000doc'></a>
-</p><!-- l. 761 --><p class='nopar'>Two distinct configurations share the label “meditation”:
-</p><!-- l. 763 --><p class='noindent'><span class='ec-lmbx-10'>Focused attention </span>(shamatha, concentration):
-</p><!-- l. 767 --><p class='noindent'>\[ \mathbf {S}_{focused} = \bigl (\text {very narrow},\; f_0^{shifted},\; \text {single mode},\; \text {physical body},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 769 --><p class='noindent'>Bandwidth narrows below waking baseline. The noise floor drops as sensory and
+</p><!-- l. 758 --><p class='nopar'>Two distinct configurations share the label “meditation”:
+</p><!-- l. 760 --><p class='noindent'><span class='ec-lmbx-10'>Focused attention </span>(shamatha, concentration):
+</p><!-- l. 764 --><p class='noindent'>\[ \mathbf {S}_{focused} = \bigl (\text {very narrow},\; f_0^{shifted},\; \text {single mode},\; \text {physical body},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 766 --><p class='noindent'>Bandwidth narrows below waking baseline. The noise floor drops as sensory and
 cognitive chatter are suppressed. Center frequency shifts away from the physical
 band. The result is deep, narrow reception—high signal-to-noise on a single
 channel. EEG correlates include increased alpha (8–13 Hz) and theta (4–8 Hz)
 power.
-</p><!-- l. 775 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Progressive mode suppression drives the
+</p><!-- l. 772 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Progressive mode suppression drives the
 ODS toward the fundamental or near-fundamental only. The practitioner is
 performing active vibration damping: sequentially attenuating higher-order modes
 until the structure vibrates in its simplest spatial pattern. Node lines expand
@@ -687,9 +687,9 @@ subjective experience of a single point of awareness without spatial extent. The
 requirement is moderate (Mature-soul range, Q \(\approx \) 2–4) because single-mode
 isolation demands sufficient resolution to distinguish the target mode from its
 neighbors.
-</p><!-- l. 788 --><p class='noindent'><span class='ec-lmbx-10'>Open awareness </span>(vipassana, open monitoring):
-</p><!-- l. 792 --><p class='noindent'>\[ \mathbf {S}_{open} = \bigl (\text {broad},\; \text {unspecified},\; \text {all modes},\; \text {all antennas},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 794 --><p class='noindent'>Bandwidth widens to broadband while the operator remains online—the meditator
+</p><!-- l. 785 --><p class='noindent'><span class='ec-lmbx-10'>Open awareness </span>(vipassana, open monitoring):
+</p><!-- l. 789 --><p class='noindent'>\[ \mathbf {S}_{open} = \bigl (\text {broad},\; \text {unspecified},\; \text {all modes},\; \text {all antennas},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 791 --><p class='noindent'>Bandwidth widens to broadband while the operator remains online—the meditator
 observes all incoming signals without selecting or rejecting. This is the lucid
 dreaming configuration applied to the waking state. EEG correlates include
                                                                   
@@ -697,7 +697,7 @@ dreaming configuration applied to the waking state. EEG correlates include
                                                                   
 increased gamma coherence (&gt;30 Hz) across cortical areas (Lutz et al., 2004).
 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
-</p><!-- l. 800 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>All modes vibrate freely but are observed
+</p><!-- l. 797 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>All modes vibrate freely but are observed
 without amplification or damping — the practitioner functions as a spectrum
 analyzer, extracting individual modes from the composite ODS without altering their
 participation factors. This is modal analysis applied to the self: the open-awareness
@@ -709,12 +709,12 @@ resolving many simultaneous modes without collapsing them into a blurred
 composite demands greater coherence. The gamma coherence observed in
 experienced practitioners (Lutz et al., 2004) is the EEG signature of multi-mode
 resolution.
-</p><!-- l. 816 --><p class='nopar'>
+</p><!-- l. 813 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-hypnosis-and-trance-states'><a id='x1-21000'></a>5.4.8 Hypnosis and Trance States</h5>
 <p><a id='x1-21000doc'></a>
-</p><!-- l. 818 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: External operator manages receiver settings.
-</p><!-- l. 820 --><p class='noindent'>In hypnotic states, the subject’s receiver compliance increases—an external operator
+</p><!-- l. 815 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: External operator manages receiver settings.
+</p><!-- l. 817 --><p class='noindent'>In hypnotic states, the subject’s receiver compliance increases—an external operator
 (hypnotist) adjusts bandwidth, center frequency, and demodulation mode
 via verbal instruction. The mechanism is impedance matching: the subject
 accepts frequency-matched operators (those whose signal characteristics
@@ -722,7 +722,7 @@ match the subject’s resonant parameters) and reflects mismatched ones. This
 explains why hypnotic susceptibility varies between individuals and why
 rapport between hypnotist and subject is essential—it is a matching condition.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 829 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The external operator selects which modes
+</p><!-- l. 826 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The external operator selects which modes
 to excite and which to suppress — the subject’s mode configuration is managed from
 outside. The hypnotist is performing modal control: injecting a forcing function at
 specific mode frequencies to amplify target modes (e.g., pain suppression = damping
@@ -736,24 +736,24 @@ minimal resistance.
                                                                   
 
                                                                   
-</p><!-- l. 842 --><p class='nopar'>
+</p><!-- l. 839 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-remote-viewing'><a id='x1-22000'></a>5.4.9 Remote Viewing</h5>
 <p><a id='x1-22000doc'></a>
-</p><!-- l. 844 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Intentional nonlocal tuning, AM + PM demodulation.
-</p><!-- l. 849 --><p class='noindent'>\[ \mathbf {S}_{RV} = \bigl (\text {narrow},\; f_{target},\; \text {AM + PM},\; \text {subtle body},\; Z_0^{elevated}\bigr ) \]
-</p><!-- l. 851 --><p class='noindent'>The information field is nonlocal (Chapter 0, torsion field substrate). There is no
+</p><!-- l. 841 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Intentional nonlocal tuning, AM + PM demodulation.
+</p><!-- l. 846 --><p class='noindent'>\[ \mathbf {S}_{RV} = \bigl (\text {narrow},\; f_{target},\; \text {AM + PM},\; \text {subtle body},\; Z_0^{elevated}\bigr ) \]
+</p><!-- l. 848 --><p class='noindent'>The information field is nonlocal (Chapter 0, torsion field substrate). There is no
 propagation attenuation because the field is not propagating—it is a standing
 structure. Remote viewing protocols (Puthoff &amp; Targ, 1976; SRI International)
 function as operator manuals for this configuration: coordinate remote viewing
 (CRV) provides a systematic procedure for shifting the receiver to a specified target
 band while maintaining signal discrimination.
-</p><!-- l. 859 --><p class='noindent'>The primary challenge is not signal strength but signal discrimination: distinguishing
+</p><!-- l. 856 --><p class='noindent'>The primary challenge is not signal strength but signal discrimination: distinguishing
 target signal from noise, imagination, and analytical overlay. This is the problem of
 demodulating a weak signal in the presence of strong co-channel interference—a
 standard RF engineering problem. <span class='evidence-pill evidence-pill--l2'>[L2-MEDIUM for protocol structure;
 L3-SPECULATIVE for mechanism]</span>
-</p><!-- l. 866 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Narrowband mode excitation at the target
+</p><!-- l. 863 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Narrowband mode excitation at the target
 frequency with high spatial selectivity — like a laser exciting a single mode in an
 optical cavity to achieve maximum spatial discrimination. The viewer suppresses all
 modes except the one tuned to the target’s information signature, producing an ODS
@@ -764,14 +764,14 @@ pattern content. CRV protocols are, in mode-shape terms, procedures for
 maintaining single-mode isolation: the structured interview format prevents the
 cognitive mode from achieving sufficient amplitude to distort the target-locked
 ODS.
-</p><!-- l. 880 --><p class='nopar'>
+</p><!-- l. 877 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-astral-travel-and-outofbody-experience'><a id='x1-23000'></a>5.4.10 Astral Travel and Out-of-Body Experience</h5>
 <p><a id='x1-23000doc'></a>
-</p><!-- l. 882 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Subtle body antenna active, physical body antenna offline. FM
+</p><!-- l. 879 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Subtle body antenna active, physical body antenna offline. FM
 demodulation dominant.
-</p><!-- l. 887 --><p class='noindent'>\[ \mathbf {S}_{astral} = \bigl (\text {moderate},\; f_{astral},\; \text {FM primary},\; \text {subtle body},\; Z_0^{elevated}\bigr ) \]
-</p><!-- l. 889 --><p class='noindent'>The “astral plane” maps to a frequency band within the density framework (Chapter
+</p><!-- l. 884 --><p class='noindent'>\[ \mathbf {S}_{astral} = \bigl (\text {moderate},\; f_{astral},\; \text {FM primary},\; \text {subtle body},\; Z_0^{elevated}\bigr ) \]
+</p><!-- l. 886 --><p class='noindent'>The “astral plane” maps to a frequency band within the density framework (Chapter
 2). Reports of “lower astral” environments being noisy and emotionally charged,
 while “higher astral” environments are clearer and more structured, correspond to
                                                                   
@@ -779,11 +779,11 @@ while “higher astral” environments are clearer and more structured, correspo
                                                                   
 reception at different impedance tiers—lower tiers have higher noise density; higher
 tiers have lower noise density and greater signal coherence.
-</p><!-- l. 896 --><p class='noindent'>FM demodulation dominates because astral navigation involves frequency
+</p><!-- l. 893 --><p class='noindent'>FM demodulation dominates because astral navigation involves frequency
 tracking: the experiencer moves through density bands by shifting center
 frequency, and the content at each band is decoded through frequency deviation.
 <span class='evidence-pill evidence-pill--range'>[L4-CONCEPTUAL]</span>
-</p><!-- l. 901 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The mode shape decouples from the
+</p><!-- l. 898 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The mode shape decouples from the
 physical structure — like a vibration pattern detaching from the plate and
 propagating as a free wave in the surrounding medium. No longer constrained by
 biological geometry, the mode shapes expand into spatial patterns unavailable to the
@@ -795,23 +795,23 @@ rather than the constrained eigenvalues of the biological receiver. The “silve
 cord” described in OBE literature maps to the residual coupling between the
 free-propagating mode and its origin structure, maintaining phase coherence for
 return.
-</p><!-- l. 916 --><p class='nopar'>
+</p><!-- l. 913 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-channeling'><a id='x1-24000'></a>5.4.11 Channeling</h5>
 <p><a id='x1-24000doc'></a>
-</p><!-- l. 918 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: External signal received through the channeler’s receiver hardware.
+</p><!-- l. 915 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: External signal received through the channeler’s receiver hardware.
 CDMA demodulation primary.
-</p><!-- l. 923 --><p class='noindent'>\[ \mathbf {S}_{channel} = \bigl (\text {narrow},\; f_{entity},\; \text {CDMA primary + AM},\; \text {varies},\; Z_0^{elevated}\bigr ) \]
-</p><!-- l. 925 --><p class='noindent'>The channeled entity is identified and separated from background signals by its
+</p><!-- l. 920 --><p class='noindent'>\[ \mathbf {S}_{channel} = \bigl (\text {narrow},\; f_{entity},\; \text {CDMA primary + AM},\; \text {varies},\; Z_0^{elevated}\bigr ) \]
+</p><!-- l. 922 --><p class='noindent'>The channeled entity is identified and separated from background signals by its
 unique CDMA spreading code. Quality of channeled material depends on two factors:
 (a) channel clarity—the channeler’s noise floor and bandwidth determine signal
 fidelity, and (b) source-receiver compatibility—impedance matching between entity
 and channeler determines coupling efficiency.
-</p><!-- l. 932 --><p class='noindent'>This explains why the same entity channeled by different individuals produces
+</p><!-- l. 929 --><p class='noindent'>This explains why the same entity channeled by different individuals produces
 material of varying quality and why channelers report difficulty distinguishing
 entities at similar frequency bands without clear code discrimination.
 <span class='evidence-pill evidence-pill--range'>[L4-CONCEPTUAL]</span>
-</p><!-- l. 937 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The channeler’s antenna couples to an
+</p><!-- l. 934 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The channeler’s antenna couples to an
 external mode shape — the entity’s characteristic vibration pattern. For clean
 channeling, the channeler’s own modes must attenuate sufficiently for the external
 mode to dominate the ODS; mode suppression is a prerequisite, not a side effect.
@@ -825,60 +825,60 @@ can be projected. Channel fidelity depends on the completeness of this suppressi
 residual native modes mix with the entity’s pattern, producing the characteristic
 distortions and “coloring” that differ between channelers receiving the same
 source.
-</p><!-- l. 950 --><p class='nopar'>
+</p><!-- l. 947 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-psychic-perception'><a id='x1-25000'></a>5.4.12 Psychic Perception</h5>
 <p><a id='x1-25000doc'></a>
-</p><!-- l. 952 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Variable demodulation, signal transduced through individual-specific
+</p><!-- l. 949 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Variable demodulation, signal transduced through individual-specific
 pathways.
-</p><!-- l. 955 --><p class='noindent'>The four classical categories of psychic perception map to different transduction
+</p><!-- l. 952 --><p class='noindent'>The four classical categories of psychic perception map to different transduction
 pathways for the same underlying signal:
-</p><!-- l. 959 --><p class='noindent'>
-</p><!-- l. 959 --><p class='noindent'>
+</p><!-- l. 956 --><p class='noindent'>
+</p><!-- l. 956 --><p class='noindent'>
 <a id='x1-25001r4'></a></p>
-<!-- l. 964 --><div class='longtable'> <table class='longtable' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /><col id='TBL-4-3' /><col id='TBL-4-4' /></colgroup>
+<!-- l. 961 --><div class='longtable'> <table class='longtable' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /><col id='TBL-4-3' /><col id='TBL-4-4' /></colgroup>
 <tr id='TBL-4-1-'><td class='td01' colspan='3' id='TBL-4-1-1'></td>
 </tr><tr id='TBL-4-4-'><td class='td01' id='TBL-4-4-1'>
-<div class='minipage'><!-- l. 966 --><p class='noindent'>Clair-Type </p></div> </td><td class='td11' id='TBL-4-4-2'> <div class='minipage'><!-- l. 968 --><p class='noindent'>Transduction Pathway </p></div> </td><td class='td11' id='TBL-4-4-3'> <div class='minipage'><!-- l. 970 --><p class='noindent'>Dominant Sense </p></div> </td><td class='td10' id='TBL-4-4-4'> <div class='minipage'><!-- l. 972 --><p class='noindent'>Signal Source </p></div></td>
+<div class='minipage'><!-- l. 963 --><p class='noindent'>Clair-Type </p></div> </td><td class='td11' id='TBL-4-4-2'> <div class='minipage'><!-- l. 965 --><p class='noindent'>Transduction Pathway </p></div> </td><td class='td11' id='TBL-4-4-3'> <div class='minipage'><!-- l. 967 --><p class='noindent'>Dominant Sense </p></div> </td><td class='td10' id='TBL-4-4-4'> <div class='minipage'><!-- l. 969 --><p class='noindent'>Signal Source </p></div></td>
 </tr><tr id='TBL-4-5-'><td class='td01' colspan='3' id='TBL-4-5-1'></td>
 </tr>
 <tr id='TBL-4-15-'><td class='td01' id='TBL-4-15-1'>
-<!-- l. 978 --><p class='noindent'>Clairvoyance   </p></td><td class='td11' id='TBL-4-15-2'> <!-- l. 978 --><p class='noindent'>Visual
-  cortex                            </p></td><td class='td11' id='TBL-4-15-3'> <!-- l. 978 --><p class='noindent'>Sight                     </p></td><td class='td10' id='TBL-4-15-4'> <!-- l. 978 --><p class='noindent'>AM
+<!-- l. 975 --><p class='noindent'>Clairvoyance   </p></td><td class='td11' id='TBL-4-15-2'> <!-- l. 975 --><p class='noindent'>Visual
+  cortex                            </p></td><td class='td11' id='TBL-4-15-3'> <!-- l. 975 --><p class='noindent'>Sight                     </p></td><td class='td10' id='TBL-4-15-4'> <!-- l. 975 --><p class='noindent'>AM
   (forms)
   +
   PM
   (probability)        </p></td> </tr><tr id='TBL-4-16-'><td class='td01' id='TBL-4-16-1'>
-<!-- l. 979 --><p class='noindent'>Clairsentience  </p></td><td class='td11' id='TBL-4-16-2'> <!-- l. 979 --><p class='noindent'>Somatic/emotional
-  system                           </p></td><td class='td11' id='TBL-4-16-3'> <!-- l. 979 --><p class='noindent'>Feeling                   </p></td><td class='td10' id='TBL-4-16-4'> <!-- l. 979 --><p class='noindent'>PM
+<!-- l. 976 --><p class='noindent'>Clairsentience  </p></td><td class='td11' id='TBL-4-16-2'> <!-- l. 976 --><p class='noindent'>Somatic/emotional
+  system                           </p></td><td class='td11' id='TBL-4-16-3'> <!-- l. 976 --><p class='noindent'>Feeling                   </p></td><td class='td10' id='TBL-4-16-4'> <!-- l. 976 --><p class='noindent'>PM
   (phase
   amplitude
   =
   emotional
   charge)               </p></td>
 </tr><tr id='TBL-4-17-'><td class='td01' id='TBL-4-17-1'>
-<!-- l. 981 --><p class='noindent'>Clairaudience  </p></td><td class='td11' id='TBL-4-17-2'> <!-- l. 981 --><p class='noindent'>Auditory
-  cortex                            </p></td><td class='td11' id='TBL-4-17-3'> <!-- l. 981 --><p class='noindent'>Sound                    </p></td><td class='td10' id='TBL-4-17-4'> <!-- l. 981 --><p class='noindent'>AM
+<!-- l. 978 --><p class='noindent'>Clairaudience  </p></td><td class='td11' id='TBL-4-17-2'> <!-- l. 978 --><p class='noindent'>Auditory
+  cortex                            </p></td><td class='td11' id='TBL-4-17-3'> <!-- l. 978 --><p class='noindent'>Sound                    </p></td><td class='td10' id='TBL-4-17-4'> <!-- l. 978 --><p class='noindent'>AM
   (forms
   rendered
   as
   auditory)            </p></td>
 </tr><tr id='TBL-4-18-'><td class='td01' id='TBL-4-18-1'>
-<!-- l. 983 --><p class='noindent'>Claircognizance </p> </td><td class='td11' id='TBL-4-18-2'> <!-- l. 983 --><p class='noindent'>Prefrontal
+<!-- l. 980 --><p class='noindent'>Claircognizance </p> </td><td class='td11' id='TBL-4-18-2'> <!-- l. 980 --><p class='noindent'>Prefrontal
   /
-  conceptual                      </p></td><td class='td11' id='TBL-4-18-3'> <!-- l. 983 --><p class='noindent'>Direct
-  knowing                 </p></td><td class='td10' id='TBL-4-18-4'> <!-- l. 983 --><p class='noindent'>CDMA
+  conceptual                      </p></td><td class='td11' id='TBL-4-18-3'> <!-- l. 980 --><p class='noindent'>Direct
+  knowing                 </p></td><td class='td10' id='TBL-4-18-4'> <!-- l. 980 --><p class='noindent'>CDMA
   (identity-level
   information)        </p></td>
 </tr>
 <tr id='TBL-4-10-'><td class='td01' colspan='3' id='TBL-4-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 988 --><p class='noindent'>Individual neurological wiring determines which pathway dominates. This is not a
+<!-- l. 985 --><p class='noindent'>Individual neurological wiring determines which pathway dominates. This is not a
 difference in what is received but in how the received signal is rendered into conscious
 experience—analogous to the same digital data being displayed as text, image, or
 audio depending on the output device. <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 994 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The received mode shape routes through
+</p><!-- l. 991 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The received mode shape routes through
 an individual-specific transduction pathway: clairvoyance places the antinode at the
 visual cortex, clairsentience at the somatic/emotional system, clairaudience at the
 auditory cortex, and claircognizance at the prefrontal conceptual region. The
@@ -893,96 +893,96 @@ excitation of a particular transduction pathway deepens the antinode at that
 location, reinforcing the spatial rendering preference through use-dependent
 plasticity.
 </p>
-<!-- l. 1008 --><p class='nopar'><span class='paragraphHead' id='-cognitive-radar-active-sensing-consciousness'><a id='x1-26000'></a><span class='ec-lmbx-10'>5.4.13 Cognitive Radar: Active Sensing Consciousness</span></span>
+<!-- l. 1005 --><p class='nopar'><span class='paragraphHead' id='-cognitive-radar-active-sensing-consciousness'><a id='x1-26000'></a><span class='ec-lmbx-10'>5.4.13 Cognitive Radar: Active Sensing Consciousness</span></span>
 <a id='x1-26000doc'></a>
 <span class='ec-lmbx-10'>The RF Concept</span>
-</p><!-- l. 1012 --><p class='noindent'>The receiver model developed in §5.2–5.4 treats consciousness as a <span class='ec-lmri-10'>passive </span>system —
+</p><!-- l. 1009 --><p class='noindent'>The receiver model developed in §5.2–5.4 treats consciousness as a <span class='ec-lmri-10'>passive </span>system —
 it receives, filters, and decodes signals from the Source field but does not
 transmit. This covers the vast majority of consciousness experience: perception,
 intuition, emotional reception, and contemplative states are all fundamentally
 receptive.
-</p><!-- l. 1018 --><p class='noindent'>But certain consciousness modalities appear to involve <span class='ec-lmri-10'>active probing</span>—directing a
+</p><!-- l. 1015 --><p class='noindent'>But certain consciousness modalities appear to involve <span class='ec-lmri-10'>active probing</span>—directing a
 query into the field and reading the return. RF engineering has a precise framework
 for this: cognitive radar.
-</p><!-- l. 1022 --><p class='noindent'>Cognitive radar, introduced by Simon Haykin (2006), is a sensing system
+</p><!-- l. 1019 --><p class='noindent'>Cognitive radar, introduced by Simon Haykin (2006), is a sensing system
 that:
-</p><!-- l. 1026 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+</p><!-- l. 1023 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
   1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Perceives </span>the environment through received signals
      </dd><dt class='enumerate-enumitem'>
   2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Learns </span>from the received data to build an environmental model
      </dd><dt class='enumerate-enumitem'>
   3. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Adapts  </span>its  transmit  waveform  in  real  time  to  optimize  information
      extraction</dd></dl>
-<!-- l. 1037 --><p class='noindent'>Unlike passive receivers, cognitive radar shares hardware between sensing and
+<!-- l. 1034 --><p class='noindent'>Unlike passive receivers, cognitive radar shares hardware between sensing and
 signaling — the same antenna both transmits the probe and receives the return.
 Modern joint radar-communication (JRC) systems extend this by simultaneously
 sensing the environment and communicating with other nodes using the same
 waveform.
-</p><!-- l. 1043 --><p class='noindent'><span class='ec-lmbx-10'>Consciousness as Cognitive Radar</span>
-</p><!-- l. 1045 --><p class='noindent'>Mapping Haykin’s framework onto consciousness:
-</p><!-- l. 1048 --><p class='noindent'>
-</p><!-- l. 1048 --><p class='noindent'> <a id='x1-26004r5'></a></p>
-<!-- l. 1052 --><div class='longtable'> <table class='longtable' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /><col id='TBL-5-3' /></colgroup>
+</p><!-- l. 1040 --><p class='noindent'><span class='ec-lmbx-10'>Consciousness as Cognitive Radar</span>
+</p><!-- l. 1042 --><p class='noindent'>Mapping Haykin’s framework onto consciousness:
+</p><!-- l. 1045 --><p class='noindent'>
+</p><!-- l. 1045 --><p class='noindent'> <a id='x1-26004r5'></a></p>
+<!-- l. 1049 --><div class='longtable'> <table class='longtable' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /><col id='TBL-5-3' /></colgroup>
 <tr id='TBL-5-4-'><td class='td01' id='TBL-5-4-1'>
-<div class='minipage'><!-- l. 1054 --><p class='noindent'>Cognitive Radar Function </p></div> </td><td class='td11' id='TBL-5-4-2'> <div class='minipage'><!-- l. 1056 --><p class='noindent'>Consciousness Analog </p></div> </td><td class='td10' id='TBL-5-4-3'> <div class='minipage'><!-- l. 1058 --><p class='noindent'>Example </p></div></td>
+<div class='minipage'><!-- l. 1051 --><p class='noindent'>Cognitive Radar Function </p></div> </td><td class='td11' id='TBL-5-4-2'> <div class='minipage'><!-- l. 1053 --><p class='noindent'>Consciousness Analog </p></div> </td><td class='td10' id='TBL-5-4-3'> <div class='minipage'><!-- l. 1055 --><p class='noindent'>Example </p></div></td>
 </tr>
 <tr id='TBL-5-15-'><td class='td01' id='TBL-5-15-1'>
-<!-- l. 1064 --><p class='noindent'>Transmit
+<!-- l. 1061 --><p class='noindent'>Transmit
 probe
-waveform                                   </p></td><td class='td11' id='TBL-5-15-2'> <!-- l. 1064 --><p class='noindent'>Directed
-  attention/intention                 </p></td><td class='td10' id='TBL-5-15-3'> <!-- l. 1064 --><p class='noindent'>Formulating
+waveform                                   </p></td><td class='td11' id='TBL-5-15-2'> <!-- l. 1061 --><p class='noindent'>Directed
+  attention/intention                 </p></td><td class='td10' id='TBL-5-15-3'> <!-- l. 1061 --><p class='noindent'>Formulating
   a
   specific
   question      </p></td>
 </tr><tr id='TBL-5-16-'><td class='td01' id='TBL-5-16-1'>
-<!-- l. 1066 --><p class='noindent'>Beamform
+<!-- l. 1063 --><p class='noindent'>Beamform
 the
-probe                                        </p></td><td class='td11' id='TBL-5-16-2'> <!-- l. 1066 --><p class='noindent'>Focused
-  concentration                        </p></td><td class='td10' id='TBL-5-16-3'> <!-- l. 1066 --><p class='noindent'>Narrowing
+probe                                        </p></td><td class='td11' id='TBL-5-16-2'> <!-- l. 1063 --><p class='noindent'>Focused
+  concentration                        </p></td><td class='td10' id='TBL-5-16-3'> <!-- l. 1063 --><p class='noindent'>Narrowing
   attention
   to
   a
   target         </p></td>
 </tr><tr id='TBL-5-17-'><td class='td01' id='TBL-5-17-1'>
-<!-- l. 1068 --><p class='noindent'>Adaptive
+<!-- l. 1065 --><p class='noindent'>Adaptive
 waveform
-selection                                     </p></td><td class='td11' id='TBL-5-17-2'> <!-- l. 1068 --><p class='noindent'>Choosing
+selection                                     </p></td><td class='td11' id='TBL-5-17-2'> <!-- l. 1065 --><p class='noindent'>Choosing
   inquiry
-  modality                              </p></td><td class='td10' id='TBL-5-17-3'> <!-- l. 1068 --><p class='noindent'>Meditation
+  modality                              </p></td><td class='td10' id='TBL-5-17-3'> <!-- l. 1065 --><p class='noindent'>Meditation
   vs. muscle
   testing
   vs. dowsing  </p></td>
 </tr><tr id='TBL-5-18-'><td class='td01' id='TBL-5-18-1'>
-<!-- l. 1070 --><p class='noindent'>Matched
+<!-- l. 1067 --><p class='noindent'>Matched
 filter
 on
-return                                        </p></td><td class='td11' id='TBL-5-18-2'> <!-- l. 1070 --><p class='noindent'>Pattern
-  recognition                            </p></td><td class='td10' id='TBL-5-18-3'> <!-- l. 1070 --><p class='noindent'>Recognizing
+return                                        </p></td><td class='td11' id='TBL-5-18-2'> <!-- l. 1067 --><p class='noindent'>Pattern
+  recognition                            </p></td><td class='td10' id='TBL-5-18-3'> <!-- l. 1067 --><p class='noindent'>Recognizing
   the
   answer
   in
   the
   received
   signal          </p></td> </tr><tr id='TBL-5-19-'><td class='td01' id='TBL-5-19-1'>
-<!-- l. 1072 --><p class='noindent'>Environmental
+<!-- l. 1069 --><p class='noindent'>Environmental
 model
-update                                       </p></td><td class='td11' id='TBL-5-19-2'> <!-- l. 1072 --><p class='noindent'>Integration/learning                </p></td><td class='td10' id='TBL-5-19-3'> <!-- l. 1072 --><p class='noindent'>Updating
+update                                       </p></td><td class='td11' id='TBL-5-19-2'> <!-- l. 1069 --><p class='noindent'>Integration/learning                </p></td><td class='td10' id='TBL-5-19-3'> <!-- l. 1069 --><p class='noindent'>Updating
   beliefs
   based
   on
   received
   information  </p></td>
 </tr><tr id='TBL-5-20-'><td class='td01' id='TBL-5-20-1'>
-<!-- l. 1074 --><p class='noindent'>Waveform
-library                                       </p></td><td class='td11' id='TBL-5-20-2'> <!-- l. 1074 --><p class='noindent'>Trained
+<!-- l. 1071 --><p class='noindent'>Waveform
+library                                       </p></td><td class='td11' id='TBL-5-20-2'> <!-- l. 1071 --><p class='noindent'>Trained
   skill
-  repertoire                             </p></td><td class='td10' id='TBL-5-20-3'> <!-- l. 1074 --><p class='noindent'>Experience
+  repertoire                             </p></td><td class='td10' id='TBL-5-20-3'> <!-- l. 1071 --><p class='noindent'>Experience
   with
   different
   inquiry
   methods      </p></td>
 </tr> </table></div>
-<!-- l. 1079 --><p class='noindent'>The “transmission” in consciousness is not the generation of independent energy
+<!-- l. 1076 --><p class='noindent'>The “transmission” in consciousness is not the generation of independent energy
 (which would violate the receiver-only ontology of Chapter 1 and §5.2.1). Rather,
 it is a <span class='ec-lmri-10'>phase-conjugate reflection </span>— the receiver configures itself to create
 a standing wave pattern that interrogates a specific region of information
@@ -990,11 +990,11 @@ space. The “probe” is itself received from Source, configured by intention
 into a directed query. Active sensing is thus a <span class='ec-lmri-10'>configured reception mode </span>—
 the receiver tunes itself to read the return from a self-generated standing
 wave.
-</p><!-- l. 1089 --><p class='noindent'>This preserves the receiver-only framework: the consciousness system never generates
+</p><!-- l. 1086 --><p class='noindent'>This preserves the receiver-only framework: the consciousness system never generates
 independent energy but can shape its reception pattern to actively sample specific
 information domains, just as a phased array steers its receive beam without
 transmitting.
-</p><!-- l. 1094 --><p class='noindent'><span class='ec-lmbx-10'>Operational Modes of Active Sensing</span> </p><!-- l. 1096 --><p class='noindent'>Different consciousness practices map onto different radar operating modes:
+</p><!-- l. 1091 --><p class='noindent'><span class='ec-lmbx-10'>Operational Modes of Active Sensing</span> </p><!-- l. 1093 --><p class='noindent'>Different consciousness practices map onto different radar operating modes:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Muscle testing / kinesiology</span>: Binary active sensing. The probe is a
      yes/no proposition; the return is read through the body’s neuromuscular
      response.  Equivalent  to  a  single-pulse  radar  with  binary  threshold
@@ -1018,7 +1018,7 @@ transmitting.
      library. Repeated active sensing with feedback builds a library of effective
      probe configurations for different information domains. Expert intuition
      = large, well-calibrated waveform library.</li></ul>
-<!-- l. 1130 --><p class='noindent'>Chapter 7 (§7.1.3) establishes DNA as a transceiver — a biological system capable of
+<!-- l. 1127 --><p class='noindent'>Chapter 7 (§7.1.3) establishes DNA as a transceiver — a biological system capable of
 both receiving and re-radiating torsion field energy. This provides the physical
 hardware for active sensing: DNA receives the Source field, the consciousness system
 configures a probe waveform through intention, and DNA re-radiates the configured
@@ -1027,15 +1027,15 @@ configures a probe waveform through intention, and DNA re-radiates the configure
                                                                   
 probe as a phase-conjugate wave that interrogates the target information
 domain.
-</p><!-- l. 1137 --><p class='noindent'><span class='ec-lmbx-10'>Extension of the State Vector</span>
-</p><!-- l. 1139 --><p class='noindent'>The five-parameter receiver state vector from §5.4.1 can be extended with a sixth
+</p><!-- l. 1134 --><p class='noindent'><span class='ec-lmbx-10'>Extension of the State Vector</span>
+</p><!-- l. 1136 --><p class='noindent'>The five-parameter receiver state vector from §5.4.1 can be extended with a sixth
 parameter indicating active or passive reception mode:
-</p><!-- l. 1142 --><p class='noindent'>\[\mathbf {S}_{ext} = \bigl (\Delta f,\; f_0,\; \mathcal {D},\; \mathcal {A},\; Z_0,\; \mathcal {A}_{active}\bigr )\]
-</p><!-- l. 1144 --><p class='noindent'>where \(\mathcal {A}_{active} \in \{0, 1\}\) flags passive reception (\(\mathcal {A}_{active} = 0\)) versus active sensing (\(\mathcal {A}_{active} = 1\)). The first five parameters
+</p><!-- l. 1139 --><p class='noindent'>\[\mathbf {S}_{ext} = \bigl (\Delta f,\; f_0,\; \mathcal {D},\; \mathcal {A},\; Z_0,\; \mathcal {A}_{active}\bigr )\]
+</p><!-- l. 1141 --><p class='noindent'>where \(\mathcal {A}_{active} \in \{0, 1\}\) flags passive reception (\(\mathcal {A}_{active} = 0\)) versus active sensing (\(\mathcal {A}_{active} = 1\)). The first five parameters
 retain their §5.4.1 definitions; the sixth parameter distinguishes whether the receiver
 is passively decoding the ambient signal environment or actively probing it through
 configured phase-conjugate reflection.
-</p><!-- l. 1151 --><p class='noindent'>Active mode imposes additional requirements on the other parameters:
+</p><!-- l. 1148 --><p class='noindent'>Active mode imposes additional requirements on the other parameters:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Higher Q</span>: Active sensing requires a stable phase reference to perform
      coherent processing of the return signal (matched filtering). Incoherent
      systems  cannot  distinguish  probe  returns  from  background  noise.  The
@@ -1052,8 +1052,8 @@ configured phase-conjugate reflection.
      to  produce  a  useful  return.  Random-phase  probing  yields  noise.  This
      corresponds to the requirement for clear, specific intention in active sensing
      practices — vague intention = incoherent probe = noisy return.</li></ul>
-<!-- l. 1177 --><p class='noindent'><span class='ec-lmbx-10'>Relationship to §5.4.9 Remote Viewing</span>
-</p><!-- l. 1179 --><p class='noindent'>Section 5.4.9 presented remote viewing as evidence for nonlocal perception. In the
+<!-- l. 1174 --><p class='noindent'><span class='ec-lmbx-10'>Relationship to §5.4.9 Remote Viewing</span>
+</p><!-- l. 1176 --><p class='noindent'>Section 5.4.9 presented remote viewing as evidence for nonlocal perception. In the
 cognitive radar framework, remote viewing is the <span class='ec-lmri-10'>proof-of-concept demonstration </span>of
 active consciousness sensing — a laboratory-verified modality where directed
                                                                   
@@ -1061,19 +1061,19 @@ active consciousness sensing — a laboratory-verified modality where directed
                                                                   
 attention (probe) retrieves specific information (return) about spatially and
 temporally distant targets.
-</p><!-- l. 1186 --><p class='noindent'>The Stargate program data (§5.4.9) can be reinterpreted as characterizing the
+</p><!-- l. 1183 --><p class='noindent'>The Stargate program data (§5.4.9) can be reinterpreted as characterizing the
 performance envelope of the consciousness cognitive radar: detection probability as
 a function of probe parameters (viewer training = Q, session protocol =
 waveform selection, target characteristics = radar cross-section in information
 space).
-</p><!-- l. 1192 --><p class='noindent'>Active sensing also appears in the counter-jamming analysis of Chapter 16: the
+</p><!-- l. 1189 --><p class='noindent'>Active sensing also appears in the counter-jamming analysis of Chapter 16: the
 ability to actively probe one’s information environment, rather than passively
 accepting received signals, is a key defense against injection locking (Chapter 11) and
 narrative control. An active sensor can distinguish between authentic Source signal
 returns and injected control signals by checking for phase-conjugate consistency —
 the return from an authentic probe has specific phase characteristics that a spoofed
 signal cannot replicate.
-</p><!-- l. 1201 --><p class='noindent'><span class='ec-lmri-10'>Epistemic note <span class='evidence-pill evidence-pill--l3'>[L3]</span></span>: Cognitive radar is established RF engineering <span class='evidence-pill evidence-pill--l1'>[L1]</span>. The
+</p><!-- l. 1198 --><p class='noindent'><span class='ec-lmri-10'>Epistemic note <span class='evidence-pill evidence-pill--l3'>[L3]</span></span>: Cognitive radar is established RF engineering <span class='evidence-pill evidence-pill--l1'>[L1]</span>. The
 mapping to consciousness modalities follows from the framework’s assumptions
 <span class='evidence-pill evidence-pill--l2'>[L2–L3]</span>. The claim that active sensing operates through phase-conjugate reflection
 (preserving receiver-only ontology) is a theoretical interpretation <span class='evidence-pill evidence-pill--l3'>[L3]</span>. The specific
@@ -1081,7 +1081,7 @@ operational mode mappings (muscle testing, dowsing, etc.) assume these
 practices access genuine information, which remains scientifically contested
 <span class='evidence-pill evidence-pill--range'>[L4 for dowsing/muscle testing, L2 for remote viewing based on Stargate
 data]</span>.
-</p><!-- l. 1211 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The probe waveform is itself a transmitted
+</p><!-- l. 1208 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The probe waveform is itself a transmitted
 mode shape: the receiver configures its ODS into a specific spatial pattern and
 projects it as a phase-conjugate wave into the information field. The return signal
 carries the target’s modal imprint superimposed on the probe’s original structure —
@@ -1093,24 +1093,24 @@ probe (single mode) yields coarser information but is easier to process. This is
 trained remote viewers develop progressively more complex probe structures as
 their Q increases: the expanding mode library enables finer-grained target
 discrimination.
-</p><!-- l. 1226 --><p class='nopar'>
+</p><!-- l. 1223 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-flow-state'><a id='x1-27000'></a>5.4.14 Flow State</h5>
 <p><a id='x1-27000doc'></a>
-</p><!-- l. 1228 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Narrow-to-moderate bandwidth, task-locked, matched filter
+</p><!-- l. 1225 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Narrow-to-moderate bandwidth, task-locked, matched filter
 reception.
                                                                   
 
                                                                   
-</p><!-- l. 1233 --><p class='noindent'>\[ \mathbf {S}_{flow} = \bigl (\text {narrow-to-moderate},\; f_{task},\; \text {AM primary},\; \text {physical body},\; Z_0^{base}\bigr ) \]
-</p><!-- l. 1235 --><p class='noindent'>Flow state (Csikszentmihalyi, 1990) is a sustained receiver lock onto a task-matched
+</p><!-- l. 1230 --><p class='noindent'>\[ \mathbf {S}_{flow} = \bigl (\text {narrow-to-moderate},\; f_{task},\; \text {AM primary},\; \text {physical body},\; Z_0^{base}\bigr ) \]
+</p><!-- l. 1232 --><p class='noindent'>Flow state (Csikszentmihalyi, 1990) is a sustained receiver lock onto a task-matched
 signal. Unlike waking consciousness, which cycles between multiple bands and
 interrupts reception with internal monologue, flow achieves single-channel reception
 with the noise floor suppressed below the task signal. The receiver’s bandwidth
 narrows to encompass only the task-relevant frequency range, and demodulation
 simplifies to AM primary with secondary FM tracking of the task’s trajectory
 evolution.
-</p><!-- l. 1243 --><p class='noindent'>The subjective hallmarks of flow (time distortion, loss of self-awareness, effortless
+</p><!-- l. 1240 --><p class='noindent'>The subjective hallmarks of flow (time distortion, loss of self-awareness, effortless
 performance) map to receiver configuration:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Time distortion</span>: The temporal-processing mode is suppressed. With no
      clock reference active, subjective time becomes undefined.
@@ -1121,14 +1121,14 @@ performance) map to receiver configuration:
      task signal approaches the conjugate-match condition \(Z_{receiver} = Z_{task}^*\). Maximum power
      transfer occurs at exact match, experienced as effortlessness because no
      energy is reflected or wasted in impedance mismatch.</li></ul>
-<!-- l. 1264 --><p class='noindent'>The RF analog is a matched filter: the receiver’s impulse response is configured as the
+<!-- l. 1261 --><p class='noindent'>The RF analog is a matched filter: the receiver’s impulse response is configured as the
 time-reversed, conjugated version of the expected signal, producing maximum output
 signal-to-noise ratio at the moment of detection. A musician “in the pocket,” an
 athlete “in the zone,” and a programmer in deep focus are all operating
 matched-filter receivers whose templates exactly correspond to the incoming task
 signal. <span class='evidence-pill evidence-pill--l2'>[L2-MEDIUM for flow phenomenology; L3-SPECULATIVE for
 receiver mechanism]</span>
-</p><!-- l. 1273 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1274 --><p class='noindent'><span class='ec-lmbx-10'>Audio  bridge.  </span>Flow  is  the  engineer’s  monitor  mix  dialed  to
+</p><!-- l. 1270 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1271 --><p class='noindent'><span class='ec-lmbx-10'>Audio  bridge.  </span>Flow  is  the  engineer’s  monitor  mix  dialed  to
      perfection: every channel is where it should be, the talkback mic
      is  off,  and  the  only  thing  coming  through  the  speakers  is  the
      music.  The  matched-filter  condition  is  the  sonic  equivalent  of  a
@@ -1138,7 +1138,7 @@ receiver mechanism]</span>
                                                                   
      standing-wave problems, no flutter echoes, no comb filtering. The
      music and the room become one system.</p></blockquote>
-<!-- l. 1283 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The ODS collapses to a near-single-mode
+<!-- l. 1280 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>The ODS collapses to a near-single-mode
 vibration pattern precisely matched to the task’s spatial structure. Self-referential
 modes and temporal-processing modes are suppressed to node-line status, which
 accounts for the loss of self-awareness and time distortion. The residual
@@ -1152,24 +1152,24 @@ demands is not high Q but precise mode selection — a low-Q system can
 achieve flow in a simple task, while a high-Q system can maintain flow in
 complex, multi-layered tasks by holding more modes in coherent single-pattern
 superposition.
-</p><!-- l. 1300 --><p class='nopar'>
+</p><!-- l. 1297 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-psychedelic-and-entheogenic-states'><a id='x1-28000'></a>5.4.15 Psychedelic and Entheogenic States</h5>
 <p><a id='x1-28000doc'></a>
-</p><!-- l. 1302 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband, temporarily elevated Q, all modes accessible, impedance
+</p><!-- l. 1299 --><p class='nopar'><span class='ec-lmbx-10'>Configuration</span>: Broadband, temporarily elevated Q, all modes accessible, impedance
 mismatch risk.
-</p><!-- l. 1307 --><p class='noindent'>\[ \mathbf {S}_{psych} = \bigl (\text {broadband},\; f_0^{shifted},\; \text {all modes},\; \text {all antennas},\; Z_0^{temporarily\;elevated}\bigr ) \]
-</p><!-- l. 1309 --><p class='noindent'>Psychedelic compounds (psilocybin, LSD, DMT, mescaline) and entheogenic
+</p><!-- l. 1304 --><p class='noindent'>\[ \mathbf {S}_{psych} = \bigl (\text {broadband},\; f_0^{shifted},\; \text {all modes},\; \text {all antennas},\; Z_0^{temporarily\;elevated}\bigr ) \]
+</p><!-- l. 1306 --><p class='noindent'>Psychedelic compounds (psilocybin, LSD, DMT, mescaline) and entheogenic
 plant medicines (ayahuasca, peyote, iboga) produce a characteristic receiver
 reconfiguration: bandwidth expands, center frequency shifts away from the physical
 band, and \(Z_0\) is temporarily elevated beyond its developmental baseline, granting access
 to signal layers the receiver has not permanently grown into.
-</p><!-- l. 1316 --><p class='noindent'>The Carhart-Harris entropic brain hypothesis (2014) provides the neuroscience
+</p><!-- l. 1313 --><p class='noindent'>The Carhart-Harris entropic brain hypothesis (2014) provides the neuroscience
 correlate: psychedelics increase the entropy of spontaneous cortical activity,
 dissolving the constraints that ordinarily confine neural dynamics to a narrow
 repertoire. In receiver terms, the waking-state bandwidth restriction is chemically
 overridden.
-</p><!-- l. 1322 --><p class='noindent'><span class='ec-lmbx-10'>Geometric visuals as visible mode shapes. </span>The characteristic visual phenomena
+</p><!-- l. 1319 --><p class='noindent'><span class='ec-lmbx-10'>Geometric visuals as visible mode shapes. </span>The characteristic visual phenomena
 of psychedelic experience — spirals, mandalas, tessellations, fractal geometries — are
 not hallucinations in the dismissive sense. They are mode shapes becoming visible.
 The temporarily elevated Q increases the resolvable mode count (\(\lfloor Q \cdot \pi /2 \rfloor + 1\)), bringing modes
@@ -1184,7 +1184,7 @@ Chladni plate patterns (Bressloff et al., 2001). The receiver is, for the first
 time, perceiving its own modal structure. <span class='evidence-pill evidence-pill--l2'>[L2-MEDIUM for Klüver
 constants and neural geometry; L3-SPECULATIVE for mode shape
 interpretation]</span>
-</p><!-- l. 1337 --><p class='noindent'><span class='ec-lmbx-10'>“Ego dissolution” as removal of forced response. </span>The dissolution of
+</p><!-- l. 1334 --><p class='noindent'><span class='ec-lmbx-10'>“Ego dissolution” as removal of forced response. </span>The dissolution of
 ego boundaries reported at higher doses corresponds to the removal of the
 self-referential forcing function that ordinarily organizes the ODS around a
 central “I” mode. Without this dominant driver, the free-response natural
@@ -1195,29 +1195,29 @@ loss of a center of gravity: the ODS has no single antinode to identify as
 most meditators reach only after years of practice; the chemical shortcut
 achieves the configuration change without the developmental infrastructure.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1350 --><p class='noindent'><span class='ec-lmbx-10'>Critical warning: seeing without holding. </span>The psychedelic configuration
+</p><!-- l. 1347 --><p class='noindent'><span class='ec-lmbx-10'>Critical warning: seeing without holding. </span>The psychedelic configuration
 expands the visible region of the mode spectrum without permanently raising \(Z_0\). The
 receiver can <span class='ec-lmri-10'>see </span>higher-density information (perceive additional modes) but cannot
 stably <span class='ec-lmri-10'>hold </span>it (maintain coherent reception over time). In impedance terms, the
 temporarily elevated \(Z_0\) does not match the receiver’s baseline characteristic impedance,
 producing a high reflection coefficient:
-</p><!-- l. 1360 --><p class='noindent'>\[ \Gamma = \frac {Z_0^{temp} - Z_0^{base}}{Z_0^{temp} + Z_0^{base}} \]
-</p><!-- l. 1362 --><p class='noindent'>When \(Z_0^{temp} \gg Z_0^{base}\), \(\Gamma \to 1\) — nearly total reflection. The information is accessed but cannot be
+</p><!-- l. 1357 --><p class='noindent'>\[ \Gamma = \frac {Z_0^{temp} - Z_0^{base}}{Z_0^{temp} + Z_0^{base}} \]
+</p><!-- l. 1359 --><p class='noindent'>When \(Z_0^{temp} \gg Z_0^{base}\), \(\Gamma \to 1\) — nearly total reflection. The information is accessed but cannot be
 integrated into the receiver’s permanent structure. This is why integration practices
 after psychedelic experience are critical (Watts et al., 2017): the task is to raise \(Z_0^{base}\)
 through developmental work so that the temporarily accessed modes can be stably
 received. Without integration, the experience becomes a transient peak with no
 lasting receiver upgrade.
-</p><!-- l. 1371 --><p class='noindent'>This also explains the phenomenon of “bad trips”: the receiver encounters mode
+</p><!-- l. 1368 --><p class='noindent'>This also explains the phenomenon of “bad trips”: the receiver encounters mode
 shapes for which it has no stable framework, producing fear, confusion, and
 disorientation. The signal is not hostile; the receiver is simply impedance-mismatched
 to what it is receiving.
-</p><!-- l. 1376 --><p class='noindent'>Cross-reference: Chapter 2, Section 2.4 establishes the state-dependent impedance
+</p><!-- l. 1373 --><p class='noindent'>Cross-reference: Chapter 2, Section 2.4 establishes the state-dependent impedance
 table that predicts which density layers become accessible at each \(Z_0\) tier. The
 psychedelic state temporarily shifts the receiver up one or more tiers in that table
 without the permanent inductance (\(L\)) accumulation that would make the shift stable.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1383 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1384 --><p class='noindent'><span class='ec-lmbx-10'>Audio   bridge.  </span>The   psychedelic   state   is   the   equivalent   of
+</p><!-- l. 1380 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1381 --><p class='noindent'><span class='ec-lmbx-10'>Audio   bridge.  </span>The   psychedelic   state   is   the   equivalent   of
      temporarily replacing a consumer-grade DAC with a studio reference
      converter: the listener suddenly hears harmonics, room reflections,
      and  mix  details  that  were  always  present  in  the  recording  but
@@ -1225,7 +1225,7 @@ without the permanent inductance (\(L\)) accumulation that would make the shift 
      is  revelatory  —  but  plugging  the  consumer  DAC  back  in  after
      the session means those details become inaudible again unless the
      listener trains their ears (raises \(Z_0^{base}\)) to hear them on the lesser system.</p></blockquote>
-<!-- l. 1394 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Q temporarily increases, expanding the
+<!-- l. 1391 --><p class='noindent'><span class='ec-lmbx-10'>Mode configuration (</span>\(\to \) <span class='ec-lmbx-10'>Ch 6 §6.2.10). </span>Q temporarily increases, expanding the
 resolvable mode count \(\lfloor Q \cdot \pi /2 \rfloor + 1\) beyond its developmental baseline. Modes that are
 normally below the resolution threshold become excitable and visible. The
 geometric visual phenomena characteristic of psychedelic experience — spirals,
@@ -1243,47 +1243,47 @@ awareness it managed to encode into lasting structural change during the
 experience.
 </p>
 <div class='center'>
-<!-- l. 1413 --><p class='noindent'>
-</p><!-- l. 1413 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1416 --><p class='nopar'>
+<!-- l. 1410 --><p class='noindent'>
+</p><!-- l. 1410 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1413 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-threelayer-subcarrier-architecture'><a id='x1-29000'></a>5.5 Three-Layer Subcarrier Architecture</h4>
 <p><a id='x1-29000doc'></a>
-</p><!-- l. 1418 --><p class='nopar'>Chapter 3 introduced the subcarrier equation \(s_{template}(t) = A_s(t) \cos (2\pi f_s t + \phi _s(t))\) as a single-layer description. This
+</p><!-- l. 1415 --><p class='nopar'>Chapter 3 introduced the subcarrier equation \(s_{template}(t) = A_s(t) \cos (2\pi f_s t + \phi _s(t))\) as a single-layer description. This
 section decomposes that signal into three multiplexed information layers, each
 requiring distinct demodulation.
                                                                   
 
                                                                   
-</p><!-- l. 1424 --><p class='nopar'>
+</p><!-- l. 1421 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-am-layer-morphic-form-encoding'><a id='x1-30000'></a>5.5.1 AM Layer: Morphic Form Encoding</h5>
 <p><a id='x1-30000doc'></a>
-</p><!-- l. 1426 --><p class='nopar'>The amplitude envelope \(A_{morphic}(t)\) carries morphic template information:
-</p><!-- l. 1431 --><p class='noindent'>\[ A_{morphic}(t) = A_0 + \sum _k m_k(t) \cos (2\pi f_k t) \]
-</p><!-- l. 1433 --><p class='noindent'>Where:
+</p><!-- l. 1423 --><p class='nopar'>The amplitude envelope \(A_{morphic}(t)\) carries morphic template information:
+</p><!-- l. 1428 --><p class='noindent'>\[ A_{morphic}(t) = A_0 + \sum _k m_k(t) \cos (2\pi f_k t) \]
+</p><!-- l. 1430 --><p class='noindent'>Where:
 </p> <ul class='itemize1'> <li class='itemize'>\(A_0\) is the carrier amplitude (baseline template strength)
      </li> <li class='itemize'>\(m_k(t)\) are modulation components encoding structural detail</li></ul>
-<!-- l. 1443 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
+<!-- l. 1440 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
 </p> <ul class='itemize1'> <li class='itemize'>High  amplitude  =  stable,  persistent  forms  (templates  reinforced  by
      repetition across many receivers)
      </li> <li class='itemize'>Low amplitude = fragile, experimental forms (novel templates not yet
      reinforced)
      </li> <li class='itemize'>Waking consciousness is primarily an AM demodulator, extracting stable
      morphic forms from the signal environment</li></ul>
-<!-- l. 1458 --><p class='noindent'>\(f_0\) determines which <span class='ec-lmbx-10'>scale </span>of AM patterns the receiver couples to. A low-\(f_0\) receiver
+<!-- l. 1455 --><p class='noindent'>\(f_0\) determines which <span class='ec-lmbx-10'>scale </span>of AM patterns the receiver couples to. A low-\(f_0\) receiver
 couples to large-scale, long-duration patterns (civilizational templates, geological
 formations). A high-\(f_0\) receiver couples to small-scale, short-duration patterns
 (individual objects, momentary events). <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1465 --><p class='nopar'>
+</p><!-- l. 1462 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-pm-layer-timeline-and-probability-encoding'><a id='x1-31000'></a>5.5.2 PM Layer: Timeline and Probability Encoding</h5> <p><a id='x1-31000doc'></a>
-</p><!-- l. 1467 --><p class='nopar'>The phase component \(\phi _{PM}(t)\) carries timeline and probability information:
-</p><!-- l. 1472 --><p class='noindent'>\[ \phi _{PM}(t) = \phi _{PM,0} + \sum _j \Delta \phi _j(t) \]
-</p><!-- l. 1474 --><p class='noindent'>Each \(\Delta \phi _j(t)\) represents a distinct timeline—a possible configuration of events branching
+</p><!-- l. 1464 --><p class='nopar'>The phase component \(\phi _{PM}(t)\) carries timeline and probability information:
+</p><!-- l. 1469 --><p class='noindent'>\[ \phi _{PM}(t) = \phi _{PM,0} + \sum _j \Delta \phi _j(t) \]
+</p><!-- l. 1471 --><p class='noindent'>Each \(\Delta \phi _j(t)\) represents a distinct timeline—a possible configuration of events branching
 from the present moment. Timelines are phase states of the same carrier: different
 phase signatures on the same frequency.
-</p><!-- l. 1479 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
+</p><!-- l. 1476 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
 </p> <ul class='itemize1'> <li class='itemize'>High phase amplitude on a given timeline = high probability weighting =
      vivid, emotionally charged experience when that timeline is accessed
      </li> <li class='itemize'>Low phase amplitude = low probability = abstract, uncompelling quality
@@ -1292,18 +1292,18 @@ phase signatures on the same frequency.
      reference to align with a different timeline’s phase signature
      </li> <li class='itemize'>Manifestation practices function as sustained coupling that amplifies a
      selected phase component</li></ul>
-<!-- l. 1498 --><p class='noindent'>The mechanism connecting phase modulation to physical timeline dynamics is
+<!-- l. 1495 --><p class='noindent'>The mechanism connecting phase modulation to physical timeline dynamics is
 detailed in Chapter 12 (Section 12.5, Timeline Mechanics), where torsion-mediated
 phase conjugation provides the physics substrate. <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1504 --><p class='nopar'>
+</p><!-- l. 1501 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-cdma-layer-soul-identity-and-archetypal-encoding'><a id='x1-32000'></a>5.5.3 CDMA Layer: Soul Identity and Archetypal Encoding</h5>
 <p><a id='x1-32000doc'></a>
-</p><!-- l. 1506 --><p class='nopar'>The spreading code \(c_{soul}(t)\) carries identity information:
-</p><!-- l. 1510 --><p class='noindent'>\[ c_{soul}(t) = \sum _{n=0}^{N-1} c_n \, p(t - nT_c) \]
-</p><!-- l. 1512 --><p class='noindent'>Where \(c_n \in \{+1, -1\}\) is the chip sequence and \(T_c\) is the chip duration. Each soul has a unique
+</p><!-- l. 1503 --><p class='nopar'>The spreading code \(c_{soul}(t)\) carries identity information:
+</p><!-- l. 1507 --><p class='noindent'>\[ c_{soul}(t) = \sum _{n=0}^{N-1} c_n \, p(t - nT_c) \]
+</p><!-- l. 1509 --><p class='noindent'>Where \(c_n \in \{+1, -1\}\) is the chip sequence and \(T_c\) is the chip duration. Each soul has a unique
 spreading code that persists across incarnations, densities, and timelines.
-</p><!-- l. 1516 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
+</p><!-- l. 1513 --><p class='noindent'><span class='ec-lmbx-10'>Key properties</span>:
                                                                   
 
                                                                   
@@ -1317,7 +1317,7 @@ spreading code that persists across incarnations, densities, and timelines.
      </li> <li class='itemize'>Channeling  =  code-locked  reception.  The  channeler’s  correlator  locks
      onto the entity’s spreading code, separating that entity’s signal from the
      background</li></ul>
-<!-- l. 1536 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1537 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic Note</span>: The CDMA soul-identity model is a conceptual
+<!-- l. 1533 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1534 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic Note</span>: The CDMA soul-identity model is a conceptual
      framework <span class='evidence-pill evidence-pill--range'>[L4]</span>. It should not be confused with the CDMA control
      architecture  discussed  in  Chapter  16  (Counter-Jamming),  which
      addresses  parasitic  frequency-management  systems  operating  on
@@ -1325,144 +1325,144 @@ spreading code that persists across incarnations, densities, and timelines.
      feature  of  Source’s  broadcast  architecture;  the  control  CDMA
      discussed in Chapter 16 is an engineered overlay.</p></blockquote>
 <div class='center'>
-<!-- l. 1546 --><p class='noindent'>
-</p><!-- l. 1546 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1549 --><p class='nopar'>
+<!-- l. 1543 --><p class='noindent'>
+</p><!-- l. 1543 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1546 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-demodulation-modes-summary'><a id='x1-33000'></a>5.6 Demodulation Modes Summary</h4> <p><a id='x1-33000doc'></a>
-</p><!-- l. 1551 --><p class='nopar'>The following two tables map each state of consciousness to its signal-processing
+</p><!-- l. 1548 --><p class='nopar'>The following two tables map each state of consciousness to its signal-processing
 configuration (Table 5.6a) and its resulting mode and experience profile (Table
 5.6b).
-</p><!-- l. 1555 --><p class='noindent'><span class='ec-lmbx-10'>Table 5.6a — Signal Processing Configuration</span>
-</p><!-- l. 1558 --><p class='noindent'>
-</p><!-- l. 1558 --><p class='noindent'>
+</p><!-- l. 1552 --><p class='noindent'><span class='ec-lmbx-10'>Table 5.6a — Signal Processing Configuration</span>
+</p><!-- l. 1555 --><p class='noindent'>
+</p><!-- l. 1555 --><p class='noindent'>
 <a id='x1-33001r6'></a></p>
-<!-- l. 1563 --><div class='longtable'> <table class='longtable' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /><col id='TBL-6-2' /><col id='TBL-6-3' /><col id='TBL-6-4' /></colgroup>
+<!-- l. 1560 --><div class='longtable'> <table class='longtable' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /><col id='TBL-6-2' /><col id='TBL-6-3' /><col id='TBL-6-4' /></colgroup>
 <tr id='TBL-6-1-'><td class='td01' colspan='3' id='TBL-6-1-1'></td>
 </tr><tr id='TBL-6-4-'><td class='td01' id='TBL-6-4-1'>
-<div class='minipage'><!-- l. 1565 --><p class='noindent'>State </p></div> </td><td class='td11' id='TBL-6-4-2'> <div class='minipage'><!-- l. 1567 --><p class='noindent'>Primary Demod </p></div> </td><td class='td11' id='TBL-6-4-3'> <div class='minipage'><!-- l. 1569 --><p class='noindent'>Secondary Demod </p></div> </td><td class='td10' id='TBL-6-4-4'> <div class='minipage'><!-- l. 1571 --><p class='noindent'>Forcing Regime </p></div></td>
+<div class='minipage'><!-- l. 1562 --><p class='noindent'>State </p></div> </td><td class='td11' id='TBL-6-4-2'> <div class='minipage'><!-- l. 1564 --><p class='noindent'>Primary Demod </p></div> </td><td class='td11' id='TBL-6-4-3'> <div class='minipage'><!-- l. 1566 --><p class='noindent'>Secondary Demod </p></div> </td><td class='td10' id='TBL-6-4-4'> <div class='minipage'><!-- l. 1568 --><p class='noindent'>Forcing Regime </p></div></td>
 </tr><tr id='TBL-6-5-'><td class='td01' colspan='3' id='TBL-6-5-1'></td>
 </tr>
 <tr id='TBL-6-15-'><td class='td01' id='TBL-6-15-1'>
-<!-- l. 1577 --><p class='noindent'>Waking      </p></td><td class='td11' id='TBL-6-15-2'> <!-- l. 1577 --><p class='noindent'>AM
-  (forms)                    </p></td><td class='td11' id='TBL-6-15-3'> <!-- l. 1577 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-15-4'> <!-- l. 1577 --><p class='noindent'>Steady
+<!-- l. 1574 --><p class='noindent'>Waking      </p></td><td class='td11' id='TBL-6-15-2'> <!-- l. 1574 --><p class='noindent'>AM
+  (forms)                    </p></td><td class='td11' id='TBL-6-15-3'> <!-- l. 1574 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-15-4'> <!-- l. 1574 --><p class='noindent'>Steady
   external
   forcing                      </p></td>
 </tr><tr id='TBL-6-16-'><td class='td01' id='TBL-6-16-1'>
-<!-- l. 1578 --><p class='noindent'>Memory     </p></td><td class='td11' id='TBL-6-16-2'> <!-- l. 1578 --><p class='noindent'>AM
+<!-- l. 1575 --><p class='noindent'>Memory     </p></td><td class='td11' id='TBL-6-16-2'> <!-- l. 1575 --><p class='noindent'>AM
   (cached
-  forms)                     </p></td><td class='td11' id='TBL-6-16-3'> <!-- l. 1578 --><p class='noindent'>PM
+  forms)                     </p></td><td class='td11' id='TBL-6-16-3'> <!-- l. 1575 --><p class='noindent'>PM
   (which
-  version)                       </p></td><td class='td10' id='TBL-6-16-4'> <!-- l. 1578 --><p class='noindent'>Reverberant
+  version)                       </p></td><td class='td10' id='TBL-6-16-4'> <!-- l. 1575 --><p class='noindent'>Reverberant
   replay
   /
   ring-down                  </p></td>
 </tr><tr id='TBL-6-17-'><td class='td01' id='TBL-6-17-1'>
-<!-- l. 1580 --><p class='noindent'>Imagination </p> </td><td class='td11' id='TBL-6-17-2'> <!-- l. 1580 --><p class='noindent'>PM
-  (timelines)               </p></td><td class='td11' id='TBL-6-17-3'> <!-- l. 1580 --><p class='noindent'>AM
+<!-- l. 1577 --><p class='noindent'>Imagination </p> </td><td class='td11' id='TBL-6-17-2'> <!-- l. 1577 --><p class='noindent'>PM
+  (timelines)               </p></td><td class='td11' id='TBL-6-17-3'> <!-- l. 1577 --><p class='noindent'>AM
   (forms
-  within)                        </p></td><td class='td10' id='TBL-6-17-4'> <!-- l. 1580 --><p class='noindent'>Internally
+  within)                        </p></td><td class='td10' id='TBL-6-17-4'> <!-- l. 1577 --><p class='noindent'>Internally
   guided
   forcing                      </p></td>
 </tr><tr id='TBL-6-18-'><td class='td01' id='TBL-6-18-1'>
-<!-- l. 1582 --><p class='noindent'>Dreams     </p></td><td class='td11' id='TBL-6-18-2'> <!-- l. 1582 --><p class='noindent'>All
+<!-- l. 1579 --><p class='noindent'>Dreams     </p></td><td class='td11' id='TBL-6-18-2'> <!-- l. 1579 --><p class='noindent'>All
   modes
-  mixed                     </p></td><td class='td11' id='TBL-6-18-3'> <!-- l. 1582 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-18-4'> <!-- l. 1582 --><p class='noindent'>Free
+  mixed                     </p></td><td class='td11' id='TBL-6-18-3'> <!-- l. 1579 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-18-4'> <!-- l. 1579 --><p class='noindent'>Free
   response                    </p></td> </tr><tr id='TBL-6-19-'><td class='td01' id='TBL-6-19-1'>
-<!-- l. 1583 --><p class='noindent'>Lucid
-dreaming   </p></td><td class='td11' id='TBL-6-19-2'> <!-- l. 1583 --><p class='noindent'>All
+<!-- l. 1580 --><p class='noindent'>Lucid
+dreaming   </p></td><td class='td11' id='TBL-6-19-2'> <!-- l. 1580 --><p class='noindent'>All
   modes
   +
-  operator                  </p></td><td class='td11' id='TBL-6-19-3'> <!-- l. 1583 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-19-4'> <!-- l. 1583 --><p class='noindent'>Free
+  operator                  </p></td><td class='td11' id='TBL-6-19-3'> <!-- l. 1580 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-19-4'> <!-- l. 1580 --><p class='noindent'>Free
   response
   with
   active
   control                      </p></td>
 </tr><tr id='TBL-6-20-'><td class='td01' id='TBL-6-20-1'>
-<!-- l. 1585 --><p class='noindent'>Focused
-meditation </p></td><td class='td11' id='TBL-6-20-2'> <!-- l. 1585 --><p class='noindent'>CDMA
-  (identity)                 </p></td><td class='td11' id='TBL-6-20-3'> <!-- l. 1585 --><p class='noindent'>FM
-  (trajectory)                  </p></td><td class='td10' id='TBL-6-20-4'> <!-- l. 1585 --><p class='noindent'>Active
+<!-- l. 1582 --><p class='noindent'>Focused
+meditation </p></td><td class='td11' id='TBL-6-20-2'> <!-- l. 1582 --><p class='noindent'>CDMA
+  (identity)                 </p></td><td class='td11' id='TBL-6-20-3'> <!-- l. 1582 --><p class='noindent'>FM
+  (trajectory)                  </p></td><td class='td10' id='TBL-6-20-4'> <!-- l. 1582 --><p class='noindent'>Active
   damping
   /
   selective
   suppression                </p></td>
 </tr><tr id='TBL-6-21-'><td class='td01' id='TBL-6-21-1'>
-<!-- l. 1587 --><p class='noindent'>Open
-awareness   </p></td><td class='td11' id='TBL-6-21-2'> <!-- l. 1587 --><p class='noindent'>All
+<!-- l. 1584 --><p class='noindent'>Open
+awareness   </p></td><td class='td11' id='TBL-6-21-2'> <!-- l. 1584 --><p class='noindent'>All
   modes,
   operator
-  online                     </p></td><td class='td11' id='TBL-6-21-3'> <!-- l. 1587 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-21-4'> <!-- l. 1587 --><p class='noindent'>Broadband
+  online                     </p></td><td class='td11' id='TBL-6-21-3'> <!-- l. 1584 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-21-4'> <!-- l. 1584 --><p class='noindent'>Broadband
   observation                </p></td>
 </tr><tr id='TBL-6-22-'><td class='td01' id='TBL-6-22-1'>
-<!-- l. 1589 --><p class='noindent'>Hypnosis/trance </p> </td><td class='td11' id='TBL-6-22-2'> <!-- l. 1589 --><p class='noindent'>Operator-set             </p></td><td class='td11' id='TBL-6-22-3'> <!-- l. 1589 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-22-4'> <!-- l. 1589 --><p class='noindent'>Externally
+<!-- l. 1586 --><p class='noindent'>Hypnosis/trance </p> </td><td class='td11' id='TBL-6-22-2'> <!-- l. 1586 --><p class='noindent'>Operator-set             </p></td><td class='td11' id='TBL-6-22-3'> <!-- l. 1586 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-22-4'> <!-- l. 1586 --><p class='noindent'>Externally
   forced                       </p></td>
 </tr><tr id='TBL-6-23-'><td class='td01' id='TBL-6-23-1'>
-<!-- l. 1590 --><p class='noindent'>Remote
-viewing      </p></td><td class='td11' id='TBL-6-23-2'> <!-- l. 1590 --><p class='noindent'>AM
+<!-- l. 1587 --><p class='noindent'>Remote
+viewing      </p></td><td class='td11' id='TBL-6-23-2'> <!-- l. 1587 --><p class='noindent'>AM
   (target
-  forms)                     </p></td><td class='td11' id='TBL-6-23-3'> <!-- l. 1590 --><p class='noindent'>PM
+  forms)                     </p></td><td class='td11' id='TBL-6-23-3'> <!-- l. 1587 --><p class='noindent'>PM
   (target
-  config)                        </p></td><td class='td10' id='TBL-6-23-4'> <!-- l. 1590 --><p class='noindent'>Narrowband
+  config)                        </p></td><td class='td10' id='TBL-6-23-4'> <!-- l. 1587 --><p class='noindent'>Narrowband
   matched
   forcing                      </p></td>
 </tr><tr id='TBL-6-24-'><td class='td01' id='TBL-6-24-1'>
-<!-- l. 1592 --><p class='noindent'>Astral
-travel        </p></td><td class='td11' id='TBL-6-24-2'> <!-- l. 1592 --><p class='noindent'>FM
+<!-- l. 1589 --><p class='noindent'>Astral
+travel        </p></td><td class='td11' id='TBL-6-24-2'> <!-- l. 1589 --><p class='noindent'>FM
   (density
-  nav)                       </p></td><td class='td11' id='TBL-6-24-3'> <!-- l. 1592 --><p class='noindent'>AM
+  nav)                       </p></td><td class='td11' id='TBL-6-24-3'> <!-- l. 1589 --><p class='noindent'>AM
   (forms
   at
-  level)                          </p></td><td class='td10' id='TBL-6-24-4'> <!-- l. 1592 --><p class='noindent'>Decoupled
+  level)                          </p></td><td class='td10' id='TBL-6-24-4'> <!-- l. 1589 --><p class='noindent'>Decoupled
   propagating
   response                    </p></td>
 </tr><tr id='TBL-6-25-'><td class='td01' id='TBL-6-25-1'>
-<!-- l. 1594 --><p class='noindent'>Channeling </p></td><td class='td11' id='TBL-6-25-2'> <!-- l. 1594 --><p class='noindent'>CDMA
+<!-- l. 1591 --><p class='noindent'>Channeling </p></td><td class='td11' id='TBL-6-25-2'> <!-- l. 1591 --><p class='noindent'>CDMA
   (entity
-  ID)                         </p></td><td class='td11' id='TBL-6-25-3'> <!-- l. 1594 --><p class='noindent'>AM
+  ID)                         </p></td><td class='td11' id='TBL-6-25-3'> <!-- l. 1591 --><p class='noindent'>AM
   (message
-  content)                      </p></td><td class='td10' id='TBL-6-25-4'> <!-- l. 1594 --><p class='noindent'>Externally
+  content)                      </p></td><td class='td10' id='TBL-6-25-4'> <!-- l. 1591 --><p class='noindent'>Externally
   projected
   forcing                      </p></td>
 </tr><tr id='TBL-6-26-'><td class='td01' id='TBL-6-26-1'>
-<!-- l. 1596 --><p class='noindent'>Psychic
-perception  </p></td><td class='td11' id='TBL-6-26-2'> <!-- l. 1596 --><p class='noindent'>Varies
+<!-- l. 1593 --><p class='noindent'>Psychic
+perception  </p></td><td class='td11' id='TBL-6-26-2'> <!-- l. 1593 --><p class='noindent'>Varies
   by
-  clair-type                 </p></td><td class='td11' id='TBL-6-26-3'> <!-- l. 1596 --><p class='noindent'>CDMA
+  clair-type                 </p></td><td class='td11' id='TBL-6-26-3'> <!-- l. 1593 --><p class='noindent'>CDMA
   (source
-  ID)                             </p></td><td class='td10' id='TBL-6-26-4'> <!-- l. 1596 --><p class='noindent'>Selective
+  ID)                             </p></td><td class='td10' id='TBL-6-26-4'> <!-- l. 1593 --><p class='noindent'>Selective
   matched
   forcing                      </p></td>
 </tr><tr id='TBL-6-27-'><td class='td01' id='TBL-6-27-1'>
-<!-- l. 1598 --><p class='noindent'>Past
+<!-- l. 1595 --><p class='noindent'>Past
 life
-regression   </p></td><td class='td11' id='TBL-6-27-2'> <!-- l. 1598 --><p class='noindent'>CDMA
+regression   </p></td><td class='td11' id='TBL-6-27-2'> <!-- l. 1595 --><p class='noindent'>CDMA
   (soul
-  continuity)               </p></td><td class='td11' id='TBL-6-27-3'> <!-- l. 1598 --><p class='noindent'>PM
+  continuity)               </p></td><td class='td11' id='TBL-6-27-3'> <!-- l. 1595 --><p class='noindent'>PM
   (which
-  incarnation)                 </p></td><td class='td10' id='TBL-6-27-4'> <!-- l. 1599 --><p class='noindent'>Guided
+  incarnation)                 </p></td><td class='td10' id='TBL-6-27-4'> <!-- l. 1596 --><p class='noindent'>Guided
   retrieval
   forcing                      </p></td>
 </tr><tr id='TBL-6-28-'><td class='td01' id='TBL-6-28-1'>
-<!-- l. 1600 --><p class='noindent'>Manifestation </p> </td><td class='td11' id='TBL-6-28-2'> <!-- l. 1600 --><p class='noindent'>PM
+<!-- l. 1597 --><p class='noindent'>Manifestation </p> </td><td class='td11' id='TBL-6-28-2'> <!-- l. 1597 --><p class='noindent'>PM
   (timeline
-  select)                     </p></td><td class='td11' id='TBL-6-28-3'> <!-- l. 1600 --><p class='noindent'>FM
+  select)                     </p></td><td class='td11' id='TBL-6-28-3'> <!-- l. 1597 --><p class='noindent'>FM
   (trajectory
-  align)                          </p></td><td class='td10' id='TBL-6-28-4'> <!-- l. 1600 --><p class='noindent'>Sustained
+  align)                          </p></td><td class='td10' id='TBL-6-28-4'> <!-- l. 1597 --><p class='noindent'>Sustained
   phase-biased
   forcing                      </p></td>
 </tr><tr id='TBL-6-29-'><td class='td01' id='TBL-6-29-1'>
-<!-- l. 1602 --><p class='noindent'>Flow         </p></td><td class='td11' id='TBL-6-29-2'> <!-- l. 1602 --><p class='noindent'>AM
+<!-- l. 1599 --><p class='noindent'>Flow         </p></td><td class='td11' id='TBL-6-29-2'> <!-- l. 1599 --><p class='noindent'>AM
   (task
-  forms)                     </p></td><td class='td11' id='TBL-6-29-3'> <!-- l. 1602 --><p class='noindent'>FM
-  (trajectory)                  </p></td><td class='td10' id='TBL-6-29-4'> <!-- l. 1602 --><p class='noindent'>Resonant
+  forms)                     </p></td><td class='td11' id='TBL-6-29-3'> <!-- l. 1599 --><p class='noindent'>FM
+  (trajectory)                  </p></td><td class='td10' id='TBL-6-29-4'> <!-- l. 1599 --><p class='noindent'>Resonant
   narrowband
   forcing                      </p></td> </tr><tr id='TBL-6-30-'><td class='td01' id='TBL-6-30-1'>
-<!-- l. 1604 --><p class='noindent'>Psychedelic</p></td><td class='td11' id='TBL-6-30-2'> <!-- l. 1604 --><p class='noindent'>All
+<!-- l. 1601 --><p class='noindent'>Psychedelic</p></td><td class='td11' id='TBL-6-30-2'> <!-- l. 1601 --><p class='noindent'>All
   modes
   mixed
   +
-  decomposed             </p></td><td class='td11' id='TBL-6-30-3'> <!-- l. 1604 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-30-4'> <!-- l. 1604 --><p class='noindent'>Externally
+  decomposed             </p></td><td class='td11' id='TBL-6-30-3'> <!-- l. 1601 --><p class='noindent'>—                              </p></td><td class='td10' id='TBL-6-30-4'> <!-- l. 1601 --><p class='noindent'>Externally
   forced
   broadband
   expansion                  </p></td>
@@ -1470,173 +1470,173 @@ regression   </p></td><td class='td11' id='TBL-6-27-2'> <!-- l. 1598 --><p class
 <tr id='TBL-6-10-'><td class='td01' colspan='3' id='TBL-6-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 1609 --><p class='noindent'>Table 5.6b maps the same sixteen states to their dominant mode families and
+<!-- l. 1606 --><p class='noindent'>Table 5.6b maps the same sixteen states to their dominant mode families and
 resulting phenomenological experience.
-</p><!-- l. 1612 --><p class='noindent'><span class='ec-lmbx-10'>Table 5.6b — Mode and Experience Mapping</span>
-</p><!-- l. 1615 --><p class='noindent'>
-</p><!-- l. 1615 --><p class='noindent'>
+</p><!-- l. 1609 --><p class='noindent'><span class='ec-lmbx-10'>Table 5.6b — Mode and Experience Mapping</span>
+</p><!-- l. 1612 --><p class='noindent'>
+</p><!-- l. 1612 --><p class='noindent'>
 <a id='x1-33002r7'></a></p>
-<!-- l. 1620 --><div class='longtable'> <table class='longtable' id='TBL-7'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /><col id='TBL-7-2' /><col id='TBL-7-3' /><col id='TBL-7-4' /></colgroup> <tr id='TBL-7-1-'><td class='td01' colspan='3' id='TBL-7-1-1'></td>
+<!-- l. 1617 --><div class='longtable'> <table class='longtable' id='TBL-7'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /><col id='TBL-7-2' /><col id='TBL-7-3' /><col id='TBL-7-4' /></colgroup> <tr id='TBL-7-1-'><td class='td01' colspan='3' id='TBL-7-1-1'></td>
 </tr><tr id='TBL-7-4-'><td class='td01' id='TBL-7-4-1'>
-<div class='minipage'><!-- l. 1622 --><p class='noindent'>State </p></div> </td><td class='td11' id='TBL-7-4-2'> <div class='minipage'><!-- l. 1624 --><p class='noindent'>Dominant Mode Family </p></div> </td><td class='td11' id='TBL-7-4-3'> <div class='minipage'><!-- l. 1626 --><p class='noindent'>ODS Behavior </p></div> </td><td class='td10' id='TBL-7-4-4'> <div class='minipage'><!-- l. 1628 --><p class='noindent'>Phenomenological Experience </p></div></td>
+<div class='minipage'><!-- l. 1619 --><p class='noindent'>State </p></div> </td><td class='td11' id='TBL-7-4-2'> <div class='minipage'><!-- l. 1621 --><p class='noindent'>Dominant Mode Family </p></div> </td><td class='td11' id='TBL-7-4-3'> <div class='minipage'><!-- l. 1623 --><p class='noindent'>ODS Behavior </p></div> </td><td class='td10' id='TBL-7-4-4'> <div class='minipage'><!-- l. 1625 --><p class='noindent'>Phenomenological Experience </p></div></td>
 </tr><tr id='TBL-7-5-'><td class='td01' colspan='3' id='TBL-7-5-1'></td>
 </tr>
 <tr id='TBL-7-15-'><td class='td01' id='TBL-7-15-1'>
-<!-- l. 1634 --><p class='noindent'>Waking  </p></td><td class='td11' id='TBL-7-15-2'> <!-- l. 1634 --><p class='noindent'>Low-order
+<!-- l. 1631 --><p class='noindent'>Waking  </p></td><td class='td11' id='TBL-7-15-2'> <!-- l. 1631 --><p class='noindent'>Low-order
   cognitive-dominant
-  modes                          </p></td><td class='td11' id='TBL-7-15-3'> <!-- l. 1634 --><p class='noindent'>Stable
+  modes                          </p></td><td class='td11' id='TBL-7-15-3'> <!-- l. 1631 --><p class='noindent'>Stable
   low-mode
   ODS
   under
   continuous
-  drive                </p></td><td class='td10' id='TBL-7-15-4'> <!-- l. 1635 --><p class='noindent'>Stable
+  drive                </p></td><td class='td10' id='TBL-7-15-4'> <!-- l. 1632 --><p class='noindent'>Stable
   physical
   reality                                </p></td>
 </tr><tr id='TBL-7-16-'><td class='td01' id='TBL-7-16-1'>
-<!-- l. 1636 --><p class='noindent'>Memory </p></td><td class='td11' id='TBL-7-16-2'> <!-- l. 1636 --><p class='noindent'>Previously
+<!-- l. 1633 --><p class='noindent'>Memory </p></td><td class='td11' id='TBL-7-16-2'> <!-- l. 1633 --><p class='noindent'>Previously
   excited
   experience
-  modes                          </p></td><td class='td11' id='TBL-7-16-3'> <!-- l. 1636 --><p class='noindent'>Reduced-amplitude
+  modes                          </p></td><td class='td11' id='TBL-7-16-3'> <!-- l. 1633 --><p class='noindent'>Reduced-amplitude
   reconstruction
   of
   prior
-  ODS                </p></td><td class='td10' id='TBL-7-16-4'> <!-- l. 1637 --><p class='noindent'>Reconstructed
+  ODS                </p></td><td class='td10' id='TBL-7-16-4'> <!-- l. 1634 --><p class='noindent'>Reconstructed
   past
   events                                 </p></td>
 </tr><tr id='TBL-7-17-'><td class='td01' id='TBL-7-17-1'>
-<!-- l. 1638 --><p class='noindent'>Imagination </p> </td><td class='td11' id='TBL-7-17-2'> <!-- l. 1638 --><p class='noindent'>Higher-order
+<!-- l. 1635 --><p class='noindent'>Imagination </p> </td><td class='td11' id='TBL-7-17-2'> <!-- l. 1635 --><p class='noindent'>Higher-order
   imaginative
   +
   cognitive
   control
-  modes                          </p></td><td class='td11' id='TBL-7-17-3'> <!-- l. 1639 --><p class='noindent'>Broadening
+  modes                          </p></td><td class='td11' id='TBL-7-17-3'> <!-- l. 1636 --><p class='noindent'>Broadening
   ODS
   under
   partial
   operator
-  control             </p></td><td class='td10' id='TBL-7-17-4'> <!-- l. 1639 --><p class='noindent'>Possible
+  control             </p></td><td class='td10' id='TBL-7-17-4'> <!-- l. 1636 --><p class='noindent'>Possible
   futures,
   scenarios                             </p></td>
 </tr><tr id='TBL-7-18-'><td class='td01' id='TBL-7-18-1'>
-<!-- l. 1641 --><p class='noindent'>Dreams  </p></td><td class='td11' id='TBL-7-18-2'> <!-- l. 1641 --><p class='noindent'>Broad
+<!-- l. 1638 --><p class='noindent'>Dreams  </p></td><td class='td11' id='TBL-7-18-2'> <!-- l. 1638 --><p class='noindent'>Broad
   unconstrained
   mode
-  set                              </p></td><td class='td11' id='TBL-7-18-3'> <!-- l. 1641 --><p class='noindent'>Chaotic
+  set                              </p></td><td class='td11' id='TBL-7-18-3'> <!-- l. 1638 --><p class='noindent'>Chaotic
   free
   ODS
-  superposition     </p></td><td class='td10' id='TBL-7-18-4'> <!-- l. 1642 --><p class='noindent'>Surreal
+  superposition     </p></td><td class='td10' id='TBL-7-18-4'> <!-- l. 1639 --><p class='noindent'>Surreal
   multi-band
   blend                                  </p></td>
 </tr><tr id='TBL-7-19-'><td class='td01' id='TBL-7-19-1'>
-<!-- l. 1643 --><p class='noindent'>Lucid
-dreaming </p> </td><td class='td11' id='TBL-7-19-2'> <!-- l. 1643 --><p class='noindent'>Broad
+<!-- l. 1640 --><p class='noindent'>Lucid
+dreaming </p> </td><td class='td11' id='TBL-7-19-2'> <!-- l. 1640 --><p class='noindent'>Broad
   mode
   set
   +
   cognitive
-  controller                     </p></td><td class='td11' id='TBL-7-19-3'> <!-- l. 1643 --><p class='noindent'>Steerable
+  controller                     </p></td><td class='td11' id='TBL-7-19-3'> <!-- l. 1640 --><p class='noindent'>Steerable
   free
-  ODS                </p></td><td class='td10' id='TBL-7-19-4'> <!-- l. 1644 --><p class='noindent'>Navigable
+  ODS                </p></td><td class='td10' id='TBL-7-19-4'> <!-- l. 1641 --><p class='noindent'>Navigable
   broadband
   field                                   </p></td> </tr><tr id='TBL-7-20-'><td class='td01' id='TBL-7-20-1'>
-<!-- l. 1645 --><p class='noindent'>Focused
-meditation </p> </td><td class='td11' id='TBL-7-20-2'> <!-- l. 1645 --><p class='noindent'>Fundamental
+<!-- l. 1642 --><p class='noindent'>Focused
+meditation </p> </td><td class='td11' id='TBL-7-20-2'> <!-- l. 1642 --><p class='noindent'>Fundamental
   or
   near-fundamental
-  modes                          </p></td><td class='td11' id='TBL-7-20-3'> <!-- l. 1646 --><p class='noindent'>Near-single-mode
-  ODS                </p></td><td class='td10' id='TBL-7-20-4'> <!-- l. 1646 --><p class='noindent'>Deep
+  modes                          </p></td><td class='td11' id='TBL-7-20-3'> <!-- l. 1643 --><p class='noindent'>Near-single-mode
+  ODS                </p></td><td class='td10' id='TBL-7-20-4'> <!-- l. 1643 --><p class='noindent'>Deep
   self-knowledge                      </p></td>
 </tr><tr id='TBL-7-21-'><td class='td01' id='TBL-7-21-1'>
-<!-- l. 1647 --><p class='noindent'>Open
-awareness </p> </td><td class='td11' id='TBL-7-21-2'> <!-- l. 1647 --><p class='noindent'>Multi-mode
+<!-- l. 1644 --><p class='noindent'>Open
+awareness </p> </td><td class='td11' id='TBL-7-21-2'> <!-- l. 1644 --><p class='noindent'>Multi-mode
   resolved
-  set                              </p></td><td class='td11' id='TBL-7-21-3'> <!-- l. 1647 --><p class='noindent'>Observed
+  set                              </p></td><td class='td11' id='TBL-7-21-3'> <!-- l. 1644 --><p class='noindent'>Observed
   but
   minimally
   driven
   composite
-  ODS                </p></td><td class='td10' id='TBL-7-21-4'> <!-- l. 1648 --><p class='noindent'>Spontaneous
+  ODS                </p></td><td class='td10' id='TBL-7-21-4'> <!-- l. 1645 --><p class='noindent'>Spontaneous
   insight                                </p></td>
 </tr><tr id='TBL-7-22-'><td class='td01' id='TBL-7-22-1'>
-<!-- l. 1649 --><p class='noindent'>Hypnosis/trance </p> </td><td class='td11' id='TBL-7-22-2'> <!-- l. 1649 --><p class='noindent'>Target-selected
-  modes                          </p></td><td class='td11' id='TBL-7-22-3'> <!-- l. 1649 --><p class='noindent'>Externally
+<!-- l. 1646 --><p class='noindent'>Hypnosis/trance </p> </td><td class='td11' id='TBL-7-22-2'> <!-- l. 1646 --><p class='noindent'>Target-selected
+  modes                          </p></td><td class='td11' id='TBL-7-22-3'> <!-- l. 1646 --><p class='noindent'>Externally
   managed
-  ODS                </p></td><td class='td10' id='TBL-7-22-4'> <!-- l. 1650 --><p class='noindent'>Guided
+  ODS                </p></td><td class='td10' id='TBL-7-22-4'> <!-- l. 1647 --><p class='noindent'>Guided
   reception                             </p></td>
 </tr><tr id='TBL-7-23-'><td class='td01' id='TBL-7-23-1'>
-<!-- l. 1651 --><p class='noindent'>Remote
-viewing  </p></td><td class='td11' id='TBL-7-23-2'> <!-- l. 1651 --><p class='noindent'>Target-locked
+<!-- l. 1648 --><p class='noindent'>Remote
+viewing  </p></td><td class='td11' id='TBL-7-23-2'> <!-- l. 1648 --><p class='noindent'>Target-locked
   sparse
   mode
-  set                              </p></td><td class='td11' id='TBL-7-23-3'> <!-- l. 1651 --><p class='noindent'>Sharp
+  set                              </p></td><td class='td11' id='TBL-7-23-3'> <!-- l. 1648 --><p class='noindent'>Sharp
   antinode
   aimed
   at
-  target              </p></td><td class='td10' id='TBL-7-23-4'> <!-- l. 1652 --><p class='noindent'>Distant
+  target              </p></td><td class='td10' id='TBL-7-23-4'> <!-- l. 1649 --><p class='noindent'>Distant
   event
   perception                           </p></td>
 </tr><tr id='TBL-7-24-'><td class='td01' id='TBL-7-24-1'>
-<!-- l. 1653 --><p class='noindent'>Astral
-travel     </p></td><td class='td11' id='TBL-7-24-2'> <!-- l. 1653 --><p class='noindent'>Detached
+<!-- l. 1650 --><p class='noindent'>Astral
+travel     </p></td><td class='td11' id='TBL-7-24-2'> <!-- l. 1650 --><p class='noindent'>Detached
   expanded
-  modes                          </p></td><td class='td11' id='TBL-7-24-3'> <!-- l. 1653 --><p class='noindent'>Propagating
+  modes                          </p></td><td class='td11' id='TBL-7-24-3'> <!-- l. 1650 --><p class='noindent'>Propagating
   ODS
   beyond
   body
-  geometry          </p></td><td class='td10' id='TBL-7-24-4'> <!-- l. 1654 --><p class='noindent'>Direct
+  geometry          </p></td><td class='td10' id='TBL-7-24-4'> <!-- l. 1651 --><p class='noindent'>Direct
   density
   experience                           </p></td>
 </tr><tr id='TBL-7-25-'><td class='td01' id='TBL-7-25-1'>
-<!-- l. 1655 --><p class='noindent'>Channeling </p> </td><td class='td11' id='TBL-7-25-2'> <!-- l. 1655 --><p class='noindent'>Foreign
+<!-- l. 1652 --><p class='noindent'>Channeling </p> </td><td class='td11' id='TBL-7-25-2'> <!-- l. 1652 --><p class='noindent'>Foreign
   source
   pattern
   over
   damped
   native
-  baseline                        </p></td><td class='td11' id='TBL-7-25-3'> <!-- l. 1656 --><p class='noindent'>Imposed
+  baseline                        </p></td><td class='td11' id='TBL-7-25-3'> <!-- l. 1653 --><p class='noindent'>Imposed
   ODS
-  overlay             </p></td><td class='td10' id='TBL-7-25-4'> <!-- l. 1656 --><p class='noindent'>External
+  overlay             </p></td><td class='td10' id='TBL-7-25-4'> <!-- l. 1653 --><p class='noindent'>External
   intelligence
   comms                                </p></td>
 </tr><tr id='TBL-7-26-'><td class='td01' id='TBL-7-26-1'>
-<!-- l. 1657 --><p class='noindent'>Psychic
-perception </p> </td><td class='td11' id='TBL-7-26-2'> <!-- l. 1657 --><p class='noindent'>Clair-specific
+<!-- l. 1654 --><p class='noindent'>Psychic
+perception </p> </td><td class='td11' id='TBL-7-26-2'> <!-- l. 1654 --><p class='noindent'>Clair-specific
   transduction
-  modes                          </p></td><td class='td11' id='TBL-7-26-3'> <!-- l. 1658 --><p class='noindent'>Modality-specific
+  modes                          </p></td><td class='td11' id='TBL-7-26-3'> <!-- l. 1655 --><p class='noindent'>Modality-specific
   ODS
-  routing             </p></td><td class='td10' id='TBL-7-26-4'> <!-- l. 1658 --><p class='noindent'>Extrasensory
+  routing             </p></td><td class='td10' id='TBL-7-26-4'> <!-- l. 1655 --><p class='noindent'>Extrasensory
   information                          </p></td>
 </tr><tr id='TBL-7-27-'><td class='td01' id='TBL-7-27-1'>
-<!-- l. 1659 --><p class='noindent'>Past
+<!-- l. 1656 --><p class='noindent'>Past
 life
-regression </p> </td><td class='td11' id='TBL-7-27-2'> <!-- l. 1659 --><p class='noindent'>Archived
+regression </p> </td><td class='td11' id='TBL-7-27-2'> <!-- l. 1656 --><p class='noindent'>Archived
   identity-linked
-  modes                          </p></td><td class='td11' id='TBL-7-27-3'> <!-- l. 1659 --><p class='noindent'>Retrieved
+  modes                          </p></td><td class='td11' id='TBL-7-27-3'> <!-- l. 1656 --><p class='noindent'>Retrieved
   historical
   ODS
-  fragment           </p></td><td class='td10' id='TBL-7-27-4'> <!-- l. 1660 --><p class='noindent'>Other-life
+  fragment           </p></td><td class='td10' id='TBL-7-27-4'> <!-- l. 1657 --><p class='noindent'>Other-life
   experience                           </p></td>
 </tr><tr id='TBL-7-28-'><td class='td01' id='TBL-7-28-1'>
-<!-- l. 1661 --><p class='noindent'>Manifestation </p> </td><td class='td11' id='TBL-7-28-2'> <!-- l. 1661 --><p class='noindent'>Future-oriented
+<!-- l. 1658 --><p class='noindent'>Manifestation </p> </td><td class='td11' id='TBL-7-28-2'> <!-- l. 1658 --><p class='noindent'>Future-oriented
   selection
-  modes                          </p></td><td class='td11' id='TBL-7-28-3'> <!-- l. 1661 --><p class='noindent'>Converging
+  modes                          </p></td><td class='td11' id='TBL-7-28-3'> <!-- l. 1658 --><p class='noindent'>Converging
   target
-  ODS                </p></td><td class='td10' id='TBL-7-28-4'> <!-- l. 1662 --><p class='noindent'>Deliberate
+  ODS                </p></td><td class='td10' id='TBL-7-28-4'> <!-- l. 1659 --><p class='noindent'>Deliberate
   timeline
   convergence                         </p></td> </tr><tr id='TBL-7-29-'><td class='td01' id='TBL-7-29-1'>
-<!-- l. 1663 --><p class='noindent'>Flow      </p></td><td class='td11' id='TBL-7-29-2'> <!-- l. 1663 --><p class='noindent'>Task-matched
+<!-- l. 1660 --><p class='noindent'>Flow      </p></td><td class='td11' id='TBL-7-29-2'> <!-- l. 1660 --><p class='noindent'>Task-matched
   near-single-mode
-  state                            </p></td><td class='td11' id='TBL-7-29-3'> <!-- l. 1663 --><p class='noindent'>High-amplitude
+  state                            </p></td><td class='td11' id='TBL-7-29-3'> <!-- l. 1660 --><p class='noindent'>High-amplitude
   task
-  ODS                </p></td><td class='td10' id='TBL-7-29-4'> <!-- l. 1664 --><p class='noindent'>Task-optimized
+  ODS                </p></td><td class='td10' id='TBL-7-29-4'> <!-- l. 1661 --><p class='noindent'>Task-optimized
   single-channel                       </p></td>
 </tr><tr id='TBL-7-30-'><td class='td01' id='TBL-7-30-1'>
-<!-- l. 1665 --><p class='noindent'>Psychedelic </p> </td><td class='td11' id='TBL-7-30-2'> <!-- l. 1665 --><p class='noindent'>Expanded
+<!-- l. 1662 --><p class='noindent'>Psychedelic </p> </td><td class='td11' id='TBL-7-30-2'> <!-- l. 1662 --><p class='noindent'>Expanded
   high-order
   mode
-  set                              </p></td><td class='td11' id='TBL-7-30-3'> <!-- l. 1665 --><p class='noindent'>Decomposed
+  set                              </p></td><td class='td11' id='TBL-7-30-3'> <!-- l. 1662 --><p class='noindent'>Decomposed
   multi-cluster
-  ODS                </p></td><td class='td10' id='TBL-7-30-4'> <!-- l. 1666 --><p class='noindent'>Visible
+  ODS                </p></td><td class='td10' id='TBL-7-30-4'> <!-- l. 1663 --><p class='noindent'>Visible
   mode
   shape
   geometry                             </p></td>
@@ -1644,11 +1644,11 @@ regression </p> </td><td class='td11' id='TBL-7-27-2'> <!-- l. 1659 --><p class=
 <tr id='TBL-7-10-'><td class='td01' colspan='3' id='TBL-7-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 1671 --><p class='nopar'>
+<!-- l. 1668 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-integration-why-development-opens-new-modes'><a id='x1-34000'></a>5.6.1 Integration: Why Development Opens New Modes</h5>
 <p><a id='x1-34000doc'></a>
-</p><!-- l. 1673 --><p class='nopar'>The three governing parameters form an integrated developmental picture:
+</p><!-- l. 1670 --><p class='nopar'>The three governing parameters form an integrated developmental picture:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Q </span>determines  <span class='ec-lmbx-10'>which  demodulation  modes  are  accessible</span>.  Low-Q
      receivers  can  only  sustain  AM  demodulation;  the  phase-lock  stability
      required  for  PM  and  CDMA  decoding  exceeds  their  coherence  time.
@@ -1661,13 +1661,13 @@ regression </p> </td><td class='td11' id='TBL-7-27-2'> <!-- l. 1659 --><p class=
      for coupling to the PM and CDMA layers respectively.
      </li> <li class='itemize'>\(f_0\) determines <span class='ec-lmbx-10'>characteristic scale within the AM layer</span>. Low \(f_0\) couples
      to era-scale patterns; high \(f_0\) couples to event-scale patterns.</li></ul>
-<!-- l. 1693 --><p class='noindent'>Because \(L\) drives both \(f_0\) (downward) and \(Z_0\) (upward), wisdom accumulation
+<!-- l. 1690 --><p class='noindent'>Because \(L\) drives both \(f_0\) (downward) and \(Z_0\) (upward), wisdom accumulation
 simultaneously shifts perception toward longer timescales and opens access to deeper
 signal layers. This is why the episodic-to-mythic transition (Chapter 6, Section
 6.2.8.2) accompanies the opening of PM and CDMA perception: they are the
 same underlying parameter change expressed through different observables.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1701 --><p class='noindent'><span class='ec-lmbx-10'>Parametric coupling between layers. </span>The three subcarrier layers are not fully
+</p><!-- l. 1698 --><p class='noindent'><span class='ec-lmbx-10'>Parametric coupling between layers. </span>The three subcarrier layers are not fully
 independent: energy can transfer between them via parametric amplification
 (Chapter 6, Section 6.2.5a). When a practice or experience pumps energy at twice
 the natural frequency of one layer, nonlinear coupling transfers that energy into the
@@ -1676,221 +1676,221 @@ practice (operating on AM-layer body templates) can catalyze PM-layer timeline
 awareness or CDMA-layer identity recognition — the pump need not match
 the target layer’s frequency, only satisfy the parametric coupling condition.
 <span class='evidence-pill evidence-pill--l3'>[L3-SPECULATIVE]</span>
-</p><!-- l. 1712 --><p class='noindent'><span class='ec-lmbx-10'>Support note. </span>The lower-inference substrate for this table comes from converging
+</p><!-- l. 1709 --><p class='noindent'><span class='ec-lmbx-10'>Support note. </span>The lower-inference substrate for this table comes from converging
 literatures on memory reconsolidation, imagery/memory neural overlap, dream
 replay, and contemplative state-dependent neural reconfiguration. The table extends
 that substrate into a unified forcing-regime and mode-configuration model rather
 than treating each state as a separate mechanism.
-</p><!-- l. 1720 --><p class='nopar'>
+</p><!-- l. 1717 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-crossdomain-reference-table'><a id='x1-35000'></a>5.6.2 Cross-Domain Reference Table</h5>
 <p><a id='x1-35000doc'></a>
-</p><!-- l. 1722 --><p class='nopar'>The following table maps key signal-processing concepts used throughout this text to
+</p><!-- l. 1719 --><p class='nopar'>The following table maps key signal-processing concepts used throughout this text to
 their equivalents across the three-tier framework. Each row references the chapter(s)
 where the concept receives its primary treatment.
-</p><!-- l. 1728 --><p class='noindent'>
-</p><!-- l. 1728 --><p class='noindent'> <a id='x1-35001r8'></a></p>
-<!-- l. 1734 --><div class='longtable'> <table class='longtable' id='TBL-8'><colgroup id='TBL-8-1g'><col id='TBL-8-1' /><col id='TBL-8-2' /><col id='TBL-8-3' /><col id='TBL-8-4' /><col id='TBL-8-5' /></colgroup>
+</p><!-- l. 1725 --><p class='noindent'>
+</p><!-- l. 1725 --><p class='noindent'> <a id='x1-35001r8'></a></p>
+<!-- l. 1731 --><div class='longtable'> <table class='longtable' id='TBL-8'><colgroup id='TBL-8-1g'><col id='TBL-8-1' /><col id='TBL-8-2' /><col id='TBL-8-3' /><col id='TBL-8-4' /><col id='TBL-8-5' /></colgroup>
 <tr id='TBL-8-1-'><td class='td01' colspan='3' id='TBL-8-1-1'></td>
 </tr><tr id='TBL-8-4-'><td class='td01' id='TBL-8-4-1'>
-<div class='minipage'><!-- l. 1736 --><p class='noindent'>Technique</p></div> </td><td class='td11' id='TBL-8-4-2'> <div class='minipage'><!-- l. 1738 --><p class='noindent'>RF / EM Equivalent </p></div> </td><td class='td11' id='TBL-8-4-3'> <div class='minipage'><!-- l. 1740 --><p class='noindent'>Audio Equivalent </p></div> </td><td class='td11' id='TBL-8-4-4'> <div class='minipage'><!-- l. 1742 --><p class='noindent'>Consciousness Mapping </p></div> </td><td class='td10' id='TBL-8-4-5'> <div class='minipage'><!-- l. 1744 --><p class='noindent'>Primary Ch </p></div></td>
+<div class='minipage'><!-- l. 1733 --><p class='noindent'>Technique</p></div> </td><td class='td11' id='TBL-8-4-2'> <div class='minipage'><!-- l. 1735 --><p class='noindent'>RF / EM Equivalent </p></div> </td><td class='td11' id='TBL-8-4-3'> <div class='minipage'><!-- l. 1737 --><p class='noindent'>Audio Equivalent </p></div> </td><td class='td11' id='TBL-8-4-4'> <div class='minipage'><!-- l. 1739 --><p class='noindent'>Consciousness Mapping </p></div> </td><td class='td10' id='TBL-8-4-5'> <div class='minipage'><!-- l. 1741 --><p class='noindent'>Primary Ch </p></div></td>
 </tr><tr id='TBL-8-5-'><td class='td01' colspan='3' id='TBL-8-5-1'></td>
 </tr>
 <tr id='TBL-8-15-'><td class='td01' id='TBL-8-15-1'>
-<!-- l. 1750 --><p class='noindent'>Resonant
+<!-- l. 1747 --><p class='noindent'>Resonant
 cavity
 /
 Q
-factor        </p></td><td class='td11' id='TBL-8-15-2'> <!-- l. 1750 --><p class='noindent'>Tank
+factor        </p></td><td class='td11' id='TBL-8-15-2'> <!-- l. 1747 --><p class='noindent'>Tank
   circuit,
   cavity
-  resonator              </p></td><td class='td11' id='TBL-8-15-3'> <!-- l. 1750 --><p class='noindent'>Concert
+  resonator              </p></td><td class='td11' id='TBL-8-15-3'> <!-- l. 1747 --><p class='noindent'>Concert
   hall
   reverberation,
   bell
-  sustain               </p></td><td class='td11' id='TBL-8-15-4'> <!-- l. 1751 --><p class='noindent'>Identity
+  sustain               </p></td><td class='td11' id='TBL-8-15-4'> <!-- l. 1748 --><p class='noindent'>Identity
   coherence,
-  sovereignty                </p></td><td class='td10' id='TBL-8-15-5'> <!-- l. 1752 --><p class='noindent'>6             </p></td>
+  sovereignty                </p></td><td class='td10' id='TBL-8-15-5'> <!-- l. 1749 --><p class='noindent'>6             </p></td>
 </tr><tr id='TBL-8-16-'><td class='td01' id='TBL-8-16-1'>
-<!-- l. 1753 --><p class='noindent'>Impedance
-matching   </p></td><td class='td11' id='TBL-8-16-2'> <!-- l. 1753 --><p class='noindent'>\(Z_{source} = Z_{load}^*\)                 </p></td><td class='td11' id='TBL-8-16-3'> <!-- l. 1753 --><p class='noindent'>Microphone-preamp
+<!-- l. 1750 --><p class='noindent'>Impedance
+matching   </p></td><td class='td11' id='TBL-8-16-2'> <!-- l. 1750 --><p class='noindent'>\(Z_{source} = Z_{load}^*\)                 </p></td><td class='td11' id='TBL-8-16-3'> <!-- l. 1750 --><p class='noindent'>Microphone-preamp
   gain
-  staging               </p></td><td class='td11' id='TBL-8-16-4'> <!-- l. 1754 --><p class='noindent'>Teacher-student
+  staging               </p></td><td class='td11' id='TBL-8-16-4'> <!-- l. 1751 --><p class='noindent'>Teacher-student
   resonance,
-  rapport                    </p></td><td class='td10' id='TBL-8-16-5'> <!-- l. 1754 --><p class='noindent'>6             </p></td>
+  rapport                    </p></td><td class='td10' id='TBL-8-16-5'> <!-- l. 1751 --><p class='noindent'>6             </p></td>
 </tr><tr id='TBL-8-17-'><td class='td01' id='TBL-8-17-1'>
-<!-- l. 1755 --><p class='noindent'>Soliton
-propagation </p> </td><td class='td11' id='TBL-8-17-2'> <!-- l. 1755 --><p class='noindent'>Self-maintaining
+<!-- l. 1752 --><p class='noindent'>Soliton
+propagation </p> </td><td class='td11' id='TBL-8-17-2'> <!-- l. 1752 --><p class='noindent'>Self-maintaining
   pulse
   (nonlinearity
   balances
-  dispersion)            </p></td><td class='td11' id='TBL-8-17-3'> <!-- l. 1756 --><p class='noindent'>Heimburg-Jackson
+  dispersion)            </p></td><td class='td11' id='TBL-8-17-3'> <!-- l. 1753 --><p class='noindent'>Heimburg-Jackson
   nerve
   soliton
-  model                </p></td><td class='td11' id='TBL-8-17-4'> <!-- l. 1756 --><p class='noindent'>Insight
+  model                </p></td><td class='td11' id='TBL-8-17-4'> <!-- l. 1753 --><p class='noindent'>Insight
   that
   holds
   shape
   through
   dispersive
   social
-  medium                    </p></td><td class='td10' id='TBL-8-17-5'> <!-- l. 1757 --><p class='noindent'>4             </p></td>
+  medium                    </p></td><td class='td10' id='TBL-8-17-5'> <!-- l. 1754 --><p class='noindent'>4             </p></td>
 </tr><tr id='TBL-8-18-'><td class='td01' id='TBL-8-18-1'>
-<!-- l. 1758 --><p class='noindent'>Parametric
-amplification </p> </td><td class='td11' id='TBL-8-18-2'> <!-- l. 1758 --><p class='noindent'>Pump
+<!-- l. 1755 --><p class='noindent'>Parametric
+amplification </p> </td><td class='td11' id='TBL-8-18-2'> <!-- l. 1755 --><p class='noindent'>Pump
   at
   \(2f\)
   modulates
   reactive
-  element                </p></td><td class='td11' id='TBL-8-18-3'> <!-- l. 1759 --><p class='noindent'>Parametric
+  element                </p></td><td class='td11' id='TBL-8-18-3'> <!-- l. 1756 --><p class='noindent'>Parametric
   speaker
   (ultrasonic
   mixing),
   child
   pumping
-  swing                 </p></td><td class='td11' id='TBL-8-18-4'> <!-- l. 1759 --><p class='noindent'>Practice
+  swing                 </p></td><td class='td11' id='TBL-8-18-4'> <!-- l. 1756 --><p class='noindent'>Practice
   as
   parameter
   modulation,
   energy
   from
-  elsewhere                  </p></td><td class='td10' id='TBL-8-18-5'> <!-- l. 1760 --><p class='noindent'>6             </p></td> </tr><tr id='TBL-8-19-'><td class='td01' id='TBL-8-19-1'>
-<!-- l. 1761 --><p class='noindent'>Phase
+  elsewhere                  </p></td><td class='td10' id='TBL-8-18-5'> <!-- l. 1757 --><p class='noindent'>6             </p></td> </tr><tr id='TBL-8-19-'><td class='td01' id='TBL-8-19-1'>
+<!-- l. 1758 --><p class='noindent'>Phase
 conjugation
 /
-time-reversal </p> </td><td class='td11' id='TBL-8-19-2'> <!-- l. 1761 --><p class='noindent'>Phase
+time-reversal </p> </td><td class='td11' id='TBL-8-19-2'> <!-- l. 1758 --><p class='noindent'>Phase
   conjugate
   mirror
   undoes
-  scattering              </p></td><td class='td11' id='TBL-8-19-3'> <!-- l. 1762 --><p class='noindent'>Fink
+  scattering              </p></td><td class='td11' id='TBL-8-19-3'> <!-- l. 1759 --><p class='noindent'>Fink
   acoustic
   time-reversal
-  (lithotripsy)        </p></td><td class='td11' id='TBL-8-19-4'> <!-- l. 1762 --><p class='noindent'>Trauma
+  (lithotripsy)        </p></td><td class='td11' id='TBL-8-19-4'> <!-- l. 1759 --><p class='noindent'>Trauma
   resolution
   by
   replaying
   through
   disordering
-  medium                    </p></td><td class='td10' id='TBL-8-19-5'> <!-- l. 1763 --><p class='noindent'>11            </p></td>
+  medium                    </p></td><td class='td10' id='TBL-8-19-5'> <!-- l. 1760 --><p class='noindent'>11            </p></td>
 </tr><tr id='TBL-8-20-'><td class='td01' id='TBL-8-20-1'>
-<!-- l. 1764 --><p class='noindent'>Stochastic
-resonance   </p></td><td class='td11' id='TBL-8-20-2'> <!-- l. 1764 --><p class='noindent'>Noise
+<!-- l. 1761 --><p class='noindent'>Stochastic
+resonance   </p></td><td class='td11' id='TBL-8-20-2'> <!-- l. 1761 --><p class='noindent'>Noise
   aids
   sub-threshold
-  detection              </p></td><td class='td11' id='TBL-8-20-3'> <!-- l. 1764 --><p class='noindent'>Improved
+  detection              </p></td><td class='td11' id='TBL-8-20-3'> <!-- l. 1761 --><p class='noindent'>Improved
   tone
   detection
   in
   broadband
-  noise                 </p></td><td class='td11' id='TBL-8-20-4'> <!-- l. 1765 --><p class='noindent'>Ecstatic/chaotic
+  noise                 </p></td><td class='td11' id='TBL-8-20-4'> <!-- l. 1762 --><p class='noindent'>Ecstatic/chaotic
   practices
   for
   below-threshold
-  signals                     </p></td><td class='td10' id='TBL-8-20-5'> <!-- l. 1766 --><p class='noindent'>15            </p></td>
+  signals                     </p></td><td class='td10' id='TBL-8-20-5'> <!-- l. 1763 --><p class='noindent'>15            </p></td>
 </tr><tr id='TBL-8-21-'><td class='td01' id='TBL-8-21-1'>
-<!-- l. 1767 --><p class='noindent'>Shannon
-capacity     </p></td><td class='td11' id='TBL-8-21-2'> <!-- l. 1767 --><p class='noindent'>\(C = W \log _2(1 + \text {SNR})\)                 </p></td><td class='td11' id='TBL-8-21-3'> <!-- l. 1767 --><p class='noindent'>Vinyl
-  \(\rightarrow \)
+<!-- l. 1764 --><p class='noindent'>Shannon
+capacity     </p></td><td class='td11' id='TBL-8-21-2'> <!-- l. 1764 --><p class='noindent'>\(C = W \log _2(1 + \text {SNR})\)                 </p></td><td class='td11' id='TBL-8-21-3'> <!-- l. 1764 --><p class='noindent'>Vinyl
+  \(\relax \to \)
   CD
-  \(\rightarrow \)
+  \(\relax \to \)
   24-bit
   (SNR
-  history)              </p></td><td class='td11' id='TBL-8-21-4'> <!-- l. 1768 --><p class='noindent'>Bandwidth
+  history)              </p></td><td class='td11' id='TBL-8-21-4'> <!-- l. 1765 --><p class='noindent'>Bandwidth
   ceiling
   on
   liberated
   information
-  rate                         </p></td><td class='td10' id='TBL-8-21-5'> <!-- l. 1769 --><p class='noindent'>15            </p></td>
+  rate                         </p></td><td class='td10' id='TBL-8-21-5'> <!-- l. 1766 --><p class='noindent'>15            </p></td>
 </tr><tr id='TBL-8-22-'><td class='td01' id='TBL-8-22-1'>
-<!-- l. 1770 --><p class='noindent'>Metamaterial
-band-gap   </p></td><td class='td11' id='TBL-8-22-2'> <!-- l. 1770 --><p class='noindent'>Sub-wavelength
+<!-- l. 1767 --><p class='noindent'>Metamaterial
+band-gap   </p></td><td class='td11' id='TBL-8-22-2'> <!-- l. 1767 --><p class='noindent'>Sub-wavelength
   periodicity
   forbids
-  propagation           </p></td><td class='td11' id='TBL-8-22-3'> <!-- l. 1771 --><p class='noindent'>Phononic
+  propagation           </p></td><td class='td11' id='TBL-8-22-3'> <!-- l. 1768 --><p class='noindent'>Phononic
   crystal
   acoustic
-  bandgap             </p></td><td class='td11' id='TBL-8-22-4'> <!-- l. 1771 --><p class='noindent'>Topic
+  bandgap             </p></td><td class='td11' id='TBL-8-22-4'> <!-- l. 1768 --><p class='noindent'>Topic
   blackout
   bands
   in
   paradigm
-  cage                        </p></td><td class='td10' id='TBL-8-22-5'> <!-- l. 1772 --><p class='noindent'>14            </p></td>
+  cage                        </p></td><td class='td10' id='TBL-8-22-5'> <!-- l. 1769 --><p class='noindent'>14            </p></td>
 </tr><tr id='TBL-8-23-'><td class='td01' id='TBL-8-23-1'>
-<!-- l. 1773 --><p class='noindent'>Anomalous
-propagation </p> </td><td class='td11' id='TBL-8-23-2'> <!-- l. 1773 --><p class='noindent'>Group
+<!-- l. 1770 --><p class='noindent'>Anomalous
+propagation </p> </td><td class='td11' id='TBL-8-23-2'> <!-- l. 1770 --><p class='noindent'>Group
   velocity
   \(&gt; c\)
   in
   dispersive
-  media                   </p></td><td class='td11' id='TBL-8-23-3'> <!-- l. 1774 --><p class='noindent'>Negative
+  media                   </p></td><td class='td11' id='TBL-8-23-3'> <!-- l. 1771 --><p class='noindent'>Negative
   group
   velocity
   in
   acoustic
-  metamaterials     </p></td><td class='td11' id='TBL-8-23-4'> <!-- l. 1774 --><p class='noindent'>Precognitive
+  metamaterials     </p></td><td class='td11' id='TBL-8-23-4'> <!-- l. 1771 --><p class='noindent'>Precognitive
   reception
   of
   patterned
-  events                      </p></td><td class='td10' id='TBL-8-23-5'> <!-- l. 1775 --><p class='noindent'>11            </p></td>
+  events                      </p></td><td class='td10' id='TBL-8-23-5'> <!-- l. 1772 --><p class='noindent'>11            </p></td>
 </tr><tr id='TBL-8-24-'><td class='td01' id='TBL-8-24-1'>
-<!-- l. 1776 --><p class='noindent'>Phased
+<!-- l. 1773 --><p class='noindent'>Phased
 array
-beamforming </p> </td><td class='td11' id='TBL-8-24-2'> <!-- l. 1776 --><p class='noindent'>Coherent
+beamforming </p> </td><td class='td11' id='TBL-8-24-2'> <!-- l. 1773 --><p class='noindent'>Coherent
   element
   spacing
   steers
-  beam                   </p></td><td class='td11' id='TBL-8-24-3'> <!-- l. 1776 --><p class='noindent'>Line
+  beam                   </p></td><td class='td11' id='TBL-8-24-3'> <!-- l. 1773 --><p class='noindent'>Line
   array
   speaker
-  steering              </p></td><td class='td11' id='TBL-8-24-4'> <!-- l. 1777 --><p class='noindent'>Collective
+  steering              </p></td><td class='td11' id='TBL-8-24-4'> <!-- l. 1774 --><p class='noindent'>Collective
   intention
   focusing
   (critical
-  mass)                       </p></td><td class='td10' id='TBL-8-24-5'> <!-- l. 1778 --><p class='noindent'>9             </p></td> </tr><tr id='TBL-8-25-'><td class='td01' id='TBL-8-25-1'>
-<!-- l. 1779 --><p class='noindent'>Injection
-locking      </p></td><td class='td11' id='TBL-8-25-2'> <!-- l. 1779 --><p class='noindent'>Strong
+  mass)                       </p></td><td class='td10' id='TBL-8-24-5'> <!-- l. 1775 --><p class='noindent'>9             </p></td> </tr><tr id='TBL-8-25-'><td class='td01' id='TBL-8-25-1'>
+<!-- l. 1776 --><p class='noindent'>Injection
+locking      </p></td><td class='td11' id='TBL-8-25-2'> <!-- l. 1776 --><p class='noindent'>Strong
   oscillator
   captures
   weaker
-  one                      </p></td><td class='td11' id='TBL-8-25-3'> <!-- l. 1779 --><p class='noindent'>Entrainment
+  one                      </p></td><td class='td11' id='TBL-8-25-3'> <!-- l. 1776 --><p class='noindent'>Entrainment
   to
   a
   dominant
-  beat                  </p></td><td class='td11' id='TBL-8-25-4'> <!-- l. 1780 --><p class='noindent'>Narrative
+  beat                  </p></td><td class='td11' id='TBL-8-25-4'> <!-- l. 1777 --><p class='noindent'>Narrative
   capture,
-  groupthink                </p></td><td class='td10' id='TBL-8-25-5'> <!-- l. 1780 --><p class='noindent'>10            </p></td>
+  groupthink                </p></td><td class='td10' id='TBL-8-25-5'> <!-- l. 1777 --><p class='noindent'>10            </p></td>
 </tr><tr id='TBL-8-26-'><td class='td01' id='TBL-8-26-1'>
-<!-- l. 1781 --><p class='noindent'>CDMA
-multiplexing </p> </td><td class='td11' id='TBL-8-26-2'> <!-- l. 1781 --><p class='noindent'>Orthogonal
+<!-- l. 1778 --><p class='noindent'>CDMA
+multiplexing </p> </td><td class='td11' id='TBL-8-26-2'> <!-- l. 1778 --><p class='noindent'>Orthogonal
   spreading
   codes
   share
-  bandwidth            </p></td><td class='td11' id='TBL-8-26-3'> <!-- l. 1781 --><p class='noindent'>Timbral
+  bandwidth            </p></td><td class='td11' id='TBL-8-26-3'> <!-- l. 1778 --><p class='noindent'>Timbral
   fingerprint
   distinguishing
   instruments
   in
   a
-  mix                   </p></td><td class='td11' id='TBL-8-26-4'> <!-- l. 1782 --><p class='noindent'>Soul
+  mix                   </p></td><td class='td11' id='TBL-8-26-4'> <!-- l. 1779 --><p class='noindent'>Soul
   identity
   persisting
   across
-  incarnations              </p></td><td class='td10' id='TBL-8-26-5'> <!-- l. 1783 --><p class='noindent'>5,
+  incarnations              </p></td><td class='td10' id='TBL-8-26-5'> <!-- l. 1780 --><p class='noindent'>5,
   15            </p></td>
 </tr><tr id='TBL-8-27-'><td class='td01' id='TBL-8-27-1'>
-<!-- l. 1784 --><p class='noindent'>Mode
+<!-- l. 1781 --><p class='noindent'>Mode
 shapes
 /
 modal
-analysis     </p></td><td class='td11' id='TBL-8-27-2'> <!-- l. 1784 --><p class='noindent'>Structural
+analysis     </p></td><td class='td11' id='TBL-8-27-2'> <!-- l. 1781 --><p class='noindent'>Structural
   vibration
   eigenvalue
-  problem                </p></td><td class='td11' id='TBL-8-27-3'> <!-- l. 1785 --><p class='noindent'>Guitar
+  problem                </p></td><td class='td11' id='TBL-8-27-3'> <!-- l. 1782 --><p class='noindent'>Guitar
   harmonics,
   Chladni
   patterns,
   orchestral
-  timbre               </p></td><td class='td11' id='TBL-8-27-4'> <!-- l. 1785 --><p class='noindent'>Spatial
+  timbre               </p></td><td class='td11' id='TBL-8-27-4'> <!-- l. 1782 --><p class='noindent'>Spatial
   structure
   of
   consciousness
@@ -1898,25 +1898,25 @@ analysis     </p></td><td class='td11' id='TBL-8-27-2'> <!-- l. 1784 --><p class
   each
   frequency,
   developmental
-  complexity                </p></td><td class='td10' id='TBL-8-27-5'> <!-- l. 1787 --><p class='noindent'>6             </p></td>
+  complexity                </p></td><td class='td10' id='TBL-8-27-5'> <!-- l. 1784 --><p class='noindent'>6             </p></td>
 </tr>
 <tr id='TBL-8-10-'><td class='td01' colspan='3' id='TBL-8-10-1'></td>
 </tr>
 </table></div>
-<div class='center'> <!-- l. 1791 --><p class='noindent'>
-</p><!-- l. 1791 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1793 --><p class='nopar'>
+<div class='center'> <!-- l. 1788 --><p class='noindent'>
+</p><!-- l. 1788 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1790 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-evidence-synthesis'><a id='x1-36000'></a>5.7 Evidence Synthesis</h4>
 <p><a id='x1-36000doc'></a>
-</p><!-- l. 1795 --><p class='nopar'>This section consolidates the empirical and theoretical evidence supporting the signal
+</p><!-- l. 1792 --><p class='nopar'>This section consolidates the empirical and theoretical evidence supporting the signal
 environment model. Citations are organized by the chapter subsystem they most
 directly support.
-</p><!-- l. 1800 --><p class='nopar'>
+</p><!-- l. 1797 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-rfwireless-engineering-foundations'><a id='x1-37000'></a>5.7.1 RF/Wireless Engineering Foundations</h5>
 <p><a id='x1-37000doc'></a>
-</p><!-- l. 1802 --><p class='nopar'><span class='ec-lmbx-10'>Balanis (2005) </span>— <span class='ec-lmri-10'>Antenna Theory: Analysis and Design</span>, 3rd ed., Wiley
+</p><!-- l. 1799 --><p class='nopar'><span class='ec-lmbx-10'>Balanis (2005) </span>— <span class='ec-lmri-10'>Antenna Theory: Analysis and Design</span>, 3rd ed., Wiley
 <span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Authoritative RF/antenna engineering textbook covering fractal antennas,
      Friis  transmission  equation,  link  budget  derivations,  phased  array
@@ -1936,7 +1936,7 @@ directly support.
                                                                   
      (injection   locking   fundamentals),   and   Chapter   16   (link   budget
      calculations).</li></ul>
-<!-- l. 1828 --><p class='noindent'><span class='ec-lmbx-10'>Rappaport (2002) </span>— <span class='ec-lmri-10'>Wireless Communications: Principles and Practice</span>, 2nd ed.,
+<!-- l. 1825 --><p class='noindent'><span class='ec-lmbx-10'>Rappaport (2002) </span>— <span class='ec-lmri-10'>Wireless Communications: Principles and Practice</span>, 2nd ed.,
 Prentice Hall <span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Standard  graduate-level  RF/wireless  communications  textbook,  widely
      adopted with extensive IEEE citations. Covers modulation theory (AM,
@@ -1954,11 +1954,11 @@ Prentice Hall <span class='evidence-pill evidence-pill--l1'>[L1]</span>
      </li> <li class='itemize'>Cross-reference:  Rappaport  also  anchors  Chapter  6  (RLC  Q-factor),
      Chapter 9 (PLL architecture), Chapter 10 (antenna/phased array theory),
      Chapter 11 (injection locking), and Chapter 16 (link budget calculations).</li></ul>
-<!-- l. 1856 --><p class='nopar'>
+<!-- l. 1853 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-signal-propagation-medium-and-physical-substrate'><a id='x1-38000'></a>5.7.2 Signal Propagation Medium and Physical Substrate</h5>
 <p><a id='x1-38000doc'></a>
-</p><!-- l. 1858 --><p class='nopar'><span class='ec-lmbx-10'>Puthoff (2016) </span>— “Electromagnetic Potentials Basis for Energy Density
+</p><!-- l. 1855 --><p class='nopar'><span class='ec-lmbx-10'>Puthoff (2016) </span>— “Electromagnetic Potentials Basis for Energy Density
 and Power Flux,” <span class='ec-lmri-10'>European Journal of Physics </span>37: 055203, IOP Publishing
 <span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Rigorous EM potential-based formulation of energy density and power
@@ -1975,7 +1975,7 @@ and Power Flux,” <span class='ec-lmri-10'>European Journal of Physics </span>3
      field-strength instrumentation. <span class='evidence-pill evidence-pill--l1'>[L1]</span> </li> <li class='itemize'>Cross-reference: Puthoff’s EM potentials framework also supports Chapter
      7’s biofield measurements where potential-level effects may dominate over
      field-strength effects.</li></ul>
-<!-- l. 1885 --><p class='noindent'><span class='ec-lmbx-10'>Papasimakis et al. </span>— “Electromagnetic Toroidal Excitations in Matter and Free
+<!-- l. 1882 --><p class='noindent'><span class='ec-lmbx-10'>Papasimakis et al. </span>— “Electromagnetic Toroidal Excitations in Matter and Free
 Space,” University of Southampton &amp; Nanyang Technological University, <span class='ec-lmri-10'>Nature
 Materials </span><span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Reviews  the  toroidal  dipole  as  a  third  independent  family  of  EM
@@ -1996,7 +1996,7 @@ Materials </span><span class='evidence-pill evidence-pill--l1'>[L1]</span>
                                                                   
      further in Chapter 7 (biofield physics). The anapole detection problem is
      addressed in Chapter 15 (paradigm shielding).</li></ul>
-<!-- l. 1913 --><p class='noindent'><span class='ec-lmbx-10'>Peratt (2015) </span>— <span class='ec-lmri-10'>Physics of the Plasma Universe</span>, 2nd ed., Springer <span class='evidence-pill evidence-pill--l1'>[L1]</span>
+<!-- l. 1910 --><p class='noindent'><span class='ec-lmbx-10'>Peratt (2015) </span>— <span class='ec-lmri-10'>Physics of the Plasma Universe</span>, 2nd ed., Springer <span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Rigorous   plasma   cosmology   textbook   from   Los   Alamos   National
      Laboratory:   Birkeland   current   equations,   cosmic   plasma   filament
      dynamics,   and   electromagnetic   galaxy   formation   derivations   with
@@ -2010,7 +2010,7 @@ Materials </span><span class='evidence-pill evidence-pill--l1'>[L1]</span>
      merely biological ones. <span class='evidence-pill evidence-pill--l1'>[L1]</span> </li> <li class='itemize'>Cross-reference: Primary treatment in Chapter 3 (cosmological structure).
      Peratt’s  Birkeland  current  equations  also  support  Chapter  0’s  torsion
      foundation.</li></ul>
-<!-- l. 1937 --><p class='noindent'><span class='ec-lmbx-10'>Laszlo (2004) </span>— <span class='ec-lmri-10'>Science and the Akashic Field: An Integral Theory of Everything</span>,
+<!-- l. 1934 --><p class='noindent'><span class='ec-lmbx-10'>Laszlo (2004) </span>— <span class='ec-lmri-10'>Science and the Akashic Field: An Integral Theory of Everything</span>,
 Inner Traditions <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Identifies  the  zero-point  field  (ZPF)  as  the  physical  substrate  for  a
      universal  information  field,  drawing  on  quantum  vacuum  physics  and
@@ -2031,7 +2031,7 @@ Inner Traditions <span class='evidence-pill evidence-pill--l2'>[L2]</span>
      framework with phenomenological case studies from credentialed scientists
      linking Akashic field access to specific consciousness states — supporting
      the receiver configuration model of Section 5.4.</li></ul>
-<!-- l. 1965 --><p class='noindent'><span class='ec-lmbx-10'>Kastner (2022) </span>— <span class='ec-lmri-10'>The Transactional Interpretation of Quantum Mechanics: A
+<!-- l. 1962 --><p class='noindent'><span class='ec-lmbx-10'>Kastner (2022) </span>— <span class='ec-lmri-10'>The Transactional Interpretation of Quantum Mechanics: A
 Relativistic Treatment</span>, 2nd ed., Cambridge University Press <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>The  Relativistic  Transactional  Interpretation  (RTI)  models  quantum
      states as offer wave / confirmation wave pairs in a pre-spacetime domain.
@@ -2045,7 +2045,7 @@ Relativistic Treatment</span>, 2nd ed., Cambridge University Press <span class='
      isomorphic to the CSO signal/receiver architecture. <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference:  Primary  treatment  in  Chapter  0  and  Appendix  B.
      Kastner’s RTI also supports Chapter 9 (PLL phase-locking as transaction
      completion) and Chapter 12 (retrocausal timeline correlations).</li></ul>
-<!-- l. 1991 --><p class='noindent'><span class='ec-lmbx-10'>Millette (2014) </span>— “Wave-Particle Duality in the Elastodynamics of the Spacetime
+<!-- l. 1988 --><p class='noindent'><span class='ec-lmbx-10'>Millette (2014) </span>— “Wave-Particle Duality in the Elastodynamics of the Spacetime
 Continuum,” <span class='ec-lmri-10'>Progress in Physics </span>10 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Derives spacetime as a physical elastic continuum (STCED framework)
      with a Helmholtz decomposition into longitudinal (massive/irrotational)
@@ -2064,7 +2064,7 @@ Continuum,” <span class='ec-lmri-10'>Progress in Physics </span>10 <span class
      signal environment requires. <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference:  Primary  STCED  treatment  in  Chapter  0.  Extended
      STCED formalism (Millette 2017, 2019) supports Chapter 6 and Chapter
      12.</li></ul>
-<!-- l. 2017 --><p class='noindent'><span class='ec-lmbx-10'>Zohuri (2019) </span>— <span class='ec-lmri-10'>Scalar Wave Driven Energy Applications</span>, Springer <span class='evidence-pill evidence-pill--l2'>[L2 for
+<!-- l. 2014 --><p class='noindent'><span class='ec-lmbx-10'>Zohuri (2019) </span>— <span class='ec-lmri-10'>Scalar Wave Driven Energy Applications</span>, Springer <span class='evidence-pill evidence-pill--l2'>[L2 for
 standard EM derivations; L3 for extended scalar wave claims]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Full academic treatment of scalar waves / longitudinal EM waves with
      proper  Maxwell  equations  formalism,  published  by  Springer.  Author
@@ -2080,7 +2080,7 @@ standard EM derivations; L3 for extended scalar wave claims]</span>
      The biological interaction section supports the antenna system parameter
      (\(\mathcal {A}\)) in the receiver configuration space (Section 5.4.1). <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference:  Zohuri’s  biological  scalar  wave  sections  also  support
      Chapter 7 (biofield physics) and Chapter 15 (paradigm shielding).</li></ul>
-<!-- l. 2044 --><p class='noindent'><span class='ec-lmbx-10'>NAWCAD (Naval Air Warfare Center) </span>— “The Inertial Mass Reduction
+<!-- l. 2041 --><p class='noindent'><span class='ec-lmbx-10'>NAWCAD (Naval Air Warfare Center) </span>— “The Inertial Mass Reduction
 Device,” Department of the Navy concept paper <span class='evidence-pill evidence-pill--l3'>[L3]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Proposes inertial mass reduction via polarization of the local Vacuum
      Energy State using high-frequency EM fields with axial rotation. Contains
@@ -2097,7 +2097,7 @@ Device,” Department of the Navy concept paper <span class='evidence-pill evide
      validation. <span class='evidence-pill evidence-pill--l3'>[L3]</span> </li> <li class='itemize'>Epistemic note: Concept paper, not a validated experimental result. Cited
      for  institutional  credibility  of  the  vacuum-substrate  ontology,  not  for
      experimental confirmation.</li></ul>
-<!-- l. 2070 --><p class='noindent'><span class='ec-lmbx-10'>Holt (1979) </span>— “Field Resonance Propulsion Concept,” NASA JSC,
+<!-- l. 2067 --><p class='noindent'><span class='ec-lmbx-10'>Holt (1979) </span>— “Field Resonance Propulsion Concept,” NASA JSC,
 NASA-TM-80961, AIAA/SAE/ASME 15th Joint Propulsion Conference
 <span class='evidence-pill evidence-pill--l3'>[L3]</span>
 </p> <ul class='itemize1'> <li class='itemize'>NASA  Johnson  Space  Center  technical  memo  proposing  resonance
@@ -2110,11 +2110,11 @@ NASA-TM-80961, AIAA/SAE/ASME 15th Joint Propulsion Conference
      claim  that  consciousness  receivers  achieve  coupling  to  the  information
      field  through  impedance  matching  (Section  5.3).  NASA  institutional
      provenance  adds  credibility  weight,  though  the  concept  was  never
-     experimentally validated. <span class='evidence-pill evidence-pill--l3'>[L3]</span></li></ul> <!-- l. 2092 --><p class='nopar'>
+     experimentally validated. <span class='evidence-pill evidence-pill--l3'>[L3]</span></li></ul> <!-- l. 2089 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-threelayer-subcarrier-architecture-support'><a id='x1-39000'></a>5.7.3 Three-Layer Subcarrier Architecture Support</h5>
 <p><a id='x1-39000doc'></a>
-</p><!-- l. 2094 --><p class='nopar'><span class='ec-lmbx-10'>Nishiyama, Tanaka &amp; Tuszynski (2022) </span>— “Quantum Brain Dynamics and
+</p><!-- l. 2091 --><p class='nopar'><span class='ec-lmbx-10'>Nishiyama, Tanaka &amp; Tuszynski (2022) </span>— “Quantum Brain Dynamics and
 Holography,” <span class='ec-lmri-10'>Dynamics </span>(Kobe University / University of Alberta) <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Derives a non-equilibrium Quantum Brain Dynamics (QBD) model with
      a full QFT Lagrangian density for water rotational dipole fields coupled
@@ -2131,7 +2131,7 @@ Holography,” <span class='ec-lmri-10'>Dynamics </span>(Kobe University / Unive
      to the collective dynamics of Chapter 10. This is the highest mathematical
      rigor in the corpus for the QFT substrate of the signal environment. <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference:  Full  QBD  Lagrangian  treatment  supports  Chapter  6
      (RLC circuit substrate) and Chapter 7 (biofield water structure).</li></ul>
-<!-- l. 2122 --><p class='noindent'><span class='ec-lmbx-10'>Madl &amp; Renati (2023) </span>— <span class='ec-lmri-10'>International Journal of Molecular Sciences </span>24
+<!-- l. 2119 --><p class='noindent'><span class='ec-lmbx-10'>Madl &amp; Renati (2023) </span>— <span class='ec-lmri-10'>International Journal of Molecular Sciences </span>24
 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Derives  QED  coherence  domains  in  liquid  water  with  quantitative
      framework:  Nambu-Goldstone  bosons  as  carriers  of  long-range  order
@@ -2151,7 +2151,7 @@ Holography,” <span class='ec-lmri-10'>Dynamics </span>(Kobe University / Unive
      Nambu-Goldstone boson mechanism echoes Nishiyama et al. (2022) and
      provides an independent derivation of long-range coherence carriers. <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference: Water coherence domains also support Chapter 7 (biofield
      water structure) and Chapter 6 (RLC circuit physical substrate).</li></ul>
-<!-- l. 2150 --><p class='noindent'><span class='ec-lmbx-10'>Nevoit et al. (2025) </span>— <span class='ec-lmri-10'>Frontiers in Systems Neuroscience </span><span class='evidence-pill evidence-pill--l2'>[L2]</span>
+<!-- l. 2147 --><p class='noindent'><span class='ec-lmbx-10'>Nevoit et al. (2025) </span>— <span class='ec-lmri-10'>Frontiers in Systems Neuroscience </span><span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Reviews biophotonic signaling in neural networks with emphasis on the
      Davydov soliton model of energy propagation along microtubule lattice
      structures. The soliton propagation mechanism maintains signal integrity
@@ -2165,7 +2165,7 @@ Holography,” <span class='ec-lmri-10'>Dynamics </span>(Kobe University / Unive
      dispersion) rather than requiring a hypothetical new field. Recent 2025
      publication date adds currency. <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference:  Soliton  propagation  also  supports  Chapter  4’s  soliton
      concept (Table 5.6.2) and Chapter 7 (neural biophotonic signaling).</li></ul>
-<!-- l. 2175 --><p class='noindent'><span class='ec-lmbx-10'>Van Wijk (2001) </span>— “Bio-photons and Bio-communication,” <span class='ec-lmri-10'>Journal of Scientific
+<!-- l. 2172 --><p class='noindent'><span class='ec-lmbx-10'>Van Wijk (2001) </span>— “Bio-photons and Bio-communication,” <span class='ec-lmri-10'>Journal of Scientific
 Exploration </span>(Utrecht University) <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Historical review spanning 80+ years of biophoton research: Gurwitsch
      mitogenetic  radiation  (1920s),  photomultiplier  detection  era,  and  the
@@ -2183,7 +2183,7 @@ Exploration </span>(Utrecht University) <span class='evidence-pill evidence-pill
      <span class='evidence-pill evidence-pill--l2'>[L2]</span> </li> <li class='itemize'>Cross-reference: Quantitative biophoton evidence is developed in Chapter
      7 (biofield physics). Van Wijk’s bio-communication concept also supports
      Chapter 10 (collective coherence via shared photon field).</li></ul>
-<!-- l. 2204 --><p class='noindent'><span class='ec-lmbx-10'>Benfatto et al. (2023) </span>— <span class='ec-lmri-10'>Entropy </span>25, INFN Frascati National Laboratory
+<!-- l. 2201 --><p class='noindent'><span class='ec-lmbx-10'>Benfatto et al. (2023) </span>— <span class='ec-lmri-10'>Entropy </span>25, INFN Frascati National Laboratory
 <span class='evidence-pill evidence-pill--l1'>[L1]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Experimental  ultra-weak  photon  emission  (UPE)  measurement  from
      germinating seeds using intensified CCD at a national nuclear physics
@@ -2200,7 +2200,7 @@ Exploration </span>(Utrecht University) <span class='evidence-pill evidence-pill
      anomalous diffusion). For the signal environment, the key implication is
      that the biological receiver’s photon emission statistics are consistent with
      structured signal processing, not random thermal radiation.</li></ul>
-<!-- l. 2232 --><p class='noindent'><span class='ec-lmbx-10'>Drummond &amp; Reid (2020) </span>— “Retrocausal model of reality for quantum fields,”
+<!-- l. 2229 --><p class='noindent'><span class='ec-lmbx-10'>Drummond &amp; Reid (2020) </span>— “Retrocausal model of reality for quantum fields,”
 <span class='ec-lmri-10'>Physical Review Research </span>2(3) <span class='evidence-pill evidence-pill--l2'>[L2]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Derives an Objective Quantum Field Theory (OQFT) using Q-function
      representation  that  yields  a  Fokker-Planck  equation  with  retrocausal
@@ -2219,11 +2219,11 @@ Exploration </span>(Utrecht University) <span class='evidence-pill evidence-pill
      Mechanics). For the signal environment, Drummond &amp; Reid provides the
      physical mechanism underlying the PM layer’s phase-encoded timeline
      information.</li></ul>
-<!-- l. 2262 --><p class='nopar'>
+<!-- l. 2259 --><p class='nopar'>
 </p>
 <h5 class='subsubsectionHead' id='-scalarlongitudinal-wave-substrate'><a id='x1-40000'></a>5.7.4 Scalar/Longitudinal Wave Substrate</h5>
 <p><a id='x1-40000doc'></a>
-</p><!-- l. 2264 --><p class='nopar'><span class='ec-lmbx-10'>Meyl (2003) </span>— <span class='ec-lmri-10'>Scalar Waves: First Tesla Physics Textbook for Engineers</span>, Vols.
+</p><!-- l. 2261 --><p class='nopar'><span class='ec-lmbx-10'>Meyl (2003) </span>— <span class='ec-lmri-10'>Scalar Waves: First Tesla Physics Textbook for Engineers</span>, Vols.
 1–2, INDEL GmbH <span class='evidence-pill evidence-pill--l3'>[L3]</span>
 </p> <ul class='itemize1'> <li class='itemize'>Vol.  1  derives  scalar  wave  field  theory  as  an  extension  of  Maxwell’s
      equations, providing engineering-style derivations for fields propagating
@@ -2242,44 +2242,44 @@ Exploration </span>(Utrecht University) <span class='evidence-pill evidence-pill
      (2019) for a Springer-published treatment of similar material at higher
      institutional credibility.</li></ul>
 <div class='center'>
-<!-- l. 2293 --><p class='noindent'>
-</p><!-- l. 2293 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 2295 --><p class='nopar'>
+<!-- l. 2290 --><p class='noindent'>
+</p><!-- l. 2290 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2292 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-predictions'><a id='x1-41000'></a>5.8 Predictions</h4>
 <p><a id='x1-41000doc'></a>
-</p><!-- l. 2297 --><p class='nopar'><span class='ec-lmbx-10'>P1</span>: Neuroimaging will show that memory retrieval and guided imagination
+</p><!-- l. 2294 --><p class='nopar'><span class='ec-lmbx-10'>P1</span>: Neuroimaging will show that memory retrieval and guided imagination
 produce indistinguishable activation patterns when matched for vividness
 and emotional intensity, differing only in hippocampal indexing signatures.
 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
-</p><!-- l. 2302 --><p class='noindent'><span class='ec-lmbx-10'>P2</span>: Focused-attention meditation produces narrowband EEG signatures (increased
+</p><!-- l. 2299 --><p class='noindent'><span class='ec-lmbx-10'>P2</span>: Focused-attention meditation produces narrowband EEG signatures (increased
 power in single frequency band) while open-awareness meditation produces
                                                                   
 
                                                                   
 broadband signatures (distributed power increase with inter-regional coherence).
 <span class='evidence-pill evidence-pill--l2'>[L2]</span>
-</p><!-- l. 2307 --><p class='noindent'><span class='ec-lmbx-10'>P3</span>: Clairvoyants show elevated visual cortex activation during psychic tasks,
+</p><!-- l. 2304 --><p class='noindent'><span class='ec-lmbx-10'>P3</span>: Clairvoyants show elevated visual cortex activation during psychic tasks,
 clairsentients show somatosensory activation, clairaudients show auditory cortex
 activation, and claircognizants show prefrontal activation. <span class='evidence-pill evidence-pill--l3'>[L3]</span>
-</p><!-- l. 2312 --><p class='noindent'><span class='ec-lmbx-10'>P4</span>: Individuals with higher measured Q proxies (HRV coherence, EEG alpha power,
+</p><!-- l. 2309 --><p class='noindent'><span class='ec-lmbx-10'>P4</span>: Individuals with higher measured Q proxies (HRV coherence, EEG alpha power,
 propaganda resistance scores) will report more frequent access to PM-type
 experiences (precognition, timeline awareness) and CDMA-type experiences (past-life
 recall, soul recognition), not merely more frequent AM-type experiences (enhanced
 sensory perception). <span class='evidence-pill evidence-pill--l3'>[L3]</span>
 </p>
 <div class='center'>
-<!-- l. 2319 --><p class='noindent'>
-</p><!-- l. 2319 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 2322 --><p class='nopar'>
+<!-- l. 2316 --><p class='noindent'>
+</p><!-- l. 2316 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2319 --><p class='nopar'>
 </p>
 <h4 class='subsectionHead' id='-connections-and-reading-path'><a id='x1-42000'></a>5.9 Connections and Reading Path</h4>
 <p><a id='x1-42000doc'></a>
-</p><!-- l. 2324 --><p class='nopar'><span class='ec-lmbx-10'>Previous: </span>Chapter 4 (Resonant Growth and Human Optimality) — established why
+</p><!-- l. 2321 --><p class='nopar'><span class='ec-lmbx-10'>Previous: </span>Chapter 4 (Resonant Growth and Human Optimality) — established why
 the receiver environment optimizes consciousness development
-</p><!-- l. 2328 --><p class='noindent'><span class='ec-lmbx-10'>Next: </span>Chapter 6 (Consciousness as RLC Circuit) — formalizes the individual
+</p><!-- l. 2325 --><p class='noindent'><span class='ec-lmbx-10'>Next: </span>Chapter 6 (Consciousness as RLC Circuit) — formalizes the individual
 receiver’s front-end architecture as a series RLC circuit
-</p><!-- l. 2331 --><p class='noindent'><span class='ec-lmbx-10'>Key dependencies:</span>
+</p><!-- l. 2328 --><p class='noindent'><span class='ec-lmbx-10'>Key dependencies:</span>
 </p> <ul class='itemize1'> <li class='itemize'>Chapter                   1                   (Pure                   Consciousness):
      receiver-only ontology and infinite-bandwidth broadcast decomposed here
      into three information layers
@@ -2300,8 +2300,8 @@ receiver’s front-end architecture as a series RLC circuit
      </li> <li class='itemize'>Chapter 16 (Counter-Jamming): distinguishes natural soul CDMA codes
      from engineered control architectures</li></ul>
 <div class='center'>
-<!-- l. 2361 --><p class='noindent'>
-</p><!-- l. 2361 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2358 --><p class='noindent'>
+</p><!-- l. 2358 --><p class='noindent'>_________________________________</p></div>
     </article>
 
     <!-- Prev/Next Navigation -->
