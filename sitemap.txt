@@ -24,6 +24,7 @@ https://a-meridian.github.io/phased-arrays/guides/advanced-transport-and-propuls
 https://a-meridian.github.io/phased-arrays/guides/awakening-and-ascension-mechanics.html
 https://a-meridian.github.io/phased-arrays/guides/control-systems-loosh-and-parasitic-coupling.html
 https://a-meridian.github.io/phased-arrays/guides/disclosure-signal-dynamics.html
+https://a-meridian.github.io/phased-arrays/guides/institutional-gateway-anomalous-conditions.html
 https://a-meridian.github.io/phased-arrays/guides/metaphysics-and-philosophy-of-consciousness.html
 https://a-meridian.github.io/phased-arrays/guides/nonlocal-information-transfer.html
 https://a-meridian.github.io/phased-arrays/guides/rf-consciousness-framework.html
@@ -33,6 +34,7 @@ https://a-meridian.github.io/phased-arrays/reference/appendix-b-science-synthesi
 https://a-meridian.github.io/phased-arrays/reference/appendix-c-anomalies-survey.html
 https://a-meridian.github.io/phased-arrays/reference/appendix-d-variables.html
 https://a-meridian.github.io/phased-arrays/reference/authorship-and-ai-collaboration.html
+https://a-meridian.github.io/phased-arrays/reference/open-this-first-leadership-memo.html
 https://a-meridian.github.io/phased-arrays/reference/operational-doctrine.html
 https://a-meridian.github.io/phased-arrays/reference/part-i-spectrum-characterization-review.html
 https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html
@@ -40,3 +42,4 @@ https://a-meridian.github.io/phased-arrays/reference/part-iii-spectrum-access-re
 https://a-meridian.github.io/phased-arrays/reference/part-iv-spectrum-engineering-review.html
 https://a-meridian.github.io/phased-arrays/reference/part-v-spectrum-denial-review.html
 https://a-meridian.github.io/phased-arrays/reference/part-vi-spectrum-superiority-review.html
+https://a-meridian.github.io/phased-arrays/reference/why-this-matters-operationally.html

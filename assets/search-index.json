@@ -1,0 +1,938 @@
+[
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/",
+    "title": "Consciousness Spectrum Operations",
+    "surface_type": "landing",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Consciousness Spectrum Operations is a signals perspective on the human condition: a doctrine-oriented framework using RF engineering, modal analysis, and EMSO logic to interpret anomalous conditions with a leadership and institutional reading path.",
+    "excerpt": "This archive is built for leadership readers who need a disciplined framework before they need the full ontology.",
+    "keywords": [
+      "consciousness spectrum operations",
+      "signals perspective",
+      "doctrine",
+      "anomalous conditions",
+      "leadership reading path",
+      "counter-jamming"
+    ],
+    "audience": [
+      "leadership readers",
+      "technical readers",
+      "new readers"
+    ],
+    "priority": 1.0
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch00.html",
+    "title": "Chapter 0: Torsion Wave Foundation \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part I: Spectrum Characterization",
+    "chapter_num": 0,
+    "description": "Torsion-compatible physics, signal substrate assumptions, and the engineering basis for the archive's core model.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "torsion wave",
+      "signal substrate",
+      "RF basis",
+      "chapter 0"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch01.html",
+    "title": "Chapter 1: Pure Consciousness as Infinite Bandwidth Source \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part I: Spectrum Characterization",
+    "chapter_num": 1,
+    "description": "Pure consciousness treated as an infinite-bandwidth source and primary carrier for downstream structure.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 1: Pure Consciousness as Infinite Bandwidth Source",
+    "keywords": [
+      "pure consciousness",
+      "source",
+      "infinite bandwidth",
+      "chapter 1"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch02.html",
+    "title": "Chapter 2: Densities as Impedance Tiers \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part I: Spectrum Characterization",
+    "chapter_num": 2,
+    "description": "Density tiers modeled as impedance boundaries with visibility bands and mismatch constraints.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "densities",
+      "impedance tiers",
+      "visibility bands",
+      "chapter 2"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch03.html",
+    "title": "Chapter 3: Demodulation Into Structure \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part I: Spectrum Characterization",
+    "chapter_num": 3,
+    "description": "Demodulation into structure through geometry, cosmological differentiation, and encoded form.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "demodulation",
+      "structure",
+      "cosmology",
+      "chapter 3"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch04.html",
+    "title": "Chapter 4: Resonant Growth and Human Optimality \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part I: Spectrum Characterization",
+    "chapter_num": 4,
+    "description": "Resonant growth, developmental optimality, and human tuning conditions within the signal model.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 4: Resonant Growth and Human Optimality",
+    "keywords": [
+      "resonant growth",
+      "optimality",
+      "development",
+      "chapter 4"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch05.html",
+    "title": "Chapter 5: The Signal Environment \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part II: Receiver Engineering",
+    "chapter_num": 5,
+    "description": "State-dependent signal environment, receiver configurations, and forcing regimes across waking and altered states.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "signal environment",
+      "receiver states",
+      "forcing regimes",
+      "chapter 5"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch06.html",
+    "title": "Chapter 6: Consciousness as an RLC Circuit \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part II: Receiver Engineering",
+    "chapter_num": 6,
+    "description": "Consciousness as an RLC receiver with resonance, damping, and distributed mode-shape behavior.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "RLC circuit",
+      "mode shapes",
+      "resonance",
+      "chapter 6"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch07.html",
+    "title": "Chapter 7: Biofield and DNA Antenna System \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part II: Receiver Engineering",
+    "chapter_num": 7,
+    "description": "Biofield and DNA antenna hypotheses for biological reception, coupling, and signal interface.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "biofield",
+      "DNA antenna",
+      "biological reception",
+      "chapter 7"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch08.html",
+    "title": "Chapter 8: Eros and Creation \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part II: Receiver Engineering",
+    "chapter_num": 8,
+    "description": "Polarity coupling, eros, and creation dynamics modeled as generative coherence processes.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "eros",
+      "creation",
+      "polarity coupling",
+      "chapter 8"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch09.html",
+    "title": "Chapter 9: Phase-Locked Loop Consciousness \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part II: Receiver Engineering",
+    "chapter_num": 9,
+    "description": "Phase-locked loop consciousness, lock acquisition, reference tracking, and retrocausal interpretation boundaries.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "phase-locked loop",
+      "reference tracking",
+      "lock acquisition",
+      "chapter 9"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch10.html",
+    "title": "Chapter 10: Phased Array Humanity \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part III: Spectrum Access",
+    "chapter_num": 10,
+    "description": "Collective coherence modeled as phased-array gain, constructive interference, and population-level mode structure.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "phased array humanity",
+      "collective coherence",
+      "gain scaling",
+      "chapter 10"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch11.html",
+    "title": "Chapter 11: Injection Locking and Perception Management \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part III: Spectrum Access",
+    "chapter_num": 11,
+    "description": "Injection locking, perception management, and narrative capture under constrained bandwidth.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 11: Injection Locking and Perception Management",
+    "keywords": [
+      "injection locking",
+      "perception management",
+      "narrative capture",
+      "chapter 11"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch12.html",
+    "title": "Chapter 12: Spin Coherence Fundamentals \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part IV: Spectrum Engineering",
+    "chapter_num": 12,
+    "description": "Spin coherence as the master engineering variable for torsion effects, infrastructure, and timeline mechanics.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "spin coherence",
+      "timeline mechanics",
+      "chapter 12"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch13.html",
+    "title": "Chapter 13: Seeder Intervention and Megalithic Infrastructure \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part IV: Spectrum Engineering",
+    "chapter_num": 13,
+    "description": "Seeder intervention and megalithic infrastructure hypotheses treated as civilization-scale spectrum engineering.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 13: Seeder Intervention and Megalithic Infrastructure",
+    "keywords": [
+      "seeder intervention",
+      "megalithic infrastructure",
+      "ancient civilizations",
+      "chapter 13"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.72
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch14.html",
+    "title": "Chapter 14: The Fall and Parasitic Coupling \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part V: Spectrum Denial",
+    "chapter_num": 14,
+    "description": "The Fall modeled as parasitic coupling, extraction architecture, and denial logic.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "parasitic coupling",
+      "the fall",
+      "extraction architecture",
+      "chapter 14"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch15.html",
+    "title": "Chapter 15: Paradigm Shielding and Disclosure Architecture \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part V: Spectrum Denial",
+    "chapter_num": 15,
+    "description": "Paradigm shielding, disclosure architecture, and metamaterial-style blocking or pacing layers.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 15: Paradigm Shielding and Disclosure Architecture",
+    "keywords": [
+      "paradigm shielding",
+      "disclosure architecture",
+      "chapter 15"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch16.html",
+    "title": "Chapter 16: Counter-Jamming Operations and Link Budget \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part VI: Spectrum Superiority",
+    "chapter_num": 16,
+    "description": "Counter-jamming, link-budget closure, and liberation-signal engineering for contested consciousness spectrum operations.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 16: Counter-Jamming Operations and Link Budget",
+    "keywords": [
+      "counter-jamming",
+      "link budget",
+      "liberation signal",
+      "chapter 16"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "state and defense"
+    ],
+    "priority": 0.92
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch17.html",
+    "title": "Chapter 17: Scenario Design as Consciousness Engineering \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part VI: Spectrum Superiority",
+    "chapter_num": 17,
+    "description": "Scenario design and wargaming as proactive reference-signal engineering and future-band selection.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 17: Scenario Design as Consciousness Engineering",
+    "keywords": [
+      "scenario design",
+      "wargaming",
+      "future-band selection",
+      "chapter 17"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "state and defense"
+    ],
+    "priority": 0.92
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch18.html",
+    "title": "Chapter 18: Spiritual Traditions as Tuning Protocols \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part VI: Spectrum Superiority",
+    "chapter_num": 18,
+    "description": "Cross-tradition practice protocols modeled as injection-locking, entrainment, and coherence-maintenance systems.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 18: Spiritual Traditions as Tuning Protocols",
+    "keywords": [
+      "spiritual traditions",
+      "tuning protocols",
+      "entrainment",
+      "awakening",
+      "chapter 18"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "state and defense"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch19.html",
+    "title": "Chapter 19: The Great Thaw \u2014 Cross-Cultural Ascension as Lock-Breaking \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part VI: Spectrum Superiority",
+    "chapter_num": 19,
+    "description": "Cross-cultural ascension convergence treated as scenario-planning intelligence with explicit alternative explanations and evidence fences.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "keywords": [
+      "great thaw",
+      "ascension convergence",
+      "scenario intelligence",
+      "awakening",
+      "chapter 19"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "state and defense"
+    ],
+    "priority": 0.92
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/advanced-transport-and-propulsion-claims.html",
+    "title": "Advanced Transport and Propulsion Claims | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "An evidence-tiered map of anomalous propulsion and transport claims connected to the manuscript's engineering framework.",
+    "excerpt": "This guide organizes manuscript sections that discuss anomalous transport and propulsion themes, with explicit distinction between engineering analogies, unresolved anomalies, and higher-tier speculative interpretation.",
+    "keywords": [
+      "advanced propulsion",
+      "anomalous transport",
+      "UAP propulsion",
+      "engineering claims",
+      "evidence tiers"
+    ],
+    "audience": [
+      "technical readers",
+      "aerospace readers",
+      "scenario planners"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/awakening-and-ascension-mechanics.html",
+    "title": "Awakening and Ascension Mechanics | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Cross-tradition awakening and ascension claims mapped to coherence, tuning, and phase-transition mechanics.",
+    "excerpt": "This guide extracts the manuscript\u2019s phase-transition interpretation of awakening and ascension language, translating cross-tradition claims into coherence, impedance, and reference-lock terms.",
+    "keywords": [
+      "awakening",
+      "ascension",
+      "phase transition",
+      "tuning protocols",
+      "spiritual traditions",
+      "coherence"
+    ],
+    "audience": [
+      "cross-tradition readers",
+      "awakening researchers",
+      "scenario readers"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/control-systems-loosh-and-parasitic-coupling.html",
+    "title": "Control Systems Loosh and Parasitic Coupling | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A structured guide to Chapter 14's extraction model, evidence boundaries, and control-architecture continuity.",
+    "excerpt": "This guide concentrates the manuscript\u2019s control-energy extraction model in Chapter 14, while keeping it connected to the longer stack of injection locking, shielding persistence, and ongoing interference management discussed elsewhere in the manuscript.",
+    "keywords": [
+      "parasitic coupling",
+      "loosh",
+      "control systems",
+      "energy extraction",
+      "spectrum denial"
+    ],
+    "audience": [
+      "leadership readers",
+      "disclosure researchers",
+      "control systems readers"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/disclosure-signal-dynamics.html",
+    "title": "Disclosure Signal Dynamics | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "How disclosure, narrative capture, and information warfare map to injection locking, attenuation layers, and counter-jamming strategy.",
+    "excerpt": "This guide tracks disclosure as an information-warfare and signal-selection problem: reference signals compete, capture thresholds shift, and collective interpretation changes when attenuation drops below critical levels.",
+    "keywords": [
+      "disclosure dynamics",
+      "information warfare",
+      "narrative capture",
+      "injection locking",
+      "counter-jamming",
+      "paradigm instability",
+      "cognitive conflict"
+    ],
+    "audience": [
+      "leadership readers",
+      "disclosure researchers",
+      "information operations"
+    ],
+    "priority": 0.9
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/institutional-gateway-anomalous-conditions.html",
+    "title": "Institutional Gateway: Coherence, Cognitive Conflict, and Anomalous Conditions | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A strategy-first gateway for leadership readers using coherence management, cognitive conflict, signal interference, and institutional adaptation language before the full archive ontology.",
+    "excerpt": "Institutions facing anomalous conditions do not fail only because they lack facts; they also fail because they lack a stable frame for sorting signal from contamination. Under high uncertainty, narrative contestation, cognitive conflict, distributed sensing problems, and signal interference can degrade decision quality faster than the underlying anomaly itself. This gateway introduces the archive from that professional problem set first.",
+    "keywords": [
+      "institutional adaptation",
+      "anomalous conditions",
+      "cognitive conflict",
+      "coherence management",
+      "signal interference",
+      "leadership gateway"
+    ],
+    "audience": [
+      "leadership readers",
+      "state and defense",
+      "institutional planners"
+    ],
+    "priority": 0.94
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/metaphysics-and-philosophy-of-consciousness.html",
+    "title": "Metaphysics and Philosophy of Consciousness | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Ontological and philosophical assumptions in Consciousness Spectrum Operations, with explicit distinction between empirical and conceptual claims.",
+    "excerpt": "This guide indexes the manuscript\u2019s philosophical layer: ontological commitments, interpretation limits, and where empirical results end and model-dependent metaphysics begins.",
+    "keywords": [
+      "metaphysics",
+      "philosophy of consciousness",
+      "ontology",
+      "epistemology",
+      "framework assumptions"
+    ],
+    "audience": [
+      "philosophy readers",
+      "technical readers",
+      "skeptical readers"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/nonlocal-information-transfer.html",
+    "title": "Nonlocal Information Transfer | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Where nonlocal transfer hypotheses fit in the RF framework, and where mainstream constraints remain binding.",
+    "excerpt": "This guide focuses on the manuscript\u2019s treatment of nonlocality: where mainstream physics constraints remain, where coherent-preparation assumptions enter, and how those assumptions are operationalized in the RF model.",
+    "keywords": [
+      "nonlocal information transfer",
+      "telepathy",
+      "remote viewing",
+      "signal transfer",
+      "constraints",
+      "RF framework"
+    ],
+    "audience": [
+      "technical readers",
+      "anomalous phenomena readers",
+      "researchers"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/rf-consciousness-framework.html",
+    "title": "RF Consciousness Framework | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A structured entry point into the Consciousness Spectrum Operations model of consciousness using RF concepts, coherence dynamics, and evidence-tier boundaries.",
+    "excerpt": "This guide summarizes the core engineering claim of Consciousness Spectrum Operations : consciousness can be analyzed with RF concepts (source, resonance, impedance, coherence, and coupling), then extended through distributed mode shapes and collective phased-array dynamics while clearly separating stronger evidence tiers from speculative extensions.",
+    "keywords": [
+      "RF consciousness",
+      "signals framework",
+      "coherence dynamics",
+      "mode shapes",
+      "phased array",
+      "evidence tiers"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers",
+      "leadership readers"
+    ],
+    "priority": 0.9
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/guides/ufo-et-and-seeder-models.html",
+    "title": "UFO ET and Seeder Models | Consciousness Spectrum Operations",
+    "surface_type": "guide",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A manuscript-guided map of seeder intervention and non-human intelligence hypotheses with explicit evidence-tier separation.",
+    "excerpt": "This guide compiles the manuscript sections that model non-human or seeder hypotheses as system-level infrastructure and intervention claims, with explicit tier boundaries between testimony, interpretation, and stronger empirical anchors.",
+    "keywords": [
+      "UFO",
+      "ET",
+      "non-human intelligence",
+      "seeder intervention",
+      "anomalous craft",
+      "evidence tiers"
+    ],
+    "audience": [
+      "anomalous phenomena readers",
+      "disclosure researchers",
+      "scenario planners"
+    ],
+    "priority": 0.78
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/appendix-a-evidence-matrix.html",
+    "title": "Appendix A Evidence Assessment Matrix | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Structured evidence and confidence-tier matrix for core manuscript claims.",
+    "excerpt": "The table below is the load-bearing contract. If a claim family cannot meet its minimum anchor requirement, downstream doctrine use must degrade accordingly.",
+    "keywords": [
+      "evidence matrix",
+      "confidence tiers",
+      "L1",
+      "L2",
+      "L3",
+      "L4"
+    ],
+    "audience": [
+      "skeptical readers",
+      "leadership readers",
+      "researchers"
+    ],
+    "priority": 0.96
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/appendix-b-science-synthesis.html",
+    "title": "Appendix B Science Synthesis and Problem Coverage | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Merged 280+ paper synthesis across quantum gravity paradigms with problem coverage register.",
+    "excerpt": "Synthesized from 234+ research papers across four quantum gravity paradigms, plus quasicrystal/E8 convergence evidence",
+    "keywords": [
+      "science synthesis",
+      "problem coverage",
+      "quantum gravity",
+      "paper synthesis",
+      "torsion substrate"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers",
+      "skeptical readers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/appendix-c-anomalies-survey.html",
+    "title": "Appendix C Comprehensive Anomalies Survey | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Catalog of unresolved anomalies plus extended evidence on structure, morphogenesis, and intervention.",
+    "excerpt": "Contemporary physics faces several persistent observational challenges that resist resolution within current standard frameworks. These anomalies represent potential entry points for alternative theoretical approaches.",
+    "keywords": [
+      "anomalies survey",
+      "unresolved anomalies",
+      "morphogenesis",
+      "intervention",
+      "paranormal",
+      "ancient civilizations"
+    ],
+    "audience": [
+      "anomalous phenomena readers",
+      "researchers",
+      "scenario planners"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/appendix-d-variables.html",
+    "title": "Appendix D Variables and Constants | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Variables, symbols, and constants reference used across chapters and appendices.",
+    "excerpt": "",
+    "keywords": [
+      "variables",
+      "constants",
+      "symbols",
+      "notation",
+      "reference"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/authorship-and-ai-collaboration.html",
+    "title": "Authorship and AI Collaboration Disclosure | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Human-authored framework disclosure describing how AI was used for drafting, refinement, and publishing workflow support.",
+    "excerpt": "This work is human-authored. I developed the framework, core analysis, evidence-tier judgments, and cross-disciplinary synthesis.",
+    "keywords": [
+      "authorship",
+      "AI collaboration",
+      "disclosure",
+      "editorial workflow"
+    ],
+    "audience": [
+      "all readers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/open-this-first-leadership-memo.html",
+    "title": "Open This First: Leadership Briefing Memo | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A one-page briefing note explaining what the archive is, who it is for, what it helps solve, what is high-confidence versus speculative, and where leadership readers should start.",
+    "excerpt": "Consciousness Spectrum Operations is a doctrine-oriented archive that treats consciousness, perception, and anomalous conditions as a signal environment rather than as a collection of disconnected mysteries. The framework is built from RF engineering, control systems, distributed mode-shape analysis, phased-array behavior, and EMSO logic, then extended into the domains where institutions increasingly face anomalous reports, paradigm instability, and contested interpretation.",
+    "keywords": [
+      "leadership briefing",
+      "start here",
+      "doctrine onboarding",
+      "confidence architecture",
+      "reading path"
+    ],
+    "audience": [
+      "leadership readers",
+      "new readers",
+      "institutional planners"
+    ],
+    "priority": 0.96
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/operational-doctrine.html",
+    "title": "Operational Doctrine: Consciousness Spectrum Management | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Practitioner-facing capstone synthesizing operational parameters, design scenarios, ITU sequencing, and engineering reference.",
+    "excerpt": "Every spectrum operation ends with the same question: now that the band has been characterized, the receivers engineered, access secured, denial architectures mapped, and superiority protocols defined \u2014 what does the spectrum manager actually build ? This section consolidates the operational design framework. It translates the engineering analysis of Chapters 0\u201318 into institutional parameters, sequencing dependencies, transition phases, and design priorities. The treatment follows the same logic that governs electromagnetic spectrum management: measure first, then clear, allocate, license, deploy, and monitor. Where the preceding Parts developed the physics and the mathematics, this section develops the operational doctrine.",
+    "keywords": [
+      "operational doctrine",
+      "consciousness spectrum management",
+      "decision framework",
+      "leadership",
+      "scenario design",
+      "counter-jamming"
+    ],
+    "audience": [
+      "leadership readers",
+      "state and defense",
+      "institutional planners"
+    ],
+    "priority": 0.96
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-i-spectrum-characterization-review.html",
+    "title": "Part I Review: Spectrum Characterization | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part I synthesis review covering torsion physics, source dynamics, density structure, and demodulation architecture.",
+    "excerpt": "Part I converts the framework from metaphysical intuition into a spectrum-characterization problem rooted in torsion-compatible physics, impedance tiers, and cosmological structure.",
+    "keywords": [
+      "part I review",
+      "spectrum characterization",
+      "torsion physics",
+      "density structure"
+    ],
+    "audience": [
+      "technical readers",
+      "new readers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html",
+    "title": "Part II Review: Receiver Engineering | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.",
+    "excerpt": "Part II defines the receiver stack: signal environment, RLC dynamics, biofield/DNA coupling, polarity/coupling behavior, and PLL-based reference tracking.",
+    "keywords": [
+      "part II review",
+      "receiver engineering",
+      "RLC model",
+      "biofield",
+      "PLL"
+    ],
+    "audience": [
+      "technical readers",
+      "researchers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-iii-spectrum-access-review.html",
+    "title": "Part III Review: Spectrum Access | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part III synthesis review covering phased-array gains and injection-locking dynamics at collective scales.",
+    "excerpt": "Part III moves from individual tuning to collective access: phased-array scaling and injection-lock capture become the main collective-control primitives.",
+    "keywords": [
+      "part III review",
+      "spectrum access",
+      "phased array",
+      "injection locking",
+      "collective coherence"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-iv-spectrum-engineering-review.html",
+    "title": "Part IV Review: Spectrum Engineering | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part IV synthesis review covering spin coherence engineering and civilization-scale torsion infrastructure hypotheses.",
+    "excerpt": "Part IV develops the engineering layer beneath later control and liberation claims: spin coherence becomes the master variable and infrastructure becomes a civilization-scale design question.",
+    "keywords": [
+      "part IV review",
+      "spectrum engineering",
+      "spin coherence",
+      "infrastructure",
+      "civilizational scale",
+      "ancient civilizations"
+    ],
+    "audience": [
+      "leadership readers",
+      "technical readers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-v-spectrum-denial-review.html",
+    "title": "Part V Review: Spectrum Denial | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part V synthesis review covering denial architectures, parasitic coupling frameworks, and shielding regimes.",
+    "excerpt": "Part V explains denial: parasitic coupling, extraction logics, shielding, and disclosure-management mechanisms that keep receivers locked below threshold.",
+    "keywords": [
+      "part V review",
+      "spectrum denial",
+      "parasitic coupling",
+      "shielding",
+      "disclosure architecture"
+    ],
+    "audience": [
+      "leadership readers",
+      "disclosure researchers"
+    ],
+    "priority": 0.8
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/part-vi-spectrum-superiority-review.html",
+    "title": "Part VI Review: Spectrum Superiority | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "Part VI synthesis review covering counter-jamming operations, tuning protocols, and collective phase-transition pathways.",
+    "excerpt": "Part VI turns the framework into active doctrine: link-budget closure, counter-jamming, scenario design, cross-tradition protocols, and thaw-sequence planning.",
+    "keywords": [
+      "part VI review",
+      "spectrum superiority",
+      "counter-jamming",
+      "scenario design",
+      "tuning protocols"
+    ],
+    "audience": [
+      "leadership readers",
+      "state and defense",
+      "institutional planners"
+    ],
+    "priority": 0.96
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/reference/why-this-matters-operationally.html",
+    "title": "Why This Matters Operationally | Consciousness Spectrum Operations",
+    "surface_type": "reference",
+    "part_label": null,
+    "chapter_num": null,
+    "description": "A decision-facing bridge page showing how the framework improves triage, contamination control, coherence management, leadership communication, and scenario planning under anomalous conditions.",
+    "excerpt": "This framework is operationally relevant because it improves how institutions sort weak signal from contamination, pace communications during instability, model collective coherence or demoralization, and design scenario exercises when anomalous conditions begin to stress standard explanatory models. It does not require total acceptance of the archive\u2019s ontology to add value; its conservative layer already improves signal discipline and institutional adaptation.",
+    "keywords": [
+      "operational relevance",
+      "decision utility",
+      "triage",
+      "signal contamination",
+      "coherence management",
+      "anomalous conditions",
+      "counter-jamming"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "operations teams"
+    ],
+    "priority": 0.96
+  }
+]

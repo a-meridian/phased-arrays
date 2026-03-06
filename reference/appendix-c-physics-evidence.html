@@ -52,7 +52,10 @@
 <body class="discovery-page" data-discovery-section="reference">
   <header class="top-bar">
     <a href="../index.html" class="top-bar-title">Consciousness Spectrum Operations</a>
-    <a href="../assets/ConsciousnessSpectrumOperations.pdf" class="top-bar-pdf">Download PDF</a>
+    <div class="top-bar-actions">
+      <button type="button" class="top-bar-search" data-search-trigger>Search</button>
+      <a href="../assets/ConsciousnessSpectrumOperations.pdf" class="top-bar-pdf">Download PDF</a>
+    </div>
   </header>
   <main class="discovery-shell">
     <article class="discovery-article">
@@ -61,6 +64,10 @@
       <p><a href="https://a-meridian.github.io/phased-arrays/reference/appendix-b-science-synthesis.html">Continue to the canonical page</a>.</p>
     </article>
   </main>
+  <script>
+    window.CSO_SEARCH_INDEX_URL = '../assets/search-index.json';
+  </script>
+  <script src="../assets/search.js"></script>
   <script>
     window.location.replace("https://a-meridian.github.io/phased-arrays/reference/appendix-b-science-synthesis.html");
   </script>

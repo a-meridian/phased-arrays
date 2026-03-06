@@ -55,6 +55,12 @@ body::after {
   backdrop-filter: saturate(130%) blur(12px);
 }
 
+.top-bar-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
 .hamburger {
   display: none;
   appearance: none;
@@ -296,6 +302,12 @@ body::after {
   padding: calc(var(--space-xl) + 0.5rem) 0 var(--space-3xl);
 }
 
+.search-inline-row {
+  display: grid;
+  gap: 0.7rem;
+  align-items: center;
+}
+
 .sidebar-overlay {
   display: none;
   position: fixed;
@@ -362,6 +374,10 @@ body::after {
     max-width: 100%;
   }
 
+  .top-bar-actions {
+    gap: 0.4rem;
+  }
+
   .sidebar-section h3 {
     padding: 0.75rem var(--space-md) 0.55rem;
     font-size: 0.73rem;
@@ -372,5 +388,11 @@ body::after {
     padding: 0.62rem 0.74rem;
     font-size: 0.9rem;
     line-height: 1.33;
+  }
+}
+
+@media (min-width: 760px) {
+  .search-inline-row {
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 }

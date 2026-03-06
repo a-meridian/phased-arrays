@@ -28,6 +28,14 @@
       "description": "Cross-tradition awakening and ascension claims mapped to coherence, tuning, and phase-transition mechanics.",
       "url": "https://a-meridian.github.io/phased-arrays/guides/awakening-and-ascension-mechanics.html",
       "image": "https://a-meridian.github.io/phased-arrays/assets/figures/fig_16_1.png",
+      "keywords": [
+        "awakening",
+        "ascension",
+        "phase transition",
+        "tuning protocols",
+        "spiritual traditions",
+        "coherence"
+      ],
       "author": {
         "@type": "Person",
         "name": "A. Meridian",
@@ -37,7 +45,21 @@
         "@type": "WebSite",
         "name": "Consciousness Spectrum Operations",
         "url": "https://a-meridian.github.io/phased-arrays/"
-      }
+      },
+      "audience": [
+        {
+          "@type": "Audience",
+          "audienceType": "cross-tradition readers"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "awakening researchers"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "scenario readers"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -72,6 +94,7 @@
   <link rel="preload" href="../assets/fonts/JetBrainsMono-Regular.woff2" as="font" type="font/woff2">
   <link rel="stylesheet" href="../assets/style.css">
   <script>
+    window.CSO_SEARCH_INDEX_URL = '../assets/search-index.json';
     window.MathJax = {
       tex: {
         inlineMath: [['\\(','\\)']],
@@ -88,7 +111,10 @@
 <body class="discovery-page" data-discovery-section="guides">
   <header class="top-bar">
     <a href="../index.html" class="top-bar-title">Consciousness Spectrum Operations</a>
-    <a href="../assets/ConsciousnessSpectrumOperations.pdf" class="top-bar-pdf">Download PDF</a>
+    <div class="top-bar-actions">
+      <button type="button" class="top-bar-search" data-search-trigger>Search</button>
+      <a href="../assets/ConsciousnessSpectrumOperations.pdf" class="top-bar-pdf">Download PDF</a>
+    </div>
   </header>
 
   <main class="discovery-shell">
@@ -138,6 +164,7 @@ Variables and Constants Reference</a></li>
     </article>
   </main>
 
+  <script src="../assets/search.js"></script>
   <script src="../assets/reveal.js"></script>
 </body>
 </html>
