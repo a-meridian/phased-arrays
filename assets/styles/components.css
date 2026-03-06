@@ -85,6 +85,29 @@
   text-decoration: none;
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.72rem;
+  margin-top: 1.35rem;
+}
+
+.hero-actions .download-btn {
+  margin-top: 0;
+}
+
+.hero-cta {
+  background:
+    linear-gradient(130deg, rgba(129, 164, 220, 0.22), rgba(182, 158, 118, 0.12)),
+    rgba(16, 28, 46, 0.9);
+}
+
+.hero-download {
+  background:
+    linear-gradient(130deg, rgba(182, 158, 118, 0.16), rgba(129, 164, 220, 0.12)),
+    rgba(16, 28, 46, 0.8);
+}
+
 .reading-progress {
   position: fixed;
   top: calc(var(--topbar-height) - 1px);
