@@ -319,11 +319,35 @@ strongest echo; it ensures that <span class='ec-lmri-10'>whatever is out there <
 chose. Chirp reveals what is actually there across the full spectrum. When the future
 is uncertain — when the target’s scattering profile is unknown — chirp is the only
 responsible search strategy.
-</p><!-- l. 376 --><p class='noindent'>
 </p>
-<h5 class='subsubsectionHead' id='-historical-evidence-scenario-planning-in-practice'><a id='x1-7000'></a>17.1.4 Historical Evidence: Scenario Planning in Practice</h5>
-<p><a id='x1-7000doc'></a>
-</p><!-- l. 378 --><p class='noindent'><span class='ec-lmbx-10'>Ardennes, 1940. </span>The French General Staff operated in CW mode: a single
+<!-- l. 376 --><p class='noindent'><span class='paragraphHead' id='a-pulse-compression-and-the-debrief-as-matched-filter'><a id='x1-7000'></a><span class='ec-lmbx-10'>17.1.3a Pulse Compression and the Debrief as Matched Filter</span></span>
+<a id='x1-7000doc'></a>
+In radar engineering, a chirp signal achieves range resolution not through short-pulse
+peak power but through <span class='ec-lmbx-10'>pulse compression</span>: the receiver applies a matched filter
+that correlates the returned chirp against a stored replica, compressing the dispersed
+energy into a sharp peak (Adamy, <span class='ec-lmri-10'>EW 101</span>, 2001, Ch 6). The compression ratio
+is:
+</p><!-- l. 384 --><p class='noindent'>\[CR = \frac {BW_{chirp}}{BW_{uncompressed}} = BW \cdot T_{sweep}\]
+</p><!-- l. 386 --><p class='noindent'>where \(BW\) is the sweep bandwidth and \(T_{sweep}\) is the pulse duration. A long, low-power chirp
+compressed by a matched filter achieves the same resolution as a short, high-power
+pulse — the processing gain is \(10\log _{10}(CR)\) dB.
+</p><!-- l. 391 --><p class='noindent'>The CSO analog: the <span class='ec-lmbx-10'>debrief </span>is the matched filter. A multi-scenario exercise sweeps
+participants through a broad consciousness band (high \(BW\)) over an extended session
+(long \(T_{sweep}\)), but the insights remain dispersed across the exercise duration. The debrief
+compresses this dispersed experience into concentrated insight — correlating each
+scenario moment against the participant’s internal reference to extract signal from
+noise:
+</p><!-- l. 399 --><p class='noindent'>\[CR_{debrief} = \frac {\text {debrief integration intensity}}{\text {scenario breadth}} \propto \frac {BW_{explored} \cdot T_{exercise}}{1}\]
+</p><!-- l. 401 --><p class='noindent'>Without pulse compression (no debrief), the chirp energy remains spread:
+participants report the exercise was “interesting” but extract no actionable
+resolution. With matched filtering (structured debrief), the same energy produces
+sharp, high-resolution insight peaks. This strengthens Prediction P7 (§17.8): exercises
+without structured debrief will show lower coherence shifts per unit time invested,
+regardless of scenario quality.
+</p><!-- l. 410 --><p class='noindent'>
+</p> <h5 class='subsubsectionHead' id='-historical-evidence-scenario-planning-in-practice'><a id='x1-8000'></a>17.1.4 Historical Evidence: Scenario Planning in Practice</h5>
+<p><a id='x1-8000doc'></a>
+</p><!-- l. 412 --><p class='noindent'><span class='ec-lmbx-10'>Ardennes, 1940. </span>The French General Staff operated in CW mode: a single
 scenario (static defense along the Maginot Line) locked to a single frequency
 (attrition warfare, 1918 paradigm). When the German Schwerpunkt punched
 through the Ardennes — a frequency outside the French band — the receivers
@@ -335,7 +359,7 @@ be interpretable as a primary axis of advance rather than a feint. This is
 the mirror principle (Section 17.3) in military application: the signal was
 wideband; the French receiver was narrowband and locked to the wrong center
 frequency.
-</p><!-- l. 392 --><p class='noindent'><span class='ec-lmbx-10'>Nimitz, Pacific War (1941–1945). </span>The U.S. Naval War College had
+</p><!-- l. 426 --><p class='noindent'><span class='ec-lmbx-10'>Nimitz, Pacific War (1941–1945). </span>The U.S. Naval War College had
 wargamed the Pacific extensively before the war, exploring multiple scenarios
 for Japanese strategy. When the actual war unfolded, Nimitz noted that
 “the courses of the war were fought on the gaming floors of the Naval War
@@ -347,11 +371,8 @@ conventional assumptions failed. These low-\(Z_0\) scenarios (Winners/Losers, wi
 U.S. as loser) were emotionally uncomfortable but strategically essential:
 they pre-tuned the receivers to frequencies that pure optimism would have
 excluded.
-</p><!-- l. 406 --><p class='noindent'><span class='ec-lmbx-10'>Shell Oil, 1970s. </span>Shell’s scenario planning team, led by Pierre Wack, constructed
+</p><!-- l. 440 --><p class='noindent'><span class='ec-lmbx-10'>Shell Oil, 1970s. </span>Shell’s scenario planning team, led by Pierre Wack, constructed
 scenarios exploring oil supply disruption. When the 1973 OPEC embargo arrived,
-                                                                  
-
-                                                                  
 Shell was the only major oil company with response plans. The scenarios had not
 predicted the specific crisis; they had <span class='ec-lmri-10'>pre-tuned </span>Shell’s decision-makers to the
 frequency band in which the crisis would occur (Schwartz, 1991). Wack’s method was
@@ -360,7 +381,7 @@ distinctive in its insistence on emotional engagement: he required scenario team
 PLL framework, Wack understood that intellectual analysis operates within
 the existing frequency band, while emotional inhabitation shifts the VCO
 frequency.
-</p><!-- l. 418 --><p class='noindent'><span class='ec-lmbx-10'>Boyd’s OODA Loop as Bandwidth Metric. </span>John Boyd’s Observe-Orient-Decide-Act
+</p><!-- l. 452 --><p class='noindent'><span class='ec-lmbx-10'>Boyd’s OODA Loop as Bandwidth Metric. </span>John Boyd’s Observe-Orient-Decide-Act
 (OODA) loop, developed in his “Discourse on Winning and Losing,” is typically
 understood as a speed framework: whoever cycles through OODA faster gains a
 decision advantage. But Boyd’s deeper insight — embedded in his discussion of the
@@ -368,49 +389,52 @@ Orient phase — is more fundamentally a bandwidth framework. The “Orient” s
 where the observer’s mental models, cultural traditions, previous experiences, and
 genetic heritage filter incoming observations. This is the receiver’s frequency
 response. An operator with a narrow orientation bandwidth (few mental models,
+                                                                  
+
+                                                                  
 rigid paradigm) observes the same data as an operator with wide orientation
 bandwidth but extracts less information.
-</p><!-- l. 431 --><p class='noindent'>Boyd’s prescription to “get inside the adversary’s OODA loop” is equivalent to
+</p><!-- l. 465 --><p class='noindent'>Boyd’s prescription to “get inside the adversary’s OODA loop” is equivalent to
 operating at a frequency the adversary cannot receive: the adversary’s narrowband
 receiver cannot process the signal before the next observation cycle begins. The
 adversary is not too slow; the adversary is <span class='ec-lmri-10'>too narrowband</span>. Speed is a consequence of
 bandwidth, not a substitute for it.
-</p><!-- l. 438 --><p class='noindent'>Boyd’s concept of “destruction and creation” — the ability to break existing mental
+</p><!-- l. 472 --><p class='noindent'>Boyd’s concept of “destruction and creation” — the ability to break existing mental
 models (analysis) and construct new ones (synthesis) — maps directly to the
 impedance transition: destruction of existing \(C\) (unprocessed material) and
 construction of new \(L\) (wisdom) raises \(Z_0\), expanding the Orient bandwidth.
 Multi-scenario planning is one of the most efficient methods for driving this
 destruction-and-creation cycle in groups.
-</p><!-- l. 446 --><p class='noindent'>In each case, the institution that explored multiple consciousness bands outperformed
+</p><!-- l. 480 --><p class='noindent'>In each case, the institution that explored multiple consciousness bands outperformed
 the institution locked to a single frequency. The advantage was not superior
 prediction but superior bandwidth.
-</p><!-- l. 451 --><p class='noindent'>
+</p><!-- l. 485 --><p class='noindent'>
 </p>
-<h5 class='subsubsectionHead' id='-the-fundamental-equation-scenario-as-reference-signal'><a id='x1-8000'></a>17.1.5 The Fundamental Equation: Scenario as Reference Signal</h5>
-<p><a id='x1-8000doc'></a>
-</p><!-- l. 453 --><p class='noindent'>Combining the PLL framework (Chapter 9) with the collective array model
+<h5 class='subsubsectionHead' id='-the-fundamental-equation-scenario-as-reference-signal'><a id='x1-9000'></a>17.1.5 The Fundamental Equation: Scenario as Reference Signal</h5>
+<p><a id='x1-9000doc'></a>
+</p><!-- l. 487 --><p class='noindent'>Combining the PLL framework (Chapter 9) with the collective array model
 (Chapter 10), the fundamental equation for scenario-driven frequency selection
 is:
-                                                                  
-
-                                                                  
-</p><!-- l. 457 --><p class='noindent'>\[\omega _{collective}(t) = \frac {1}{N} \sum _{i=1}^{N} \omega _{vco,i}(t), \quad \omega _{vco,i}(t) \to \omega _{scenario} \text { as } t \to \infty \]
-</p><!-- l. 459 --><p class='noindent'>where \(\omega _{scenario}\) is the characteristic frequency of the scenario’s plot archetype and \(\omega _{vco,i}\) is the
+</p><!-- l. 491 --><p class='noindent'>\[\omega _{collective}(t) = \frac {1}{N} \sum _{i=1}^{N} \omega _{vco,i}(t), \quad \omega _{vco,i}(t) \to \omega _{scenario} \text { as } t \to \infty \]
+</p><!-- l. 493 --><p class='noindent'>where \(\omega _{scenario}\) is the characteristic frequency of the scenario’s plot archetype and \(\omega _{vco,i}\) is the
 instantaneous frequency of participant \(i\)’s consciousness VCO. The convergence rate
 depends on the collective loop bandwidth:
-</p><!-- l. 464 --><p class='noindent'>\[BW_{collective} = \frac {1}{N} \sum _{i=1}^{N} BW_{loop,i} \cdot r_i\]
-</p><!-- l. 466 --><p class='noindent'>where \(r_i\) is participant \(i\)’s coherence with the group. High individual loop bandwidths
+</p><!-- l. 498 --><p class='noindent'>\[BW_{collective} = \frac {1}{N} \sum _{i=1}^{N} BW_{loop,i} \cdot r_i\]
+</p><!-- l. 500 --><p class='noindent'>where \(r_i\) is participant \(i\)’s coherence with the group. High individual loop bandwidths
 (experienced practitioners, high \(Q\)) and high coherence (emotional alignment with the
 group) both accelerate collective lock acquisition. Low individual bandwidths
 (rigid mental models, low \(Q\)) or low coherence (emotional disengagement) slow
 it.
-</p><!-- l. 472 --><p class='noindent'>The scenario architect’s design problem is: choose \(\omega _{scenario}\) to maximize the quality of the
+</p><!-- l. 506 --><p class='noindent'>The scenario architect’s design problem is: choose \(\omega _{scenario}\) to maximize the quality of the
 collective decision space, subject to the constraint that \(\omega _{scenario}\) must fall within the collective
 capture range \(\Delta \omega _C\) of the participant group. If the target frequency is above the group’s
 capture range, the architect must design a multi-step sweep (Section 17.5) that
 reaches the target through a sequence of acquirable steps rather than a single
+                                                                  
+
+                                                                  
 jump.
-</p><!-- l. 480 --><p class='noindent'>This constraint — that the scenario reference must be within the group’s capture
+</p><!-- l. 514 --><p class='noindent'>This constraint — that the scenario reference must be within the group’s capture
 range — is why consciousness-optimized scenario design cannot simply “aim high.”
 An aspirational Infinite Possibility scenario presented to a group whose habitual band
 is Winners/Losers will fail to achieve lock. The reference signal is outside the PLL’s
@@ -420,166 +444,159 @@ without physiological lock — the groupthink failure mode described in Section
 17.5.4).
 </p>
 <div class='center'>
-<!-- l. 490 --><p class='noindent'>
-</p><!-- l. 490 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 494 --><p class='noindent'>
+<!-- l. 524 --><p class='noindent'>
+</p><!-- l. 524 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 528 --><p class='noindent'>
 </p>
-<h4 class='subsectionHead' id='-core-scenario-doctrine-plot-archetypes-as-consciousness-bands-ll'><a id='x1-9000'></a>17.2 Core Scenario Doctrine: Plot Archetypes as Consciousness Bands <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
-<p><a id='x1-9000doc'></a>
-</p><!-- l. 496 --><p class='noindent'>This section is the doctrine-core surface of the chapter. A leadership reader does
+<h4 class='subsectionHead' id='-core-scenario-doctrine-plot-archetypes-as-consciousness-bands-ll'><a id='x1-10000'></a>17.2 Core Scenario Doctrine: Plot Archetypes as Consciousness Bands <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
+<p><a id='x1-10000doc'></a>
+</p><!-- l. 530 --><p class='noindent'>This section is the doctrine-core surface of the chapter. A leadership reader does
 not need to accept any external calibration system to use it: scenario sets,
 archetype choice, and emotional embodiment already provide a complete
-                                                                  
-
-                                                                  
 frequency-selection method grounded in Schwartz, Caffrey, Perla, and the earlier
 receiver model.
-</p><!-- l. 503 --><p class='noindent'>
+</p><!-- l. 537 --><p class='noindent'>
 </p>
-<h5 class='subsubsectionHead' id='-schwartzs-plot-archetypes-revisited'><a id='x1-10000'></a>17.2.1 Schwartz’s Plot Archetypes Revisited</h5>
-<p><a id='x1-10000doc'></a>
-</p><!-- l. 505 --><p class='noindent'>Each of Schwartz’s seven plot archetypes carries a characteristic emotional profile
+<h5 class='subsubsectionHead' id='-schwartzs-plot-archetypes-revisited'><a id='x1-11000'></a>17.2.1 Schwartz’s Plot Archetypes Revisited</h5>
+<p><a id='x1-11000doc'></a>
+</p><!-- l. 539 --><p class='noindent'>Each of Schwartz’s seven plot archetypes carries a characteristic emotional profile
 that determines the decisions available to participants. The archetype is not merely a
 narrative convenience; it is a consciousness band selector. When a scenario team
 adopts a plot archetype, they collectively tune their receivers to the frequency band
 that archetype occupies.
-</p><!-- l. 512 --><p class='noindent'>Schwartz observed that scenario teams consistently gravitate toward a small number
+</p><!-- l. 546 --><p class='noindent'>Schwartz observed that scenario teams consistently gravitate toward a small number
 of recurring plot structures regardless of the specific topic. A scenario about
+                                                                  
+
+                                                                  
 climate change, a scenario about technological disruption, and a scenario
 about geopolitical conflict all tend to fall into the same structural archetypes.
 This recurrence suggests that the archetypes are not arbitrary narrative
 choices but reflect something fundamental about human consciousness — the
 finite number of distinct frequency bands in which collective imagination can
 operate.
-</p><!-- l. 521 --><p class='noindent'>The existence of exactly seven archetypes is not theoretically mandated; other
+</p><!-- l. 555 --><p class='noindent'>The existence of exactly seven archetypes is not theoretically mandated; other
 authors have proposed different numbers. The key structural claim is that the set of
 available consciousness bands is discrete (not continuous), limited (not infinite), and
 ordered (from contraction to expansion). Whether the correct number is five, seven,
 or twelve is an empirical question; the engineering framework applies regardless of the
 specific count.
-</p><!-- l. 529 --><p class='noindent'>This section maps each archetype onto the consciousness engineering framework
+</p><!-- l. 563 --><p class='noindent'>This section maps each archetype onto the consciousness engineering framework
 developed in Chapters 6, 9, and 10.
-</p><!-- l. 533 --><p class='noindent'>
+</p><!-- l. 567 --><p class='noindent'>
 </p>
-<h5 class='subsubsectionHead' id='-optional-hawkins-calibration'><a id='x1-11000'></a>17.2.2 Optional Hawkins Calibration</h5>
-<p><a id='x1-11000doc'></a>
-</p><!-- l. 535 --><p class='noindent'>The Hawkins material below is optional ordinal scaffolding, not a required part of the
+<h5 class='subsubsectionHead' id='-optional-hawkins-calibration'><a id='x1-12000'></a>17.2.2 Optional Hawkins Calibration</h5>
+<p><a id='x1-12000doc'></a>
+</p><!-- l. 569 --><p class='noindent'>The Hawkins material below is optional ordinal scaffolding, not a required part of the
 doctrine core. Use it only as an auxiliary ranking overlay where it helps ordering
 or communication; the plot-archetype method stands on its own without
 it.
-</p><!-- l. 540 --><p class='noindent'>David Hawkins’ <span class='ec-lmri-10'>Power vs. Force </span>(1995/2002) proposed a Map of Consciousness
-                                                                  
-
-                                                                  
+</p><!-- l. 574 --><p class='noindent'>David Hawkins’ <span class='ec-lmri-10'>Power vs. Force </span>(1995/2002) proposed a Map of Consciousness
 assigning numerical calibration levels to emotional/attitudinal states. While the
 specific numerical values are derived from applied kinesiology protocols whose
 reliability remains debated, the <span class='ec-lmri-10'>ordinal ranking </span>of states from contraction to
 expansion is broadly consistent with clinical psychology’s affect circumplex (Russell,
 1980) and the self-determination continuum (Ryan &amp; Deci, 2000).
-</p><!-- l. 549 --><p class='noindent'>The impedance framework from Chapter 6 provides an independent, engineering-native
+</p><!-- l. 583 --><p class='noindent'>The impedance framework from Chapter 6 provides an independent, engineering-native
 mapping. The characteristic impedance \(Z_0 = \sqrt {L/C}\) encodes the ratio of accumulated wisdom (\(L\))
 to unprocessed material (\(C\)). High \(Z_0\) corresponds to high selectivity, reduced capture
 vulnerability, and expanded bandwidth for novel signals. Low \(Z_0\) corresponds to broad
 capture vulnerability, reactive processing, and contraction into defensive
 patterns.
-</p><!-- l. 557 --><p class='noindent'>The dual mapping aligns these two frameworks with Schwartz’s plot archetypes:
-</p><!-- l. 561 --><p class='noindent'>
-</p><!-- l. 561 --><p class='noindent'>
-<a id='x1-11001r1'></a></p>
-<!-- l. 567 --><div class='longtable'> <table class='longtable' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /><col id='TBL-1-4' /><col id='TBL-1-5' /></colgroup>
+</p><!-- l. 591 --><p class='noindent'>The dual mapping aligns these two frameworks with Schwartz’s plot archetypes:
+</p><!-- l. 595 --><p class='noindent'>
+</p><!-- l. 595 --><p class='noindent'> <a id='x1-12001r1'></a></p>
+<!-- l. 601 --><div class='longtable'> <table class='longtable' id='TBL-1'><colgroup id='TBL-1-1g'><col id='TBL-1-1' /><col id='TBL-1-2' /><col id='TBL-1-3' /><col id='TBL-1-4' /><col id='TBL-1-5' /></colgroup>
 <tr id='TBL-1-1-'><td class='td01' colspan='3' id='TBL-1-1-1'></td>
 </tr><tr id='TBL-1-4-'><td class='td01' id='TBL-1-4-1'>
-<div class='minipage'><!-- l. 569 --><p class='noindent'>Plot Archetype </p></div> </td><td class='td11' id='TBL-1-4-2'> <div class='minipage'><!-- l. 571 --><p class='noindent'>Hawkins Band </p></div> </td><td class='td11' id='TBL-1-4-3'> <div class='minipage'><!-- l. 573 --><p class='noindent'>\(Z_0\) Tier </p></div> </td><td class='td11' id='TBL-1-4-4'> <div class='minipage'><!-- l. 575 --><p class='noindent'>Emotional Substrate </p></div> </td><td class='td10' id='TBL-1-4-5'> <div class='minipage'><!-- l. 577 --><p class='noindent'>Decision Quality </p></div></td>
+<div class='minipage'><!-- l. 603 --><p class='noindent'>Plot Archetype </p></div> </td><td class='td11' id='TBL-1-4-2'> <div class='minipage'><!-- l. 605 --><p class='noindent'>Hawkins Band </p></div> </td><td class='td11' id='TBL-1-4-3'> <div class='minipage'><!-- l. 607 --><p class='noindent'>\(Z_0\) Tier </p></div> </td><td class='td11' id='TBL-1-4-4'> <div class='minipage'><!-- l. 609 --><p class='noindent'>Emotional Substrate </p></div> </td><td class='td10' id='TBL-1-4-5'> <div class='minipage'><!-- l. 611 --><p class='noindent'>Decision Quality </p></div></td>
 </tr><tr id='TBL-1-5-'><td class='td01' colspan='3' id='TBL-1-5-1'></td>
 </tr>
 <tr id='TBL-1-15-'><td class='td01' id='TBL-1-15-1'>
-<!-- l. 583 --><p class='noindent'>Winners
+<!-- l. 617 --><p class='noindent'>Winners
 and
-Losers              </p></td><td class='td11' id='TBL-1-15-2'> <!-- l. 583 --><p class='noindent'>75–175
+Losers              </p></td><td class='td11' id='TBL-1-15-2'> <!-- l. 617 --><p class='noindent'>75–175
   (Grief
   to
-  Pride)              </p></td><td class='td11' id='TBL-1-15-3'> <!-- l. 583 --><p class='noindent'>Low
+  Pride)              </p></td><td class='td11' id='TBL-1-15-3'> <!-- l. 617 --><p class='noindent'>Low
   \(Z_0\)
-  (\(&lt;1\))                    </p></td><td class='td11' id='TBL-1-15-4'> <!-- l. 584 --><p class='noindent'>Fear,
+  (\(&lt;1\))                    </p></td><td class='td11' id='TBL-1-15-4'> <!-- l. 618 --><p class='noindent'>Fear,
   competition,
   zero-sum
-  thinking            </p></td><td class='td10' id='TBL-1-15-5'> <!-- l. 584 --><p class='noindent'>Reactive,
+  thinking            </p></td><td class='td10' id='TBL-1-15-5'> <!-- l. 618 --><p class='noindent'>Reactive,
   defensive,
   short-horizon   </p></td>
 </tr><tr id='TBL-1-16-'><td class='td01' id='TBL-1-16-1'>
-<!-- l. 586 --><p class='noindent'>Revolution        </p></td><td class='td11' id='TBL-1-16-2'> <!-- l. 586 --><p class='noindent'>150–250
+<!-- l. 620 --><p class='noindent'>Revolution        </p></td><td class='td11' id='TBL-1-16-2'> <!-- l. 620 --><p class='noindent'>150–250
   (Anger
   to
-  Neutrality)        </p></td><td class='td11' id='TBL-1-16-3'> <!-- l. 586 --><p class='noindent'>Transitional       </p></td><td class='td11' id='TBL-1-16-4'> <!-- l. 586 --><p class='noindent'>Rage,
+  Neutrality)        </p></td><td class='td11' id='TBL-1-16-3'> <!-- l. 620 --><p class='noindent'>Transitional       </p></td><td class='td11' id='TBL-1-16-4'> <!-- l. 620 --><p class='noindent'>Rage,
   righteousness,
   destructive
-  energy              </p></td><td class='td10' id='TBL-1-16-5'> <!-- l. 587 --><p class='noindent'>Destructive
+  energy              </p></td><td class='td10' id='TBL-1-16-5'> <!-- l. 621 --><p class='noindent'>Destructive
   creativity,
   regime
-  replacement     </p></td> </tr><tr id='TBL-1-17-'><td class='td01' id='TBL-1-17-1'>
-<!-- l. 589 --><p class='noindent'>Challenge
+  replacement     </p></td>
+</tr><tr id='TBL-1-17-'><td class='td01' id='TBL-1-17-1'>
+<!-- l. 623 --><p class='noindent'>Challenge
 and
-Response          </p></td><td class='td11' id='TBL-1-17-2'> <!-- l. 589 --><p class='noindent'>200–350
+Response          </p></td><td class='td11' id='TBL-1-17-2'> <!-- l. 623 --><p class='noindent'>200–350
   (Courage
   to
-  Acceptance)      </p></td><td class='td11' id='TBL-1-17-3'> <!-- l. 589 --><p class='noindent'>Moderate
+  Acceptance)      </p></td><td class='td11' id='TBL-1-17-3'> <!-- l. 623 --><p class='noindent'>Moderate
   \(Z_0\)
-  (\(\approx 1\))                    </p></td><td class='td11' id='TBL-1-17-4'> <!-- l. 590 --><p class='noindent'>Willingness,
+  (\(\approx 1\))                    </p></td><td class='td11' id='TBL-1-17-4'> <!-- l. 624 --><p class='noindent'>Willingness,
   engagement,
   loss
-  tolerance           </p></td><td class='td10' id='TBL-1-17-5'> <!-- l. 591 --><p class='noindent'>Adaptive,
+  tolerance           </p></td><td class='td10' id='TBL-1-17-5'> <!-- l. 625 --><p class='noindent'>Adaptive,
   learning-capable </p> </td>
 </tr><tr id='TBL-1-18-'><td class='td01' id='TBL-1-18-1'>
-<!-- l. 592 --><p class='noindent'>Cycles              </p></td><td class='td11' id='TBL-1-18-2'> <!-- l. 592 --><p class='noindent'>250–400
+<!-- l. 626 --><p class='noindent'>Cycles              </p></td><td class='td11' id='TBL-1-18-2'> <!-- l. 626 --><p class='noindent'>250–400
   (Neutrality
   to
-  Reason)            </p></td><td class='td11' id='TBL-1-18-3'> <!-- l. 592 --><p class='noindent'>Variable            </p></td><td class='td11' id='TBL-1-18-4'> <!-- l. 592 --><p class='noindent'>Pattern
+  Reason)            </p></td><td class='td11' id='TBL-1-18-3'> <!-- l. 626 --><p class='noindent'>Variable            </p></td><td class='td11' id='TBL-1-18-4'> <!-- l. 626 --><p class='noindent'>Pattern
   recognition,
   historical
-  awareness          </p></td><td class='td10' id='TBL-1-18-5'> <!-- l. 593 --><p class='noindent'>Systemic,
+  awareness          </p></td><td class='td10' id='TBL-1-18-5'> <!-- l. 627 --><p class='noindent'>Systemic,
   long-horizon     </p></td>
 </tr><tr id='TBL-1-19-'><td class='td01' id='TBL-1-19-1'>
-<!-- l. 594 --><p class='noindent'>Transformation  </p></td><td class='td11' id='TBL-1-19-2'> <!-- l. 594 --><p class='noindent'>310–500
+<!-- l. 628 --><p class='noindent'>Transformation  </p></td><td class='td11' id='TBL-1-19-2'> <!-- l. 628 --><p class='noindent'>310–500
   (Willingness
   to
-  Love)               </p></td><td class='td11' id='TBL-1-19-3'> <!-- l. 594 --><p class='noindent'>Elevated
+  Love)               </p></td><td class='td11' id='TBL-1-19-3'> <!-- l. 628 --><p class='noindent'>Elevated
   \(Z_0\)
-  (\(&gt;1\))                    </p></td><td class='td11' id='TBL-1-19-4'> <!-- l. 595 --><p class='noindent'>Openness,
+  (\(&gt;1\))                    </p></td><td class='td11' id='TBL-1-19-4'> <!-- l. 629 --><p class='noindent'>Openness,
   surrender,
   identity
-  fluidity             </p></td><td class='td10' id='TBL-1-19-5'> <!-- l. 595 --><p class='noindent'>Integrative,
+  fluidity             </p></td><td class='td10' id='TBL-1-19-5'> <!-- l. 629 --><p class='noindent'>Integrative,
   paradigm-crossing </p> </td>
 </tr><tr id='TBL-1-20-'><td class='td01' id='TBL-1-20-1'>
-<!-- l. 597 --><p class='noindent'>Evolution          </p></td><td class='td11' id='TBL-1-20-2'> <!-- l. 597 --><p class='noindent'>400–540
+<!-- l. 631 --><p class='noindent'>Evolution          </p></td><td class='td11' id='TBL-1-20-2'> <!-- l. 631 --><p class='noindent'>400–540
   (Reason
   to
-  Joy)                 </p></td><td class='td11' id='TBL-1-20-3'> <!-- l. 597 --><p class='noindent'>High
+  Joy)                 </p></td><td class='td11' id='TBL-1-20-3'> <!-- l. 631 --><p class='noindent'>High
   \(Z_0\)
-  (\(\gg 1\))                    </p></td><td class='td11' id='TBL-1-20-4'> <!-- l. 598 --><p class='noindent'>Understanding,
+  (\(\gg 1\))                    </p></td><td class='td11' id='TBL-1-20-4'> <!-- l. 632 --><p class='noindent'>Understanding,
   synthesis,
-  generativity       </p></td><td class='td10' id='TBL-1-20-5'> <!-- l. 598 --><p class='noindent'>Generative,
-  complexity-embracing </p> </td>
-</tr><tr id='TBL-1-21-'><td class='td01' id='TBL-1-21-1'>
-<!-- l. 600 --><p class='noindent'>Infinite
-Possibility         </p></td><td class='td11' id='TBL-1-21-2'> <!-- l. 600 --><p class='noindent'>540–700+
+  generativity       </p></td><td class='td10' id='TBL-1-20-5'> <!-- l. 632 --><p class='noindent'>Generative,
+  complexity-embracing </p> </td> </tr><tr id='TBL-1-21-'><td class='td01' id='TBL-1-21-1'>
+<!-- l. 634 --><p class='noindent'>Infinite
+Possibility         </p></td><td class='td11' id='TBL-1-21-2'> <!-- l. 634 --><p class='noindent'>540–700+
   (Joy
   to
-  Enlightenment)  </p></td><td class='td11' id='TBL-1-21-3'> <!-- l. 600 --><p class='noindent'>Very
+  Enlightenment)  </p></td><td class='td11' id='TBL-1-21-3'> <!-- l. 634 --><p class='noindent'>Very
   High
   \(Z_0\)
-  (\(\gg 1\))                    </p></td><td class='td11' id='TBL-1-21-4'> <!-- l. 601 --><p class='noindent'>Unconditional
+  (\(\gg 1\))                    </p></td><td class='td11' id='TBL-1-21-4'> <!-- l. 635 --><p class='noindent'>Unconditional
   creation,
-  non-attachment  </p></td><td class='td10' id='TBL-1-21-5'> <!-- l. 602 --><p class='noindent'>Transcendent,
+  non-attachment  </p></td><td class='td10' id='TBL-1-21-5'> <!-- l. 636 --><p class='noindent'>Transcendent,
   unconstrained  </p></td>
 </tr>
 <tr id='TBL-1-10-'><td class='td01' colspan='3' id='TBL-1-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 606 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic note. </span>Hawkins’ specific numerical calibrations are ordinal rankings, not
+<!-- l. 640 --><p class='noindent'><span class='ec-lmbx-10'>Epistemic note. </span>Hawkins’ specific numerical calibrations are ordinal rankings, not
 calibrated measurements. They indicate relative ordering (Courage is above Grief;
-                                                                  
-
-                                                                  
 Love is above Anger) but the intervals between levels are not empirically established
 as equal or ratio-scaled. The kinesiology testing methodology underlying the
 numerical assignments lacks independent replication under blinded conditions. The \(Z_0\)
@@ -589,40 +606,40 @@ the ordinal structure of Hawkins’ scale is consistent with the impedance
 ordering, and because the Hawkins framework is widely referenced in the
 consciousness literature. Where the two frameworks diverge, the \(Z_0\) mapping takes
 precedence.
-</p><!-- l. 621 --><p class='nopar'>
+</p><!-- l. 655 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-optional-couragethreshold-overlay-z-transition'><a id='x1-12000'></a>17.2.3 Optional Courage-Threshold Overlay (\(Z_0 = 1\) Transition)</h5>
-<p><a id='x1-12000doc'></a>
-</p><!-- l. 623 --><p class='nopar'>Hawkins places a critical threshold at calibration level 200 (Courage). Below 200,
+<h5 class='subsubsectionHead' id='-optional-couragethreshold-overlay-z-transition'><a id='x1-13000'></a>17.2.3 Optional Courage-Threshold Overlay (\(Z_0 = 1\) Transition)</h5>
+<p><a id='x1-13000doc'></a>
+</p><!-- l. 657 --><p class='nopar'>Hawkins places a critical threshold at calibration level 200 (Courage). Below 200,
 consciousness operates in contraction: shame, guilt, apathy, grief, fear, desire, anger,
+                                                                  
+
+                                                                  
 pride. Above 200, consciousness operates in expansion: courage, neutrality,
 willingness, acceptance, reason, love, joy, peace, enlightenment.
-</p><!-- l. 629 --><p class='noindent'>In the RLC model (Chapter 6), this threshold maps to the <span class='ec-lmbx-10'>impedance unity
+</p><!-- l. 663 --><p class='noindent'>In the RLC model (Chapter 6), this threshold maps to the <span class='ec-lmbx-10'>impedance unity
 crossing </span>at \(Z_0 = 1\):
-</p><!-- l. 632 --><p class='noindent'>\[Z_0 = \sqrt {\frac {L}{C}} = 1 \quad \Rightarrow \quad L = C\]
-</p><!-- l. 634 --><p class='noindent'>Below this crossing (\(Z_0 &lt; 1\), \(C &gt; L\)), the receiver is <span class='ec-lmbx-10'>C-dominant</span>: capacitive reactance exceeds
+</p><!-- l. 666 --><p class='noindent'>\[Z_0 = \sqrt {\frac {L}{C}} = 1 \quad \Rightarrow \quad L = C\]
+</p><!-- l. 668 --><p class='noindent'>Below this crossing (\(Z_0 &lt; 1\), \(C &gt; L\)), the receiver is <span class='ec-lmbx-10'>C-dominant</span>: capacitive reactance exceeds
 inductive reactance, the circuit is bottom-heavy with unprocessed material, and the
 characteristic behavior is reactive absorption — the receiver stores charge (trauma,
 fear, unresolved experience) faster than it can process through the inductance
 (wisdom, integration). The capture bandwidth from the Adler equation (Chapter
 11) is wide, making the receiver vulnerable to injection locking by external
 narratives.
-</p><!-- l. 643 --><p class='noindent'>Above the crossing (\(Z_0 &gt; 1\), \(L &gt; C\)), the receiver is <span class='ec-lmbx-10'>L-dominant</span>: inductive reactance exceeds
+</p><!-- l. 677 --><p class='noindent'>Above the crossing (\(Z_0 &gt; 1\), \(L &gt; C\)), the receiver is <span class='ec-lmbx-10'>L-dominant</span>: inductive reactance exceeds
 capacitive reactance, the system has more processing capacity than stored reactive
 material, and the characteristic behavior is generative radiation — the receiver can
 transmit as well as receive. The capture bandwidth narrows, making injection locking
 progressively harder.
-</p><!-- l. 650 --><p class='noindent'>The transition at \(Z_0 = 1\) is the engineering equivalent of Hawkins’ courage threshold:
-</p><!-- l. 653 --><p class='noindent'>\[\omega _{L}(Z_0 = 1) = \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0}\]
-</p><!-- l. 655 --><p class='noindent'>Below the threshold, the individual (or group) operating in a “Winners and Losers”
+</p><!-- l. 684 --><p class='noindent'>The transition at \(Z_0 = 1\) is the engineering equivalent of Hawkins’ courage threshold:
+</p><!-- l. 687 --><p class='noindent'>\[\omega _{L}(Z_0 = 1) = \frac {\omega _0}{2Q} \cdot \frac {V_{inj}}{V_0}\]
+</p><!-- l. 689 --><p class='noindent'>Below the threshold, the individual (or group) operating in a “Winners and Losers”
 scenario cannot access the solution space visible from “Challenge and Response”
 because the receiver bandwidth does not extend to those frequencies. The
 scenario constrains the consciousness band, which constrains the solution
-                                                                  
-
-                                                                  
 set.
-</p><!-- l. 661 --><p class='noindent'><span class='ec-lmbx-10'>The transition is not gradual. </span>The \(Z_0 = 1\) crossing exhibits threshold behavior
+</p><!-- l. 695 --><p class='noindent'><span class='ec-lmbx-10'>The transition is not gradual. </span>The \(Z_0 = 1\) crossing exhibits threshold behavior
 analogous to a phase transition. Below the crossing, small increases in \(Z_0\) do not
 qualitatively change the receiver’s character; it remains C-dominant with reactive
 processing. At the crossing, a qualitative shift occurs: the receiver transitions from
@@ -630,28 +647,31 @@ net absorber to net radiator, from energy sink to energy source. Above the cross
 the receiver can sustain autonomous oscillation without external drive — the
 individual can generate novel solutions rather than merely selecting among presented
 options.
-</p><!-- l. 671 --><p class='noindent'>This threshold behavior explains why the transition from Winners/Losers scenarios
+</p><!-- l. 705 --><p class='noindent'>This threshold behavior explains why the transition from Winners/Losers scenarios
 to Challenge/Response scenarios is not merely a matter of degree but a matter of
 kind. Below the threshold, participants generate answers to the question “How
 do I survive?” Above the threshold, participants generate answers to the
 question “What do I create?” These are not points on a continuum; they are
 qualitatively different processing modes corresponding to different impedance
 regimes.
-</p><!-- l. 679 --><p class='noindent'><span class='ec-lmbx-10'>Institutional implications. </span>An institution whose scenario culture operates
+</p><!-- l. 713 --><p class='noindent'><span class='ec-lmbx-10'>Institutional implications. </span>An institution whose scenario culture operates
 exclusively below the courage threshold produces decision-makers who are expert
+                                                                  
+
+                                                                  
 survivors but incapable creators. They can optimize within existing paradigms
 (narrowband CW operation) but cannot perceive or generate paradigm-crossing
 solutions (wideband chirp operation). This is not a failure of intelligence or effort; it
 is a receiver engineering constraint. The institution’s scenario portfolio has locked its
 collective \(Z_0\) below the transition point.
-</p><!-- l. 690 --><p class='nopar'>
+</p><!-- l. 724 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-choosing-a-plot-archetype-choosing-a-consciousness-band'><a id='x1-13000'></a>17.2.4 Choosing a Plot Archetype = Choosing a Consciousness Band</h5>
-<p><a id='x1-13000doc'></a>
-</p><!-- l. 692 --><p class='nopar'>The preceding sections establish the dual mapping between plot archetypes and
+<h5 class='subsubsectionHead' id='-choosing-a-plot-archetype-choosing-a-consciousness-band'><a id='x1-14000'></a>17.2.4 Choosing a Plot Archetype = Choosing a Consciousness Band</h5>
+<p><a id='x1-14000doc'></a>
+</p><!-- l. 726 --><p class='nopar'>The preceding sections establish the dual mapping between plot archetypes and
 consciousness impedance bands. This section draws the central operational
 conclusion.
-</p><!-- l. 696 --><p class='noindent'>This is the chapter’s central claim: <span class='ec-lmbx-10'>the plot archetype selected for a scenario
+</p><!-- l. 730 --><p class='noindent'>This is the chapter’s central claim: <span class='ec-lmbx-10'>the plot archetype selected for a scenario
 exercise is not a neutral narrative frame but an active consciousness band
 selector. </span>When a scenario team spends hours inhabiting a “Revolution” scenario,
 they collectively tune their receivers to the 150–250 band — rage, righteousness,
@@ -659,62 +679,59 @@ destructive creativity. The decisions they generate emerge from that band. When 
 same team inhabits a “Transformation” scenario, they tune to 310–500 —
 openness, surrender, integrative processing — and generate qualitatively different
 decisions.
-</p><!-- l. 706 --><p class='noindent'>The scenario does not describe a future that might happen. The scenario <span class='ec-lmri-10'>tunes
-                                                                  
-
-                                                                  
+</p><!-- l. 740 --><p class='noindent'>The scenario does not describe a future that might happen. The scenario <span class='ec-lmri-10'>tunes
 the participants to the frequency band in which a class of futures becomes
 thinkable</span>. This is the mechanism by which scenario design becomes consciousness
 engineering.
-</p><!-- l. 711 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 712 --><p class='noindent'><span class='ec-lmbx-10'>EMSO  doctrine.  </span>In  electromagnetic  spectrum  operations,  the
+</p><!-- l. 745 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 746 --><p class='noindent'><span class='ec-lmbx-10'>EMSO  doctrine.  </span>In  electromagnetic  spectrum  operations,  the
      spectrum  manager  does  not  merely  allocate  bandwidth;  the
      spectrum  manager  determines  which  signals  can  propagate  and
-     which  are  suppressed.  Scenario  design  is  spectrum  management
-     for collective consciousness. The architect who selects which plot
-     archetypes  a  group  inhabits  is  performing  frequency  allocation
-     — determining which consciousness bands the group will occupy
-     and  therefore  which  classes  of  solutions  the  group  can  access.
-     Adversarial scenario monopoly (Section 17.4.2) is hostile spectrum
-     denial: restricting the group to low-\(Z_0\) bands where injection locking is
-     easy and creative solutions are inaccessible.</p></blockquote>
-<div class='center'>
-<!-- l. 724 --><p class='noindent'>
-</p><!-- l. 724 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 728 --><p class='nopar'>
+     which  are  suppressed  (EA/ES  per  Adamy,  <span class='ec-lmri-10'>EW  102</span>,  2004;  see
+     Chapter 11, §11.1.4 for the full ES/EA/EP taxonomy). Scenario
+     design is spectrum management for collective consciousness. The
+     architect  who  selects  which  plot  archetypes  a  group  inhabits  is
+     performing frequency allocation — determining which consciousness
+     bands the group will occupy and therefore which classes of solutions
+     the group can access. Adversarial scenario monopoly (Section 17.4.2)
+     is hostile spectrum denial: restricting the group to low-\(Z_0\) bands where
+     injection locking is easy and creative solutions are inaccessible.</p></blockquote> <div class='center'>
+<!-- l. 760 --><p class='noindent'>
+</p><!-- l. 760 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 764 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-the-mirror-principle-ambiguous-phenomena-as-wideband-signals-l'><a id='x1-14000'></a>17.3 The Mirror Principle: Ambiguous Phenomena as Wideband Signals
+<h4 class='subsectionHead' id='-the-mirror-principle-ambiguous-phenomena-as-wideband-signals-l'><a id='x1-15000'></a>17.3 The Mirror Principle: Ambiguous Phenomena as Wideband Signals
 <span class='evidence-pill evidence-pill--l2'>[L2]</span></h4>
-<p><a id='x1-14000doc'></a>
-</p><!-- l. 731 --><p class='nopar'>
-</p>
-<h5 class='subsubsectionHead' id='-the-receiverbandwidth-interpretation'><a id='x1-15000'></a>17.3.1 The Receiver-Bandwidth Interpretation</h5>
 <p><a id='x1-15000doc'></a>
-</p><!-- l. 733 --><p class='nopar'>A signal that contains energy across a wide frequency band — a wideband
+</p><!-- l. 767 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-the-receiverbandwidth-interpretation'><a id='x1-16000'></a>17.3.1 The Receiver-Bandwidth Interpretation</h5>
+<p><a id='x1-16000doc'></a>
+</p><!-- l. 769 --><p class='nopar'>A signal that contains energy across a wide frequency band — a wideband
 signal — produces different outputs depending on the bandwidth and center
 frequency of the receiver that processes it. A narrowband receiver tuned
 to 100 MHz extracts only the 100 MHz component. A receiver tuned to
-                                                                  
-
-                                                                  
 500 MHz extracts only the 500 MHz component. Both are receiving the
 same signal; they are seeing different projections of the same underlying
 phenomenon.
-</p><!-- l. 741 --><p class='noindent'>Ambiguous phenomena in the consciousness domain exhibit exactly this property.
+</p><!-- l. 777 --><p class='noindent'>Ambiguous phenomena in the consciousness domain exhibit exactly this property.
 Any phenomenon whose causal structure is genuinely uncertain — where multiple
 interpretations are consistent with the available evidence — functions as a
 wideband signal. The observer’s consciousness impedance \(Z_0\) determines which
 frequency component they extract, and therefore which interpretation they lock
 onto.
-</p><!-- l. 748 --><p class='nopar'>
+</p><!-- l. 784 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-worked-examples'><a id='x1-16000'></a>17.3.2 Worked Examples</h5>
-<p><a id='x1-16000doc'></a>
-</p><!-- l. 750 --><p class='nopar'>The following examples illustrate the receiver-bandwidth interpretation. In each case,
+<h5 class='subsubsectionHead' id='-worked-examples'><a id='x1-17000'></a>17.3.2 Worked Examples</h5>
+<p><a id='x1-17000doc'></a>
+</p><!-- l. 786 --><p class='nopar'>The following examples illustrate the receiver-bandwidth interpretation. In each case,
 the phenomenon is genuinely ambiguous — the available evidence is consistent with
+                                                                  
+
+                                                                  
 multiple causal accounts — and the interpretation selected by a given observer
 correlates with that observer’s consciousness band (\(Z_0\) tier) rather than with the weight
 of evidence.
-</p><!-- l. 757 --><p class='noindent'><span class='ec-lmbx-10'>Example 1: Mass meditation and crime reduction. </span>The Maharishi Effect
+</p><!-- l. 793 --><p class='noindent'><span class='ec-lmbx-10'>Example 1: Mass meditation and crime reduction. </span>The Maharishi Effect
 studies report statistically significant crime reductions during large group meditation
 events. A low-\(Z_0\) receiver (materialist-reductionist band) processes this as “statistical
 artifact, publication bias, or confounded social variables.” A moderate-\(Z_0\) receiver
@@ -722,130 +739,131 @@ artifact, publication bias, or confounded social variables.” A moderate-\(Z_0\
 high-\(Z_0\) receiver (coherence-physics band) processes this as “collective field coherence
 via phased-array consciousness (Chapter 10).” The phenomenon is wideband; the
 interpretation is receiver-determined.
-</p><!-- l. 768 --><p class='noindent'><span class='ec-lmbx-10'>Example 2: Near-death experiences. </span>Low-\(Z_0\) receiver: “anoxia-induced
+</p><!-- l. 804 --><p class='noindent'><span class='ec-lmbx-10'>Example 2: Near-death experiences. </span>Low-\(Z_0\) receiver: “anoxia-induced
 hallucination.” Moderate-\(Z_0\) receiver: “meaningful psychological event with therapeutic
 value.” High-\(Z_0\) receiver: “signal reception from extended-bandwidth consciousness
 during reduced biological filtering.” Same phenomenon, different frequency
 components extracted.
-</p><!-- l. 775 --><p class='noindent'><span class='ec-lmbx-10'>Example 3: Precognitive dreams. </span>Low-\(Z_0\) receiver: “confirmation bias and selective
+</p><!-- l. 811 --><p class='noindent'><span class='ec-lmbx-10'>Example 3: Precognitive dreams. </span>Low-\(Z_0\) receiver: “confirmation bias and selective
 memory.” Moderate-\(Z_0\) receiver: “unconscious pattern recognition producing
 high-probability predictions.” High-\(Z_0\) receiver: “reception of retrocausal signal via
 timeline mechanics (Chapter 12, Section 12.5).” The data are identical; the extracted
 signal depends on receiver bandwidth.
-</p><!-- l. 782 --><p class='noindent'><span class='ec-lmbx-10'>The pattern across examples. </span>In every case, the low-\(Z_0\) interpretation explains the
+</p><!-- l. 818 --><p class='noindent'><span class='ec-lmbx-10'>The pattern across examples. </span>In every case, the low-\(Z_0\) interpretation explains the
 phenomenon by denying its surface-level claim (there is no real effect; it is artifact).
 The moderate-\(Z_0\) interpretation accepts the phenomenon but explains it within
-                                                                  
-
-                                                                  
 conventional frameworks (psychology, statistics, social dynamics). The high-\(Z_0\)
 interpretation accepts the phenomenon and explains it within the extended
 consciousness framework (field coherence, extended perception, retrocausality). Each
 interpretation is internally consistent. The data cannot adjudicate between them
 because the data are wideband and each interpretation extracts a different frequency
 component.
-</p><!-- l. 795 --><p class='nopar'>
+</p><!-- l. 831 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-why-data-cannot-change-interpretation'><a id='x1-17000'></a>17.3.3 Why Data Cannot Change Interpretation</h5>
-<p><a id='x1-17000doc'></a>
-</p><!-- l. 797 --><p class='nopar'>This explains a persistent puzzle in consciousness research: why more data does not
+<h5 class='subsubsectionHead' id='-why-data-cannot-change-interpretation'><a id='x1-18000'></a>17.3.3 Why Data Cannot Change Interpretation</h5>
+<p><a id='x1-18000doc'></a>
+</p><!-- l. 833 --><p class='nopar'>This explains a persistent puzzle in consciousness research: why more data does not
 resolve debates. If the phenomenon is genuinely wideband, then additional data at
 any single frequency cannot shift a receiver tuned to a different frequency. The
 materialist researcher who examines meditation-crime studies more carefully
 simply extracts the materialist-frequency component with higher resolution.
 The consciousness researcher who examines the same studies extracts the
+                                                                  
+
+                                                                  
 coherence-frequency component with higher resolution. Both are doing rigorous
 science within their respective bands.
-</p><!-- l. 807 --><p class='noindent'>Resolution requires not more data but a <span class='ec-lmbx-10'>frequency shift </span>in the receiver. The
+</p><!-- l. 843 --><p class='noindent'>Resolution requires not more data but a <span class='ec-lmbx-10'>frequency shift </span>in the receiver. The
 receiver must retune to a band where the alternative interpretation is receivable. This
 is a \(Z_0\) shift, not an information shift. The Adler equation (Chapter 11) makes this
 precise: the locked receiver cannot process signals outside its lock bandwidth \(\omega _L\).
 Breaking lock requires a perturbation larger than \(\omega _L\), which no amount of within-band
 data can provide.
-</p><!-- l. 817 --><p class='nopar'>
+</p><!-- l. 853 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-schwartzs-gentle-art-of-reperceiving-as-bandwidth-expansion'><a id='x1-18000'></a>17.3.4 Schwartz’s “Gentle Art of Reperceiving” as Bandwidth Expansion</h5>
-<p><a id='x1-18000doc'></a>
-</p><!-- l. 819 --><p class='nopar'>Schwartz called scenario planning the “gentle art of reperceiving.” In the RF
+<h5 class='subsubsectionHead' id='-schwartzs-gentle-art-of-reperceiving-as-bandwidth-expansion'><a id='x1-19000'></a>17.3.4 Schwartz’s “Gentle Art of Reperceiving” as Bandwidth Expansion</h5>
+<p><a id='x1-19000doc'></a>
+</p><!-- l. 855 --><p class='nopar'>Schwartz called scenario planning the “gentle art of reperceiving.” In the RF
 framework, reperceiving is bandwidth expansion: the receiver temporarily widens its
 passband to include frequencies it normally filters out. Multi-scenario planning
 accomplishes this by requiring participants to inhabit emotional states outside their
 habitual band.
-</p><!-- l. 825 --><p class='noindent'>The mechanism is gentle because it does not demand permanent \(Z_0\) change (which
+</p><!-- l. 861 --><p class='noindent'>The mechanism is gentle because it does not demand permanent \(Z_0\) change (which
 requires deep integration work, as described in Chapter 9). Instead, it temporarily
 sweeps the receiver through bands it does not normally occupy. The participant may
 return to their habitual frequency afterward, but the <span class='ec-lmri-10'>experience of having received
-                                                                  
-
-                                                                  
 signal at other frequencies </span>persists as a memory that slightly widens subsequent
 capture ranges.
-</p><!-- l. 833 --><p class='noindent'>Repeated scenario exercises produce progressive bandwidth expansion, analogous to
+</p><!-- l. 869 --><p class='noindent'>Repeated scenario exercises produce progressive bandwidth expansion, analogous to
 progressive desensitization in cognitive behavioral therapy. Each sweep builds
 tolerance for signal at unfamiliar frequencies, gradually widening the operational
 bandwidth without requiring a single dramatic \(Z_0\) transition.
-</p><!-- l. 840 --><p class='nopar'>
+</p><!-- l. 876 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-quantifying-the-bandwidth-expansion'><a id='x1-19000'></a>17.3.5 Quantifying the Bandwidth Expansion</h5>
-<p><a id='x1-19000doc'></a>
-</p><!-- l. 842 --><p class='nopar'>The bandwidth of a receiver is determined by its \(Q\) factor (Chapter 6):
-</p><!-- l. 845 --><p class='noindent'>\[BW = \frac {f_0}{Q}\]
-</p><!-- l. 847 --><p class='noindent'>High-\(Q\) receivers are selective but narrow. Low-\(Q\) receivers are broad but undiscriminating.
+<h5 class='subsubsectionHead' id='-quantifying-the-bandwidth-expansion'><a id='x1-20000'></a>17.3.5 Quantifying the Bandwidth Expansion</h5>
+<p><a id='x1-20000doc'></a>
+</p><!-- l. 878 --><p class='nopar'>The bandwidth of a receiver is determined by its \(Q\) factor (Chapter 6):
+</p><!-- l. 881 --><p class='noindent'>\[BW = \frac {f_0}{Q}\]
+</p><!-- l. 883 --><p class='noindent'>High-\(Q\) receivers are selective but narrow. Low-\(Q\) receivers are broad but undiscriminating.
 The scenario planning problem requires <span class='ec-lmri-10'>selective broadening</span>: expanding the
 receivable bandwidth without losing the ability to discriminate signal from
+                                                                  
+
+                                                                  
 noise.
-</p><!-- l. 852 --><p class='noindent'>The scenario chirp accomplishes this through temporal sequencing rather than
+</p><!-- l. 888 --><p class='noindent'>The scenario chirp accomplishes this through temporal sequencing rather than
 simultaneous broadening. At any given moment, the receiver is narrowband (locked
 to the current archetype). Over the full sweep, the receiver has sampled the entire
 band. The debrief (matched filter) then integrates the sequential samples into a
 composite picture.
-</p><!-- l. 858 --><p class='noindent'>This is equivalent to synthetic aperture processing in radar: a small antenna moved
+</p><!-- l. 894 --><p class='noindent'>This is equivalent to synthetic aperture processing in radar: a small antenna moved
 through many positions synthesizes the resolution of a much larger antenna. A single
 consciousness moved through many frequency bands synthesizes the bandwidth of a
 much broader receiver. The “synthetic bandwidth” of a scenario exercise
 is:
-</p><!-- l. 864 --><p class='noindent'>\[BW_{synthetic} = f_{max} - f_{min}\]
-</p><!-- l. 866 --><p class='noindent'>where \(f_{max}\) and \(f_{min}\) are the highest and lowest archetype frequencies inhabited during the
+</p><!-- l. 900 --><p class='noindent'>\[BW_{synthetic} = f_{max} - f_{min}\]
+</p><!-- l. 902 --><p class='noindent'>where \(f_{max}\) and \(f_{min}\) are the highest and lowest archetype frequencies inhabited during the
 exercise. A Winners/Losers-only exercise has \(BW_{synthetic} \approx 0\). A full seven-archetype sweep has \(BW_{synthetic}\)
 spanning the entire consciousness spectrum.
 </p>
 <div class='center'>
-<!-- l. 871 --><p class='noindent'>
-</p><!-- l. 871 --><p class='noindent'>_________________________________</p></div> <!-- l. 875 --><p class='nopar'>
+<!-- l. 907 --><p class='noindent'>
+</p><!-- l. 907 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 911 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-the-engineering-implication-scenario-design-as-band-selection-ll'><a id='x1-20000'></a>17.4 The Engineering Implication: Scenario Design as Band Selection <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
-<p><a id='x1-20000doc'></a>
-</p><!-- l. 878 --><p class='nopar'>
-</p>
-<h5 class='subsubsectionHead' id='-who-controls-the-scenarios-controls-what-gets-manifested'><a id='x1-21000'></a>17.4.1 Who Controls the Scenarios Controls What Gets Manifested</h5>
+<h4 class='subsectionHead' id='-the-engineering-implication-scenario-design-as-band-selection-ll'><a id='x1-21000'></a>17.4 The Engineering Implication: Scenario Design as Band Selection <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
 <p><a id='x1-21000doc'></a>
-</p><!-- l. 880 --><p class='nopar'>If scenario design selects consciousness bands, and consciousness bands determine
+</p><!-- l. 914 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-who-controls-the-scenarios-controls-what-gets-manifested'><a id='x1-22000'></a>17.4.1 Who Controls the Scenarios Controls What Gets Manifested</h5>
+<p><a id='x1-22000doc'></a>
+</p><!-- l. 916 --><p class='nopar'>If scenario design selects consciousness bands, and consciousness bands determine
 which futures are accessible, then the entity that controls the scenario design process
 controls the collective manifesting bandwidth. This is not a metaphor. In the PLL
 framework (Chapter 9), the reference signal determines where the VCO locks. In the
 collective case, the scenario narrative is the reference signal and the participants’
 collective consciousness is the VCO array.
-</p><!-- l. 888 --><p class='noindent'>The scenario designer’s power is not in predicting futures but in <span class='ec-lmri-10'>selecting which
+                                                                  
+
+                                                                  
+</p><!-- l. 924 --><p class='noindent'>The scenario designer’s power is not in predicting futures but in <span class='ec-lmri-10'>selecting which
 futures the group can perceive</span>. A defense ministry that runs only “Winners and
 Losers” scenarios (zero-sum, adversarial, fear-based) trains its analysts to
 perceive only futures accessible from the 75–175 band. Cooperative solutions,
 transformation scenarios, and evolutionary possibilities are not rejected on their
 merits; they are <span class='ec-lmri-10'>never received </span>because the receiver is not tuned to those
 bands.
-</p><!-- l. 898 --><p class='nopar'>
+</p><!-- l. 934 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-adversarial-scenario-monopoly'><a id='x1-22000'></a>17.4.2 Adversarial Scenario Monopoly</h5>
-<p><a id='x1-22000doc'></a>
-</p><!-- l. 900 --><p class='nopar'>Chapters 14 and 15 established the denial architecture: parasitic coupling (Chapter
+<h5 class='subsubsectionHead' id='-adversarial-scenario-monopoly'><a id='x1-23000'></a>17.4.2 Adversarial Scenario Monopoly</h5>
+<p><a id='x1-23000doc'></a>
+</p><!-- l. 936 --><p class='nopar'>Chapters 14 and 15 established the denial architecture: parasitic coupling (Chapter
 14) extracts energy while paradigm shielding (Chapter 15) blocks alternative signals.
 Scenario monopoly is the <span class='ec-lmri-10'>offensive </span>application of this architecture to collective
 consciousness engineering.
-</p><!-- l. 906 --><p class='noindent'><span class='ec-lmbx-10'>The mechanism:</span>
-</p><!-- l. 909 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+</p><!-- l. 942 --><p class='noindent'><span class='ec-lmbx-10'>The mechanism:</span>
+</p><!-- l. 945 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
   1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Narrative  injection </span>(Chapter  11):  Media  and  institutional  channels
-                                                                  
-
-                                                                  
      provide continuous injection-locking signals that define the scenario space.
      “The economy will collapse.” “The enemy is at the gates.” “Resources are
      running out.”
@@ -861,11 +879,14 @@ consciousness engineering.
   4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Energy  extraction</span>:  The  fear-based  scenarios  generate  emotional
      turbulence that the parasitic coupling architecture (Chapter 14) harvests
      as loosh.</dd></dl>
-<!-- l. 930 --><p class='noindent'>The result is a closed loop: the population inhabits only low-\(Z_0\) scenarios, generates
+<!-- l. 966 --><p class='noindent'>The result is a closed loop: the population inhabits only low-\(Z_0\) scenarios, generates
 only fear-compatible decisions, feeds the parasitic architecture, and lacks the
 bandwidth to perceive alternatives. This is adversarial consciousness spectrum denial
 implemented through narrative control.
-</p><!-- l. 936 --><p class='noindent'><span class='ec-lmbx-10'>Detection criterion. </span>Scenario monopoly can be diagnosed by examining the
+                                                                  
+
+                                                                  
+</p><!-- l. 972 --><p class='noindent'><span class='ec-lmbx-10'>Detection criterion. </span>Scenario monopoly can be diagnosed by examining the
 archetype distribution of an institution’s or civilization’s active scenario portfolio. If
 all active scenarios map to archetypes below the courage threshold (\(Z_0 &lt; 1\)), and if
 proposals for higher-band scenarios are systematically rejected as “unrealistic” or
@@ -873,18 +894,15 @@ proposals for higher-band scenarios are systematically rejected as “unrealisti
 argument (which operates within the existing band) but the introduction of at least
 one scenario above the courage threshold, facilitated with enough emotional intensity
 to achieve temporary lock.
-</p><!-- l. 948 --><p class='nopar'>
+</p><!-- l. 984 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-caffreys-fourthgeneration-peace-gaming-as-frequency-raising'><a id='x1-23000'></a>17.4.3 Caffrey’s Fourth-Generation “Peace Gaming” as Frequency Raising</h5>
-<p><a id='x1-23000doc'></a>
-</p><!-- l. 950 --><p class='nopar'>Matthew Caffrey (2019), in <span class='ec-lmri-10'>On Wargaming</span>, traces four generations of military
+<h5 class='subsubsectionHead' id='-caffreys-fourthgeneration-peace-gaming-as-frequency-raising'><a id='x1-24000'></a>17.4.3 Caffrey’s Fourth-Generation “Peace Gaming” as Frequency Raising</h5>
+<p><a id='x1-24000doc'></a>
+</p><!-- l. 986 --><p class='nopar'>Matthew Caffrey (2019), in <span class='ec-lmri-10'>On Wargaming</span>, traces four generations of military
 gaming:
-</p><!-- l. 954 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+</p><!-- l. 990 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
   1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>First generation </span>(rigid): Fixed rules, prescribed outcomes, no human
      decision-making
-                                                                  
-
-                                                                  
      </dd><dt class='enumerate-enumitem'>
   2. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Second generation </span>(free): Human decision-making introduced, umpire
      adjudication
@@ -894,30 +912,29 @@ gaming:
      </dd><dt class='enumerate-enumitem'>
   4. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Fourth generation </span>(peace gaming): Expanded beyond military scenarios
      to conflict prevention, crisis management, and cooperative security</dd></dl>
-<!-- l. 971 --><p class='noindent'>Caffrey’s fourth generation is frequency raising by another name. By expanding the
+<!-- l. 1007 --><p class='noindent'>Caffrey’s fourth generation is frequency raising by another name. By expanding the
 scenario space beyond adversarial military competition (Winners/Losers band)
 into cooperative security, humanitarian response, and conflict prevention,
 fourth-generation gaming tunes participants to higher-\(Z_0\) bands. The decisions
 generated from these bands are qualitatively different: integrative rather than
 destructive, systemic rather than reactive, generative rather than defensive.
-</p><!-- l. 979 --><p class='noindent'>The transition from third to fourth generation wargaming is an empirical data point
+</p><!-- l. 1015 --><p class='noindent'>The transition from third to fourth generation wargaming is an empirical data point
 for the central claim of this chapter: changing the scenario changes the consciousness
 band, which changes the class of decisions accessible.
-</p><!-- l. 985 --><p class='nopar'>
-</p>
-<h5 class='subsubsectionHead' id='-the-transition-architects-actual-job'><a id='x1-24000'></a>17.4.4 The Transition Architect’s Actual Job</h5>
-<p><a id='x1-24000doc'></a>
-</p><!-- l. 987 --><p class='nopar'>The transition architect — whether a scenario planner, institutional designer, or
+</p><!-- l. 1021 --><p class='nopar'> </p>
+<h5 class='subsubsectionHead' id='-the-transition-architects-actual-job'><a id='x1-25000'></a>17.4.4 The Transition Architect’s Actual Job</h5>
+<p><a id='x1-25000doc'></a>
+</p><!-- l. 1023 --><p class='nopar'>The transition architect — whether a scenario planner, institutional designer, or
 consciousness engineer — has one fundamental job: <span class='ec-lmbx-10'>select the consciousness band
 in which the collective operates.</span>
-</p><!-- l. 991 --><p class='noindent'>This job is not about:
+</p><!-- l. 1027 --><p class='noindent'>This job is not about:
 </p> <ul class='itemize1'> <li class='itemize'>Predicting which future will occur (that is CW thinking)
      </li> <li class='itemize'>Providing more data to decision-makers (data cannot shift frequency)
      </li> <li class='itemize'>Persuading  people  that  one  future  is  better  than  another  (persuasion
      operates within a band, not across bands)
      </li> <li class='itemize'>Optimizing  logistics,  resources,  or  organizational  charts  (these  are
      within-band operations)</li></ul>
-<!-- l. 1007 --><p class='noindent'>The job is about:
+<!-- l. 1043 --><p class='noindent'>The job is about:
 </p> <ul class='itemize1'> <li class='itemize'>Designing  scenario  exercises  that  sweep  participants  through  higher
      consciousness bands
      </li> <li class='itemize'>Ensuring that the scenario portfolio includes archetypes above the courage
@@ -925,20 +942,24 @@ in which the collective operates.</span>
      </li> <li class='itemize'>Protecting the scenario space from adversarial band restriction (Section
      17.4.2)
      </li> <li class='itemize'>Creating conditions for permanent \(Z_0\) shifts, not just temporary sweeps
+                                                                  
+
+                                                                  
      </li> <li class='itemize'>Calibrating sweep rates and step sizes to the group’s collective capture
      range</li></ul>
-<!-- l. 1028 --><p class='noindent'><span class='ec-lmbx-10'>The transition architect’s toolkit:</span>
-</p><!-- l. 1031 --><p class='noindent'>
-</p><!-- l. 1031 --><p class='noindent'>
-<a id='x1-24001r2'></a></p>
-<!-- l. 1035 --><div class='longtable'> <table class='longtable' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /><col id='TBL-2-2' /><col id='TBL-2-3' /></colgroup> <tr id='TBL-2-4-'><td class='td01' id='TBL-2-4-1'>
-<div class='minipage'><!-- l. 1037 --><p class='noindent'>Tool </p></div> </td><td class='td11' id='TBL-2-4-2'> <div class='minipage'><!-- l. 1039 --><p class='noindent'>RF Equivalent </p></div> </td><td class='td10' id='TBL-2-4-3'> <div class='minipage'><!-- l. 1041 --><p class='noindent'>Consciousness Application </p></div></td>
+<!-- l. 1064 --><p class='noindent'><span class='ec-lmbx-10'>The transition architect’s toolkit:</span>
+</p><!-- l. 1067 --><p class='noindent'>
+</p><!-- l. 1067 --><p class='noindent'>
+<a id='x1-25001r2'></a></p>
+<!-- l. 1071 --><div class='longtable'> <table class='longtable' id='TBL-2'><colgroup id='TBL-2-1g'><col id='TBL-2-1' /><col id='TBL-2-2' /><col id='TBL-2-3' /></colgroup>
+<tr id='TBL-2-4-'><td class='td01' id='TBL-2-4-1'>
+<div class='minipage'><!-- l. 1073 --><p class='noindent'>Tool </p></div> </td><td class='td11' id='TBL-2-4-2'> <div class='minipage'><!-- l. 1075 --><p class='noindent'>RF Equivalent </p></div> </td><td class='td10' id='TBL-2-4-3'> <div class='minipage'><!-- l. 1077 --><p class='noindent'>Consciousness Application </p></div></td>
 </tr>
 <tr id='TBL-2-15-'><td class='td01' id='TBL-2-15-1'>
-<!-- l. 1047 --><p class='noindent'>Plot
+<!-- l. 1083 --><p class='noindent'>Plot
 archetype
-selection                         </p></td><td class='td11' id='TBL-2-15-2'> <!-- l. 1047 --><p class='noindent'>Frequency
-  selection                         </p></td><td class='td10' id='TBL-2-15-3'> <!-- l. 1047 --><p class='noindent'>Determines
+selection                         </p></td><td class='td11' id='TBL-2-15-2'> <!-- l. 1083 --><p class='noindent'>Frequency
+  selection                         </p></td><td class='td10' id='TBL-2-15-3'> <!-- l. 1083 --><p class='noindent'>Determines
   which
   consciousness
   band
@@ -946,22 +967,21 @@ selection                         </p></td><td class='td11' id='TBL-2-15-2'> <!-
   group
   inhabits                        </p></td>
 </tr><tr id='TBL-2-16-'><td class='td01' id='TBL-2-16-1'>
-<!-- l. 1049 --><p class='noindent'>Scenario
+<!-- l. 1085 --><p class='noindent'>Scenario
 sequence
-design                            </p></td><td class='td11' id='TBL-2-16-2'> <!-- l. 1049 --><p class='noindent'>Chirp
+design                            </p></td><td class='td11' id='TBL-2-16-2'> <!-- l. 1085 --><p class='noindent'>Chirp
   waveform
-  design                            </p></td><td class='td10' id='TBL-2-16-3'> <!-- l. 1049 --><p class='noindent'>Determines
+  design                            </p></td><td class='td10' id='TBL-2-16-3'> <!-- l. 1085 --><p class='noindent'>Determines
   the
   sweep
   path
   through
   consciousness
-  bands                           </p></td>
-</tr><tr id='TBL-2-17-'><td class='td01' id='TBL-2-17-1'>
-<!-- l. 1051 --><p class='noindent'>Facilitation
-intensity                         </p></td><td class='td11' id='TBL-2-17-2'> <!-- l. 1051 --><p class='noindent'>Injection
+  bands                           </p></td> </tr><tr id='TBL-2-17-'><td class='td01' id='TBL-2-17-1'>
+<!-- l. 1087 --><p class='noindent'>Facilitation
+intensity                         </p></td><td class='td11' id='TBL-2-17-2'> <!-- l. 1087 --><p class='noindent'>Injection
   signal
-  power                             </p></td><td class='td10' id='TBL-2-17-3'> <!-- l. 1051 --><p class='noindent'>Determines
+  power                             </p></td><td class='td10' id='TBL-2-17-3'> <!-- l. 1087 --><p class='noindent'>Determines
   whether
   participants
   achieve
@@ -969,20 +989,21 @@ intensity                         </p></td><td class='td11' id='TBL-2-17-2'> <!-
   emotional
   lock                             </p></td>
 </tr><tr id='TBL-2-18-'><td class='td01' id='TBL-2-18-1'>
-<!-- l. 1053 --><p class='noindent'>Debrief
-structure                        </p></td><td class='td11' id='TBL-2-18-2'> <!-- l. 1053 --><p class='noindent'>Matched
+<!-- l. 1089 --><p class='noindent'>Debrief
+structure                        </p></td><td class='td11' id='TBL-2-18-2'> <!-- l. 1089 --><p class='noindent'>Matched
   filter
-  design                            </p></td><td class='td10' id='TBL-2-18-3'> <!-- l. 1053 --><p class='noindent'>Determines
+  design                            </p></td><td class='td10' id='TBL-2-18-3'> <!-- l. 1089 --><p class='noindent'>Determines
   whether
   the
   sweep
   produces
   actionable
-  insight                          </p></td> </tr><tr id='TBL-2-19-'><td class='td01' id='TBL-2-19-1'>
-<!-- l. 1055 --><p class='noindent'>Participant
-selection                         </p></td><td class='td11' id='TBL-2-19-2'> <!-- l. 1055 --><p class='noindent'>Array
+  insight                          </p></td>
+</tr><tr id='TBL-2-19-'><td class='td01' id='TBL-2-19-1'>
+<!-- l. 1091 --><p class='noindent'>Participant
+selection                         </p></td><td class='td11' id='TBL-2-19-2'> <!-- l. 1091 --><p class='noindent'>Array
   element
-  selection                         </p></td><td class='td10' id='TBL-2-19-3'> <!-- l. 1055 --><p class='noindent'>Determines
+  selection                         </p></td><td class='td10' id='TBL-2-19-3'> <!-- l. 1091 --><p class='noindent'>Determines
   the
   group’s
   collective
@@ -992,51 +1013,51 @@ selection                         </p></td><td class='td11' id='TBL-2-19-2'> <!-
   capture
   range                           </p></td>
 </tr><tr id='TBL-2-20-'><td class='td01' id='TBL-2-20-1'>
-<!-- l. 1057 --><p class='noindent'>Repetition
-scheduling                       </p></td><td class='td11' id='TBL-2-20-2'> <!-- l. 1057 --><p class='noindent'>Pulse
+<!-- l. 1093 --><p class='noindent'>Repetition
+scheduling                       </p></td><td class='td11' id='TBL-2-20-2'> <!-- l. 1093 --><p class='noindent'>Pulse
   repetition
-  frequency                        </p></td><td class='td10' id='TBL-2-20-3'> <!-- l. 1057 --><p class='noindent'>Determines
+  frequency                        </p></td><td class='td10' id='TBL-2-20-3'> <!-- l. 1093 --><p class='noindent'>Determines
   progressive
   \(Z_0\)
   raising
   over
   time                             </p></td>
 </tr> </table></div>
-<!-- l. 1062 --><p class='noindent'>The transition architect who understands this toolkit is not a futurist, strategist, or
+<!-- l. 1098 --><p class='noindent'>The transition architect who understands this toolkit is not a futurist, strategist, or
 consultant in the conventional sense. The transition architect is a consciousness
 spectrum engineer whose medium is narrative and whose instrument is collective
 emotional experience.
-</p><!-- l. 1067 --><p class='noindent'><span class='ec-lmbx-10'>Historical precedent. </span>The most consequential scenario exercises in history — the
+</p><!-- l. 1103 --><p class='noindent'><span class='ec-lmbx-10'>Historical precedent. </span>The most consequential scenario exercises in history — the
 Naval War College Pacific games, Shell’s energy scenarios, RAND’s nuclear strategy
 games — were all conducted by individuals who intuitively understood frequency
 selection even without the RF vocabulary. They designed exercises that swept
 participants through unfamiliar emotional territory, forced confrontation with
-                                                                  
-
-                                                                  
 uncomfortable possibilities, and required genuine inhabitation rather than intellectual
 distance. The RF framework does not invent this practice; it provides the engineering
 language to make its mechanisms explicit, its parameters tunable, and its outcomes
 measurable.
-</p><!-- l. 1080 --><p class='nopar'>
+</p><!-- l. 1116 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-perlas-core-insight-wargames-investigate-consciousness-not-physics'><a id='x1-25000'></a>17.4.5 Perla’s Core Insight: Wargames Investigate Consciousness, Not Physics</h5>
-<p><a id='x1-25000doc'></a>
-</p><!-- l. 1082 --><p class='nopar'>Peter Perla (1990/2012), in <span class='ec-lmri-10'>The Art of Wargaming</span>, argued that the primary value of
+<h5 class='subsubsectionHead' id='-perlas-core-insight-wargames-investigate-consciousness-not-physics'><a id='x1-26000'></a>17.4.5 Perla’s Core Insight: Wargames Investigate Consciousness, Not Physics</h5>
+<p><a id='x1-26000doc'></a>
+</p><!-- l. 1118 --><p class='nopar'>Peter Perla (1990/2012), in <span class='ec-lmri-10'>The Art of Wargaming</span>, argued that the primary value of
 wargames is not in modeling physical combat (who has more tanks, which side has
 better logistics) but in investigating <span class='ec-lmbx-10'>human decision-making under uncertainty</span>.
 Wargames reveal how people think, what they fear, what they overlook, and how
 they respond to surprise.
-</p><!-- l. 1089 --><p class='noindent'>In the RF framework, Perla’s insight translates precisely: wargames are not models of
+</p><!-- l. 1125 --><p class='noindent'>In the RF framework, Perla’s insight translates precisely: wargames are not models of
 the physical battlefield (Tier 1 reality); they are <span class='ec-lmbx-10'>consciousness experiments </span>that
 expose the participants’ frequency band. The “result” of a wargame is not who wins
 or loses; it is <span class='ec-lmri-10'>what consciousness band the participants operated in </span>and therefore <span class='ec-lmri-10'>what
 decision space they explored</span>.
-</p><!-- l. 1096 --><p class='noindent'>This reframing transforms wargaming from a predictive tool (which it has never
+</p><!-- l. 1132 --><p class='noindent'>This reframing transforms wargaming from a predictive tool (which it has never
 been, as Perla argues at length) into a diagnostic and therapeutic tool: a method for
 mapping the consciousness spectrum of an organization and deliberately expanding
+                                                                  
+
+                                                                  
 it.
-</p><!-- l. 1101 --><p class='noindent'>Perla’s historical analysis reveals a persistent error in wargaming culture: the
+</p><!-- l. 1137 --><p class='noindent'>Perla’s historical analysis reveals a persistent error in wargaming culture: the
 tendency to evaluate games by whether they “got the right answer” (predicted the
 correct outcome) rather than by whether they expanded the participants’ decision
 bandwidth. A game whose outcome was “wrong” but whose process moved
@@ -1044,12 +1065,12 @@ participants through unfamiliar consciousness bands is more valuable than a game
 whose outcome was “right” but which merely confirmed existing mental models. The
 bandwidth metric replaces the prediction metric as the appropriate measure of
 wargaming effectiveness.
-</p><!-- l. 1111 --><p class='noindent'>This maps directly to the distinction between CW and chirp. CW evaluation asks:
+</p><!-- l. 1147 --><p class='noindent'>This maps directly to the distinction between CW and chirp. CW evaluation asks:
 “Did we illuminate the right frequency?” Chirp evaluation asks: “Did we illuminate
 enough bandwidth to detect whatever is out there?” The second question is always
 the right one when the target’s characteristics are unknown — which, in the context
 of future scenarios, they always are.
-</p><!-- l. 1118 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1119 --><p class='noindent'><span class='ec-lmbx-10'>Audio bridge. </span>A wargame is a jam session. The written scenario
+</p><!-- l. 1154 --><p class='noindent'> </p><blockquote class='quote'> <!-- l. 1155 --><p class='noindent'><span class='ec-lmbx-10'>Audio bridge. </span>A wargame is a jam session. The written scenario
      is  the  chord  chart  —  it  sets  the  key,  the  tempo,  the  structure.
      But the <span class='ec-lmri-10'>music </span>emerges from the players’ improvisation within that
      structure. A chord chart in A minor produces different emotional
@@ -1059,76 +1080,72 @@ of future scenarios, they always are.
      key — and the choice of key determines the emotional territory the
      ensemble can explore.</p></blockquote>
 <div class='center'>
-<!-- l. 1130 --><p class='noindent'>
-</p><!-- l. 1130 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1133 --><p class='nopar'>
+<!-- l. 1166 --><p class='noindent'>
+</p><!-- l. 1166 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1169 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-the-sweep-optimal-scenario-sequences-as-chirp-signals-l'><a id='x1-26000'></a>17.5 The Sweep: Optimal Scenario Sequences as Chirp Signals <span class='evidence-pill evidence-pill--l2'>[L2]</span></h4>
-<p><a id='x1-26000doc'></a>
-</p><!-- l. 1136 --><p class='nopar'>
+<h4 class='subsectionHead' id='-the-sweep-optimal-scenario-sequences-as-chirp-signals-l'><a id='x1-27000'></a>17.5 The Sweep: Optimal Scenario Sequences as Chirp Signals <span class='evidence-pill evidence-pill--l2'>[L2]</span></h4>
+<p><a id='x1-27000doc'></a> </p><!-- l. 1172 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-frequency-sweep-through-consciousness-bands'><a id='x1-27000'></a>17.5.1 Frequency Sweep Through Consciousness Bands</h5>
-<p><a id='x1-27000doc'></a>
-</p><!-- l. 1138 --><p class='nopar'>Section 17.1.3 introduced the chirp analogy. This section develops it into a design
+<h5 class='subsubsectionHead' id='-frequency-sweep-through-consciousness-bands'><a id='x1-28000'></a>17.5.1 Frequency Sweep Through Consciousness Bands</h5>
+<p><a id='x1-28000doc'></a>
+</p><!-- l. 1174 --><p class='nopar'>Section 17.1.3 introduced the chirp analogy. This section develops it into a design
 methodology for consciousness-optimized scenario sequences.
-</p><!-- l. 1142 --><p class='noindent'>The core problem: a scenario exercise locked to a single archetype is CW — it
+</p><!-- l. 1178 --><p class='noindent'>The core problem: a scenario exercise locked to a single archetype is CW — it
 illuminates one consciousness band with high resolution but provides no coverage of
 other bands. If the future that actually unfolds falls outside that band, the exercise
 provides zero preparation. The chirp scenario solves this by sweeping through
 multiple bands, trading depth at any single frequency for coverage across the full
 spectrum.
-</p><!-- l. 1149 --><p class='noindent'>A chirp signal in radar sweeps linearly from a start frequency \(f_1\) to a stop frequency \(f_2\)
+</p><!-- l. 1185 --><p class='noindent'>A chirp signal in radar sweeps linearly from a start frequency \(f_1\) to a stop frequency \(f_2\)
 over a duration \(T_{sweep}\):
-</p><!-- l. 1152 --><p class='noindent'>\[f(t) = f_1 + \frac {f_2 - f_1}{T_{sweep}} \cdot t\]
-</p><!-- l. 1154 --><p class='noindent'>The instantaneous frequency changes continuously, illuminating every frequency in
+</p><!-- l. 1188 --><p class='noindent'>\[f(t) = f_1 + \frac {f_2 - f_1}{T_{sweep}} \cdot t\]
+</p><!-- l. 1190 --><p class='noindent'>The instantaneous frequency changes continuously, illuminating every frequency in
 the band \([f_1, f_2]\). The matched filter at the receiver compresses the chirp into a short pulse
-                                                                  
-
-                                                                  
 with a resolution determined by the total bandwidth:
-</p><!-- l. 1159 --><p class='noindent'>\[\Delta R = \frac {c}{2B}, \quad B = f_2 - f_1\]
-</p><!-- l. 1161 --><p class='noindent'>Wider bandwidth produces finer resolution. The chirp trades instantaneous power for
+</p><!-- l. 1195 --><p class='noindent'>\[\Delta R = \frac {c}{2B}, \quad B = f_2 - f_1\]
+</p><!-- l. 1197 --><p class='noindent'>Wider bandwidth produces finer resolution. The chirp trades instantaneous power for
 bandwidth coverage.
-</p><!-- l. 1164 --><p class='noindent'>A scenario exercise designed as a chirp starts with a low-frequency archetype
+</p><!-- l. 1200 --><p class='noindent'>A scenario exercise designed as a chirp starts with a low-frequency archetype
 (e.g., Winners and Losers) and progressively sweeps upward through the
 consciousness bands, ending at a high-frequency archetype (e.g., Infinite Possibility).
 The progression is not arbitrary; it follows the impedance ordering so that
 each step builds on the emotional substrate established by the previous
 one.
-</p><!-- l. 1173 --><p class='nopar'>
+</p><!-- l. 1209 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-design-principles-for-consciousnessoptimized-scenario-sweeps'><a id='x1-28000'></a>17.5.2 Design Principles for Consciousness-Optimized Scenario Sweeps</h5>
-<p><a id='x1-28000doc'></a>
-</p><!-- l. 1175 --><p class='nopar'><span class='ec-lmbx-10'>Principle 1: Start at or below the participants’ current band. </span>If
+<h5 class='subsubsectionHead' id='-design-principles-for-consciousnessoptimized-scenario-sweeps'><a id='x1-29000'></a>17.5.2 Design Principles for Consciousness-Optimized Scenario Sweeps</h5>
+<p><a id='x1-29000doc'></a>
+</p><!-- l. 1211 --><p class='nopar'><span class='ec-lmbx-10'>Principle 1: Start at or below the participants’ current band. </span>If
 participants’ habitual \(Z_0\) places them in the Challenge/Response band (200–350),
 starting the sweep at Infinite Possibility (540+) will produce no lock — the
 reference is too far from the VCO frequency for the PLL to acquire. Start at
 Winners/Losers or Challenge/Response to ensure initial lock, then sweep
 upward.
-</p><!-- l. 1182 --><p class='noindent'><span class='ec-lmbx-10'>Principle 2: Sweep rate must not exceed loop bandwidth. </span>From PLL theory
+                                                                  
+
+                                                                  
+</p><!-- l. 1218 --><p class='noindent'><span class='ec-lmbx-10'>Principle 2: Sweep rate must not exceed loop bandwidth. </span>From PLL theory
 (Chapter 9, Section 9.2), the loop can track a frequency change only if the rate of
 change does not exceed the loop bandwidth \(BW_{loop}\). A scenario sweep that changes
 archetypes too rapidly loses the participants — they cannot emotionally
 process the transition before the next archetype arrives. The sweep rate \(\mu \) must
 satisfy:
-</p><!-- l. 1190 --><p class='noindent'>\[\mu = \frac {df}{dt} &lt; BW_{loop}^2\]
-</p><!-- l. 1192 --><p class='noindent'>In practice: spend enough time in each archetype for participants to genuinely
+</p><!-- l. 1226 --><p class='noindent'>\[\mu = \frac {df}{dt} &lt; BW_{loop}^2\]
+</p><!-- l. 1228 --><p class='noindent'>In practice: spend enough time in each archetype for participants to genuinely
 inhabit its emotional substrate before moving to the next.
-</p><!-- l. 1195 --><p class='noindent'><span class='ec-lmbx-10'>Principle 3: Total bandwidth determines resolution. </span>A sweep that covers only
+</p><!-- l. 1231 --><p class='noindent'><span class='ec-lmbx-10'>Principle 3: Total bandwidth determines resolution. </span>A sweep that covers only
 Winners/Losers and Challenge/Response (75–350) provides narrow-bandwidth
 coverage. A sweep from Winners/Losers through Infinite Possibility (75–700+)
 provides full-bandwidth coverage. The wider the sweep, the finer the resolution of the
 organizational consciousness map that emerges.
-</p><!-- l. 1202 --><p class='noindent'><span class='ec-lmbx-10'>Principle 4: The matched filter is reflection. </span>In radar, the chirp’s power is
+</p><!-- l. 1238 --><p class='noindent'><span class='ec-lmbx-10'>Principle 4: The matched filter is reflection. </span>In radar, the chirp’s power is
 realized only after matched-filter processing. In scenario design, the matched filter is
 the structured debrief: the reflective process in which participants examine how their
 thinking, feeling, and decision-making shifted across archetypes. Without the
-                                                                  
-
-                                                                  
 debrief, the sweep produces raw data that is never compressed into actionable
 insight.
-</p><!-- l. 1210 --><p class='noindent'><span class='ec-lmbx-10'>Principle 5: Ascending sweep outperforms descending sweep. </span>An ascending
+</p><!-- l. 1246 --><p class='noindent'><span class='ec-lmbx-10'>Principle 5: Ascending sweep outperforms descending sweep. </span>An ascending
 chirp (low-to-high frequency) outperforms a descending chirp (high-to-low) because
 of the lock-acquisition asymmetry in PLLs. Acquiring lock is easier when the
 reference frequency starts close to the VCO’s free-running frequency and
@@ -1138,7 +1155,7 @@ the PLL never acquires lock. Starting at the group’s habitual band ensures
 lock acquisition, after which the gradual sweep can track upward through
 progressively unfamiliar territory. This is testable as prediction P2 (Section
 17.8).
-</p><!-- l. 1222 --><p class='noindent'><span class='ec-lmbx-10'>Principle 6: Non-linear sweep rates can optimize dwell time. </span>In radar, chirp
+</p><!-- l. 1258 --><p class='noindent'><span class='ec-lmbx-10'>Principle 6: Non-linear sweep rates can optimize dwell time. </span>In radar, chirp
 signals sometimes use non-linear frequency modulation to concentrate energy at
 frequencies of particular interest. In scenario design, the sweep rate need not be
 constant. The architect may choose to dwell longer at the courage threshold (\(Z_0 \approx 1\)) where
@@ -1146,23 +1163,23 @@ the qualitative transition occurs, spending more time helping participants conso
 the shift from C-dominant to L-dominant processing before continuing the sweep
 upward. The dwell time at the transition point is the most consequential design
 parameter in the entire exercise.
-</p><!-- l. 1233 --><p class='nopar'>
-</p>
-<h5 class='subsubsectionHead' id='-a-sample-chirp-scenario-sequence'><a id='x1-29000'></a>17.5.3 A Sample Chirp Scenario Sequence</h5>
-<p><a id='x1-29000doc'></a>
-</p><!-- l. 1236 --><p class='nopar'>
-</p><!-- l. 1236 --><p class='noindent'>
-<a id='x1-29001r3'></a></p>
-<!-- l. 1242 --><div class='longtable'> <table class='longtable' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /><col id='TBL-3-4' /><col id='TBL-3-5' /></colgroup> <tr id='TBL-3-1-'><td class='td01' colspan='3' id='TBL-3-1-1'></td>
+</p><!-- l. 1269 --><p class='nopar'>
+</p> <h5 class='subsubsectionHead' id='-a-sample-chirp-scenario-sequence'><a id='x1-30000'></a>17.5.3 A Sample Chirp Scenario Sequence</h5>
+<p><a id='x1-30000doc'></a>
+</p><!-- l. 1272 --><p class='nopar'>
+</p><!-- l. 1272 --><p class='noindent'>
+<a id='x1-30001r3'></a></p>
+<!-- l. 1278 --><div class='longtable'> <table class='longtable' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /><col id='TBL-3-2' /><col id='TBL-3-3' /><col id='TBL-3-4' /><col id='TBL-3-5' /></colgroup>
+<tr id='TBL-3-1-'><td class='td01' colspan='3' id='TBL-3-1-1'></td>
 </tr><tr id='TBL-3-4-'><td class='td01' id='TBL-3-4-1'>
-<div class='minipage'><!-- l. 1244 --><p class='noindent'>Phase </p></div> </td><td class='td11' id='TBL-3-4-2'> <div class='minipage'><!-- l. 1246 --><p class='noindent'>Duration </p></div> </td><td class='td11' id='TBL-3-4-3'> <div class='minipage'><!-- l. 1248 --><p class='noindent'>Archetype </p></div> </td><td class='td11' id='TBL-3-4-4'> <div class='minipage'><!-- l. 1250 --><p class='noindent'>\(Z_0\) Band </p></div> </td><td class='td10' id='TBL-3-4-5'> <div class='minipage'><!-- l. 1252 --><p class='noindent'>Scenario Prompt </p></div></td>
+<div class='minipage'><!-- l. 1280 --><p class='noindent'>Phase </p></div> </td><td class='td11' id='TBL-3-4-2'> <div class='minipage'><!-- l. 1282 --><p class='noindent'>Duration </p></div> </td><td class='td11' id='TBL-3-4-3'> <div class='minipage'><!-- l. 1284 --><p class='noindent'>Archetype </p></div> </td><td class='td11' id='TBL-3-4-4'> <div class='minipage'><!-- l. 1286 --><p class='noindent'>\(Z_0\) Band </p></div> </td><td class='td10' id='TBL-3-4-5'> <div class='minipage'><!-- l. 1288 --><p class='noindent'>Scenario Prompt </p></div></td>
 </tr><tr id='TBL-3-5-'><td class='td01' colspan='3' id='TBL-3-5-1'></td>
 </tr>
 <tr id='TBL-3-15-'><td class='td01' id='TBL-3-15-1'>
-<!-- l. 1258 --><p class='noindent'>1                     </p></td><td class='td11' id='TBL-3-15-2'> <!-- l. 1258 --><p class='noindent'>90
-  min                 </p></td><td class='td11' id='TBL-3-15-3'> <!-- l. 1258 --><p class='noindent'>Winners
+<!-- l. 1294 --><p class='noindent'>1                     </p></td><td class='td11' id='TBL-3-15-2'> <!-- l. 1294 --><p class='noindent'>90
+  min                 </p></td><td class='td11' id='TBL-3-15-3'> <!-- l. 1294 --><p class='noindent'>Winners
   and
-  Losers              </p></td><td class='td11' id='TBL-3-15-4'> <!-- l. 1258 --><p class='noindent'>Low                 </p></td><td class='td10' id='TBL-3-15-5'> <!-- l. 1258 --><p class='noindent'>“Your
+  Losers              </p></td><td class='td11' id='TBL-3-15-4'> <!-- l. 1294 --><p class='noindent'>Low                 </p></td><td class='td10' id='TBL-3-15-5'> <!-- l. 1294 --><p class='noindent'>“Your
   organization
   faces
   a
@@ -1176,12 +1193,11 @@ parameter in the entire exercise.
   other
   ceases
   to
-  exist.”             </p></td>
-</tr><tr id='TBL-3-16-'><td class='td01' id='TBL-3-16-1'>
-<!-- l. 1261 --><p class='noindent'>2                     </p></td><td class='td11' id='TBL-3-16-2'> <!-- l. 1261 --><p class='noindent'>90
-  min                 </p></td><td class='td11' id='TBL-3-16-3'> <!-- l. 1261 --><p class='noindent'>Challenge
+  exist.”             </p></td> </tr><tr id='TBL-3-16-'><td class='td01' id='TBL-3-16-1'>
+<!-- l. 1297 --><p class='noindent'>2                     </p></td><td class='td11' id='TBL-3-16-2'> <!-- l. 1297 --><p class='noindent'>90
+  min                 </p></td><td class='td11' id='TBL-3-16-3'> <!-- l. 1297 --><p class='noindent'>Challenge
   and
-  Response          </p></td><td class='td11' id='TBL-3-16-4'> <!-- l. 1261 --><p class='noindent'>Moderate          </p></td><td class='td10' id='TBL-3-16-5'> <!-- l. 1261 --><p class='noindent'>“A
+  Response          </p></td><td class='td11' id='TBL-3-16-4'> <!-- l. 1297 --><p class='noindent'>Moderate          </p></td><td class='td10' id='TBL-3-16-5'> <!-- l. 1297 --><p class='noindent'>“A
   severe
   crisis
   strikes.
@@ -1194,9 +1210,10 @@ parameter in the entire exercise.
   What
   do
   you
-  learn?”           </p></td> </tr><tr id='TBL-3-17-'><td class='td01' id='TBL-3-17-1'>
-<!-- l. 1264 --><p class='noindent'>3                     </p></td><td class='td11' id='TBL-3-17-2'> <!-- l. 1264 --><p class='noindent'>90
-  min                 </p></td><td class='td11' id='TBL-3-17-3'> <!-- l. 1264 --><p class='noindent'>Transformation  </p></td><td class='td11' id='TBL-3-17-4'> <!-- l. 1264 --><p class='noindent'>Elevated           </p></td><td class='td10' id='TBL-3-17-5'> <!-- l. 1264 --><p class='noindent'>“Your
+  learn?”           </p></td>
+</tr><tr id='TBL-3-17-'><td class='td01' id='TBL-3-17-1'>
+<!-- l. 1300 --><p class='noindent'>3                     </p></td><td class='td11' id='TBL-3-17-2'> <!-- l. 1300 --><p class='noindent'>90
+  min                 </p></td><td class='td11' id='TBL-3-17-3'> <!-- l. 1300 --><p class='noindent'>Transformation  </p></td><td class='td11' id='TBL-3-17-4'> <!-- l. 1300 --><p class='noindent'>Elevated           </p></td><td class='td10' id='TBL-3-17-5'> <!-- l. 1300 --><p class='noindent'>“Your
   organization
   undergoes
   fundamental
@@ -1207,10 +1224,10 @@ parameter in the entire exercise.
   you
   become?”        </p></td>
 </tr><tr id='TBL-3-18-'><td class='td01' id='TBL-3-18-1'>
-<!-- l. 1266 --><p class='noindent'>4                     </p></td><td class='td11' id='TBL-3-18-2'> <!-- l. 1266 --><p class='noindent'>90
-  min                 </p></td><td class='td11' id='TBL-3-18-3'> <!-- l. 1266 --><p class='noindent'>Infinite
-  Possibility         </p></td><td class='td11' id='TBL-3-18-4'> <!-- l. 1266 --><p class='noindent'>Very
-  High                </p></td><td class='td10' id='TBL-3-18-5'> <!-- l. 1266 --><p class='noindent'>“All
+<!-- l. 1302 --><p class='noindent'>4                     </p></td><td class='td11' id='TBL-3-18-2'> <!-- l. 1302 --><p class='noindent'>90
+  min                 </p></td><td class='td11' id='TBL-3-18-3'> <!-- l. 1302 --><p class='noindent'>Infinite
+  Possibility         </p></td><td class='td11' id='TBL-3-18-4'> <!-- l. 1302 --><p class='noindent'>Very
+  High                </p></td><td class='td10' id='TBL-3-18-5'> <!-- l. 1302 --><p class='noindent'>“All
   constraints
   are
   removed.
@@ -1220,12 +1237,11 @@ parameter in the entire exercise.
   create?
   What
   becomes
-  possible?”        </p></td>
-</tr><tr id='TBL-3-19-'><td class='td01' id='TBL-3-19-1'>
-<!-- l. 1268 --><p class='noindent'>5                     </p></td><td class='td11' id='TBL-3-19-2'> <!-- l. 1268 --><p class='noindent'>120
-  min                 </p></td><td class='td11' id='TBL-3-19-3'> <!-- l. 1268 --><p class='noindent'>Debrief
+  possible?”        </p></td> </tr><tr id='TBL-3-19-'><td class='td01' id='TBL-3-19-1'>
+<!-- l. 1304 --><p class='noindent'>5                     </p></td><td class='td11' id='TBL-3-19-2'> <!-- l. 1304 --><p class='noindent'>120
+  min                 </p></td><td class='td11' id='TBL-3-19-3'> <!-- l. 1304 --><p class='noindent'>Debrief
   (matched
-  filter)               </p></td><td class='td11' id='TBL-3-19-4'> <!-- l. 1268 --><p class='noindent'>–                     </p></td><td class='td10' id='TBL-3-19-5'> <!-- l. 1268 --><p class='noindent'>“How
+  filter)               </p></td><td class='td11' id='TBL-3-19-4'> <!-- l. 1304 --><p class='noindent'>–                     </p></td><td class='td10' id='TBL-3-19-5'> <!-- l. 1304 --><p class='noindent'>“How
   did
   your
   thinking
@@ -1246,13 +1262,16 @@ parameter in the entire exercise.
 <tr id='TBL-3-10-'><td class='td01' colspan='3' id='TBL-3-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 1274 --><p class='nopar'>The total sweep takes a full day. The emotional progression is critical: participants
+<!-- l. 1310 --><p class='nopar'>The total sweep takes a full day. The emotional progression is critical: participants
 must genuinely inhabit each band, not intellectually acknowledge it. The facilitator’s
 role is to maintain enough emotional intensity for frequency lock at each stage while
 managing the transition rate to prevent cycle-slipping (loss of lock during
 sweep).
-</p><!-- l. 1280 --><p class='noindent'><span class='ec-lmbx-10'>Phase transitions between archetypes. </span>The transition between scenario phases
+</p><!-- l. 1316 --><p class='noindent'><span class='ec-lmbx-10'>Phase transitions between archetypes. </span>The transition between scenario phases
 is the analog of frequency handoff in a PLL. If the frequency step between adjacent
+                                                                  
+
+                                                                  
 scenarios exceeds the loop’s pull-in range, the PLL must re-acquire lock from scratch
 — a slow, noisy process with no guarantee of success. If the step is within the pull-in
 range, the PLL tracks smoothly. This is why the sequence matters: the jump from
@@ -1260,33 +1279,33 @@ Winners/Losers (\(Z_0 &lt; 1\)) directly to Infinite Possibility (\(Z_0 \gg 1\))
 the graduated sequence (Winners/Losers to Challenge/Response to Transformation
 to Infinite Possibility) keeps the step size within each participant’s tracking
 range.
-</p><!-- l. 1292 --><p class='noindent'>The mathematical constraint on step size is:
-</p><!-- l. 1294 --><p class='noindent'>\[|\omega _{scenario,k+1} - \omega _{scenario,k}| &lt; \Delta \omega _{C,group}\]
-</p><!-- l. 1296 --><p class='noindent'>where \(\Delta \omega _{C,group}\) is the collective capture range — the maximum frequency step the group can
+</p><!-- l. 1328 --><p class='noindent'>The mathematical constraint on step size is:
+</p><!-- l. 1330 --><p class='noindent'>\[|\omega _{scenario,k+1} - \omega _{scenario,k}| &lt; \Delta \omega _{C,group}\]
+</p><!-- l. 1332 --><p class='noindent'>where \(\Delta \omega _{C,group}\) is the collective capture range — the maximum frequency step the group can
 track without losing lock. This capture range is itself a function of collective \(Q\) and
 coherence: groups with higher average \(Q\) and tighter coherence can handle larger
 frequency steps.
-</p><!-- l. 1303 --><p class='nopar'>
+</p><!-- l. 1339 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-from-individual-pll-tuning-to-collective-scenario-tuning'><a id='x1-30000'></a>17.5.4 From Individual PLL Tuning to Collective Scenario Tuning</h5>
-<p><a id='x1-30000doc'></a>
-</p><!-- l. 1305 --><p class='nopar'>Chapter 9 (Section 9.8) described manifestation as individual PLL tuning: a single
-                                                                  
-
-                                                                  
+<h5 class='subsubsectionHead' id='-from-individual-pll-tuning-to-collective-scenario-tuning'><a id='x1-31000'></a>17.5.4 From Individual PLL Tuning to Collective Scenario Tuning</h5>
+<p><a id='x1-31000doc'></a>
+</p><!-- l. 1341 --><p class='nopar'>Chapter 9 (Section 9.8) described manifestation as individual PLL tuning: a single
 consciousness locking onto a single reference. The chirp scenario sequence extends
 this to groups:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Individual manifestation</span>: One VCO, one reference, one lock target. \(\theta _e = \theta _{ref} - \theta _{vco} \to 0\).
      </li> <li class='itemize'><span class='ec-lmbx-10'>Collective scenario tuning</span>: \(N\) VCOs, one shared reference (the scenario),
      \(N\) lock targets converging. The collective lock condition is:</li></ul>
-<!-- l. 1320 --><p class='noindent'>\[\bar {\theta }_e = \frac {1}{N} \sum _{i=1}^{N} (\theta _{ref} - \theta _{vco,i}) \to 0\]
-</p><!-- l. 1322 --><p class='noindent'>This is the scenario-domain equivalent of the phased-array coherence condition from
+<!-- l. 1356 --><p class='noindent'>\[\bar {\theta }_e = \frac {1}{N} \sum _{i=1}^{N} (\theta _{ref} - \theta _{vco,i}) \to 0\]
+</p><!-- l. 1358 --><p class='noindent'>This is the scenario-domain equivalent of the phased-array coherence condition from
 Chapter 10. When all \(N\) participants lock onto the same scenario reference, the
 collective output power scales as \(N \cdot r^2\) where \(r\) is the coherence (phase-alignment quality)
 across the group.
-</p><!-- l. 1328 --><p class='noindent'>The transition from individual to collective scenario tuning is the transition from
+</p><!-- l. 1364 --><p class='noindent'>The transition from individual to collective scenario tuning is the transition from
 manifestation to civilization design.
-</p><!-- l. 1331 --><p class='noindent'><span class='ec-lmbx-10'>Critical distinction: scenario tuning vs. groupthink. </span>Collective scenario
+</p><!-- l. 1367 --><p class='noindent'><span class='ec-lmbx-10'>Critical distinction: scenario tuning vs. groupthink. </span>Collective scenario
+                                                                  
+
+                                                                  
 tuning is not groupthink. Groupthink (Janis, 1972) occurs when social pressure forces
 convergence to a single frequency without genuine emotional engagement — the
 group <span class='ec-lmri-10'>pretends </span>to be aligned while individual receivers remain locked to their
@@ -1300,45 +1319,47 @@ increases during deep engagement). This prediction is directly testable (see P6 
 Section 17.8).
 </p>
 <div class='center'>
-<!-- l. 1346 --><p class='noindent'>
-</p><!-- l. 1346 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1349 --><p class='nopar'>
-</p> <h4 class='subsectionHead' id='-collective-manifestation-engineering-ll'><a id='x1-31000'></a>17.6 Collective Manifestation Engineering <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
-<p><a id='x1-31000doc'></a>
-</p><!-- l. 1353 --><p class='nopar'>
+<!-- l. 1382 --><p class='noindent'>
+</p><!-- l. 1382 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1385 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-phased-array-scenario-design-n-scaling-applied-to-shared-futures'><a id='x1-32000'></a>17.6.1 Phased Array Scenario Design: \(N^2\) Scaling Applied to Shared Futures</h5>
+<h4 class='subsectionHead' id='-collective-manifestation-engineering-ll'><a id='x1-32000'></a>17.6 Collective Manifestation Engineering <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h4>
 <p><a id='x1-32000doc'></a>
-</p><!-- l. 1355 --><p class='nopar'>From Chapter 10 (Phased Array Consciousness), the radiated power of a coherent
+</p><!-- l. 1389 --><p class='nopar'>
+</p>
+<h5 class='subsubsectionHead' id='-phased-array-scenario-design-n-scaling-applied-to-shared-futures'><a id='x1-33000'></a>17.6.1 Phased Array Scenario Design: \(N^2\) Scaling Applied to Shared Futures</h5>
+<p><a id='x1-33000doc'></a>
+</p><!-- l. 1391 --><p class='nopar'>From Chapter 10 (Phased Array Consciousness), the radiated power of a coherent
 array of \(N\) elements with average coherence \(r\) scales as:
-</p><!-- l. 1358 --><p class='noindent'>\[P_{array} = N \cdot r^2 \cdot P_{individual}\]
-</p><!-- l. 1360 --><p class='noindent'>where \(r \in [0,1]\) measures phase alignment across the array. Perfect coherence (\(r = 1\)) yields
+</p><!-- l. 1394 --><p class='noindent'>\[P_{array} = N \cdot r^2 \cdot P_{individual}\]
+</p><!-- l. 1396 --><p class='noindent'>where \(r \in [0,1]\) measures phase alignment across the array. Perfect coherence (\(r = 1\)) yields
 \(N\)-fold power gain; zero coherence (\(r = 0\)) yields zero collective output regardless of
 \(N\).
-</p><!-- l. 1364 --><p class='noindent'>Applied to scenario design: a group of \(N\) participants engaged in a shared scenario
+</p><!-- l. 1400 --><p class='noindent'>Applied to scenario design: a group of \(N\) participants engaged in a shared scenario
 exercise produces collective manifesting power proportional to \(N \cdot r^2\). Two parameters
 matter:
-</p><!-- l. 1369 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+</p><!-- l. 1405 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
   1. </dt><dd class='enumerate-enumitem'>\(N\):  The  number  of  participants.  Larger  groups  produce  more  collective
      power, but only if coherence is maintained.
      </dd><dt class='enumerate-enumitem'>
   2. </dt><dd class='enumerate-enumitem'>\(r\): The coherence of emotional engagement. A group of 100 participants
      with \(r = 0.9\) (deeply aligned, genuinely inhabiting the scenario) outperforms a
      group of 10,000 with \(r = 0.1\) (superficially participating, emotionally disengaged):</dd></dl>
-<!-- l. 1381 --><p class='noindent'>\[100 \cdot 0.81 = 81 \quad \text {vs.} \quad 10000 \cdot 0.01 = 100\]
-</p><!-- l. 1383 --><p class='noindent'>The numbers differ by only a factor of 1.2, despite a hundredfold difference in group
+<!-- l. 1417 --><p class='noindent'>\[100 \cdot 0.81 = 81 \quad \text {vs.} \quad 10000 \cdot 0.01 = 100\]
+</p><!-- l. 1419 --><p class='noindent'>The numbers differ by only a factor of 1.2, despite a hundredfold difference in group
 size. Coherence dominates.
-</p><!-- l. 1386 --><p class='noindent'>This has a direct design implication: <span class='ec-lmbx-10'>small, deeply coherent scenario groups are
+</p><!-- l. 1422 --><p class='noindent'>This has a direct design implication: <span class='ec-lmbx-10'>small, deeply coherent scenario groups are
 more effective than large, shallow ones. </span>The facilitator’s primary job is not to
 maximize participation but to maximize coherence — the quality of emotional
 alignment within the group.
-</p><!-- l. 1393 --><p class='nopar'>
+</p><!-- l. 1429 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-scenario-coherence-as-phase-alignment'><a id='x1-33000'></a>17.6.2 Scenario Coherence as Phase Alignment</h5> <p><a id='x1-33000doc'></a>
-</p><!-- l. 1395 --><p class='nopar'>Phase alignment in a phased array requires that all elements radiate at the
+<h5 class='subsubsectionHead' id='-scenario-coherence-as-phase-alignment'><a id='x1-34000'></a>17.6.2 Scenario Coherence as Phase Alignment</h5>
+<p><a id='x1-34000doc'></a>
+</p><!-- l. 1431 --><p class='nopar'>Phase alignment in a phased array requires that all elements radiate at the
 same frequency with controlled phase offsets. In scenario design, coherence
 requires:
-</p><!-- l. 1400 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
+</p><!-- l. 1436 --><p class='noindent'> </p><dl class='enumerate-enumitem'><dt class='enumerate-enumitem'>
   1. </dt><dd class='enumerate-enumitem'><span class='ec-lmbx-10'>Frequency  alignment</span>:  All  participants  are  genuinely  inhabiting  the
      same  plot  archetype,  not  merely  intellectually  engaging  with  it.  A
      participant  who  is  “in”  the  Transformation  scenario  intellectually  but
@@ -1354,104 +1375,108 @@ requires:
      intensity. A single disengaged participant with near-zero amplitude has
      minimal  impact  on  the  array.  A  single  participant  radiating  intense
      emotional energy at a misaligned frequency (e.g., deep cynicism during
+                                                                  
+
+                                                                  
      a  Transformation  exercise)  can  actively  degrade  coherence  through
      destructive interference.</dd></dl>
-<!-- l. 1422 --><p class='noindent'>The facilitator is the beam-steering controller (Chapter 10, Section 10.3): adjusting
+<!-- l. 1458 --><p class='noindent'>The facilitator is the beam-steering controller (Chapter 10, Section 10.3): adjusting
 phase and amplitude across the array to maintain coherent radiation in the desired
 direction.
-</p><!-- l. 1426 --><p class='noindent'><span class='ec-lmbx-10'>Coherence failure modes:</span>
-</p><!-- l. 1429 --><p class='noindent'>
-</p><!-- l. 1429 --><p class='noindent'>
-<a id='x1-33004r4'></a></p>
-<!-- l. 1434 --><div class='longtable'> <table class='longtable' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /><col id='TBL-4-3' /><col id='TBL-4-4' /></colgroup> <tr id='TBL-4-1-'><td class='td01' colspan='3' id='TBL-4-1-1'></td>
+</p><!-- l. 1462 --><p class='noindent'><span class='ec-lmbx-10'>Coherence failure modes:</span>
+</p><!-- l. 1465 --><p class='noindent'>
+</p><!-- l. 1465 --><p class='noindent'>
+<a id='x1-34004r4'></a></p>
+<!-- l. 1470 --><div class='longtable'> <table class='longtable' id='TBL-4'><colgroup id='TBL-4-1g'><col id='TBL-4-1' /><col id='TBL-4-2' /><col id='TBL-4-3' /><col id='TBL-4-4' /></colgroup>
+<tr id='TBL-4-1-'><td class='td01' colspan='3' id='TBL-4-1-1'></td>
 </tr><tr id='TBL-4-4-'><td class='td01' id='TBL-4-4-1'>
-<div class='minipage'><!-- l. 1436 --><p class='noindent'>Failure Mode </p></div> </td><td class='td11' id='TBL-4-4-2'> <div class='minipage'><!-- l. 1438 --><p class='noindent'>Array Equivalent </p></div> </td><td class='td11' id='TBL-4-4-3'> <div class='minipage'><!-- l. 1440 --><p class='noindent'>Effect on Collective Output </p></div> </td><td class='td10' id='TBL-4-4-4'> <div class='minipage'><!-- l. 1442 --><p class='noindent'>Mitigation </p></div></td>
+<div class='minipage'><!-- l. 1472 --><p class='noindent'>Failure Mode </p></div> </td><td class='td11' id='TBL-4-4-2'> <div class='minipage'><!-- l. 1474 --><p class='noindent'>Array Equivalent </p></div> </td><td class='td11' id='TBL-4-4-3'> <div class='minipage'><!-- l. 1476 --><p class='noindent'>Effect on Collective Output </p></div> </td><td class='td10' id='TBL-4-4-4'> <div class='minipage'><!-- l. 1478 --><p class='noindent'>Mitigation </p></div></td>
 </tr><tr id='TBL-4-5-'><td class='td01' colspan='3' id='TBL-4-5-1'></td>
 </tr>
 <tr id='TBL-4-15-'><td class='td01' id='TBL-4-15-1'>
-<!-- l. 1448 --><p class='noindent'>Emotional
-disengagement         </p></td><td class='td11' id='TBL-4-15-2'> <!-- l. 1448 --><p class='noindent'>Element
+<!-- l. 1484 --><p class='noindent'>Emotional
+disengagement         </p></td><td class='td11' id='TBL-4-15-2'> <!-- l. 1484 --><p class='noindent'>Element
   with
   zero
-  amplitude               </p></td><td class='td11' id='TBL-4-15-3'> <!-- l. 1448 --><p class='noindent'>Reduces
+  amplitude               </p></td><td class='td11' id='TBL-4-15-3'> <!-- l. 1484 --><p class='noindent'>Reduces
   effective
   \(N\)
   but
   does
   not
   degrade
-  \(r\)                            </p></td><td class='td10' id='TBL-4-15-4'> <!-- l. 1449 --><p class='noindent'>Re-engage
+  \(r\)                            </p></td><td class='td10' id='TBL-4-15-4'> <!-- l. 1485 --><p class='noindent'>Re-engage
   or
   release
   participant           </p></td>
 </tr><tr id='TBL-4-16-'><td class='td01' id='TBL-4-16-1'>
-<!-- l. 1451 --><p class='noindent'>Frequency
+<!-- l. 1487 --><p class='noindent'>Frequency
 misalignment
 (wrong
-archetype)              </p></td><td class='td11' id='TBL-4-16-2'> <!-- l. 1451 --><p class='noindent'>Element
+archetype)              </p></td><td class='td11' id='TBL-4-16-2'> <!-- l. 1487 --><p class='noindent'>Element
   radiating
   at
   wrong
-  frequency               </p></td><td class='td11' id='TBL-4-16-3'> <!-- l. 1452 --><p class='noindent'>Degrades
+  frequency               </p></td><td class='td11' id='TBL-4-16-3'> <!-- l. 1488 --><p class='noindent'>Degrades
   \(r\),
   may
   create
   destructive
-  interference            </p></td><td class='td10' id='TBL-4-16-4'> <!-- l. 1453 --><p class='noindent'>Facilitator
+  interference            </p></td><td class='td10' id='TBL-4-16-4'> <!-- l. 1489 --><p class='noindent'>Facilitator
   identifies
   and
-  re-tunes               </p></td>
-</tr><tr id='TBL-4-17-'><td class='td01' id='TBL-4-17-1'>
-<!-- l. 1454 --><p class='noindent'>Phase
+  re-tunes               </p></td> </tr><tr id='TBL-4-17-'><td class='td01' id='TBL-4-17-1'>
+<!-- l. 1490 --><p class='noindent'>Phase
 desynchronization
 (timing
-mismatch)              </p></td><td class='td11' id='TBL-4-17-2'> <!-- l. 1454 --><p class='noindent'>Element
+mismatch)              </p></td><td class='td11' id='TBL-4-17-2'> <!-- l. 1490 --><p class='noindent'>Element
   with
   random
   phase
-  offset                     </p></td><td class='td11' id='TBL-4-17-3'> <!-- l. 1455 --><p class='noindent'>Reduces
+  offset                     </p></td><td class='td11' id='TBL-4-17-3'> <!-- l. 1491 --><p class='noindent'>Reduces
   coherent
   sum,
   increases
   sidelobe
-  noise                     </p></td><td class='td10' id='TBL-4-17-4'> <!-- l. 1455 --><p class='noindent'>Structured
+  noise                     </p></td><td class='td10' id='TBL-4-17-4'> <!-- l. 1491 --><p class='noindent'>Structured
   pacing,
   shared
   emotional
   anchors                </p></td>
 </tr><tr id='TBL-4-18-'><td class='td01' id='TBL-4-18-1'>
-<!-- l. 1457 --><p class='noindent'>Dominant
+<!-- l. 1493 --><p class='noindent'>Dominant
 outlier
 (one
 voice
 controls
-group)                   </p></td><td class='td11' id='TBL-4-18-2'> <!-- l. 1457 --><p class='noindent'>Single
+group)                   </p></td><td class='td11' id='TBL-4-18-2'> <!-- l. 1493 --><p class='noindent'>Single
   high-power
   element
   steering
   the
-  beam                     </p></td><td class='td11' id='TBL-4-18-3'> <!-- l. 1458 --><p class='noindent'>Beam
+  beam                     </p></td><td class='td11' id='TBL-4-18-3'> <!-- l. 1494 --><p class='noindent'>Beam
   direction
   no
   longer
   represents
   collective
-  intent                    </p></td><td class='td10' id='TBL-4-18-4'> <!-- l. 1459 --><p class='noindent'>Amplitude
+  intent                    </p></td><td class='td10' id='TBL-4-18-4'> <!-- l. 1495 --><p class='noindent'>Amplitude
   leveling
   through
   facilitation
-  protocol               </p></td> </tr><tr id='TBL-4-19-'><td class='td01' id='TBL-4-19-1'>
-<!-- l. 1460 --><p class='noindent'>Cynical
-sabotage                </p></td><td class='td11' id='TBL-4-19-2'> <!-- l. 1460 --><p class='noindent'>Element
+  protocol               </p></td>
+</tr><tr id='TBL-4-19-'><td class='td01' id='TBL-4-19-1'>
+<!-- l. 1496 --><p class='noindent'>Cynical
+sabotage                </p></td><td class='td11' id='TBL-4-19-2'> <!-- l. 1496 --><p class='noindent'>Element
   with
   180-degree
   phase
-  inversion                </p></td><td class='td11' id='TBL-4-19-3'> <!-- l. 1460 --><p class='noindent'>Active
+  inversion                </p></td><td class='td11' id='TBL-4-19-3'> <!-- l. 1496 --><p class='noindent'>Active
   destructive
   interference,
   cancels
   aligned
-  elements                </p></td><td class='td10' id='TBL-4-19-4'> <!-- l. 1461 --><p class='noindent'>Remove
+  elements                </p></td><td class='td10' id='TBL-4-19-4'> <!-- l. 1497 --><p class='noindent'>Remove
   from
   array;
   small
@@ -1464,20 +1489,16 @@ sabotage                </p></td><td class='td11' id='TBL-4-19-2'> <!-- l. 1460 
 </tr>
 <tr id='TBL-4-10-'><td class='td01' colspan='3' id='TBL-4-10-1'></td>
 </tr>
-</table></div>
-<!-- l. 1467 --><p class='nopar'>
+</table></div> <!-- l. 1503 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-the-link-budget-for-scenario-manifestation'><a id='x1-34000'></a>17.6.3 The Link Budget for Scenario Manifestation</h5>
-<p><a id='x1-34000doc'></a>
-</p><!-- l. 1469 --><p class='nopar'>Chapter 16 (Section 16.8) established the consciousness link budget:
-</p><!-- l. 1471 --><p class='noindent'>\[M = P_S + G_{practices} + G_{collective} - L_{parasitic} - L_{paradigm} - L_{path} - NF - P_{threshold}\]
-</p><!-- l. 1473 --><p class='noindent'>Scenario design contributes to this budget through the <span class='ec-lmbx-10'>collective gain </span>term
+<h5 class='subsubsectionHead' id='-the-link-budget-for-scenario-manifestation'><a id='x1-35000'></a>17.6.3 The Link Budget for Scenario Manifestation</h5>
+<p><a id='x1-35000doc'></a>
+</p><!-- l. 1505 --><p class='nopar'>Chapter 16 (Section 16.8) established the consciousness link budget:
+</p><!-- l. 1507 --><p class='noindent'>\[M = P_S + G_{practices} + G_{collective} - L_{parasitic} - L_{paradigm} - L_{path} - NF - P_{threshold}\]
+</p><!-- l. 1509 --><p class='noindent'>Scenario design contributes to this budget through the <span class='ec-lmbx-10'>collective gain </span>term
 \(G_{collective}\):
-</p><!-- l. 1476 --><p class='noindent'>\[G_{collective} = 10\log _{10}(N \cdot r^2) \quad \text {dB}\]
-</p><!-- l. 1478 --><p class='noindent'>A well-designed scenario exercise also reduces two loss terms:
-                                                                  
-
-                                                                  
+</p><!-- l. 1512 --><p class='noindent'>\[G_{collective} = 10\log _{10}(N \cdot r^2) \quad \text {dB}\]
+</p><!-- l. 1514 --><p class='noindent'>A well-designed scenario exercise also reduces two loss terms:
 </p> <ul class='itemize1'> <li class='itemize'>\(L_{paradigm}\) (paradigm shielding loss): By sweeping participants through unfamiliar
      consciousness   bands,   the   scenario   exercise   temporarily   lowers   the
      paradigm cage’s shielding effectiveness. Signal that would normally be
@@ -1485,50 +1506,50 @@ sabotage                </p></td><td class='td11' id='TBL-4-19-2'> <!-- l. 1460 
      </li> <li class='itemize'>\(NF\) (noise figure): Structured scenario work reduces cognitive noise (anxiety,
      distraction, competing narratives) by focusing collective attention on a
      single reference. The noise figure drops during deep engagement.</li></ul>
-<!-- l. 1495 --><p class='noindent'>The net link budget improvement from a well-designed scenario exercise:
-</p><!-- l. 1497 --><p class='noindent'>\[\Delta M_{scenario} = G_{collective} + \Delta L_{paradigm} + \Delta NF\]
-</p><!-- l. 1499 --><p class='noindent'>A scenario exercise with 50 participants at \(r = 0.7\) yields:
-</p><!-- l. 1501 --><p class='noindent'>\[G_{collective} = 10\log _{10}(50 \times 0.49) = 10\log _{10}(24.5) \approx 13.9 \text { dB}\]
-</p><!-- l. 1503 --><p class='noindent'>With a 3 dB paradigm reduction and 2 dB noise reduction, the total budget
+<!-- l. 1531 --><p class='noindent'>The net link budget improvement from a well-designed scenario exercise:
+</p><!-- l. 1533 --><p class='noindent'>\[\Delta M_{scenario} = G_{collective} + \Delta L_{paradigm} + \Delta NF\]
+</p><!-- l. 1535 --><p class='noindent'>A scenario exercise with 50 participants at \(r = 0.7\) yields:
+</p><!-- l. 1537 --><p class='noindent'>\[G_{collective} = 10\log _{10}(50 \times 0.49) = 10\log _{10}(24.5) \approx 13.9 \text { dB}\]
+</p><!-- l. 1539 --><p class='noindent'>With a 3 dB paradigm reduction and 2 dB noise reduction, the total budget
 improvement is approximately 19 dB — a nearly hundredfold increase in effective
 signal power relative to an individual operating alone.
-</p><!-- l. 1508 --><p class='noindent'><span class='ec-lmbx-10'>Worked link budget for a scenario exercise:</span>
-</p><!-- l. 1511 --><p class='noindent'>
-</p><!-- l. 1511 --><p class='noindent'>
-<a id='x1-34001r5'></a></p>
-<!-- l. 1515 --><div class='longtable'> <table class='longtable' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /><col id='TBL-5-3' /></colgroup> <tr id='TBL-5-4-'><td class='td01' id='TBL-5-4-1'>
-<div class='minipage'><!-- l. 1517 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-5-4-2'> <div class='minipage'><!-- l. 1519 --><p class='noindent'>Value </p></div> </td><td class='td10' id='TBL-5-4-3'> <div class='minipage'><!-- l. 1521 --><p class='noindent'>Notes </p></div></td>
+</p><!-- l. 1544 --><p class='noindent'><span class='ec-lmbx-10'>Worked link budget for a scenario exercise:</span>
+</p><!-- l. 1547 --><p class='noindent'>
+</p><!-- l. 1547 --><p class='noindent'>
+<a id='x1-35001r5'></a></p>
+<!-- l. 1551 --><div class='longtable'> <table class='longtable' id='TBL-5'><colgroup id='TBL-5-1g'><col id='TBL-5-1' /><col id='TBL-5-2' /><col id='TBL-5-3' /></colgroup> <tr id='TBL-5-4-'><td class='td01' id='TBL-5-4-1'>
+<div class='minipage'><!-- l. 1553 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-5-4-2'> <div class='minipage'><!-- l. 1555 --><p class='noindent'>Value </p></div> </td><td class='td10' id='TBL-5-4-3'> <div class='minipage'><!-- l. 1557 --><p class='noindent'>Notes </p></div></td>
 </tr>
 <tr id='TBL-5-15-'><td class='td01' id='TBL-5-15-1'>
-<!-- l. 1527 --><p class='noindent'>Source
+<!-- l. 1563 --><p class='noindent'>Source
 power
-\(P_S\)                                    </p></td><td class='td11' id='TBL-5-15-2'> <!-- l. 1527 --><p class='noindent'>0
+\(P_S\)                                    </p></td><td class='td11' id='TBL-5-15-2'> <!-- l. 1563 --><p class='noindent'>0
   dB
   (baseline
-  individual)                      </p></td><td class='td10' id='TBL-5-15-3'> <!-- l. 1527 --><p class='noindent'>Average
+  individual)                      </p></td><td class='td10' id='TBL-5-15-3'> <!-- l. 1563 --><p class='noindent'>Average
   participant,
   unenhanced                   </p></td>
 </tr><tr id='TBL-5-16-'><td class='td01' id='TBL-5-16-1'>
-<!-- l. 1529 --><p class='noindent'>Practice
+<!-- l. 1565 --><p class='noindent'>Practice
 gain
-\(G_{practices}\)                                    </p></td><td class='td11' id='TBL-5-16-2'> <!-- l. 1529 --><p class='noindent'>+5
-  dB                                 </p></td><td class='td10' id='TBL-5-16-3'> <!-- l. 1529 --><p class='noindent'>Participants
+\(G_{practices}\)                                    </p></td><td class='td11' id='TBL-5-16-2'> <!-- l. 1565 --><p class='noindent'>+5
+  dB                                 </p></td><td class='td10' id='TBL-5-16-3'> <!-- l. 1565 --><p class='noindent'>Participants
   with
   moderate
   meditation/contemplative
   background                   </p></td>
 </tr><tr id='TBL-5-17-'><td class='td01' id='TBL-5-17-1'>
-<!-- l. 1531 --><p class='noindent'>Collective
+<!-- l. 1567 --><p class='noindent'>Collective
 gain
-\(G_{collective}\)                                    </p></td><td class='td11' id='TBL-5-17-2'> <!-- l. 1531 --><p class='noindent'>+13.9
-  dB                                 </p></td><td class='td10' id='TBL-5-17-3'> <!-- l. 1531 --><p class='noindent'>50
+\(G_{collective}\)                                    </p></td><td class='td11' id='TBL-5-17-2'> <!-- l. 1567 --><p class='noindent'>+13.9
+  dB                                 </p></td><td class='td10' id='TBL-5-17-3'> <!-- l. 1567 --><p class='noindent'>50
   participants,
   \(r = 0.7\)                                  </p></td>
 </tr><tr id='TBL-5-18-'><td class='td01' id='TBL-5-18-1'>
-<!-- l. 1533 --><p class='noindent'>Parasitic
+<!-- l. 1569 --><p class='noindent'>Parasitic
 loss
-\(L_{parasitic}\)                                    </p></td><td class='td11' id='TBL-5-18-2'> <!-- l. 1533 --><p class='noindent'>-3
-  dB                                 </p></td><td class='td10' id='TBL-5-18-3'> <!-- l. 1533 --><p class='noindent'>Reduced
+\(L_{parasitic}\)                                    </p></td><td class='td11' id='TBL-5-18-2'> <!-- l. 1569 --><p class='noindent'>-3
+  dB                                 </p></td><td class='td10' id='TBL-5-18-3'> <!-- l. 1569 --><p class='noindent'>Reduced
   during
   exercise
   (focused
@@ -1537,41 +1558,41 @@ loss
   parasitic
   access)                         </p></td>
 </tr><tr id='TBL-5-19-'><td class='td01' id='TBL-5-19-1'>
-<!-- l. 1535 --><p class='noindent'>Paradigm
+<!-- l. 1571 --><p class='noindent'>Paradigm
 loss
-\(L_{paradigm}\)                                    </p></td><td class='td11' id='TBL-5-19-2'> <!-- l. 1535 --><p class='noindent'>-7
-  dB                                 </p></td><td class='td10' id='TBL-5-19-3'> <!-- l. 1535 --><p class='noindent'>Partially
+\(L_{paradigm}\)                                    </p></td><td class='td11' id='TBL-5-19-2'> <!-- l. 1571 --><p class='noindent'>-7
+  dB                                 </p></td><td class='td10' id='TBL-5-19-3'> <!-- l. 1571 --><p class='noindent'>Partially
   lowered
   during
   high-\(Z_0\)
   scenario
   phases                          </p></td> </tr><tr id='TBL-5-20-'><td class='td01' id='TBL-5-20-1'>
-<!-- l. 1537 --><p class='noindent'>Path
+<!-- l. 1573 --><p class='noindent'>Path
 loss
-\(L_{path}\)                                    </p></td><td class='td11' id='TBL-5-20-2'> <!-- l. 1537 --><p class='noindent'>-2
-  dB                                 </p></td><td class='td10' id='TBL-5-20-3'> <!-- l. 1537 --><p class='noindent'>Minimal
+\(L_{path}\)                                    </p></td><td class='td11' id='TBL-5-20-2'> <!-- l. 1573 --><p class='noindent'>-2
+  dB                                 </p></td><td class='td10' id='TBL-5-20-3'> <!-- l. 1573 --><p class='noindent'>Minimal
   (participants
   co-located)                    </p></td>
 </tr><tr id='TBL-5-21-'><td class='td01' id='TBL-5-21-1'>
-<!-- l. 1538 --><p class='noindent'>Noise
+<!-- l. 1574 --><p class='noindent'>Noise
 figure
-\(NF\)                                    </p></td><td class='td11' id='TBL-5-21-2'> <!-- l. 1538 --><p class='noindent'>-3
-  dB                                 </p></td><td class='td10' id='TBL-5-21-3'> <!-- l. 1538 --><p class='noindent'>Reduced
+\(NF\)                                    </p></td><td class='td11' id='TBL-5-21-2'> <!-- l. 1574 --><p class='noindent'>-3
+  dB                                 </p></td><td class='td10' id='TBL-5-21-3'> <!-- l. 1574 --><p class='noindent'>Reduced
   by
   facilitation
   structure                       </p></td>
 </tr><tr id='TBL-5-22-'><td class='td01' id='TBL-5-22-1'>
-<!-- l. 1539 --><p class='noindent'>Threshold
-\(P_{threshold}\)                                    </p></td><td class='td11' id='TBL-5-22-2'> <!-- l. 1539 --><p class='noindent'>-10
-  dB                                 </p></td><td class='td10' id='TBL-5-22-3'> <!-- l. 1539 --><p class='noindent'>Minimum
+<!-- l. 1575 --><p class='noindent'>Threshold
+\(P_{threshold}\)                                    </p></td><td class='td11' id='TBL-5-22-2'> <!-- l. 1575 --><p class='noindent'>-10
+  dB                                 </p></td><td class='td10' id='TBL-5-22-3'> <!-- l. 1575 --><p class='noindent'>Minimum
   for
   collective
   perception
   shift                             </p></td>
 </tr><tr id='TBL-5-23-'><td class='td01' id='TBL-5-23-1'>
-<!-- l. 1541 --><p class='noindent'><span class='ec-lmbx-10'>Margin</span>
-\(M\)                                </p></td><td class='td11' id='TBL-5-23-2'> <!-- l. 1541 --><p class='noindent'><span class='ec-lmbx-10'>-6.1
-  dB</span> </p></td><td class='td10' id='TBL-5-23-3'> <!-- l. 1541 --><p class='noindent'>Negative:
+<!-- l. 1577 --><p class='noindent'><span class='ec-lmbx-10'>Margin</span>
+\(M\)                                </p></td><td class='td11' id='TBL-5-23-2'> <!-- l. 1577 --><p class='noindent'><span class='ec-lmbx-10'>-6.1
+  dB</span> </p></td><td class='td10' id='TBL-5-23-3'> <!-- l. 1577 --><p class='noindent'>Negative:
   exercise
   alone
   does
@@ -1580,7 +1601,7 @@ figure
   the
   budget                         </p></td>
 </tr> </table></div>
-<!-- l. 1546 --><p class='noindent'>The negative margin indicates that a single 50-person scenario exercise, while
+<!-- l. 1582 --><p class='noindent'>The negative margin indicates that a single 50-person scenario exercise, while
 producing substantial collective gain, does not by itself generate enough signal
 power to overcome the full denial architecture. This is expected: scenario
                                                                   
@@ -1591,56 +1612,56 @@ toolkit. When combined with sustained individual practice (\(G_{practices}\) rai
 dB over months of work, per Chapter 18), the budget closes with positive
 margin. Scenario design and individual practice are complementary, not
 substitutes.
-</p><!-- l. 1557 --><p class='nopar'>
+</p><!-- l. 1593 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-timeline-selection-through-coordinated-scenario-work'><a id='x1-35000'></a>17.6.4 Timeline Selection Through Coordinated Scenario Work</h5>
-<p><a id='x1-35000doc'></a>
-</p><!-- l. 1559 --><p class='nopar'>Chapter 12 (Section 12.5) introduced timeline mechanics: the possibility that
+<h5 class='subsubsectionHead' id='-timeline-selection-through-coordinated-scenario-work'><a id='x1-36000'></a>17.6.4 Timeline Selection Through Coordinated Scenario Work</h5>
+<p><a id='x1-36000doc'></a>
+</p><!-- l. 1595 --><p class='nopar'>Chapter 12 (Section 12.5) introduced timeline mechanics: the possibility that
 consciousness coherence influences which timeline branch a collective traverses. If this
 mechanism operates (evidence tier: L3-L4), then collective scenario work is not
 merely <span class='ec-lmri-10'>preparation </span>for a future that will arrive regardless; it is <span class='ec-lmbx-10'>active selection</span>
 among possible futures.
-</p><!-- l. 1566 --><p class='noindent'>The selection mechanism follows from the phased-array model:
-</p><!-- l. 1568 --><p class='noindent'>\[P_{timeline}(k) \propto N \cdot r^2 \cdot e^{-\alpha \cdot |\omega _{scenario} - \omega _{timeline,k}|^2}\]
-</p><!-- l. 1570 --><p class='noindent'>where \(P_{timeline}(k)\) is the probability of the collective transitioning to timeline \(k\), \(\omega _{scenario}\) is the frequency
+</p><!-- l. 1602 --><p class='noindent'>The selection mechanism follows from the phased-array model:
+</p><!-- l. 1604 --><p class='noindent'>\[P_{timeline}(k) \propto N \cdot r^2 \cdot e^{-\alpha \cdot |\omega _{scenario} - \omega _{timeline,k}|^2}\]
+</p><!-- l. 1606 --><p class='noindent'>where \(P_{timeline}(k)\) is the probability of the collective transitioning to timeline \(k\), \(\omega _{scenario}\) is the frequency
 of the collective scenario exercise, and \(\omega _{timeline,k}\) is the characteristic frequency of timeline \(k\).
 The Gaussian weighting ensures that timelines whose frequency is close to the
 scenario frequency are preferentially selected.
-</p><!-- l. 1577 --><p class='noindent'>This equation is speculative (L3-L4) and is presented as a mathematical
+</p><!-- l. 1613 --><p class='noindent'>This equation is speculative (L3-L4) and is presented as a mathematical
 formalization of the conceptual claim, not as an empirically validated prediction. The
 key qualitative insight is that <span class='ec-lmri-10'>the frequency band of the collective scenario determines
 which timelines are accessible</span>, independent of whether the specific mathematical form
 is correct.
-</p><!-- l. 1583 --><p class='noindent'>If timeline selection is real, then scenario design is the most consequential activity a
+</p><!-- l. 1619 --><p class='noindent'>If timeline selection is real, then scenario design is the most consequential activity a
 civilization can undertake. The scenario architect is not preparing for the future; the
 scenario architect is <span class='ec-lmri-10'>choosing </span>the future.
-</p><!-- l. 1589 --><p class='nopar'>
+</p><!-- l. 1625 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-operational-summary-scenario-design-parameters'><a id='x1-36000'></a>17.6.5 Operational Summary: Scenario Design Parameters</h5>
-<p><a id='x1-36000doc'></a>
-</p><!-- l. 1591 --><p class='nopar'>The following table consolidates the engineering parameters that a scenario architect
+<h5 class='subsubsectionHead' id='-operational-summary-scenario-design-parameters'><a id='x1-37000'></a>17.6.5 Operational Summary: Scenario Design Parameters</h5>
+<p><a id='x1-37000doc'></a>
+</p><!-- l. 1627 --><p class='nopar'>The following table consolidates the engineering parameters that a scenario architect
 must specify:
-</p><!-- l. 1595 --><p class='noindent'> </p><!-- l. 1595 --><p class='noindent'>
-<a id='x1-36001r6'></a></p>
-<!-- l. 1600 --><div class='longtable'> <table class='longtable' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /><col id='TBL-6-2' /><col id='TBL-6-3' /><col id='TBL-6-4' /></colgroup>
+</p><!-- l. 1631 --><p class='noindent'> </p><!-- l. 1631 --><p class='noindent'>
+<a id='x1-37001r6'></a></p>
+<!-- l. 1636 --><div class='longtable'> <table class='longtable' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /><col id='TBL-6-2' /><col id='TBL-6-3' /><col id='TBL-6-4' /></colgroup>
 <tr id='TBL-6-1-'><td class='td01' colspan='3' id='TBL-6-1-1'></td>
 </tr><tr id='TBL-6-4-'><td class='td01' id='TBL-6-4-1'>
-<div class='minipage'><!-- l. 1602 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-6-4-2'> <div class='minipage'><!-- l. 1604 --><p class='noindent'>Symbol </p></div> </td><td class='td11' id='TBL-6-4-3'> <div class='minipage'><!-- l. 1606 --><p class='noindent'>Source Chapter </p></div> </td><td class='td10' id='TBL-6-4-4'> <div class='minipage'><!-- l. 1608 --><p class='noindent'>Design Decision </p></div></td>
+<div class='minipage'><!-- l. 1638 --><p class='noindent'>Parameter </p></div> </td><td class='td11' id='TBL-6-4-2'> <div class='minipage'><!-- l. 1640 --><p class='noindent'>Symbol </p></div> </td><td class='td11' id='TBL-6-4-3'> <div class='minipage'><!-- l. 1642 --><p class='noindent'>Source Chapter </p></div> </td><td class='td10' id='TBL-6-4-4'> <div class='minipage'><!-- l. 1644 --><p class='noindent'>Design Decision </p></div></td>
 </tr><tr id='TBL-6-5-'><td class='td01' colspan='3' id='TBL-6-5-1'></td>
 </tr>
 <tr id='TBL-6-15-'><td class='td01' id='TBL-6-15-1'>
-<!-- l. 1614 --><p class='noindent'>Number
+<!-- l. 1650 --><p class='noindent'>Number
 of
-participants            </p></td><td class='td11' id='TBL-6-15-2'> <!-- l. 1614 --><p class='noindent'>\(N\)                  </p></td><td class='td11' id='TBL-6-15-3'> <!-- l. 1614 --><p class='noindent'>Ch
-  10                         </p></td><td class='td10' id='TBL-6-15-4'> <!-- l. 1614 --><p class='noindent'>Optimize
+participants            </p></td><td class='td11' id='TBL-6-15-2'> <!-- l. 1650 --><p class='noindent'>\(N\)                  </p></td><td class='td11' id='TBL-6-15-3'> <!-- l. 1650 --><p class='noindent'>Ch
+  10                         </p></td><td class='td10' id='TBL-6-15-4'> <!-- l. 1650 --><p class='noindent'>Optimize
   for
   coherence,
   not
   size                     </p></td>
 </tr><tr id='TBL-6-16-'><td class='td01' id='TBL-6-16-1'>
-<!-- l. 1616 --><p class='noindent'>Coherence
-target                    </p></td><td class='td11' id='TBL-6-16-2'> <!-- l. 1616 --><p class='noindent'>\(r\)                  </p></td><td class='td11' id='TBL-6-16-3'> <!-- l. 1616 --><p class='noindent'>Ch
-  10                         </p></td><td class='td10' id='TBL-6-16-4'> <!-- l. 1616 --><p class='noindent'>Set
+<!-- l. 1652 --><p class='noindent'>Coherence
+target                    </p></td><td class='td11' id='TBL-6-16-2'> <!-- l. 1652 --><p class='noindent'>\(r\)                  </p></td><td class='td11' id='TBL-6-16-3'> <!-- l. 1652 --><p class='noindent'>Ch
+  10                         </p></td><td class='td10' id='TBL-6-16-4'> <!-- l. 1652 --><p class='noindent'>Set
   minimum
   \(r &gt; 0.5\)
   for
@@ -1648,9 +1669,9 @@ target                    </p></td><td class='td11' id='TBL-6-16-2'> <!-- l. 161
   collective
   gain                    </p></td>
 </tr><tr id='TBL-6-17-'><td class='td01' id='TBL-6-17-1'>
-<!-- l. 1618 --><p class='noindent'>Archetype
-sequence                </p></td><td class='td11' id='TBL-6-17-2'> <!-- l. 1618 --><p class='noindent'>\(\{\omega _{scenario,k}\}\)                  </p></td><td class='td11' id='TBL-6-17-3'> <!-- l. 1618 --><p class='noindent'>This
-  chapter                  </p></td><td class='td10' id='TBL-6-17-4'> <!-- l. 1619 --><p class='noindent'>Ascending
+<!-- l. 1654 --><p class='noindent'>Archetype
+sequence                </p></td><td class='td11' id='TBL-6-17-2'> <!-- l. 1654 --><p class='noindent'>\(\{\omega _{scenario,k}\}\)                  </p></td><td class='td11' id='TBL-6-17-3'> <!-- l. 1654 --><p class='noindent'>This
+  chapter                  </p></td><td class='td10' id='TBL-6-17-4'> <!-- l. 1655 --><p class='noindent'>Ascending
   chirp
   from
   current
@@ -1658,10 +1679,10 @@ sequence                </p></td><td class='td11' id='TBL-6-17-2'> <!-- l. 1618 
   to
   target
   band                   </p></td> </tr><tr id='TBL-6-18-'><td class='td01' id='TBL-6-18-1'>
-<!-- l. 1620 --><p class='noindent'>Sweep
-rate                      </p></td><td class='td11' id='TBL-6-18-2'> <!-- l. 1620 --><p class='noindent'>\(\mu \)                  </p></td><td class='td11' id='TBL-6-18-3'> <!-- l. 1620 --><p class='noindent'>Ch
+<!-- l. 1656 --><p class='noindent'>Sweep
+rate                      </p></td><td class='td11' id='TBL-6-18-2'> <!-- l. 1656 --><p class='noindent'>\(\mu \)                  </p></td><td class='td11' id='TBL-6-18-3'> <!-- l. 1656 --><p class='noindent'>Ch
   9
-  (PLL)                    </p></td><td class='td10' id='TBL-6-18-4'> <!-- l. 1620 --><p class='noindent'>Must
+  (PLL)                    </p></td><td class='td10' id='TBL-6-18-4'> <!-- l. 1656 --><p class='noindent'>Must
   not
   exceed
   \(BW_{loop}^2\)
@@ -1669,10 +1690,10 @@ rate                      </p></td><td class='td11' id='TBL-6-18-2'> <!-- l. 162
   the
   group                  </p></td>
 </tr><tr id='TBL-6-19-'><td class='td01' id='TBL-6-19-1'>
-<!-- l. 1622 --><p class='noindent'>Step
-size                       </p></td><td class='td11' id='TBL-6-19-2'> <!-- l. 1622 --><p class='noindent'>\(\Delta \omega _k\)                  </p></td><td class='td11' id='TBL-6-19-3'> <!-- l. 1622 --><p class='noindent'>Ch
+<!-- l. 1658 --><p class='noindent'>Step
+size                       </p></td><td class='td11' id='TBL-6-19-2'> <!-- l. 1658 --><p class='noindent'>\(\Delta \omega _k\)                  </p></td><td class='td11' id='TBL-6-19-3'> <!-- l. 1658 --><p class='noindent'>Ch
   9
-  (PLL)                    </p></td><td class='td10' id='TBL-6-19-4'> <!-- l. 1622 --><p class='noindent'>Must
+  (PLL)                    </p></td><td class='td10' id='TBL-6-19-4'> <!-- l. 1658 --><p class='noindent'>Must
   stay
   within
   collective
@@ -1680,18 +1701,18 @@ size                       </p></td><td class='td11' id='TBL-6-19-2'> <!-- l. 16
   range
   \(\Delta \omega _C\)                          </p></td>
 </tr><tr id='TBL-6-20-'><td class='td01' id='TBL-6-20-1'>
-<!-- l. 1624 --><p class='noindent'>Debrief
-duration                 </p></td><td class='td11' id='TBL-6-20-2'> <!-- l. 1624 --><p class='noindent'>\(T_{debrief}\)                  </p></td><td class='td11' id='TBL-6-20-3'> <!-- l. 1624 --><p class='noindent'>This
-  chapter                  </p></td><td class='td10' id='TBL-6-20-4'> <!-- l. 1624 --><p class='noindent'>Minimum
+<!-- l. 1660 --><p class='noindent'>Debrief
+duration                 </p></td><td class='td11' id='TBL-6-20-2'> <!-- l. 1660 --><p class='noindent'>\(T_{debrief}\)                  </p></td><td class='td11' id='TBL-6-20-3'> <!-- l. 1660 --><p class='noindent'>This
+  chapter                  </p></td><td class='td10' id='TBL-6-20-4'> <!-- l. 1660 --><p class='noindent'>Minimum
   25%
   of
   total
   exercise
   duration               </p></td>
 </tr><tr id='TBL-6-21-'><td class='td01' id='TBL-6-21-1'>
-<!-- l. 1626 --><p class='noindent'>Facilitation
-intensity                </p></td><td class='td11' id='TBL-6-21-2'> <!-- l. 1626 --><p class='noindent'>\(V_{inj}\)                  </p></td><td class='td11' id='TBL-6-21-3'> <!-- l. 1626 --><p class='noindent'>Ch
-  11                         </p></td><td class='td10' id='TBL-6-21-4'> <!-- l. 1626 --><p class='noindent'>Strong
+<!-- l. 1662 --><p class='noindent'>Facilitation
+intensity                </p></td><td class='td11' id='TBL-6-21-2'> <!-- l. 1662 --><p class='noindent'>\(V_{inj}\)                  </p></td><td class='td11' id='TBL-6-21-3'> <!-- l. 1662 --><p class='noindent'>Ch
+  11                         </p></td><td class='td10' id='TBL-6-21-4'> <!-- l. 1662 --><p class='noindent'>Strong
   enough
   for
   lock,
@@ -1702,10 +1723,10 @@ intensity                </p></td><td class='td11' id='TBL-6-21-2'> <!-- l. 1626
   to
   override               </p></td>
 </tr><tr id='TBL-6-22-'><td class='td01' id='TBL-6-22-1'>
-<!-- l. 1628 --><p class='noindent'>Repeat
-frequency               </p></td><td class='td11' id='TBL-6-22-2'> <!-- l. 1628 --><p class='noindent'>\(f_{repeat}\)                  </p></td><td class='td11' id='TBL-6-22-3'> <!-- l. 1628 --><p class='noindent'>Ch
+<!-- l. 1664 --><p class='noindent'>Repeat
+frequency               </p></td><td class='td11' id='TBL-6-22-2'> <!-- l. 1664 --><p class='noindent'>\(f_{repeat}\)                  </p></td><td class='td11' id='TBL-6-22-3'> <!-- l. 1664 --><p class='noindent'>Ch
   18
-  (practice)               </p></td><td class='td10' id='TBL-6-22-4'> <!-- l. 1628 --><p class='noindent'>Regular
+  (practice)               </p></td><td class='td10' id='TBL-6-22-4'> <!-- l. 1664 --><p class='noindent'>Regular
   repetition
   produces
   progressive
@@ -1715,26 +1736,26 @@ frequency               </p></td><td class='td11' id='TBL-6-22-2'> <!-- l. 1628 
 <tr id='TBL-6-10-'><td class='td01' colspan='3' id='TBL-6-10-1'></td>
 </tr>
 </table></div>
-<!-- l. 1633 --><p class='noindent'>The scenario architect works with these parameters as a systems engineer works with
+<!-- l. 1669 --><p class='noindent'>The scenario architect works with these parameters as a systems engineer works with
 a link budget: each parameter contributes to or subtracts from the collective
 manifesting margin, and the overall design must close the budget with positive
 margin for the desired consciousness band.
-</p><!-- l. 1640 --><p class='nopar'>
+</p><!-- l. 1676 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-institutional-scenario-governance-checklist'><a id='x1-37000'></a>17.6.6 Institutional Scenario Governance Checklist</h5>
-<p><a id='x1-37000doc'></a>
-</p><!-- l. 1642 --><p class='nopar'>Use the following checklist before treating scenario work as doctrine rather than
+<h5 class='subsubsectionHead' id='-institutional-scenario-governance-checklist'><a id='x1-38000'></a>17.6.6 Institutional Scenario Governance Checklist</h5>
+<p><a id='x1-38000doc'></a>
+</p><!-- l. 1678 --><p class='nopar'>Use the following checklist before treating scenario work as doctrine rather than
 workshop theater:
-</p><!-- l. 1646 --><p class='noindent'>
-</p><!-- l. 1646 --><p class='noindent'>
-<a id='x1-37001r7'></a></p>
-<!-- l. 1650 --><div class='longtable'> <table class='longtable' id='TBL-7'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /><col id='TBL-7-2' /><col id='TBL-7-3' /></colgroup> <tr id='TBL-7-4-'><td class='td01' id='TBL-7-4-1'>
-<div class='minipage'><!-- l. 1652 --><p class='noindent'>Checklist Item </p></div> </td><td class='td11' id='TBL-7-4-2'> <div class='minipage'><!-- l. 1654 --><p class='noindent'>Minimum Standard </p></div> </td><td class='td10' id='TBL-7-4-3'> <div class='minipage'><!-- l. 1656 --><p class='noindent'>Failure Mode if Ignored </p></div></td>
+</p><!-- l. 1682 --><p class='noindent'>
+</p><!-- l. 1682 --><p class='noindent'>
+<a id='x1-38001r7'></a></p>
+<!-- l. 1686 --><div class='longtable'> <table class='longtable' id='TBL-7'><colgroup id='TBL-7-1g'><col id='TBL-7-1' /><col id='TBL-7-2' /><col id='TBL-7-3' /></colgroup> <tr id='TBL-7-4-'><td class='td01' id='TBL-7-4-1'>
+<div class='minipage'><!-- l. 1688 --><p class='noindent'>Checklist Item </p></div> </td><td class='td11' id='TBL-7-4-2'> <div class='minipage'><!-- l. 1690 --><p class='noindent'>Minimum Standard </p></div> </td><td class='td10' id='TBL-7-4-3'> <div class='minipage'><!-- l. 1692 --><p class='noindent'>Failure Mode if Ignored </p></div></td>
 </tr>
 <tr id='TBL-7-15-'><td class='td01' id='TBL-7-15-1'>
-<!-- l. 1662 --><p class='noindent'>scenario
+<!-- l. 1698 --><p class='noindent'>scenario
 set
-diversity                         </p></td><td class='td11' id='TBL-7-15-2'> <!-- l. 1662 --><p class='noindent'>Include
+diversity                         </p></td><td class='td11' id='TBL-7-15-2'> <!-- l. 1698 --><p class='noindent'>Include
   at
   least
   one
@@ -1744,7 +1765,7 @@ diversity                         </p></td><td class='td11' id='TBL-7-15-2'> <!-
   and
   one
   expansion
-  archetype                        </p></td><td class='td10' id='TBL-7-15-3'> <!-- l. 1663 --><p class='noindent'>Monoculture
+  archetype                        </p></td><td class='td10' id='TBL-7-15-3'> <!-- l. 1699 --><p class='noindent'>Monoculture
   scenarios
   lock
   the
@@ -1754,8 +1775,8 @@ diversity                         </p></td><td class='td11' id='TBL-7-15-2'> <!-
   narrow
   band                            </p></td>
 </tr><tr id='TBL-7-16-'><td class='td01' id='TBL-7-16-1'>
-<!-- l. 1665 --><p class='noindent'>archetype
-coverage                         </p></td><td class='td11' id='TBL-7-16-2'> <!-- l. 1665 --><p class='noindent'>Explicitly
+<!-- l. 1701 --><p class='noindent'>archetype
+coverage                         </p></td><td class='td11' id='TBL-7-16-2'> <!-- l. 1701 --><p class='noindent'>Explicitly
   state
   which
   Schwartz
@@ -1765,13 +1786,13 @@ coverage                         </p></td><td class='td11' id='TBL-7-16-2'> <!--
   and
   which
   are
-  absent                            </p></td><td class='td10' id='TBL-7-16-3'> <!-- l. 1666 --><p class='noindent'>Unexamined
+  absent                            </p></td><td class='td10' id='TBL-7-16-3'> <!-- l. 1702 --><p class='noindent'>Unexamined
   omissions
   masquerade
   as
   objectivity                     </p></td> </tr><tr id='TBL-7-17-'><td class='td01' id='TBL-7-17-1'>
-<!-- l. 1668 --><p class='noindent'>facilitator
-discipline                        </p></td><td class='td11' id='TBL-7-17-2'> <!-- l. 1668 --><p class='noindent'>Separate
+<!-- l. 1704 --><p class='noindent'>facilitator
+discipline                        </p></td><td class='td11' id='TBL-7-17-2'> <!-- l. 1704 --><p class='noindent'>Separate
   facilitation
   from
   advocacy;
@@ -1780,7 +1801,7 @@ discipline                        </p></td><td class='td11' id='TBL-7-17-2'> <!-
   emotional
   inhabitation
   across
-  scenarios                         </p></td><td class='td10' id='TBL-7-17-3'> <!-- l. 1669 --><p class='noindent'>The
+  scenarios                         </p></td><td class='td10' id='TBL-7-17-3'> <!-- l. 1705 --><p class='noindent'>The
   exercise
   becomes
   covert
@@ -1790,8 +1811,8 @@ discipline                        </p></td><td class='td11' id='TBL-7-17-2'> <!-
   bandwidth
   expansion                      </p></td>
 </tr><tr id='TBL-7-18-'><td class='td01' id='TBL-7-18-1'>
-<!-- l. 1671 --><p class='noindent'>debrief
-protocol                          </p></td><td class='td11' id='TBL-7-18-2'> <!-- l. 1671 --><p class='noindent'>Use
+<!-- l. 1707 --><p class='noindent'>debrief
+protocol                          </p></td><td class='td11' id='TBL-7-18-2'> <!-- l. 1707 --><p class='noindent'>Use
   a
   fixed
   debrief
@@ -1801,7 +1822,7 @@ protocol                          </p></td><td class='td11' id='TBL-7-18-2'> <!-
   assumptions,
   and
   action
-  implications                    </p></td><td class='td10' id='TBL-7-18-3'> <!-- l. 1672 --><p class='noindent'>Participants
+  implications                    </p></td><td class='td10' id='TBL-7-18-3'> <!-- l. 1708 --><p class='noindent'>Participants
   retain
   affect
   without
@@ -1809,9 +1830,9 @@ protocol                          </p></td><td class='td11' id='TBL-7-18-2'> <!-
   decision
   value                            </p></td>
 </tr><tr id='TBL-7-19-'><td class='td01' id='TBL-7-19-1'>
-<!-- l. 1674 --><p class='noindent'>coherence
+<!-- l. 1710 --><p class='noindent'>coherence
 measurement
-proxy                             </p></td><td class='td11' id='TBL-7-19-2'> <!-- l. 1674 --><p class='noindent'>Track
+proxy                             </p></td><td class='td11' id='TBL-7-19-2'> <!-- l. 1710 --><p class='noindent'>Track
   at
   least
   one
@@ -1824,7 +1845,7 @@ proxy                             </p></td><td class='td11' id='TBL-7-19-2'> <!-
   speaking-time
   balance,
   decision
-  convergence)                    </p></td><td class='td10' id='TBL-7-19-3'> <!-- l. 1676 --><p class='noindent'>“Collective
+  convergence)                    </p></td><td class='td10' id='TBL-7-19-3'> <!-- l. 1712 --><p class='noindent'>“Collective
   coherence”
   remains
   a
@@ -1834,9 +1855,9 @@ proxy                             </p></td><td class='td11' id='TBL-7-19-2'> <!-
   an
   observable
   variable                        </p></td> </tr><tr id='TBL-7-20-'><td class='td01' id='TBL-7-20-1'>
-<!-- l. 1678 --><p class='noindent'>follow-up
+<!-- l. 1714 --><p class='noindent'>follow-up
 decision
-review                            </p></td><td class='td11' id='TBL-7-20-2'> <!-- l. 1678 --><p class='noindent'>Revisit
+review                            </p></td><td class='td11' id='TBL-7-20-2'> <!-- l. 1714 --><p class='noindent'>Revisit
   30-
   and
   90-day
@@ -1845,7 +1866,7 @@ review                            </p></td><td class='td11' id='TBL-7-20-2'> <!-
   against
   the
   scenario
-  outputs                          </p></td><td class='td10' id='TBL-7-20-3'> <!-- l. 1679 --><p class='noindent'>No
+  outputs                          </p></td><td class='td10' id='TBL-7-20-3'> <!-- l. 1715 --><p class='noindent'>No
   learning
   loop
   closes;
@@ -1856,13 +1877,13 @@ review                            </p></td><td class='td11' id='TBL-7-20-2'> <!-
   institutionally                </p></td>
 </tr> </table></div>
 <div class='center'>
-<!-- l. 1684 --><p class='noindent'>
-</p><!-- l. 1684 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1686 --><p class='nopar'>
+<!-- l. 1720 --><p class='noindent'>
+</p><!-- l. 1720 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1722 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-evidence-synthesis'><a id='x1-38000'></a>17.7 Evidence Synthesis</h4>
-<p><a id='x1-38000doc'></a>
-</p><!-- l. 1688 --><p class='nopar'>This section assesses the evidentiary basis for the chapter’s claims, distinguishing
+<h4 class='subsectionHead' id='-evidence-synthesis'><a id='x1-39000'></a>17.7 Evidence Synthesis</h4>
+<p><a id='x1-39000doc'></a>
+</p><!-- l. 1724 --><p class='nopar'>This section assesses the evidentiary basis for the chapter’s claims, distinguishing
                                                                   
 
                                                                   
@@ -1872,11 +1893,11 @@ consciousness bands — is a synthesis of established wargaming theory, establis
 scenario planning methodology, and the RF consciousness framework developed in
 Chapters 6, 9, and 10. The synthesis itself is novel and untested; the components it
 integrates have independent evidentiary support.
-</p><!-- l. 1698 --><p class='nopar'>
+</p><!-- l. 1734 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-military-wargaming-effectiveness-caffrey-corpus-ll'><a id='x1-39000'></a>17.7.1 Military Wargaming Effectiveness (Caffrey Corpus) <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
-<p><a id='x1-39000doc'></a>
-</p><!-- l. 1700 --><p class='nopar'>Caffrey (2019) documents over a century of military wargaming, establishing that
+<h5 class='subsubsectionHead' id='-military-wargaming-effectiveness-caffrey-corpus-ll'><a id='x1-40000'></a>17.7.1 Military Wargaming Effectiveness (Caffrey Corpus) <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
+<p><a id='x1-40000doc'></a>
+</p><!-- l. 1736 --><p class='nopar'>Caffrey (2019) documents over a century of military wargaming, establishing that
 wargaming consistently improves decision quality under uncertainty. Key data points
 include:
 </p> <ul class='itemize1'> <li class='itemize'>The  Naval  War  College’s  pre-WWII  Pacific  wargames  (1920s–1930s)
@@ -1891,7 +1912,7 @@ include:
      planners  trained  in  adversarial  scenarios  (Winners/Losers)  performed
      poorly in stabilization and humanitarian contexts (Challenge/Response,
      Transformation), a result consistent with the band-restriction hypothesis.</li></ul>
-<!-- l. 1725 --><p class='noindent'>These cases collectively establish that structured scenario exploration produces
+<!-- l. 1761 --><p class='noindent'>These cases collectively establish that structured scenario exploration produces
 better-adapted decision-makers than briefings, lectures, or unstructured
 discussion alone. This is L1 evidence for the claim that scenario exercises
 modify participant cognition; the consciousness-band interpretation is an L2
@@ -1899,17 +1920,17 @@ extension.
                                                                   
 
                                                                   
-</p><!-- l. 1732 --><p class='nopar'>
+</p><!-- l. 1768 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-shell-scenario-planning-outcomes-schwartz-ll'><a id='x1-40000'></a>17.7.2 Shell Scenario Planning Outcomes (Schwartz) <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
-<p><a id='x1-40000doc'></a>
-</p><!-- l. 1734 --><p class='nopar'>Schwartz (1991) documents Shell’s scenario planning from the late 1960s through the
+<h5 class='subsubsectionHead' id='-shell-scenario-planning-outcomes-schwartz-ll'><a id='x1-41000'></a>17.7.2 Shell Scenario Planning Outcomes (Schwartz) <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
+<p><a id='x1-41000doc'></a>
+</p><!-- l. 1770 --><p class='nopar'>Schwartz (1991) documents Shell’s scenario planning from the late 1960s through the
 1980s, demonstrating that the multi-scenario method repeatedly positioned Shell
 ahead of competitors during discontinuous change (1973 oil crisis, 1979 Iranian
 revolution, mid-1980s oil price collapse). The effectiveness is attributed not to
 prediction but to what Schwartz calls “reperceiving” — changing the mental models
 through which decision-makers process information.
-</p><!-- l. 1742 --><p class='noindent'>Notably, Shell’s scenario teams did not merely present scenarios to executives; they
+</p><!-- l. 1778 --><p class='noindent'>Notably, Shell’s scenario teams did not merely present scenarios to executives; they
 required executives to <span class='ec-lmri-10'>work within </span>each scenario, making decisions as if that scenario
 were real. This emotional inhabitation, rather than intellectual briefing, is what the
 PLL framework identifies as the active mechanism. Shell executives who had
@@ -1918,16 +1939,16 @@ to the relevant frequency band when the actual disruption arrived. Their
 competitors, who had operated exclusively within growth-continuation scenarios,
 lacked the bandwidth to process the new signal. This constitutes L1-L2 evidence for
 the bandwidth-expansion interpretation.
-</p><!-- l. 1755 --><p class='nopar'>
+</p><!-- l. 1791 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-perlas-wargaming-theory-ll'><a id='x1-41000'></a>17.7.3 Perla’s Wargaming Theory <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
-<p><a id='x1-41000doc'></a>
-</p><!-- l. 1757 --><p class='nopar'>Perla (1990/2012) provides the theoretical foundation for wargaming as investigation
+<h5 class='subsubsectionHead' id='-perlas-wargaming-theory-ll'><a id='x1-42000'></a>17.7.3 Perla’s Wargaming Theory <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
+<p><a id='x1-42000doc'></a>
+</p><!-- l. 1793 --><p class='nopar'>Perla (1990/2012) provides the theoretical foundation for wargaming as investigation
 of human decision-making rather than physical simulation. His argument that the
 primary output of a wargame is insight into the participants’ cognitive patterns,
 not the game’s outcome, directly supports the consciousness-experiment
 interpretation.
-</p><!-- l. 1763 --><p class='noindent'>Perla distinguishes between the “analytic” school (wargames as quantitative models
+</p><!-- l. 1799 --><p class='noindent'>Perla distinguishes between the “analytic” school (wargames as quantitative models
 that produce numerical answers) and the “experiential” school (wargames as
 immersive environments that produce decision-quality improvements). The analytic
 school treats the game as CW radar aimed at a specific question; the experiential
@@ -1939,11 +1960,11 @@ L1-L2.
                                                                   
 
                                                                   
-</p><!-- l. 1775 --><p class='nopar'>
+</p><!-- l. 1811 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-meditation-and-visualization-effectiveness-ll'><a id='x1-42000'></a>17.7.4 Meditation and Visualization Effectiveness <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
-<p><a id='x1-42000doc'></a>
-</p><!-- l. 1777 --><p class='nopar'>A substantial body of clinical research supports the claim that mental rehearsal
+<h5 class='subsubsectionHead' id='-meditation-and-visualization-effectiveness-ll'><a id='x1-43000'></a>17.7.4 Meditation and Visualization Effectiveness <span class='evidence-pill evidence-pill--range'>[L1-L2]</span></h5>
+<p><a id='x1-43000doc'></a>
+</p><!-- l. 1813 --><p class='nopar'>A substantial body of clinical research supports the claim that mental rehearsal
 (visualization, guided imagery) modifies subsequent behavior and performance:
 </p> <ul class='itemize1'> <li class='itemize'><span class='ec-lmbx-10'>Jeannerod (1995)</span>: Motor imagery activates the same neural circuits
      as physical execution. Mental rehearsal of scenarios produces measurable
@@ -1968,7 +1989,7 @@ L1-L2.
      imagined  scenarios  engage  perceptual  processing  circuitry,  not  merely
      abstract reasoning. This supports the claim that scenario inhabitation is
      a genuine receiver-tuning operation, not a cognitive exercise. <span class='evidence-pill evidence-pill--l1'>[L1]</span></li></ul>
-<!-- l. 1814 --><p class='noindent'>These studies confirm that emotional/imaginative engagement with scenarios
+<!-- l. 1850 --><p class='noindent'>These studies confirm that emotional/imaginative engagement with scenarios
 modifies cognition and behavior. They do not confirm the consciousness-band
 mechanism specifically, but they are consistent with it. The gap between the L1
 evidence (mental imagery affects performance) and the L2-L3 interpretation (scenario
@@ -1977,155 +1998,155 @@ evidence (mental imagery affects performance) and the L2-L3 interpretation (scen
                                                                   
 design selects consciousness bands) remains a theoretical extension that requires
 direct testing via the predictions in Section 17.8.
-</p><!-- l. 1823 --><p class='nopar'>
+</p><!-- l. 1859 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-hawkins-scale-research-limitations-ll'><a id='x1-43000'></a>17.7.5 Hawkins Scale Research Limitations <span class='evidence-pill evidence-pill--range'>[L3-L4]</span></h5>
-<p><a id='x1-43000doc'></a>
-</p><!-- l. 1825 --><p class='nopar'>Hawkins’ Map of Consciousness and its numerical calibration via applied kinesiology
+<h5 class='subsubsectionHead' id='-hawkins-scale-research-limitations-ll'><a id='x1-44000'></a>17.7.5 Hawkins Scale Research Limitations <span class='evidence-pill evidence-pill--range'>[L3-L4]</span></h5>
+<p><a id='x1-44000doc'></a>
+</p><!-- l. 1861 --><p class='nopar'>Hawkins’ Map of Consciousness and its numerical calibration via applied kinesiology
 testing lack independent blinded replication. Hawkins’ claims about specific
 numerical levels and their universal applicability remain at L3-L4. The ordinal
 ranking (contraction states below courage, expansion states above) is consistent with
 mainstream psychological research on affect valence and is independently supported
 at L1-L2. This chapter uses the ordinal structure, not the specific numerical
 calibrations.
-</p><!-- l. 1835 --><p class='nopar'>
+</p><!-- l. 1871 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-collective-intention-studies-ll'><a id='x1-44000'></a>17.7.6 Collective Intention Studies <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h5>
-<p><a id='x1-44000doc'></a>
-</p><!-- l. 1837 --><p class='nopar'>The Global Consciousness Project (Nelson, 2015) reports statistically significant
+<h5 class='subsubsectionHead' id='-collective-intention-studies-ll'><a id='x1-45000'></a>17.7.6 Collective Intention Studies <span class='evidence-pill evidence-pill--range'>[L2-L3]</span></h5>
+<p><a id='x1-45000doc'></a>
+</p><!-- l. 1873 --><p class='nopar'>The Global Consciousness Project (Nelson, 2015) reports statistically significant
 deviations in random event generator outputs during mass-attention events. Radin et
 al. (2006, 2012) report similar effects in controlled laboratory settings. These studies
 are methodologically contested but provide potential L2-L3 evidence for collective
 consciousness effects that would support the phased-array scenario model (Section
 17.6). The effect sizes are small, and replication rates vary across independent
 laboratories.
-</p><!-- l. 1847 --><p class='nopar'>
+</p><!-- l. 1883 --><p class='nopar'>
 </p>
-<h5 class='subsubsectionHead' id='-evidence-tier-summary'><a id='x1-45000'></a>17.7.7 Evidence Tier Summary</h5>
-<p><a id='x1-45000doc'></a>
-</p><!-- l. 1850 --><p class='nopar'>
-</p><!-- l. 1850 --><p class='noindent'>
-<a id='x1-45001r8'></a></p>
-<!-- l. 1855 --><div class='longtable'> <table class='longtable' id='TBL-8'><colgroup id='TBL-8-1g'><col id='TBL-8-1' /><col id='TBL-8-2' /><col id='TBL-8-3' /><col id='TBL-8-4' /></colgroup> <tr id='TBL-8-1-'><td class='td01' colspan='3' id='TBL-8-1-1'></td>
+<h5 class='subsubsectionHead' id='-evidence-tier-summary'><a id='x1-46000'></a>17.7.7 Evidence Tier Summary</h5>
+<p><a id='x1-46000doc'></a>
+</p><!-- l. 1886 --><p class='nopar'>
+</p><!-- l. 1886 --><p class='noindent'>
+<a id='x1-46001r8'></a></p>
+<!-- l. 1891 --><div class='longtable'> <table class='longtable' id='TBL-8'><colgroup id='TBL-8-1g'><col id='TBL-8-1' /><col id='TBL-8-2' /><col id='TBL-8-3' /><col id='TBL-8-4' /></colgroup> <tr id='TBL-8-1-'><td class='td01' colspan='3' id='TBL-8-1-1'></td>
 </tr><tr id='TBL-8-4-'><td class='td01' id='TBL-8-4-1'>
-<div class='minipage'><!-- l. 1857 --><p class='noindent'>Claim </p></div> </td><td class='td11' id='TBL-8-4-2'> <div class='minipage'><!-- l. 1859 --><p class='noindent'>Evidence Tier </p></div> </td><td class='td11' id='TBL-8-4-3'> <div class='minipage'><!-- l. 1861 --><p class='noindent'>Key Sources </p></div> </td><td class='td10' id='TBL-8-4-4'> <div class='minipage'><!-- l. 1863 --><p class='noindent'>Status </p></div></td>
+<div class='minipage'><!-- l. 1893 --><p class='noindent'>Claim </p></div> </td><td class='td11' id='TBL-8-4-2'> <div class='minipage'><!-- l. 1895 --><p class='noindent'>Evidence Tier </p></div> </td><td class='td11' id='TBL-8-4-3'> <div class='minipage'><!-- l. 1897 --><p class='noindent'>Key Sources </p></div> </td><td class='td10' id='TBL-8-4-4'> <div class='minipage'><!-- l. 1899 --><p class='noindent'>Status </p></div></td>
 </tr><tr id='TBL-8-5-'><td class='td01' colspan='3' id='TBL-8-5-1'></td>
 </tr>
 <tr id='TBL-8-15-'><td class='td01' id='TBL-8-15-1'>
-<!-- l. 1869 --><p class='noindent'>Wargaming
+<!-- l. 1905 --><p class='noindent'>Wargaming
 improves
 decision
-quality                   </p></td><td class='td11' id='TBL-8-15-2'> <!-- l. 1869 --><p class='noindent'>L1-L2                    </p></td><td class='td11' id='TBL-8-15-3'> <!-- l. 1869 --><p class='noindent'>Caffrey
+quality                   </p></td><td class='td11' id='TBL-8-15-2'> <!-- l. 1905 --><p class='noindent'>L1-L2                    </p></td><td class='td11' id='TBL-8-15-3'> <!-- l. 1905 --><p class='noindent'>Caffrey
   (2019),
   Perla
-  (1990/2012)            </p></td><td class='td10' id='TBL-8-15-4'> <!-- l. 1870 --><p class='noindent'>Well-established     </p></td>
+  (1990/2012)            </p></td><td class='td10' id='TBL-8-15-4'> <!-- l. 1906 --><p class='noindent'>Well-established     </p></td>
 </tr><tr id='TBL-8-16-'><td class='td01' id='TBL-8-16-1'>
-<!-- l. 1871 --><p class='noindent'>Multi-scenario
+<!-- l. 1907 --><p class='noindent'>Multi-scenario
 planning
 outperforms
-single-scenario         </p></td><td class='td11' id='TBL-8-16-2'> <!-- l. 1871 --><p class='noindent'>L1-L2                    </p></td><td class='td11' id='TBL-8-16-3'> <!-- l. 1871 --><p class='noindent'>Schwartz
+single-scenario         </p></td><td class='td11' id='TBL-8-16-2'> <!-- l. 1907 --><p class='noindent'>L1-L2                    </p></td><td class='td11' id='TBL-8-16-3'> <!-- l. 1907 --><p class='noindent'>Schwartz
   (1991),
   Shell
   case
-  studies                   </p></td><td class='td10' id='TBL-8-16-4'> <!-- l. 1872 --><p class='noindent'>Well-established     </p></td>
+  studies                   </p></td><td class='td10' id='TBL-8-16-4'> <!-- l. 1908 --><p class='noindent'>Well-established     </p></td>
 </tr><tr id='TBL-8-17-'><td class='td01' id='TBL-8-17-1'>
-<!-- l. 1873 --><p class='noindent'>Mental
+<!-- l. 1909 --><p class='noindent'>Mental
 imagery
 modifies
 cognition
 and
-performance           </p></td><td class='td11' id='TBL-8-17-2'> <!-- l. 1873 --><p class='noindent'>L1                        </p></td><td class='td11' id='TBL-8-17-3'> <!-- l. 1873 --><p class='noindent'>Jeannerod
+performance           </p></td><td class='td11' id='TBL-8-17-2'> <!-- l. 1909 --><p class='noindent'>L1                        </p></td><td class='td11' id='TBL-8-17-3'> <!-- l. 1909 --><p class='noindent'>Jeannerod
   (1995),
   Moran
   et
-  al. (2012)               </p></td><td class='td10' id='TBL-8-17-4'> <!-- l. 1874 --><p class='noindent'>Replicated            </p></td>
+  al. (2012)               </p></td><td class='td10' id='TBL-8-17-4'> <!-- l. 1910 --><p class='noindent'>Replicated            </p></td>
 </tr><tr id='TBL-8-18-'><td class='td01' id='TBL-8-18-1'>
-<!-- l. 1875 --><p class='noindent'>Plot
+<!-- l. 1911 --><p class='noindent'>Plot
 archetype
 maps
 to
 consciousness
 band
 via
-impedance              </p></td><td class='td11' id='TBL-8-18-2'> <!-- l. 1875 --><p class='noindent'>L2-L3                    </p></td><td class='td11' id='TBL-8-18-3'> <!-- l. 1875 --><p class='noindent'>This
+impedance              </p></td><td class='td11' id='TBL-8-18-2'> <!-- l. 1911 --><p class='noindent'>L2-L3                    </p></td><td class='td11' id='TBL-8-18-3'> <!-- l. 1911 --><p class='noindent'>This
   chapter
   (novel
-  synthesis)               </p></td><td class='td10' id='TBL-8-18-4'> <!-- l. 1876 --><p class='noindent'>Testable,
+  synthesis)               </p></td><td class='td10' id='TBL-8-18-4'> <!-- l. 1912 --><p class='noindent'>Testable,
   untested               </p></td> </tr><tr id='TBL-8-19-'><td class='td01' id='TBL-8-19-1'>
-<!-- l. 1877 --><p class='noindent'>Hawkins
+<!-- l. 1913 --><p class='noindent'>Hawkins
 courage
 threshold
 =
 \(Z_0 = 1\)
-transition               </p></td><td class='td11' id='TBL-8-19-2'> <!-- l. 1877 --><p class='noindent'>L3-L4                    </p></td><td class='td11' id='TBL-8-19-3'> <!-- l. 1877 --><p class='noindent'>Hawkins
+transition               </p></td><td class='td11' id='TBL-8-19-2'> <!-- l. 1913 --><p class='noindent'>L3-L4                    </p></td><td class='td11' id='TBL-8-19-3'> <!-- l. 1913 --><p class='noindent'>Hawkins
   (1995),
   Chapter
-  6                          </p></td><td class='td10' id='TBL-8-19-4'> <!-- l. 1878 --><p class='noindent'>Conceptual
+  6                          </p></td><td class='td10' id='TBL-8-19-4'> <!-- l. 1914 --><p class='noindent'>Conceptual
   mapping               </p></td>
 </tr><tr id='TBL-8-20-'><td class='td01' id='TBL-8-20-1'>
-<!-- l. 1879 --><p class='noindent'>Collective
+<!-- l. 1915 --><p class='noindent'>Collective
 scenario
 work
 produces
 \(N \cdot r^2\)
 power
-scaling                   </p></td><td class='td11' id='TBL-8-20-2'> <!-- l. 1879 --><p class='noindent'>L2-L3                    </p></td><td class='td11' id='TBL-8-20-3'> <!-- l. 1880 --><p class='noindent'>Chapter
+scaling                   </p></td><td class='td11' id='TBL-8-20-2'> <!-- l. 1915 --><p class='noindent'>L2-L3                    </p></td><td class='td11' id='TBL-8-20-3'> <!-- l. 1916 --><p class='noindent'>Chapter
   10
   (phased
   array)
   applied
   to
-  scenarios                </p></td><td class='td10' id='TBL-8-20-4'> <!-- l. 1880 --><p class='noindent'>Testable,
+  scenarios                </p></td><td class='td10' id='TBL-8-20-4'> <!-- l. 1916 --><p class='noindent'>Testable,
   untested               </p></td>
 </tr><tr id='TBL-8-21-'><td class='td01' id='TBL-8-21-1'>
-<!-- l. 1881 --><p class='noindent'>Scenario
+<!-- l. 1917 --><p class='noindent'>Scenario
 design
 selects
 among
-timelines                </p></td><td class='td11' id='TBL-8-21-2'> <!-- l. 1881 --><p class='noindent'>L3-L4                    </p></td><td class='td11' id='TBL-8-21-3'> <!-- l. 1881 --><p class='noindent'>Chapter
+timelines                </p></td><td class='td11' id='TBL-8-21-2'> <!-- l. 1917 --><p class='noindent'>L3-L4                    </p></td><td class='td11' id='TBL-8-21-3'> <!-- l. 1917 --><p class='noindent'>Chapter
   12
   Section
   12.5
-  extended                </p></td><td class='td10' id='TBL-8-21-4'> <!-- l. 1882 --><p class='noindent'>Speculative           </p></td>
+  extended                </p></td><td class='td10' id='TBL-8-21-4'> <!-- l. 1918 --><p class='noindent'>Speculative           </p></td>
 </tr>
 <tr id='TBL-8-10-'><td class='td01' colspan='3' id='TBL-8-10-1'></td>
 </tr>
 </table></div>
 <div class='center'>
-<!-- l. 1886 --><p class='noindent'>
-</p><!-- l. 1886 --><p class='noindent'>_________________________________</p></div> <div class='center'>
-<!-- l. 1888 --><p class='noindent'>
-</p><!-- l. 1888 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1890 --><p class='nopar'>
+<!-- l. 1922 --><p class='noindent'>
+</p><!-- l. 1922 --><p class='noindent'>_________________________________</p></div> <div class='center'>
+<!-- l. 1924 --><p class='noindent'>
+</p><!-- l. 1924 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1926 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-predictions'><a id='x1-46000'></a>17.8 Predictions</h4>
-<p><a id='x1-46000doc'></a>
-</p><!-- l. 1892 --><p class='nopar'><span class='ec-lmbx-10'>P1 (Decision Band Constraint). </span>Scenario exercises using only low-\(Z_0\) archetypes
+<h4 class='subsectionHead' id='-predictions'><a id='x1-47000'></a>17.8 Predictions</h4>
+<p><a id='x1-47000doc'></a>
+</p><!-- l. 1928 --><p class='nopar'><span class='ec-lmbx-10'>P1 (Decision Band Constraint). </span>Scenario exercises using only low-\(Z_0\) archetypes
 (Winners/Losers, Revolution) will produce measurably narrower solution sets than
 exercises that include high-\(Z_0\) archetypes (Transformation, Evolution, Infinite
 Possibility), as assessed by independent raters blind to condition. Metric: number of
 qualitatively distinct solution categories generated per session. [Testable via
 controlled experiment]
-</p><!-- l. 1900 --><p class='noindent'><span class='ec-lmbx-10'>P2 (Sweep Order Effect). </span>Scenario sequences that sweep from low to high
+</p><!-- l. 1936 --><p class='noindent'><span class='ec-lmbx-10'>P2 (Sweep Order Effect). </span>Scenario sequences that sweep from low to high
 frequency (ascending chirp) will produce greater bandwidth expansion in
 participants than sequences that start at high frequency, as measured by pre/post
 assessment of willingness to consider unfamiliar options. The ascending sweep
 ensures initial lock, enabling progressive tuning; the descending sweep loses
 lock at the start and never recovers. [Testable via randomized controlled
 trial]
-</p><!-- l. 1908 --><p class='noindent'><span class='ec-lmbx-10'>P3 (Coherence Dominance). </span>In collective scenario exercises, the quality of
+</p><!-- l. 1944 --><p class='noindent'><span class='ec-lmbx-10'>P3 (Coherence Dominance). </span>In collective scenario exercises, the quality of
 emotional engagement (\(r\)) will predict collective decision quality more strongly than
 group size (\(N\)), controlling for scenario archetype and facilitation quality. Metric: \(r\)
 measured via physiological synchrony (inter-subject HRV correlation, facial affect
 coding) and decision quality assessed by independent panel. [Testable via field
 experiment]
-</p><!-- l. 1916 --><p class='noindent'><span class='ec-lmbx-10'>P4 (Post-Exercise Bandwidth Persistence). </span>Participants who complete a full
+</p><!-- l. 1952 --><p class='noindent'><span class='ec-lmbx-10'>P4 (Post-Exercise Bandwidth Persistence). </span>Participants who complete a full
 chirp scenario sequence will show expanded “openness to experience” (Big Five
 personality dimension) at 30- and 90-day follow-up relative to controls who received
 only data briefings on the same topics. The effect will be larger for sequences with
 structured debrief (matched filter) than for sequences without. [Testable via
 longitudinal study]
-</p><!-- l. 1924 --><p class='noindent'><span class='ec-lmbx-10'>P5 (Adversarial Band Restriction). </span>Organizations whose scenario exercises are
+</p><!-- l. 1960 --><p class='noindent'><span class='ec-lmbx-10'>P5 (Adversarial Band Restriction). </span>Organizations whose scenario exercises are
 restricted to a single plot archetype will show reduced adaptive capacity during
 discontinuous change, relative to organizations using multi-archetype scenario
 portfolios. Metric: post-crisis performance deviation from pre-crisis trajectory.
@@ -2134,14 +2155,14 @@ portfolios. Metric: post-crisis performance deviation from pre-crisis trajectory
                                                                   
 [Testable via archival analysis of organizational scenario practices and crisis
 response]
-</p><!-- l. 1932 --><p class='noindent'><span class='ec-lmbx-10'>P6 (Physiological Frequency Tracking). </span>Participants in scenario exercises will
+</p><!-- l. 1968 --><p class='noindent'><span class='ec-lmbx-10'>P6 (Physiological Frequency Tracking). </span>Participants in scenario exercises will
 show measurable shifts in autonomic markers (HRV coherence ratio, skin
 conductance, respiratory rate) that correlate with the consciousness band of the
 current scenario archetype. Low-\(Z_0\) archetypes (Winners/Losers) will produce decreased
 HRV coherence and increased skin conductance; high-\(Z_0\) archetypes (Transformation,
 Infinite Possibility) will produce the reverse. [Testable via real-time physiological
 monitoring during scenario exercises]
-</p><!-- l. 1941 --><p class='noindent'><span class='ec-lmbx-10'>P7 (Debrief Necessity). </span>Scenario exercises without structured debrief (matched
+</p><!-- l. 1977 --><p class='noindent'><span class='ec-lmbx-10'>P7 (Debrief Necessity). </span>Scenario exercises without structured debrief (matched
 filter processing) will produce less than half the decision-quality improvement of
 exercises with debrief, measured at 30-day follow-up. The debrief compresses the
 chirp sweep into actionable insight; without it, the raw frequency sweep produces
@@ -2149,21 +2170,21 @@ unprocessed bandwidth that decays rapidly. [Testable via randomized controlled t
 with debrief/no-debrief conditions]
 </p>
 <div class='center'>
-<!-- l. 1949 --><p class='noindent'>
-</p><!-- l. 1949 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 1952 --><p class='nopar'>
+<!-- l. 1985 --><p class='noindent'>
+</p><!-- l. 1985 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 1988 --><p class='nopar'>
 </p>
-<h4 class='subsectionHead' id='-connections-and-reading-path'><a id='x1-47000'></a>17.9 Connections and Reading Path</h4>
-<p><a id='x1-47000doc'></a>
-</p><!-- l. 1954 --><p class='nopar'><span class='ec-lmbx-10'>Previous: </span>Chapter 16 (Counter-Jamming Operations and Link Budget) —
+<h4 class='subsectionHead' id='-connections-and-reading-path'><a id='x1-48000'></a>17.9 Connections and Reading Path</h4>
+<p><a id='x1-48000doc'></a>
+</p><!-- l. 1990 --><p class='nopar'><span class='ec-lmbx-10'>Previous: </span>Chapter 16 (Counter-Jamming Operations and Link Budget) —
 established the reactive liberation toolkit and the link budget framework. Scenario
 design is the proactive complement: where Chapter 16 asks “how do we break free?”,
 this chapter asks “free to do what?”
-</p><!-- l. 1960 --><p class='noindent'><span class='ec-lmbx-10'>Next: </span>Chapter 18 (Spiritual Traditions as Tuning Protocols) — moves from
+</p><!-- l. 1996 --><p class='noindent'><span class='ec-lmbx-10'>Next: </span>Chapter 18 (Spiritual Traditions as Tuning Protocols) — moves from
 collective scenario design to individual practice. The spiritual traditions are
 personal-scale injection-locking protocols that raise \(Z_0\) and expand bandwidth,
 complementing the collective-scale mechanisms described here.
-</p><!-- l. 1966 --><p class='noindent'><span class='ec-lmbx-10'>Key dependencies:</span>
+</p><!-- l. 2002 --><p class='noindent'><span class='ec-lmbx-10'>Key dependencies:</span>
 </p> <ul class='itemize1'> <li class='itemize'>Chapter 6: RLC model parameters (\(R\), \(L\), \(C\), \(Z_0\), \(Q\)) and the impedance transition
      at \(Z_0 = 1\)
      </li> <li class='itemize'>Chapter 9: PLL feedback loop, varactor emotional tuning, manifestation
@@ -2177,7 +2198,7 @@ complementing the collective-scale mechanisms described here.
      architecture that scenario monopoly exploits)
      </li> <li class='itemize'>Chapter 16: Link budget framework into which scenario-based collective
      gain enters</li></ul>
-<!-- l. 1993 --><p class='noindent'><span class='ec-lmbx-10'>Downstream connections:</span>
+<!-- l. 2029 --><p class='noindent'><span class='ec-lmbx-10'>Downstream connections:</span>
 </p> <ul class='itemize1'> <li class='itemize'>Chapter 18: Individual spiritual practices provide the \(Z_0\)-raising that makes
      high-frequency  scenario  participation  possible.  The  practices  described
      in Chapter 18 (mantra, breathwork, meditation) are the individual-scale
@@ -2194,9 +2215,9 @@ complementing the collective-scale mechanisms described here.
      band, and the phase transitions are the frequency steps that must stay
      within the collective capture range.</li></ul>
 <div class='center'>
-<!-- l. 2018 --><p class='noindent'>
-</p><!-- l. 2018 --><p class='noindent'>_________________________________</p></div>
-<!-- l. 2020 --><p class='noindent'><span class='ec-lmri-10'>End of Chapter 17: Scenario Design as Consciousness Engineering</span>
+<!-- l. 2054 --><p class='noindent'>
+</p><!-- l. 2054 --><p class='noindent'>_________________________________</p></div>
+<!-- l. 2056 --><p class='noindent'><span class='ec-lmri-10'>End of Chapter 17: Scenario Design as Consciousness Engineering</span>
 </p>
     </article>
 

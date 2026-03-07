@@ -546,6 +546,80 @@ excess signal above minimum</td>
 <td>dB</td>
 <td>Ch 15</td>
 </tr>
+<tr>
+<td><span class="math inline">\(J/S\)</span></td>
+<td>Jamming-to-signal ratio</td>
+<td><span class="math inline">\(\text{ERP}_J - \text{ERP}_S +
+20\log(d_S/d_J) + G_{RJ} - G_R\)</span></td>
+<td>dB</td>
+<td>Ch 15</td>
+</tr>
+<tr>
+<td><span class="math inline">\(R_{BT}\)</span></td>
+<td>Burn-through range</td>
+<td>Distance at which truth signal overcomes jammer: <span
+class="math inline">\(d_J\)</span> where <span class="math inline">\(J/S
+= 0\)</span> dB</td>
+<td>distance (model)</td>
+<td>Ch 15</td>
+</tr>
+<tr>
+<td><span class="math inline">\(G_p\)</span></td>
+<td>Processing gain</td>
+<td><span
+class="math inline">\(10\log_{10}(BW_{spread}/BW_{info})\)</span> —
+spread spectrum advantage</td>
+<td>dB</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(AJM\)</span></td>
+<td>Anti-jam margin</td>
+<td><span class="math inline">\(G_p - L_{sys} -
+\text{SNR}_{out,req}\)</span> — surplus protection above minimum</td>
+<td>dB</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_{pull-off}\)</span></td>
+<td>Pull-off time constant</td>
+<td>Time from peak experience to maximum displacement from control
+narrative</td>
+<td>time (model)</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau_{pull-back}\)</span></td>
+<td>Pull-back time constant</td>
+<td>Time from peak displacement to gravitational return toward control
+narrative</td>
+<td>time (model)</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(M_{fade}\)</span></td>
+<td>Fade margin</td>
+<td><span class="math inline">\(P_{received} - P_{threshold} -
+L_{implementation}\)</span> — surplus coherence above minimum</td>
+<td>dB</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(K_{Ricean}\)</span></td>
+<td>Ricean K-factor</td>
+<td><span class="math inline">\(P_{dominant}/P_{scattered}\)</span> —
+teacher dependence ratio</td>
+<td>dimensionless</td>
+<td>Ch 16</td>
+</tr>
+<tr>
+<td><span class="math inline">\(CR\)</span></td>
+<td>Compression ratio</td>
+<td><span class="math inline">\(BW \cdot T_{sweep}\)</span> — pulse
+compression / debrief integration gain</td>
+<td>dimensionless</td>
+<td>Ch 17</td>
+</tr>
 </tbody>
 </table>
 <h2 id="e.6-density-and-field-variables">E.6 Density and Field
