@@ -157,21 +157,23 @@ perception range and density access</td>
 <td>Energy loss rate — maps to distraction, trauma, environmental
 noise</td>
 <td><span class="math inline">\(\Omega\)</span> (model)</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 </tr>
 <tr>
 <td><span class="math inline">\(L\)</span></td>
 <td>Inductance (inertia)</td>
-<td>Accumulated wisdom/experience across incarnations</td>
+<td>This-lifetime accumulated wisdom/integration (<span
+class="math inline">\(L_{body} = L_{wisdom} +
+L_{integration}\)</span>)</td>
 <td>H (model)</td>
-<td>Ch 6</td>
+<td>Ch 8</td>
 </tr>
 <tr>
 <td><span class="math inline">\(C\)</span></td>
 <td>Capacitance (reactivity)</td>
 <td>Unprocessed shadow material; emotional charge storage</td>
 <td>F (model)</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 </tr>
 <tr>
 <td><span class="math inline">\(Q\)</span></td>
@@ -179,13 +181,34 @@ noise</td>
 <td><span class="math inline">\(Z_0/R\)</span> — sovereignty,
 discernment, resistance to injection locking</td>
 <td>dimensionless</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 </tr>
 <tr>
 <td><span class="math inline">\(f_0\)</span></td>
 <td>Resonant frequency</td>
-<td><span class="math inline">\(1/(2\pi\sqrt{LC})\)</span> — natural
-operating frequency of consciousness</td>
+<td><span class="math inline">\(1/(2\pi\sqrt{L_{body}C_{body}})\)</span>
+— body’s characteristic reception scale (pattern scale, not density
+level)</td>
+<td>Hz (model)</td>
+<td>Ch 8</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_d\)</span></td>
+<td>Density carrier frequency</td>
+<td><span class="math inline">\(f_1 \cdot
+\beta_{cascade}^{(d-1)}\)</span> — carrier frequency of density tier
+<span class="math inline">\(d\)</span>; scales with <span
+class="math inline">\(Z_d\)</span> and <span
+class="math inline">\(E_d\)</span></td>
+<td>Hz (model)</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_{soul}\)</span></td>
+<td>Spectral centroid</td>
+<td><span class="math inline">\(\int f \cdot |S(f)|^2 df / \int |S(f)|^2
+df\)</span> — characterizes soul developmental level; field
+property</td>
 <td>Hz (model)</td>
 <td>Ch 6</td>
 </tr>
@@ -195,14 +218,14 @@ operating frequency of consciousness</td>
 <td>Individual-level phase alignment; ranges 0 (random) to 1
 (perfect)</td>
 <td>dimensionless</td>
-<td>Ch 12</td>
+<td>Ch 13</td>
 </tr>
 <tr>
 <td><span class="math inline">\(r\)</span></td>
 <td>Kuramoto order parameter</td>
 <td>Population-level phase synchronization; ranges 0 to 1</td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 </tbody>
 </table>
@@ -231,14 +254,14 @@ Variables</h2>
 <td>Population size</td>
 <td>Total number of elements in the array</td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 <tr>
 <td><span class="math inline">\(f\)</span></td>
 <td>Coherent fraction</td>
 <td>Fraction of population that is phase-coherent</td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 <tr>
 <td><span class="math inline">\(f_c\)</span></td>
@@ -246,7 +269,7 @@ Variables</h2>
 <td><span class="math inline">\(\sqrt{T/N}\)</span> — minimum coherent
 fraction for collective effect</td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 <tr>
 <td><span class="math inline">\(T\)</span></td>
@@ -254,21 +277,21 @@ fraction for collective effect</td>
 <td>SNR threshold for coherent signal detection; <span
 class="math inline">\(T = 10\)</span></td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 <tr>
 <td><span class="math inline">\(AF\)</span></td>
 <td>Array factor</td>
 <td>Complex sum of individual element contributions</td>
 <td>dimensionless</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 <tr>
 <td><span class="math inline">\(K\)</span></td>
 <td>Coupling strength</td>
 <td>Kuramoto inter-oscillator coupling coefficient</td>
 <td>rad/s</td>
-<td>Ch 10, 9</td>
+<td>Ch 11, 9</td>
 </tr>
 <tr>
 <td><span class="math inline">\(K_c\)</span></td>
@@ -276,7 +299,7 @@ class="math inline">\(T = 10\)</span></td>
 <td><span class="math inline">\(2/(\pi g(0))\)</span> — minimum coupling
 for synchronization</td>
 <td>rad/s</td>
-<td>Ch 10</td>
+<td>Ch 11</td>
 </tr>
 </tbody>
 </table>
@@ -388,8 +411,79 @@ Variables</h2>
 <tr>
 <td><span class="math inline">\(V_{ref}(t)\)</span></td>
 <td>Soul reference signal</td>
-<td>CDMA-encoded soul purpose carrier (→ Ch 5 §5.5.3)</td>
+<td>Spectral signature carrier (→ Ch 6 §6.5)</td>
 <td>V (model)</td>
+<td>Ch 9</td>
+</tr>
+</tbody>
+</table>
+<h2 id="e.3a-matching-network-convergence-variables">E.3a Matching
+Network / Convergence Variables</h2>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 13%" />
+<col style="width: 26%" />
+<col style="width: 15%" />
+<col style="width: 26%" />
+</colgroup>
+<thead>
+<tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Definition</th>
+<th>Units</th>
+<th>Introduced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="math inline">\(N(i)\)</span></td>
+<td>Degrees of freedom</td>
+<td>Number of degrees of freedom at matching point <span
+class="math inline">\(i\)</span> (crown fewest, root most)</td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\mu\)</span></td>
+<td>Adaptation rate</td>
+<td>Biological plasticity coefficient; higher in young bodies</td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\text{SNR}(i)\)</span></td>
+<td>Band-specific SNR</td>
+<td><span class="math inline">\(\text{SNR}_{soul} \times
+\text{SNR}_{env}\)</span> — joint soul signal clarity × environmental
+clarity</td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\Gamma_{initial}(i)\)</span></td>
+<td>Initial reflection coefficient</td>
+<td>Initial impedance mismatch at band <span
+class="math inline">\(i\)</span>; set by <span
+class="math inline">\(Z_{soul}/Z_{body}\)</span> gap</td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\Gamma_{target}\)</span></td>
+<td>Target reflection coefficient</td>
+<td>Acceptable coupling threshold; <span class="math inline">\(\approx
+0.1\)</span></td>
+<td>dimensionless</td>
+<td>Ch 9</td>
+</tr>
+<tr>
+<td><span class="math inline">\(\tau(i)\)</span></td>
+<td>Convergence time</td>
+<td><span class="math inline">\(N(i)/(2\mu \cdot \text{SNR}(i)) \cdot
+\ln(\Gamma_{initial}(i)/\Gamma_{target})\)</span></td>
+<td>years (model)</td>
 <td>Ch 9</td>
 </tr>
 </tbody>
@@ -420,21 +514,21 @@ Variables</h2>
 <td><span class="math inline">\(\omega_0/(2Q) \cdot V_{inj}/V_0\)</span>
 — range of frequencies over which lock holds</td>
 <td>rad/s</td>
-<td>Ch 11</td>
+<td>Ch 12</td>
 </tr>
 <tr>
 <td><span class="math inline">\(V_{inj}\)</span></td>
 <td>Injection signal amplitude</td>
 <td>Strength of the external locking signal</td>
 <td>V (model)</td>
-<td>Ch 11</td>
+<td>Ch 12</td>
 </tr>
 <tr>
 <td><span class="math inline">\(V_0\)</span></td>
 <td>Free-running amplitude</td>
 <td>Natural oscillation amplitude</td>
 <td>V (model)</td>
-<td>Ch 11</td>
+<td>Ch 12</td>
 </tr>
 <tr>
 <td><span class="math inline">\(\Delta\omega\)</span></td>
@@ -442,7 +536,7 @@ Variables</h2>
 <td><span class="math inline">\(\omega_{inj} - \omega_0\)</span> —
 distance between injection and natural frequency</td>
 <td>rad/s</td>
-<td>Ch 11</td>
+<td>Ch 12</td>
 </tr>
 <tr>
 <td><span class="math inline">\(f_{esc}\)</span></td>
@@ -451,7 +545,7 @@ distance between injection and natural frequency</td>
 class="math inline">\(\omega_{L,C}/(\omega_{L,C} +
 K_{mean})\)</span></td>
 <td>dimensionless</td>
-<td>Ch 11</td>
+<td>Ch 12</td>
 </tr>
 </tbody>
 </table>
@@ -479,42 +573,42 @@ K_{mean})\)</span></td>
 <td>Source power</td>
 <td>Transmitted power from Source</td>
 <td>dB (model)</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(G_S\)</span></td>
 <td>Source gain</td>
 <td>Directivity of Source transmission</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(L_{path}\)</span></td>
 <td>Path loss</td>
 <td>Signal attenuation through density cascade</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(L_{paradigm}\)</span></td>
 <td>Paradigm loss</td>
 <td>Attenuation from paradigm shielding (Faraday cage)</td>
 <td>dB</td>
-<td>Ch 15, 14</td>
+<td>Ch 16, 14</td>
 </tr>
 <tr>
 <td><span class="math inline">\(L_{parasitic}\)</span></td>
 <td>Parasitic loss</td>
 <td>Energy extracted by parasitic coupling</td>
 <td>dB</td>
-<td>Ch 14, 14</td>
+<td>Ch 15, 14</td>
 </tr>
 <tr>
 <td><span class="math inline">\(G_{practices}\)</span></td>
 <td>Practice gain</td>
 <td>Signal enhancement from spiritual/contemplative practices</td>
 <td>dB</td>
-<td>Ch 16, 17</td>
+<td>Ch 17, 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(G_{collective}\)</span></td>
@@ -522,7 +616,7 @@ K_{mean})\)</span></td>
 <td><span class="math inline">\(10\log_{10}(N \cdot r^2)\)</span> —
 phased array gain from group coherence</td>
 <td>dB</td>
-<td>Ch 10, 14</td>
+<td>Ch 11, 14</td>
 </tr>
 <tr>
 <td><span class="math inline">\(M\)</span></td>
@@ -530,21 +624,21 @@ phased array gain from group coherence</td>
 <td><span class="math inline">\(P_{received} - P_{threshold}\)</span> —
 excess signal above minimum</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(SE\)</span></td>
 <td>Shielding effectiveness</td>
 <td>Attenuation provided by paradigm cage layers</td>
 <td>dB</td>
-<td>Ch 15</td>
+<td>Ch 16</td>
 </tr>
 <tr>
 <td><span class="math inline">\(NF\)</span></td>
 <td>Noise figure</td>
 <td>Degradation of SNR through processing chain</td>
 <td>dB</td>
-<td>Ch 15</td>
+<td>Ch 16</td>
 </tr>
 <tr>
 <td><span class="math inline">\(J/S\)</span></td>
@@ -552,7 +646,7 @@ excess signal above minimum</td>
 <td><span class="math inline">\(\text{ERP}_J - \text{ERP}_S +
 20\log(d_S/d_J) + G_{RJ} - G_R\)</span></td>
 <td>dB</td>
-<td>Ch 15</td>
+<td>Ch 16</td>
 </tr>
 <tr>
 <td><span class="math inline">\(R_{BT}\)</span></td>
@@ -561,7 +655,7 @@ excess signal above minimum</td>
 class="math inline">\(d_J\)</span> where <span class="math inline">\(J/S
 = 0\)</span> dB</td>
 <td>distance (model)</td>
-<td>Ch 15</td>
+<td>Ch 16</td>
 </tr>
 <tr>
 <td><span class="math inline">\(G_p\)</span></td>
@@ -570,7 +664,7 @@ class="math inline">\(d_J\)</span> where <span class="math inline">\(J/S
 class="math inline">\(10\log_{10}(BW_{spread}/BW_{info})\)</span> —
 spread spectrum advantage</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(AJM\)</span></td>
@@ -578,7 +672,7 @@ spread spectrum advantage</td>
 <td><span class="math inline">\(G_p - L_{sys} -
 \text{SNR}_{out,req}\)</span> — surplus protection above minimum</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(\tau_{pull-off}\)</span></td>
@@ -586,7 +680,7 @@ spread spectrum advantage</td>
 <td>Time from peak experience to maximum displacement from control
 narrative</td>
 <td>time (model)</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(\tau_{pull-back}\)</span></td>
@@ -594,7 +688,7 @@ narrative</td>
 <td>Time from peak displacement to gravitational return toward control
 narrative</td>
 <td>time (model)</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(M_{fade}\)</span></td>
@@ -602,7 +696,7 @@ narrative</td>
 <td><span class="math inline">\(P_{received} - P_{threshold} -
 L_{implementation}\)</span> — surplus coherence above minimum</td>
 <td>dB</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(K_{Ricean}\)</span></td>
@@ -610,7 +704,7 @@ L_{implementation}\)</span> — surplus coherence above minimum</td>
 <td><span class="math inline">\(P_{dominant}/P_{scattered}\)</span> —
 teacher dependence ratio</td>
 <td>dimensionless</td>
-<td>Ch 16</td>
+<td>Ch 17</td>
 </tr>
 <tr>
 <td><span class="math inline">\(CR\)</span></td>
@@ -618,7 +712,7 @@ teacher dependence ratio</td>
 <td><span class="math inline">\(BW \cdot T_{sweep}\)</span> — pulse
 compression / debrief integration gain</td>
 <td>dimensionless</td>
-<td>Ch 17</td>
+<td>Ch 18</td>
 </tr>
 </tbody>
 </table>
@@ -663,6 +757,27 @@ Variables</h2>
 <td>Cascade ratio</td>
 <td>Impedance ratio between adjacent densities; ~5 (illustrative)</td>
 <td>dimensionless</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(f_d\)</span></td>
+<td>Density carrier frequency</td>
+<td><span class="math inline">\(f_1 \cdot
+\beta_{cascade}^{(d-1)}\)</span> — characteristic frequency of density
+<span class="math inline">\(d\)</span>; scales with <span
+class="math inline">\(Z_d\)</span></td>
+<td>Hz (model)</td>
+<td>Ch 2</td>
+</tr>
+<tr>
+<td><span class="math inline">\(E_d\)</span></td>
+<td>Density energy</td>
+<td><span class="math inline">\(E_1 \cdot
+\beta_{cascade}^{(d-1)}\)</span> — characteristic energy of density
+<span class="math inline">\(d\)</span>; scales with <span
+class="math inline">\(Z_d\)</span> and <span
+class="math inline">\(f_d\)</span></td>
+<td>energy (model)</td>
 <td>Ch 2</td>
 </tr>
 <tr>
@@ -748,18 +863,18 @@ coherence <span class="math inline">\(\sigma\)</span></li>
 <li><strong>Imaginary unit</strong>: <span
 class="math inline">\(j\)</span> (engineering convention)</li>
 <li><strong>Torsion field strength</strong>: <span
-class="math inline">\(\mathcal{T}\)</span> in equations (Chapter 12+);
+class="math inline">\(\mathcal{T}\)</span> in equations (Chapter 13+);
 distinguished from temperature <span class="math inline">\(T\)</span>
 and torsion tensor <span class="math inline">\(T^{\lambda}_{\
 \mu\nu}\)</span></li>
 <li><strong>Coherence</strong>: <span
 class="math inline">\(\sigma\)</span> for individual spin coherence (Ch
-12+); <span class="math inline">\(r\)</span> for population phase
-alignment (Ch 10+)</li>
+13+); <span class="math inline">\(r\)</span> for population phase
+alignment (Ch 11+)</li>
 <li><strong>Critical fraction</strong>: <span
 class="math inline">\(f_c\)</span> for coherent population threshold (Ch
-10); <span class="math inline">\(f_{esc}\)</span> for narrative escape
-threshold (Ch 11)</li>
+11); <span class="math inline">\(f_{esc}\)</span> for narrative escape
+threshold (Ch 12)</li>
 <li><strong>PLL variables</strong>: <span
 class="math inline">\(K_d\)</span>, <span
 class="math inline">\(K_{vco}\)</span>, <span
@@ -769,7 +884,7 @@ class="math inline">\(\zeta_{loop}\)</span> (Ch 9); distinguished from
 injection locking variables (<span
 class="math inline">\(\omega_L\)</span>, <span
 class="math inline">\(V_{inj}\)</span>, <span
-class="math inline">\(\Delta\omega\)</span>) in Ch 11</li>
+class="math inline">\(\Delta\omega\)</span>) in Ch 12</li>
 </ul>
 <p><em>End of Appendix D: Variables and Constants Reference</em></p>
     </article>

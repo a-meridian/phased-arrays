@@ -64,7 +64,7 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch02.html",
-    "title": "Chapter 2: Densities as Impedance Tiers \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 2: Densities as Frequency Bands \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part I: Spectrum Characterization",
     "chapter_num": 2,
@@ -124,16 +124,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch05.html",
-    "title": "Chapter 5: The Signal Environment \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 5: Timeline Architecture \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
-    "part_label": "Part II: Receiver Engineering",
+    "part_label": "Part I: Spectrum Characterization",
     "chapter_num": 5,
-    "description": "State-dependent signal environment, receiver configurations, and forcing regimes across waking and altered states.",
+    "description": "Timeline architecture, retrocausal structure, and soul-signature modeling before receiver engineering begins.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "signal environment",
-      "receiver states",
-      "forcing regimes",
+      "timeline architecture",
+      "retrocausality",
+      "soul signature",
       "chapter 5"
     ],
     "audience": [
@@ -144,16 +144,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch06.html",
-    "title": "Chapter 6: Consciousness as an RLC Circuit \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 6: The Signal Environment \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part II: Receiver Engineering",
     "chapter_num": 6,
-    "description": "Consciousness as an RLC receiver with resonance, damping, and distributed mode-shape behavior.",
+    "description": "State-dependent signal environment, receiver configurations, and forcing regimes across waking and altered states.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "RLC circuit",
-      "mode shapes",
-      "resonance",
+      "signal environment",
+      "receiver states",
+      "forcing regimes",
       "chapter 6"
     ],
     "audience": [
@@ -164,16 +164,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch07.html",
-    "title": "Chapter 7: Biofield and DNA Antenna System \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 7: Consciousness as an RLC Circuit \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part II: Receiver Engineering",
     "chapter_num": 7,
-    "description": "Biofield and DNA antenna hypotheses for biological reception, coupling, and signal interface.",
+    "description": "Consciousness as an RLC receiver with resonance, damping, and distributed mode-shape behavior.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "biofield",
-      "DNA antenna",
-      "biological reception",
+      "RLC circuit",
+      "mode shapes",
+      "resonance",
       "chapter 7"
     ],
     "audience": [
@@ -184,16 +184,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch08.html",
-    "title": "Chapter 8: Eros and Creation \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 8: Biofield and DNA Antenna System \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part II: Receiver Engineering",
     "chapter_num": 8,
-    "description": "Polarity coupling, eros, and creation dynamics modeled as generative coherence processes.",
+    "description": "Biofield and DNA antenna hypotheses for biological reception, coupling, and signal interface.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "eros",
-      "creation",
-      "polarity coupling",
+      "biofield",
+      "DNA antenna",
+      "biological reception",
       "chapter 8"
     ],
     "audience": [
@@ -204,16 +204,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch09.html",
-    "title": "Chapter 9: Phase-Locked Loop Consciousness \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 9: Eros and Creation \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part II: Receiver Engineering",
     "chapter_num": 9,
-    "description": "Phase-locked loop consciousness, lock acquisition, reference tracking, and retrocausal interpretation boundaries.",
+    "description": "Polarity coupling, eros, and creation dynamics modeled as generative coherence processes.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "phase-locked loop",
-      "reference tracking",
-      "lock acquisition",
+      "eros",
+      "creation",
+      "polarity coupling",
       "chapter 9"
     ],
     "audience": [
@@ -224,36 +224,36 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch10.html",
-    "title": "Chapter 10: Phased Array Humanity \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 10: Structure of Incarnation \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
-    "part_label": "Part III: Spectrum Access",
+    "part_label": "Part II: Receiver Engineering",
     "chapter_num": 10,
-    "description": "Collective coherence modeled as phased-array gain, constructive interference, and population-level mode structure.",
+    "description": "Soul-body matching, incarnation structure, and real-time reference tracking modeled with matching networks and PLL logic.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "phased array humanity",
-      "collective coherence",
-      "gain scaling",
+      "structure of incarnation",
+      "matching network",
+      "reference tracking",
       "chapter 10"
     ],
     "audience": [
       "technical readers",
       "leadership readers"
     ],
-    "priority": 0.84
+    "priority": 0.72
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch11.html",
-    "title": "Chapter 11: Injection Locking and Perception Management \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 11: Phased Array Humanity \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part III: Spectrum Access",
     "chapter_num": 11,
-    "description": "Injection locking, perception management, and narrative capture under constrained bandwidth.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 11: Injection Locking and Perception Management",
+    "description": "Collective coherence modeled as phased-array gain, constructive interference, and population-level mode structure.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "injection locking",
-      "perception management",
-      "narrative capture",
+      "phased array humanity",
+      "collective coherence",
+      "gain scaling",
       "chapter 11"
     ],
     "audience": [
@@ -264,15 +264,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch12.html",
-    "title": "Chapter 12: Spin Coherence Fundamentals \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 12: Injection Locking and Perception Management \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
-    "part_label": "Part IV: Spectrum Engineering",
+    "part_label": "Part III: Spectrum Access",
     "chapter_num": 12,
-    "description": "Spin coherence as the master engineering variable for torsion effects, infrastructure, and timeline mechanics.",
-    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "description": "Injection locking, perception management, and narrative capture under constrained bandwidth.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 12: Injection Locking and Perception Management",
     "keywords": [
-      "spin coherence",
-      "timeline mechanics",
+      "injection locking",
+      "perception management",
+      "narrative capture",
       "chapter 12"
     ],
     "audience": [
@@ -283,37 +284,16 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch13.html",
-    "title": "Chapter 13: Seeder Intervention and Megalithic Infrastructure \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 13: Spin Coherence Fundamentals \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part IV: Spectrum Engineering",
     "chapter_num": 13,
-    "description": "Seeder intervention and megalithic infrastructure hypotheses treated as civilization-scale spectrum engineering.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 13: Seeder Intervention and Megalithic Infrastructure",
-    "keywords": [
-      "seeder intervention",
-      "megalithic infrastructure",
-      "ancient civilizations",
-      "chapter 13"
-    ],
-    "audience": [
-      "technical readers",
-      "leadership readers"
-    ],
-    "priority": 0.72
-  },
-  {
-    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch14.html",
-    "title": "Chapter 14: The Fall and Parasitic Coupling \u2014 Consciousness Spectrum Operations",
-    "surface_type": "chapter",
-    "part_label": "Part V: Spectrum Denial",
-    "chapter_num": 14,
-    "description": "The Fall modeled as parasitic coupling, extraction architecture, and denial logic.",
+    "description": "Spin coherence as the master engineering variable for torsion effects, infrastructure, and timeline mechanics.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "parasitic coupling",
-      "the fall",
-      "extraction architecture",
-      "chapter 14"
+      "spin coherence",
+      "timeline mechanics",
+      "chapter 13"
     ],
     "audience": [
       "technical readers",
@@ -322,16 +302,37 @@
     "priority": 0.84
   },
   {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch14.html",
+    "title": "Chapter 14: Seeder Intervention and Megalithic Infrastructure \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part IV: Spectrum Engineering",
+    "chapter_num": 14,
+    "description": "Seeder intervention and megalithic infrastructure hypotheses treated as civilization-scale spectrum engineering.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 14: Seeder Intervention and Megalithic Infrastructure",
+    "keywords": [
+      "seeder intervention",
+      "megalithic infrastructure",
+      "ancient civilizations",
+      "chapter 14"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.72
+  },
+  {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch15.html",
-    "title": "Chapter 15: Paradigm Shielding and Disclosure Architecture \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 15: The Fall and Parasitic Coupling \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part V: Spectrum Denial",
     "chapter_num": 15,
-    "description": "Paradigm shielding, disclosure architecture, and metamaterial-style blocking or pacing layers.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 15: Paradigm Shielding and Disclosure Architecture",
+    "description": "The Fall modeled as parasitic coupling, extraction architecture, and denial logic.",
+    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
-      "paradigm shielding",
-      "disclosure architecture",
+      "parasitic coupling",
+      "the fall",
+      "extraction architecture",
       "chapter 15"
     ],
     "audience": [
@@ -342,37 +343,35 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch16.html",
-    "title": "Chapter 16: Counter-Jamming Operations and Link Budget \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 16: Paradigm Shielding and Disclosure Architecture \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part V: Spectrum Denial",
+    "chapter_num": 16,
+    "description": "Paradigm shielding, disclosure architecture, and metamaterial-style blocking or pacing layers.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 16: Paradigm Shielding and Disclosure Architecture",
+    "keywords": [
+      "paradigm shielding",
+      "disclosure architecture",
+      "chapter 16"
+    ],
+    "audience": [
+      "technical readers",
+      "leadership readers"
+    ],
+    "priority": 0.84
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch17.html",
+    "title": "Chapter 17: Counter-Jamming Operations and Link Budget \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part VI: Spectrum Superiority",
-    "chapter_num": 16,
+    "chapter_num": 17,
     "description": "Counter-jamming, link-budget closure, and liberation-signal engineering for contested consciousness spectrum operations.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 16: Counter-Jamming Operations and Link Budget",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 17: Counter-Jamming Operations and Link Budget",
     "keywords": [
       "counter-jamming",
       "link budget",
       "liberation signal",
-      "chapter 16"
-    ],
-    "audience": [
-      "leadership readers",
-      "institutional planners",
-      "state and defense"
-    ],
-    "priority": 0.92
-  },
-  {
-    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch17.html",
-    "title": "Chapter 17: Scenario Design as Consciousness Engineering \u2014 Consciousness Spectrum Operations",
-    "surface_type": "chapter",
-    "part_label": "Part VI: Spectrum Superiority",
-    "chapter_num": 17,
-    "description": "Scenario design and wargaming as proactive reference-signal engineering and future-band selection.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 17: Scenario Design as Consciousness Engineering",
-    "keywords": [
-      "scenario design",
-      "wargaming",
-      "future-band selection",
       "chapter 17"
     ],
     "audience": [
@@ -384,18 +383,39 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch18.html",
-    "title": "Chapter 18: Spiritual Traditions as Tuning Protocols \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 18: Scenario Design as Consciousness Engineering \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part VI: Spectrum Superiority",
     "chapter_num": 18,
+    "description": "Scenario design and wargaming as proactive reference-signal engineering and future-band selection.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 18: Scenario Design as Consciousness Engineering",
+    "keywords": [
+      "scenario design",
+      "wargaming",
+      "future-band selection",
+      "chapter 18"
+    ],
+    "audience": [
+      "leadership readers",
+      "institutional planners",
+      "state and defense"
+    ],
+    "priority": 0.92
+  },
+  {
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch19.html",
+    "title": "Chapter 19: Spiritual Traditions as Tuning Protocols \u2014 Consciousness Spectrum Operations",
+    "surface_type": "chapter",
+    "part_label": "Part VI: Spectrum Superiority",
+    "chapter_num": 19,
     "description": "Cross-tradition practice protocols modeled as injection-locking, entrainment, and coherence-maintenance systems.",
-    "excerpt": "KEY FINDINGS \u2014 Chapter 18: Spiritual Traditions as Tuning Protocols",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 19: Spiritual Traditions as Tuning Protocols",
     "keywords": [
       "spiritual traditions",
       "tuning protocols",
       "entrainment",
       "awakening",
-      "chapter 18"
+      "chapter 19"
     ],
     "audience": [
       "leadership readers",
@@ -405,11 +425,11 @@
     "priority": 0.84
   },
   {
-    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch19.html",
-    "title": "Chapter 19: The Great Thaw \u2014 Cross-Cultural Ascension as Lock-Breaking \u2014 Consciousness Spectrum Operations",
+    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch20.html",
+    "title": "Chapter 20: The Great Thaw \u2014 Cross-Cultural Ascension as Lock-Breaking \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part VI: Spectrum Superiority",
-    "chapter_num": 19,
+    "chapter_num": 20,
     "description": "Cross-cultural ascension convergence treated as scenario-planning intelligence with explicit alternative explanations and evidence fences.",
     "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
     "keywords": [
@@ -417,7 +437,7 @@
       "ascension convergence",
       "scenario intelligence",
       "awakening",
-      "chapter 19"
+      "chapter 20"
     ],
     "audience": [
       "leadership readers",
@@ -477,8 +497,8 @@
     "surface_type": "guide",
     "part_label": null,
     "chapter_num": null,
-    "description": "A structured guide to Chapter 14's extraction model, evidence boundaries, and control-architecture continuity.",
-    "excerpt": "This guide concentrates the manuscript\u2019s control-energy extraction model in Chapter 14, while keeping it connected to the longer stack of injection locking, shielding persistence, and ongoing interference management discussed elsewhere in the manuscript.",
+    "description": "A structured guide to Chapter 15's extraction model, evidence boundaries, and control-architecture continuity.",
+    "excerpt": "This guide concentrates the manuscript\u2019s control-energy extraction model in Chapter 15, while keeping it connected to the longer stack of injection locking, shielding persistence, and ongoing interference management discussed elsewhere in the manuscript.",
     "keywords": [
       "parasitic coupling",
       "loosh",
@@ -810,14 +830,15 @@
     "surface_type": "reference",
     "part_label": null,
     "chapter_num": null,
-    "description": "Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.",
-    "excerpt": "Part II defines the receiver stack: signal environment, RLC dynamics, biofield/DNA coupling, polarity/coupling behavior, and PLL-based reference tracking.",
+    "description": "Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.",
+    "excerpt": "Part II defines the receiver stack: signal environment, RLC dynamics, biofield/DNA coupling, polarity/coupling behavior, incarnation impedance matching, and PLL-based reference tracking.",
     "keywords": [
       "part II review",
       "receiver engineering",
+      "signal environment",
       "RLC model",
       "biofield",
-      "PLL"
+      "incarnation structure"
     ],
     "audience": [
       "technical readers",

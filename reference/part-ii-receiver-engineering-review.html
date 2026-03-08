@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Part II Review: Receiver Engineering | Consciousness Spectrum Operations</title>
-  <meta name="description" content="Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.">
+  <meta name="description" content="Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Consciousness Spectrum Operations">
   <meta property="og:title" content="Part II Review: Receiver Engineering | Consciousness Spectrum Operations">
-  <meta property="og:description" content="Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.">
+  <meta property="og:description" content="Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.">
   <meta property="og:url" content="https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html">
   <meta property="og:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_6_1.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Part II Review: Receiver Engineering | Consciousness Spectrum Operations">
-  <meta name="twitter:description" content="Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.">
+  <meta name="twitter:description" content="Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.">
   <meta name="twitter:image" content="https://a-meridian.github.io/phased-arrays/assets/figures/fig_6_1.png">
   <script type="application/ld+json">
 {
@@ -25,15 +25,16 @@
       "@type": "Article",
       "@id": "https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html",
       "headline": "Part II Review: Receiver Engineering",
-      "description": "Part II synthesis review covering receiver architectures, RLC modeling, biofield coupling, eros dynamics, and PLL behavior.",
+      "description": "Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.",
       "url": "https://a-meridian.github.io/phased-arrays/reference/part-ii-receiver-engineering-review.html",
       "image": "https://a-meridian.github.io/phased-arrays/assets/figures/fig_6_1.png",
       "keywords": [
         "part II review",
         "receiver engineering",
+        "signal environment",
         "RLC model",
         "biofield",
-        "PLL"
+        "incarnation structure"
       ],
       "author": {
         "@type": "Person",
@@ -128,8 +129,8 @@ Operations Review: Part II — Receiver Engineering</h1>
 <h3 id="executive-abstract">Executive Abstract</h3>
 <p><strong>What this part establishes</strong></p>
 <p>Part II defines the receiver stack: signal environment, RLC dynamics,
-biofield/DNA coupling, polarity/coupling behavior, and PLL-based
-reference tracking.</p>
+biofield/DNA coupling, polarity/coupling behavior, incarnation impedance
+matching, and PLL-based reference tracking.</p>
 <p><strong>What a skeptical leadership reader can safely
 take</strong></p>
 <p>A skeptical reader can safely take the disciplined use of receiver,
@@ -161,13 +162,23 @@ and impedance matching</li>
 <li>Map the biofield and DNA system as the physical antenna structure
 coupling the RLC receiver to the torsion field, including the magnonic
 transduction framework and epigenetic ratcheting mechanism</li>
-<li>Analyze sexual polarity as torsion-field chirality interaction, with
-coupled-oscillator dynamics governing energy exchange, manifestation
-windows, and dimensional bridging during creation</li>
+<li>Model the chakra system as a seven-stage cascaded step-down
+transformer that couples a high-impedance soul into a low-impedance
+body, with heart stage carrying the dominant convergence time and
+grounding practices stabilizing <span
+class="math inline">\(Z_{body}\)</span> as termination target (Ch
+10)</li>
+<li>Apply the adaptive convergence algorithm <span
+class="math inline">\(\tau(i) \approx N(i) / (2\mu \cdot SNR(i)) \cdot
+\ln(\Gamma_{initial}(i) / \Gamma_{target})\)</span> to predict matching
+network development timescales (Ch 10)</li>
 <li>Wrap a phase-locked loop around the RLC receiver to model dynamic
 frequency acquisition, emotional varactor tuning, loop-order soul
 progression, and the distinction between temporary mood shifts and
-permanent shadow-work retuning</li>
+permanent shadow-work retuning (Ch 10)</li>
+<li>Analyze sexual polarity as torsion-field chirality interaction, with
+coupled-oscillator dynamics governing energy exchange, manifestation
+windows, and dimensional bridging during creation (Ch 9)</li>
 <li>Classify fifteen states of consciousness as receiver configuration
 vectors within the five-parameter space (<span
 class="math inline">\(\Delta f\)</span>, <span
@@ -204,7 +215,7 @@ Assumptions</h3>
 <td>P2-A1</td>
 <td>Consciousness does not generate signal content; it receives and
 demodulates externally present information (receiver-only ontology)</td>
-<td>Ch 5</td>
+<td>Ch 6</td>
 <td>Ch 1 core claim</td>
 </tr>
 <tr>
@@ -216,14 +227,14 @@ class="math inline">\(\mathcal{D}\)</span>, <span
 class="math inline">\(\mathcal{A}\)</span>, <span
 class="math inline">\(Z_0\)</span>) captures the essential degrees of
 freedom for distinguishing states of consciousness</td>
-<td>Ch 5</td>
+<td>Ch 6</td>
 <td>None</td>
 </tr>
 <tr>
 <td>P2-A3</td>
 <td>The AM/PM/CDMA three-layer decomposition captures the primary
 information layers in Source’s broadcast</td>
-<td>Ch 5</td>
+<td>Ch 6</td>
 <td>Ch 3 template equation</td>
 </tr>
 <tr>
@@ -231,69 +242,78 @@ information layers in Source’s broadcast</td>
 <td>The RLC system is nonlinear because parameters evolve based on
 system state: L accumulates linearly, C discharges exponentially,
 creating irreversible development stages via DNA ratcheting</td>
-<td>Ch 6, Ch 7</td>
-<td>Ch 7 epigenetic mechanism</td>
+<td>Ch 7, Ch 8</td>
+<td>Ch 8 epigenetic mechanism</td>
 </tr>
 <tr>
 <td>P2-A5</td>
 <td>DNA functions as a torsion field antenna (not merely a chemical
 information store), with magnonic spin-wave propagation as the
 transduction mechanism</td>
-<td>Ch 7</td>
+<td>Ch 8</td>
 <td>Ch 0 torsion substrate</td>
 </tr>
 <tr>
 <td>P2-A6</td>
+<td>The seven chakras function as a cascaded impedance matching network
+stepping <span class="math inline">\(Z_{soul}\)</span> down to <span
+class="math inline">\(Z_{body}\)</span>; settling is sequential (crown
+first, root last) with heart stage dominant</td>
+<td>Ch 10</td>
+<td>Ch 7 RLC, Ch 8 chakra substrate</td>
+</tr>
+<tr>
+<td>P2-A7</td>
 <td>Torsion field chirality (<span
 class="math inline">\(T_R\)</span>/<span
 class="math inline">\(T_L\)</span>) maps to sexual polarity, with
 opposite-chirality coupling required for vortex formation and
 dimensional bridging</td>
-<td>Ch 8</td>
+<td>Ch 9</td>
 <td>Ch 0 chirality framework</td>
 </tr>
 <tr>
-<td>P2-A7</td>
+<td>P2-A8</td>
 <td>Coherence <span class="math inline">\(\sigma\)</span> is the primary
 variable determining the quality and power of all coupling — sexual,
 creative, and manifestation</td>
-<td>Ch 8</td>
-<td>Ch 6 Q-sovereignty</td>
-</tr>
-<tr>
-<td>P2-A8</td>
-<td>Individual consciousness actively adjusts its operating frequency in
-response to felt discrepancy with a reference signal (phase detection
-function); the RLC circuit IS the VCO</td>
 <td>Ch 9</td>
-<td>Ch 6 RLC model</td>
+<td>Ch 7 Q-sovereignty</td>
 </tr>
 <tr>
 <td>P2-A9</td>
-<td>Emotional states modulate effective capacitance in real time via a
-varactor mechanism, distinct from structural shadow-work changes</td>
-<td>Ch 9</td>
-<td>Ch 6 C parameter</td>
+<td>Individual consciousness actively adjusts its operating frequency in
+response to felt discrepancy with a reference signal (phase detection
+function); the RLC circuit IS the VCO</td>
+<td>Ch 10</td>
+<td>Ch 7 RLC model</td>
 </tr>
 <tr>
 <td>P2-A10</td>
-<td>The soul reference signal persists across incarnations via the CDMA
-mechanism; loop filter state persists via the DNA ratchet</td>
-<td>Ch 9</td>
-<td>Ch 5 CDMA, Ch 7 ratchet</td>
+<td>Emotional states modulate effective capacitance in real time via a
+varactor mechanism, distinct from structural shadow-work changes</td>
+<td>Ch 10</td>
+<td>Ch 7 C parameter</td>
 </tr>
 <tr>
 <td>P2-A11</td>
-<td>Source power is externally available and can inject energy into
-coupled systems; the soul pre-exists conception</td>
-<td>Ch 8</td>
-<td>Ch 1 Source ontology</td>
+<td>The soul reference signal persists across incarnations via the CDMA
+mechanism; loop filter state persists via the DNA ratchet</td>
+<td>Ch 10</td>
+<td>Ch 6 CDMA, Ch 8 ratchet</td>
 </tr>
 <tr>
 <td>P2-A12</td>
+<td>Source power is externally available and can inject energy into
+coupled systems; the soul pre-exists conception</td>
+<td>Ch 9</td>
+<td>Ch 1 Source ontology</td>
+</tr>
+<tr>
+<td>P2-A13</td>
 <td>Steady-state analysis applies to consciousness dynamics;
 lumped-element model is a valid first approximation</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 <td>None (simplification)</td>
 </tr>
 </tbody>
@@ -303,40 +323,40 @@ Limitations</h3>
 <p><strong>Measurement limitations:</strong></p>
 <ul>
 <li>No direct measurement of torsion field coupling to DNA exists (Ch
-7)</li>
+8)</li>
 <li>No instrument currently distinguishes the AM/PM/CDMA subcarrier
-layers in a consciousness-relevant signal (Ch 5)</li>
+layers in a consciousness-relevant signal (Ch 6)</li>
 <li>CDMA code structure is entirely conceptual; no empirical method
-exists for detecting or comparing soul spreading codes (Ch 5)</li>
+exists for detecting or comparing soul spreading codes (Ch 6)</li>
 <li>Impedance threshold values (<span
 class="math inline">\(Z_{PM}\)</span>, <span
 class="math inline">\(Z_{CDMA}\)</span>) are predicted but not derived
-from first principles (Ch 5)</li>
+from first principles (Ch 6)</li>
 <li>No empirical calibration of torsion field quantities exists;
 equations use RF mathematical forms without measured parameter values
-(Ch 8)</li>
+(Ch 9)</li>
 </ul>
 <p><strong>Model limitations:</strong></p>
 <ul>
 <li>The RLC model treats consciousness as a localized lumped-element
-circuit, not a distributed field; mode shapes (Section 6.2.10) begin
-addressing this but assume linear superposition (Ch 6)</li>
+circuit, not a distributed field; mode shapes (Section 7.2.10) begin
+addressing this but assume linear superposition (Ch 7)</li>
 <li>Single-loop PLL model; real systems may have multiple nested
-feedback loops at different timescales (Ch 9)</li>
+feedback loops at different timescales (Ch 10)</li>
 <li>Binary polarity simplification (<span class="math inline">\(P \in
 [-1, +1]\)</span>); real gender/polarity may require multi-dimensional
-models (Ch 8)</li>
+models (Ch 9)</li>
 <li>Linearized PLL transfer function analysis assumes small-signal
 operation; large-signal acquisition and cycle slipping require nonlinear
-analysis treated only qualitatively (Ch 9)</li>
+analysis treated only qualitatively (Ch 10)</li>
 <li>Magnonic parameter mapping (L/C/R to spin
-stiffness/anisotropy/damping) is analogical, not derived (Ch 7)</li>
+stiffness/anisotropy/damping) is analogical, not derived (Ch 8)</li>
 <li>Ratcheting thresholds and <span class="math inline">\(Z_0\)</span>
-floor values are illustrative, not calibrated (Ch 7)</li>
+floor values are illustrative, not calibrated (Ch 8)</li>
 <li>The varactor model assumes linear <span
 class="math inline">\(C_{eff}(V_{emotion})\)</span>; real
 emotional-capacitance coupling is likely nonlinear with saturation and
-hysteresis (Ch 9)</li>
+hysteresis (Ch 10)</li>
 </ul>
 <p><strong>Evidence limitations:</strong></p>
 <ul>
@@ -344,21 +364,21 @@ hysteresis (Ch 9)</li>
 photosynthetic quantum coherence is less significant than initially
 claimed; broader quantum biology mechanisms remain supported but the RLC
 model’s biological grounding draws on an active and contested research
-frontier (Ch 6, Ch 7)</li>
+frontier (Ch 7, Ch 8)</li>
 <li>Several key torsion field citations (Hu &amp; Wu 2007, Northey 2025)
 are published in non-mainstream journals (<em>NeuroQuantology</em>) and
-should be weighted accordingly (Ch 7)</li>
+should be weighted accordingly (Ch 8)</li>
 <li>The Transurfing (Zeland 2004) mapping is a conceptual isomorphism,
 not independent evidence; provides intuitive access to engineering but
-should not be treated as validation (Ch 9)</li>
+should not be treated as validation (Ch 10)</li>
 <li>The dimensional bridging model (sexual union bridging density
 boundaries) is a metaphysical framework with no direct empirical test
-currently available (Ch 8)</li>
-<li>Several core claims in Ch 8 (soul attachment at conception, Source
+currently available (Ch 9)</li>
+<li>Several core claims in Ch 9 (soul attachment at conception, Source
 power injection, manifestation windows) involve metaphysical processes
 not empirically accessible, limiting scientific testability</li>
 <li>The soul-DNA matching model is metaphysical and not testable by
-current experimental methods (Ch 7)</li>
+current experimental methods (Ch 8)</li>
 </ul>
 <h3 id="r.2.4-falsification-register">R.2.4 Falsification Register</h3>
 <table>
@@ -381,56 +401,56 @@ current experimental methods (Ch 7)</li>
 <td>P2-F1</td>
 <td>Memory and imagination shown to use fundamentally different neural
 mechanisms (not shared substrates)</td>
-<td>Ch 5 F1</td>
+<td>Ch 6 F1</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F2</td>
 <td>Meditation EEG signatures identical across focused and
 open-awareness types (no configuration difference)</td>
-<td>Ch 5 F2</td>
+<td>Ch 6 F2</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F3</td>
 <td>Psychic perception types access different information rather than
 transducing the same information differently</td>
-<td>Ch 5 F3</td>
+<td>Ch 6 F3</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F4</td>
 <td>Spiritual development opens new experiential modes without changes
 in temporal integration depth</td>
-<td>Ch 5 F4</td>
+<td>Ch 6 F4</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F5</td>
 <td>No frequency selectivity: people show equal receptivity to all
 frequencies of information regardless of development level</td>
-<td>Ch 6 F1</td>
+<td>Ch 7 F1</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F6</td>
 <td>No Q-sovereignty correlation: no differential control over
 thoughts/feelings/actions based on development level</td>
-<td>Ch 6 F2</td>
+<td>Ch 7 F2</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F7</td>
 <td>No resonance amplification: sustained practices at specific
 frequencies produce no amplified effects</td>
-<td>Ch 6 F3</td>
+<td>Ch 7 F3</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F8</td>
 <td>No mode structure in EEG: no spatially resolvable microstates
 scaling with development level</td>
-<td>Ch 6 F5</td>
+<td>Ch 7 F5</td>
 <td>Not met</td>
 </tr>
 <tr>
@@ -438,34 +458,34 @@ scaling with development level</td>
 <td>No quantum coherence in neural tissue: quantum witness measurements
 yield no evidence of coherent oscillation at physiological
 temperatures</td>
-<td>Ch 6 F6</td>
+<td>Ch 7 F6</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F10</td>
 <td>DNA shows no THz resonance corresponding to geometric
 parameters</td>
-<td>Ch 7 F1</td>
+<td>Ch 8 F1</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F11</td>
 <td>Epigenetic changes from practice are fully reversible (no
 ratcheting)</td>
-<td>Ch 7 F2</td>
+<td>Ch 8 F2</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F12</td>
 <td>Biofield coherence has no measurable effect on gene expression</td>
-<td>Ch 7 F3</td>
+<td>Ch 8 F3</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F13</td>
 <td>Biophoton emission statistics shown to be purely thermal (Poisson)
 with no anomalous diffusion</td>
-<td>Ch 7 F4</td>
+<td>Ch 8 F4</td>
 <td>Not met</td>
 </tr>
 <tr>
@@ -473,63 +493,63 @@ with no anomalous diffusion</td>
 <td>No polarity coupling effects: biofield measurements show no
 difference between opposite-polarity and same-polarity pairings during
 sexual coupling</td>
-<td>Ch 8 F1</td>
+<td>Ch 9 F1</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F15</td>
 <td>No coherence-dependent effects: biofield coherence during sexual
 activity uncorrelated with subjective quality or creative outcomes</td>
-<td>Ch 8 F2</td>
+<td>Ch 9 F2</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F16</td>
 <td>No gestation binding curve: spontaneous termination rates do not
 follow declining exponential pattern</td>
-<td>Ch 8 F3</td>
+<td>Ch 9 F3</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F17</td>
 <td>No parental state effects on offspring: parental coherence shows
 zero correlation with measurable offspring characteristics</td>
-<td>Ch 8 F4</td>
+<td>Ch 9 F4</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F18</td>
 <td>Flow and alignment cannot be correlated with any measurable
 oscillatory phase-locking phenomenon</td>
-<td>Ch 9 F1</td>
+<td>Ch 10 F1</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F19</td>
 <td>Emotional states do not modulate any measurable resonant frequency
 in biological oscillators</td>
-<td>Ch 9 F2</td>
+<td>Ch 10 F2</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F20</td>
 <td>Contemplative development does not narrow the range of external
 signals that can entrain biological oscillators</td>
-<td>Ch 9 F3</td>
+<td>Ch 10 F3</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F21</td>
 <td>The hope-despair oscillation pattern during acquisition is not
 accompanied by measurable oscillatory dynamics in biomarkers</td>
-<td>Ch 9 F4</td>
+<td>Ch 10 F4</td>
 <td>Not met</td>
 </tr>
 <tr>
 <td>P2-F22</td>
 <td>Reducing emotional investment does not measurably change damping
 characteristics of emotional oscillations</td>
-<td>Ch 9 F5</td>
+<td>Ch 10 F5</td>
 <td>Not met</td>
 </tr>
 </tbody>
@@ -564,7 +584,7 @@ Assessment</h3>
 <tbody>
 <tr>
 <td>RF/PLL mathematics correctly applied</td>
-<td>Ch 5, 6, 9</td>
+<td>Ch 6, 6, 10</td>
 <td>L1</td>
 <td>High</td>
 <td>Established engineering</td>
@@ -572,7 +592,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Biological oscillators sustain coherent dynamics</td>
-<td>Ch 6, 7</td>
+<td>Ch 7, 7</td>
 <td>L1–L2</td>
 <td>Medium-High</td>
 <td>Active research frontier</td>
@@ -580,7 +600,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Q-sovereignty mapping with measurable proxies</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 <td>L2</td>
 <td>Medium</td>
 <td>Working model with HRV support</td>
@@ -588,7 +608,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>DNA as resonant antenna with THz signatures</td>
-<td>Ch 7</td>
+<td>Ch 8</td>
 <td>L1–L2</td>
 <td>Medium</td>
 <td>Spectroscopy-supported</td>
@@ -596,7 +616,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Epigenetic ratcheting as impedance lock-in</td>
-<td>Ch 7</td>
+<td>Ch 8</td>
 <td>L2–L3</td>
 <td>Medium-Low</td>
 <td>Correlational support only</td>
@@ -604,7 +624,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Biofield-DNA recursive coupling</td>
-<td>Ch 7</td>
+<td>Ch 8</td>
 <td>L2–L3</td>
 <td>Medium-Low</td>
 <td>Plausible mechanism, no direct test</td>
@@ -612,7 +632,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Magnonic spin-wave transduction in DNA</td>
-<td>Ch 7</td>
+<td>Ch 8</td>
 <td>L3</td>
 <td>Low</td>
 <td>Analogical, unverified</td>
@@ -620,7 +640,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Three-layer subcarrier architecture</td>
-<td>Ch 5</td>
+<td>Ch 6</td>
 <td>L2</td>
 <td>Medium-Low</td>
 <td>Converging multi-source L2</td>
@@ -628,7 +648,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>RLC consciousness model</td>
-<td>Ch 6</td>
+<td>Ch 7</td>
 <td>L2–L3</td>
 <td>Medium-Low</td>
 <td>Working model, no calibration</td>
@@ -636,7 +656,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Sexual polarity as torsion chirality</td>
-<td>Ch 8</td>
+<td>Ch 9</td>
 <td>L3</td>
 <td>Low</td>
 <td>Metaphysical framework</td>
@@ -644,7 +664,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Manifestation window at orgasm</td>
-<td>Ch 8</td>
+<td>Ch 9</td>
 <td>L3</td>
 <td>Low</td>
 <td>Traditional claims in RF form</td>
@@ -652,7 +672,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Varactor emotional tuning model</td>
-<td>Ch 9</td>
+<td>Ch 10</td>
 <td>L2</td>
 <td>Medium</td>
 <td>HRV coherence support</td>
@@ -660,7 +680,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>PLL feedback = retrocausal integral</td>
-<td>Ch 9</td>
+<td>Ch 10</td>
 <td>L2–L3</td>
 <td>Medium-Low</td>
 <td>Harrison (2022) structural match</td>
@@ -668,7 +688,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Loop order = soul age progression</td>
-<td>Ch 9</td>
+<td>Ch 10</td>
 <td>L2–L3</td>
 <td>Medium-Low</td>
 <td>Structural mapping only</td>
@@ -676,7 +696,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Excess gain = Transurfing importance</td>
-<td>Ch 9</td>
+<td>Ch 10</td>
 <td>L3</td>
 <td>Low</td>
 <td>Conceptual isomorphism</td>
@@ -684,7 +704,7 @@ Assessment</h3>
 </tr>
 <tr>
 <td>Soul CDMA codes and incarnation persistence</td>
-<td>Ch 5, 9</td>
+<td>Ch 6, 10</td>
 <td>L4</td>
 <td>Very Low</td>
 <td>No empirical pathway</td>
@@ -717,7 +737,7 @@ Assessment</h3>
 <td>P2-P1</td>
 <td>Memory retrieval and guided imagination produce indistinguishable
 activation patterns (differing only in hippocampal indexing)</td>
-<td>Ch 5 §5.8 P1</td>
+<td>Ch 6 §6.8 P1</td>
 <td>Partial</td>
 <td>Shared neural substrates documented; full equivalence untested</td>
 <td>Monitor</td>
@@ -726,7 +746,7 @@ activation patterns (differing only in hippocampal indexing)</td>
 <td>P2-P2</td>
 <td>Focused-attention meditation produces narrowband EEG; open-awareness
 produces broadband signatures</td>
-<td>Ch 5 §5.8 P2</td>
+<td>Ch 6 §6.8 P2</td>
 <td>Partial</td>
 <td>Distinct EEG signatures documented across meditation types</td>
 <td>Monitor</td>
@@ -735,7 +755,7 @@ produces broadband signatures</td>
 <td>P2-P3</td>
 <td>Psychic perception type correlates with sensory cortex dominance
 (clairvoyants = visual, clairsentients = somatosensory, etc.)</td>
-<td>Ch 5 §5.8 P3</td>
+<td>Ch 6 §6.8 P3</td>
 <td>Not yet tested</td>
 <td>No standardized fMRI study of psychic perception types exists</td>
 <td>Monitor</td>
@@ -744,7 +764,7 @@ produces broadband signatures</td>
 <td>P2-P4</td>
 <td>Higher Q proxies correlate with more frequent PM-type and CDMA-type
 experiences, not merely AM-type</td>
-<td>Ch 5 §5.8 P4</td>
+<td>Ch 6 §6.8 P4</td>
 <td>Not yet tested</td>
 <td>Q-proxy measurement methodology exists (HRV, EEG); experiential
 correlation untested</td>
@@ -754,7 +774,7 @@ correlation untested</td>
 <td>P2-P5</td>
 <td>Flow states show physiological signatures consistent with resonance:
 high HRV coherence, gamma sync, reduced DMN</td>
-<td>Ch 6 §6.2.9.9 P8</td>
+<td>Ch 7 §7.2.9.9 P8</td>
 <td>Partial</td>
 <td>Csikszentmihalyi flow research; gamma synchronization in flow
 documented</td>
@@ -764,7 +784,7 @@ documented</td>
 <td>P2-P6</td>
 <td>Individual Q predicts amplitude of gnosis/ego contrast
 experienced</td>
-<td>Ch 6 §6.2.9.9 P9</td>
+<td>Ch 7 §7.2.9.9 P9</td>
 <td>Not yet tested</td>
 <td>High-Q meditators report more dramatic clarity shifts
 (anecdotal)</td>
@@ -774,7 +794,7 @@ experienced</td>
 <td>P2-P7</td>
 <td>Trauma processing (C decrease) measurable as baseline neural
 oscillation frequency shift toward coherence reference</td>
-<td>Ch 6 §6.2.9.9 P10</td>
+<td>Ch 7 §7.2.9.9 P10</td>
 <td>Not yet tested</td>
 <td>PTSD EEG studies show oscillation changes; direction of shift
 untested</td>
@@ -784,7 +804,7 @@ untested</td>
 <td>P2-P8</td>
 <td>Combined analytical + somatic + emotional practices restore
 resonance faster than purely analytical approaches</td>
-<td>Ch 6 §6.2.9.9 P11</td>
+<td>Ch 7 §7.2.9.9 P11</td>
 <td>Partial</td>
 <td>Somatic experiencing, EMDR effectiveness documented; direct
 comparison sparse</td>
@@ -794,7 +814,7 @@ comparison sparse</td>
 <td>P2-P9</td>
 <td>High-Q individuals resist propaganda and fads (narrow lock
 bandwidth)</td>
-<td>Ch 6 §6.3.1 P12</td>
+<td>Ch 7 §7.3.1 P12</td>
 <td>Partial</td>
 <td>Propaganda resistance correlates with critical thinking and
 mindfulness measures</td>
@@ -803,7 +823,7 @@ mindfulness measures</td>
 <tr>
 <td>P2-P10</td>
 <td>Q correlates with selective attention and sovereignty</td>
-<td>Ch 6 §6.3.1 P13</td>
+<td>Ch 7 §7.3.1 P13</td>
 <td>Partial</td>
 <td>HRV coherence correlates with attentional control (McCraty
 2016)</td>
@@ -813,7 +833,7 @@ mindfulness measures</td>
 <td>P2-P11</td>
 <td>Multiple development paths (meditation, wisdom, shadow work) all
 raise Q</td>
-<td>Ch 6 §6.3.1 P14</td>
+<td>Ch 7 §7.3.1 P14</td>
 <td>Partial</td>
 <td>Cross-tradition studies show HRV/EEG improvements from diverse
 practices</td>
@@ -823,7 +843,7 @@ practices</td>
 <td>P2-P12</td>
 <td>Lock bandwidth predicts capture susceptibility (Q + frequency
 match)</td>
-<td>Ch 6 §6.3.1 P15</td>
+<td>Ch 7 §7.3.1 P15</td>
 <td>Not yet tested</td>
 <td>Q-proxy methodology exists; narrative capture measurement
 methodology undeveloped</td>
@@ -833,7 +853,7 @@ methodology undeveloped</td>
 <td>P2-P13</td>
 <td>Trauma creates characteristic ringing patterns (oscillatory
 response)</td>
-<td>Ch 6 §6.3.2 P16</td>
+<td>Ch 7 §7.3.2 P16</td>
 <td>Partial</td>
 <td>Trauma response oscillation documented in PTSD (hyperarousal/numbing
 cycles)</td>
@@ -843,7 +863,7 @@ cycles)</td>
 <td>P2-P14</td>
 <td>Step response shows integration capacity: high L = slow but
 complete, low L = fast but incomplete</td>
-<td>Ch 6 §6.3.2 P17</td>
+<td>Ch 7 §7.3.2 P17</td>
 <td>Not yet tested</td>
 <td>Wisdom traditions describe slow integration; personality psychology
 consistent</td>
@@ -853,7 +873,7 @@ consistent</td>
 <td>P2-P15</td>
 <td>Teacher-student resonance: maximum transmission when <span
 class="math inline">\(Z_{teacher} \approx Z_{student}^*\)</span></td>
-<td>Ch 6 §6.3.3 P18</td>
+<td>Ch 7 §7.3.3 P18</td>
 <td>Partial</td>
 <td>Pedagogical effectiveness correlates with teacher-student
 compatibility</td>
@@ -863,7 +883,7 @@ compatibility</td>
 <td>P2-P16</td>
 <td>Group coherence creates effective impedance transformation: <span
 class="math inline">\(Z_{eff} \approx Z_{individual}/N\)</span></td>
-<td>Ch 6 §6.3.3 P19</td>
+<td>Ch 7 §7.3.3 P19</td>
 <td>Not yet tested</td>
 <td>Group meditation studies show enhanced effects; impedance mechanism
 untested</td>
@@ -873,7 +893,7 @@ untested</td>
 <td>P2-P17</td>
 <td>Practice efficacy scales with practitioner Q (<span
 class="math inline">\(G_{param} \propto Q \cdot V_{pump}\)</span>)</td>
-<td>Ch 6 §6.3.5 P20</td>
+<td>Ch 7 §7.3.5 P20</td>
 <td>Not yet tested</td>
 <td>HRV/gamma gain vs. baseline Q during identical protocol; no
 systematic study</td>
@@ -882,7 +902,7 @@ systematic study</td>
 <tr>
 <td>P2-P18</td>
 <td>Group parametric amplification exceeds linear summation</td>
-<td>Ch 6 §6.3.5 P21</td>
+<td>Ch 7 §7.3.5 P21</td>
 <td>Partial</td>
 <td>Group meditation HRV synchronization data (McCraty); nonlinear
 scaling untested</td>
@@ -893,7 +913,7 @@ scaling untested</td>
 <td>Contemplative practitioners show more resolvable EEG microstates
 scaling as <span class="math inline">\(\lfloor Q \cdot \pi/2 \rfloor +
 1\)</span></td>
-<td>Ch 6 §6.2.10.6 P22</td>
+<td>Ch 7 §7.2.10.6 P22</td>
 <td>Not yet tested</td>
 <td>EEG microstate methodology established; practitioner comparison
 studies sparse</td>
@@ -903,7 +923,7 @@ studies sparse</td>
 <td>P2-P20</td>
 <td>Non-trauma perceptual gaps are repositionable via mode-switching;
 trauma-based gaps are not</td>
-<td>Ch 6 §6.2.10.6 P23</td>
+<td>Ch 7 §7.2.10.6 P23</td>
 <td>Not yet tested</td>
 <td>Clinical distinction between structural and trauma-based perceptual
 gaps exists</td>
@@ -913,7 +933,7 @@ gaps exists</td>
 <td>P2-P21</td>
 <td>DNA resonance frequencies correspond to geometric parameters at
 multiple folding scales</td>
-<td>Ch 7 §7.8.1 P1</td>
+<td>Ch 8 §8.8.1 P1</td>
 <td>Not yet tested</td>
 <td>DNA THz spectroscopy methodology exists; geometric correspondence
 untested</td>
@@ -923,7 +943,7 @@ untested</td>
 <td>P2-P22</td>
 <td>DNA activation states correlate with measurable geometric changes
 (methylation, chromatin accessibility)</td>
-<td>Ch 7 §7.8.1 P2</td>
+<td>Ch 8 §8.8.1 P2</td>
 <td>Partial</td>
 <td>Epigenetic changes with practice documented (Kaliman 2014);
 geometric specificity untested</td>
@@ -933,7 +953,7 @@ geometric specificity untested</td>
 <td>P2-P23</td>
 <td>Environmental torsion/EM fields at resonant frequencies affect gene
 expression and DNA geometry</td>
-<td>Ch 7 §7.8.1 P3</td>
+<td>Ch 8 §8.8.1 P3</td>
 <td>Not yet tested</td>
 <td>EM effects on gene expression documented; torsion-specific effects
 untested</td>
@@ -943,7 +963,7 @@ untested</td>
 <td>P2-P24</td>
 <td>Organisms with more complex DNA folding achieve higher effective
 <span class="math inline">\(Z_0\)</span></td>
-<td>Ch 7 §7.8.1 P4</td>
+<td>Ch 8 §8.8.1 P4</td>
 <td>Not yet tested</td>
 <td>Folding complexity correlates with organismal complexity
 (qualitative); <span class="math inline">\(Z_0\)</span> link
@@ -954,7 +974,7 @@ untested</td>
 <td>P2-P25</td>
 <td>Coherent biofield states correlate with improved healing and
 intuition</td>
-<td>Ch 7 §7.8.2 P5</td>
+<td>Ch 8 §8.8.2 P5</td>
 <td>Partial</td>
 <td>HRV coherence correlates with healing outcomes (Radin 2004); effect
 sizes modest</td>
@@ -964,7 +984,7 @@ sizes modest</td>
 <td>P2-P26</td>
 <td>Heart field coherence predicts torsion reception success (remote
 viewing)</td>
-<td>Ch 7 §7.8.2 P6</td>
+<td>Ch 8 §8.8.2 P6</td>
 <td>Not yet tested</td>
 <td>HRV and remote viewing both measurable; correlation study
 needed</td>
@@ -974,7 +994,7 @@ needed</td>
 <td>P2-P27</td>
 <td>Group biofield coherence shows <span
 class="math inline">\(N^2\)</span> scaling effects</td>
-<td>Ch 7 §7.8.2 P7</td>
+<td>Ch 8 §8.8.2 P7</td>
 <td>Not yet tested</td>
 <td>Group meditation effects documented; <span
 class="math inline">\(N^2\)</span> vs <span
@@ -985,7 +1005,7 @@ class="math inline">\(N\)</span> scaling untested</td>
 <td>P2-P28</td>
 <td>Skilled meditators show evidence of stronger DNA “transmission”
 (morphic field influence)</td>
-<td>Ch 7 §7.8.3 P8</td>
+<td>Ch 8 §8.8.3 P8</td>
 <td>Not yet tested</td>
 <td>Meditator effects on RNG documented (Radin); DNA transmission
 mechanism untested</td>
@@ -995,7 +1015,7 @@ mechanism untested</td>
 <td>P2-P29</td>
 <td>DNA geometric changes from practice are measurable via epigenetic
 markers and correlate with reported capacity changes</td>
-<td>Ch 7 §7.8.3 P9</td>
+<td>Ch 8 §8.8.3 P9</td>
 <td>Partial</td>
 <td>Epigenetic changes with meditation documented; capacity correlation
 unstudied</td>
@@ -1005,7 +1025,7 @@ unstudied</td>
 <td>P2-P30</td>
 <td>Once activated, DNA geometry resists regression under stress
 (ratchet test)</td>
-<td>Ch 7 §7.8.3 P10</td>
+<td>Ch 8 §8.8.3 P10</td>
 <td>Not yet tested</td>
 <td>Some epigenetic stability data exists; stress-regression test not
 done</td>
@@ -1014,7 +1034,7 @@ done</td>
 <tr>
 <td>P2-P31</td>
 <td>Opposite-polarity partners show greater HRV/EEG synchronization</td>
-<td>Ch 8 §8.9.3 P1</td>
+<td>Ch 9 §9.9.3 P1</td>
 <td>Not yet tested</td>
 <td>Inter-personal HRV synchronization documented (McCraty); polarity
 profiling needed</td>
@@ -1024,7 +1044,7 @@ profiling needed</td>
 <td>P2-P32</td>
 <td>Biofield coherence during arousal follows RC charging curve with
 measurable <span class="math inline">\(\tau\)</span></td>
-<td>Ch 8 §8.9.3 P2</td>
+<td>Ch 9 §9.9.3 P2</td>
 <td>Not yet tested</td>
 <td>GDV/HRV during arousal unstudied in controlled settings</td>
 <td>Monitor</td>
@@ -1033,7 +1053,7 @@ measurable <span class="math inline">\(\tau\)</span></td>
 <td>P2-P33</td>
 <td>Orgasm produces sharp coherence spike correlating with buildup
 duration and intentional focus</td>
-<td>Ch 8 §8.9.3 P3</td>
+<td>Ch 9 §9.9.3 P3</td>
 <td>Not yet tested</td>
 <td>Physiological spike at orgasm established; coherence specificity
 untested</td>
@@ -1043,7 +1063,7 @@ untested</td>
 <td>P2-P34</td>
 <td>Parental coherence at conception correlates with reduced
 early-trimester miscarriage</td>
-<td>Ch 8 §8.9.3 P4</td>
+<td>Ch 9 §9.9.3 P4</td>
 <td>Not yet tested</td>
 <td>Wearable HRV technology exists; conception-outcome study needed</td>
 <td>Monitor</td>
@@ -1052,7 +1072,7 @@ early-trimester miscarriage</td>
 <td>P2-P35</td>
 <td>High attachment security partners show stronger biofield coupling
 during intimacy</td>
-<td>Ch 8 §8.9.3 P5</td>
+<td>Ch 9 §9.9.3 P5</td>
 <td>Not yet tested</td>
 <td>Attachment security measurable (ECR); biofield coupling during
 intimacy unstudied</td>
@@ -1063,7 +1083,7 @@ intimacy unstudied</td>
 <td>Sexual trauma survivors show lower baseline <span
 class="math inline">\(\sigma\)</span> and <span
 class="math inline">\(Z_0\)</span>, improving with therapy</td>
-<td>Ch 8 §8.9.3 P6</td>
+<td>Ch 9 §9.9.3 P6</td>
 <td>Partial</td>
 <td>ACE Study shows trauma-health correlation [L1]; coherence proxy
 improvement with therapy documented</td>
@@ -1074,7 +1094,7 @@ improvement with therapy documented</td>
 <td>Meditation shows phase-locking dynamics with PLL settling times
 <span class="math inline">\(T_s \approx 4/(\zeta_{loop} \cdot
 \omega_n)\)</span></td>
-<td>Ch 9 §9.12 P1</td>
+<td>Ch 10 §10.12 P1</td>
 <td>Not yet tested</td>
 <td>EEG phase-locking during meditation documented; PLL-specific
 dynamics untested</td>
@@ -1084,7 +1104,7 @@ dynamics untested</td>
 <td>P2-P38</td>
 <td>Flow states narrow external entrainment range (<span
 class="math inline">\(\Delta\omega_L \propto 1/Q\)</span>)</td>
-<td>Ch 9 §9.12 P2</td>
+<td>Ch 10 §10.12 P2</td>
 <td>Not yet tested</td>
 <td>Flow state physiology documented; entrainment bandwidth reduction
 untested</td>
@@ -1094,7 +1114,7 @@ untested</td>
 <td>P2-P39</td>
 <td>Hope/despair oscillation has measurable characteristic frequency
 predictable from loop parameters</td>
-<td>Ch 9 §9.12 P3</td>
+<td>Ch 10 §10.12 P3</td>
 <td>Not yet tested</td>
 <td>Bipolar cycling has characteristic periods; PLL parameter prediction
 untested</td>
@@ -1104,7 +1124,7 @@ untested</td>
 <td>P2-P40</td>
 <td>Positive thinking without shadow work decays; shadow work produces
 permanent baseline shift</td>
-<td>Ch 9 §9.12 P4</td>
+<td>Ch 10 §10.12 P4</td>
 <td>Partial</td>
 <td>Affirmation-only interventions show decay; shadow-work permanence
 partially supported</td>
@@ -1114,7 +1134,7 @@ partially supported</td>
 <td>P2-P41</td>
 <td>Long-term meditators show higher effective loop filter order (faster
 settling, lower overshoot)</td>
-<td>Ch 9 §9.12 P5</td>
+<td>Ch 10 §10.12 P5</td>
 <td>Partial</td>
 <td>Experienced meditators show faster return to baseline after
 perturbation</td>
@@ -1124,7 +1144,7 @@ perturbation</td>
 <td>P2-P42</td>
 <td>“Dark night of the soul” corresponds to measurable
 locked-unlocked-relocked PLL transition</td>
-<td>Ch 9 §9.12 P6</td>
+<td>Ch 10 §10.12 P6</td>
 <td>Not yet tested</td>
 <td>Dark night phenomenon documented (Britton 2019); PLL dynamics
 untested</td>
@@ -1134,7 +1154,7 @@ untested</td>
 <td>P2-P43</td>
 <td>Identity crises show bimodal phase distributions (oscillating
 between two locked states)</td>
-<td>Ch 9 §9.12 P7</td>
+<td>Ch 10 §10.12 P7</td>
 <td>Not yet tested</td>
 <td>Clinical observations of oscillation consistent; biomarker
 measurement absent</td>
@@ -1144,7 +1164,7 @@ measurement absent</td>
 <td>P2-P44</td>
 <td>Equanimity training reduces noise tracking without losing signal
 tracking</td>
-<td>Ch 9 §9.12 P8</td>
+<td>Ch 10 §10.12 P8</td>
 <td>Not yet tested</td>
 <td>Equanimity training improves emotional regulation (documented);
 selectivity specificity untested</td>

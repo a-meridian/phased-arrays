@@ -20,6 +20,7 @@ https://a-meridian.github.io/phased-arrays/chapters/ch16.html
 https://a-meridian.github.io/phased-arrays/chapters/ch17.html
 https://a-meridian.github.io/phased-arrays/chapters/ch18.html
 https://a-meridian.github.io/phased-arrays/chapters/ch19.html
+https://a-meridian.github.io/phased-arrays/chapters/ch20.html
 https://a-meridian.github.io/phased-arrays/guides/advanced-transport-and-propulsion-claims.html
 https://a-meridian.github.io/phased-arrays/guides/awakening-and-ascension-mechanics.html
 https://a-meridian.github.io/phased-arrays/guides/control-systems-loosh-and-parasitic-coupling.html
