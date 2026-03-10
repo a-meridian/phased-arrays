@@ -18,10 +18,9 @@ Consciousness Spectrum Operations is a doctrine-oriented signals perspective on 
 - Chapter 4: Resonant growth, developmental optimality, and human tuning conditions within the signal model. https://a-meridian.github.io/phased-arrays/chapters/ch04.html
 - Chapter 5: Timeline architecture, retrocausal structure, and soul-signature modeling before receiver engineering begins. https://a-meridian.github.io/phased-arrays/chapters/ch05.html
 - Chapter 6: State-dependent signal environment, receiver configurations, and forcing regimes across waking and altered states. https://a-meridian.github.io/phased-arrays/chapters/ch06.html
-- Chapter 7: Consciousness as an RLC receiver with resonance, damping, and distributed mode-shape behavior. https://a-meridian.github.io/phased-arrays/chapters/ch07.html
+- Chapter 7: Merged receiver chapter covering RLC tuning, distributed mode shapes, matching-network convergence, and phase-locked loop reference tracking. https://a-meridian.github.io/phased-arrays/chapters/ch07.html
 - Chapter 8: Biofield and DNA antenna hypotheses for biological reception, coupling, and signal interface. https://a-meridian.github.io/phased-arrays/chapters/ch08.html
 - Chapter 9: Polarity coupling, eros, and creation dynamics modeled as generative coherence processes. https://a-meridian.github.io/phased-arrays/chapters/ch09.html
-- Chapter 10: Soul-body matching, incarnation structure, and real-time reference tracking modeled with matching networks and PLL logic. https://a-meridian.github.io/phased-arrays/chapters/ch10.html
 - Chapter 11: Collective coherence modeled as phased-array gain, constructive interference, and population-level mode structure. https://a-meridian.github.io/phased-arrays/chapters/ch11.html
 - Chapter 12: Injection locking, perception management, and narrative capture under constrained bandwidth. https://a-meridian.github.io/phased-arrays/chapters/ch12.html
 - Chapter 13: Spin coherence as the master engineering variable for torsion effects, infrastructure, and timeline mechanics. https://a-meridian.github.io/phased-arrays/chapters/ch13.html

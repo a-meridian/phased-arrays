@@ -10,7 +10,6 @@ https://a-meridian.github.io/phased-arrays/chapters/ch06.html
 https://a-meridian.github.io/phased-arrays/chapters/ch07.html
 https://a-meridian.github.io/phased-arrays/chapters/ch08.html
 https://a-meridian.github.io/phased-arrays/chapters/ch09.html
-https://a-meridian.github.io/phased-arrays/chapters/ch10.html
 https://a-meridian.github.io/phased-arrays/chapters/ch11.html
 https://a-meridian.github.io/phased-arrays/chapters/ch12.html
 https://a-meridian.github.io/phased-arrays/chapters/ch13.html

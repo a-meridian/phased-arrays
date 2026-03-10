@@ -164,16 +164,17 @@
   },
   {
     "url": "https://a-meridian.github.io/phased-arrays/chapters/ch07.html",
-    "title": "Chapter 7: Consciousness as an RLC Circuit \u2014 Consciousness Spectrum Operations",
+    "title": "Chapter 7: Consciousness as a Phase-Locked Loop \u2014 Consciousness Spectrum Operations",
     "surface_type": "chapter",
     "part_label": "Part II: Receiver Engineering",
     "chapter_num": 7,
-    "description": "Consciousness as an RLC receiver with resonance, damping, and distributed mode-shape behavior.",
-    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
+    "description": "Merged receiver chapter covering RLC tuning, distributed mode shapes, matching-network convergence, and phase-locked loop reference tracking.",
+    "excerpt": "KEY FINDINGS \u2014 Chapter 7: Consciousness as a Phase-Locked Loop",
     "keywords": [
-      "RLC circuit",
+      "phase-locked loop",
+      "RLC receiver",
+      "matching network",
       "mode shapes",
-      "resonance",
       "chapter 7"
     ],
     "audience": [
@@ -219,26 +220,6 @@
     "audience": [
       "technical readers",
       "researchers"
-    ],
-    "priority": 0.72
-  },
-  {
-    "url": "https://a-meridian.github.io/phased-arrays/chapters/ch10.html",
-    "title": "Chapter 10: Structure of Incarnation \u2014 Consciousness Spectrum Operations",
-    "surface_type": "chapter",
-    "part_label": "Part II: Receiver Engineering",
-    "chapter_num": 10,
-    "description": "Soul-body matching, incarnation structure, and real-time reference tracking modeled with matching networks and PLL logic.",
-    "excerpt": "Evidence-tier key: see front matter for [L1] \u2013 [L4] definitions.",
-    "keywords": [
-      "structure of incarnation",
-      "matching network",
-      "reference tracking",
-      "chapter 10"
-    ],
-    "audience": [
-      "technical readers",
-      "leadership readers"
     ],
     "priority": 0.72
   },
@@ -520,7 +501,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "How disclosure, narrative capture, and information warfare map to injection locking, attenuation layers, and counter-jamming strategy.",
-    "excerpt": "This guide tracks disclosure as an information-warfare and signal-selection problem: reference signals compete, capture thresholds shift, and collective interpretation changes when attenuation drops below critical levels.",
+    "excerpt": "This guide treats disclosure as a contested-spectrum problem. The useful question is not whether one narrative wins online. The useful question is how reference signals, attenuation layers, and scenario bandwidth change what institutions can perceive and act on.",
     "keywords": [
       "disclosure dynamics",
       "information warfare",
@@ -544,7 +525,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "A strategy-first gateway for leadership readers using coherence management, cognitive conflict, signal interference, and institutional adaptation language before the full archive ontology.",
-    "excerpt": "Institutions facing anomalous conditions do not fail only because they lack facts; they also fail because they lack a stable frame for sorting signal from contamination. Under high uncertainty, narrative contestation, cognitive conflict, distributed sensing problems, and signal interference can degrade decision quality faster than the underlying anomaly itself. This gateway introduces the archive from that professional problem set first.",
+    "excerpt": "Institutions under anomalous load usually fail before they run out of facts. They fail because they lose a stable frame for sorting signal from contamination. Under those conditions, cognitive conflict, narrative contestation, distributed sensing failures, and interference effects degrade decision quality faster than the anomaly itself.",
     "keywords": [
       "institutional adaptation",
       "anomalous conditions",
@@ -612,7 +593,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "A structured entry point into the Consciousness Spectrum Operations model of consciousness using RF concepts, coherence dynamics, and evidence-tier boundaries.",
-    "excerpt": "This guide summarizes the core engineering claim of Consciousness Spectrum Operations : consciousness can be analyzed with RF concepts (source, resonance, impedance, coherence, and coupling), then extended through distributed mode shapes and collective phased-array dynamics while clearly separating stronger evidence tiers from speculative extensions.",
+    "excerpt": "This guide summarizes the engineering spine of Consciousness Spectrum Operations . Start here if you want the literal math and the controlled analogies before the hotter layers.",
     "keywords": [
       "RF consciousness",
       "signals framework",
@@ -766,7 +747,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "A one-page briefing note explaining what the archive is, who it is for, what it helps solve, what is high-confidence versus speculative, and where leadership readers should start.",
-    "excerpt": "Consciousness Spectrum Operations is a doctrine-oriented archive that treats consciousness, perception, and anomalous conditions as a signal environment rather than as a collection of disconnected mysteries. The framework is built from RF engineering, control systems, distributed mode-shape analysis, phased-array behavior, and EMSO logic, then extended into the domains where institutions increasingly face anomalous reports, paradigm instability, and contested interpretation.",
+    "excerpt": "Consciousness Spectrum Operations is a technical doctrine archive. It treats consciousness, anomalous conditions, and institutional instability as a signal-management problem rather than as a pile of unrelated mysteries.",
     "keywords": [
       "leadership briefing",
       "start here",
@@ -788,7 +769,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Practitioner-facing capstone synthesizing operational parameters, design scenarios, ITU sequencing, and engineering reference.",
-    "excerpt": "Every spectrum operation ends with the same question: now that the band has been characterized, the receivers engineered, access secured, denial architectures mapped, and superiority protocols defined \u2014 what does the spectrum manager actually build ? This section consolidates the operational design framework. It translates the engineering analysis of Chapters 0\u201318 into institutional parameters, sequencing dependencies, transition phases, and design priorities. The treatment follows the same logic that governs electromagnetic spectrum management: measure first, then clear, allocate, license, deploy, and monitor. Where the preceding Parts developed the physics and the mathematics, this section develops the operational doctrine.",
+    "excerpt": "The engineering question is straightforward: if perception, coherence, and narrative stability behave like contested-spectrum problems, what should institutions actually do?",
     "keywords": [
       "operational doctrine",
       "consciousness spectrum management",
@@ -811,7 +792,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part I synthesis review covering torsion physics, source dynamics, density structure, and demodulation architecture.",
-    "excerpt": "Part I converts the framework from metaphysical intuition into a spectrum-characterization problem rooted in torsion-compatible physics, impedance tiers, and cosmological structure.",
+    "excerpt": "Part I establishes the band map. It defines the substrate hypothesis, the impedance-tier model, and the structural logic that later chapters treat as the environment in which receivers operate.",
     "keywords": [
       "part I review",
       "spectrum characterization",
@@ -831,7 +812,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part II synthesis review covering signal environment, receiver architectures, RLC modeling, biofield coupling, eros dynamics, and incarnation structure.",
-    "excerpt": "Part II defines the receiver stack: signal environment, RLC dynamics, biofield/DNA coupling, polarity/coupling behavior, incarnation impedance matching, and PLL-based reference tracking.",
+    "excerpt": "Part II defines the receiver stack. It moves from signal environment to the embodied receiver: RLC core, distributed mode structure, matching, tracking, and biological coupling.",
     "keywords": [
       "part II review",
       "receiver engineering",
@@ -853,7 +834,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part III synthesis review covering phased-array gains and injection-locking dynamics at collective scales.",
-    "excerpt": "Part III moves from individual tuning to collective access: phased-array scaling and injection-lock capture become the main collective-control primitives.",
+    "excerpt": "Part III scales the receiver model into collective access. It treats groups as arrays and public narratives as reference signals that can synchronize, capture, or fragment populations.",
     "keywords": [
       "part III review",
       "spectrum access",
@@ -874,7 +855,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part IV synthesis review covering spin coherence engineering and civilization-scale torsion infrastructure hypotheses.",
-    "excerpt": "Part IV develops the engineering layer beneath later control and liberation claims: spin coherence becomes the master variable and infrastructure becomes a civilization-scale design question.",
+    "excerpt": "Part IV moves from social-scale access to engineering leverage. It proposes that spin coherence, infrastructure, and civilization-scale design determine whether collective effects stay transient or become durable.",
     "keywords": [
       "part IV review",
       "spectrum engineering",
@@ -896,7 +877,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part V synthesis review covering denial architectures, parasitic coupling frameworks, and shielding regimes.",
-    "excerpt": "Part V explains denial: parasitic coupling, extraction logics, shielding, and disclosure-management mechanisms that keep receivers locked below threshold.",
+    "excerpt": "Part V explains denial. It models how receivers stay trapped below threshold through parasitic extraction, attenuation, narrative capture, and disclosure management.",
     "keywords": [
       "part V review",
       "spectrum denial",
@@ -917,7 +898,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "Part VI synthesis review covering counter-jamming operations, tuning protocols, and collective phase-transition pathways.",
-    "excerpt": "Part VI turns the framework into active doctrine: link-budget closure, counter-jamming, scenario design, cross-tradition protocols, and thaw-sequence planning.",
+    "excerpt": "Part VI turns the framework into active doctrine: counter-jamming, scenario design, practice protocols, and comparative transition intelligence.",
     "keywords": [
       "part VI review",
       "spectrum superiority",
@@ -939,7 +920,7 @@
     "part_label": null,
     "chapter_num": null,
     "description": "A decision-facing bridge page showing how the framework improves triage, contamination control, coherence management, leadership communication, and scenario planning under anomalous conditions.",
-    "excerpt": "This framework is operationally relevant because it improves how institutions sort weak signal from contamination, pace communications during instability, model collective coherence or demoralization, and design scenario exercises when anomalous conditions begin to stress standard explanatory models. It does not require total acceptance of the archive\u2019s ontology to add value; its conservative layer already improves signal discipline and institutional adaptation.",
+    "excerpt": "Five recurring institutional decisions determine whether this archive is useful in practice: - whether an anomalous report contains usable signal or mostly contamination - whether a communication plan stabilizes perception or worsens lock - whether a population problem is best treated as morale, coherence, interference, or shielding - whether a scenario set is widening or narrowing decision bandwidth - whether the institution is using bounded doctrine or drifting into unjustified certainty",
     "keywords": [
       "operational relevance",
       "decision utility",
